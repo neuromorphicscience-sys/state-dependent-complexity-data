@@ -1,0 +1,5 @@
+﻿endpoint,label,value,lo,hi
+decoder_state_transfer,$R_{\mathrm{decoder}}$,0.020890253496513,0.0095779743784706,0.0318372113438123
+coefficient_landscape_reconfiguration,$R_{\rho}$,0.0154995280615076,0.0067715163041675,0.0235842900235998
+top20_unitset_transfer_supportive,$R_{\mathrm{top20}}$,0.0085220742049047,0.0037292626823858,0.0143786994884085
+activity_residual_landscape,Activity-resid. $R_{\rho}$,0.0159975134471839,0.0075897616699264,0.0240877730146284

@@ -1,0 +1,15 @@
+{
+  "observed": {
+    "n": 400,
+    "spearman_rho": 0.2527190709987035,
+    "spearman_p": 3.024087833856851e-07,
+    "mae": 0.8378933723085638,
+    "r2": 0.06583886460529964,
+    "rounded_accuracy": 0.345,
+    "within_one_class_accuracy": 0.855,
+    "quadratic_weighted_kappa": 0.10918600849950977,
+    "median_alpha": 1000.0
+  },
+  "permutations": 300,
+  "full_pipeline_p": 0.0033222591362126247
+}

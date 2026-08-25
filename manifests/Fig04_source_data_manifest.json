@@ -1,0 +1,13 @@
+{
+  "figure": "Fig04",
+  "source_data": [
+    "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig04/Fig04_a__Pairwise_geometry_of_functionally_degenerate_allocations/source_data/01_DG01_pairwise_geometry__DG01_pairwise_geometry_source.csv",
+    "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig04/Fig04_b__Degeneracy_index_versus_complexity_budget/source_data/01_DG02_D_epsilon_by_budget__DG02_D_epsilon_by_budget_source.csv",
+    "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig04/Fig04_c__Near-optimal_union_expansion/source_data/01_DG04_union_expansion_by_budget__DG04_union_expansion_by_budget_source.csv",
+    "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig04/Fig04_d__Emergent_shared-core_fraction/source_data/01_DG05_core_fraction_by_budget__DG05_core_fraction_by_budget_source.csv",
+    "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig04/Fig04_e__Epsilon_robustness_of_functional_degeneracy/source_data/01_DG07_epsilon_sensitivity__DG07_epsilon_sensitivity_source.csv",
+    "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig04/Fig04_f__Independent_replication_of_degeneracy/source_data/01_DG08_independent_replication_D__DG08_independent_replication_D_source.csv",
+    "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig04/Fig04_g__State_\u00d7_budget_degeneracy_landscape/source_data/01_DG09_state_budget_degeneracy_heatmap__DG09_state_budget_degeneracy_heatmap_source.csv",
+    "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED05/ED05_b__Node-selection_entropy_versus_budget/source_data/01_DG06_selection_entropy_by_budget__DG06_selection_entropy_by_budget_source.csv"
+  ]
+}

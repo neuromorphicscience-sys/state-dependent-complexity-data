@@ -1,0 +1,38 @@
+{
+  "figure": "Fig03",
+  "panel_source_map": {
+    "a": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig03/Fig03_a__Dynamical_leverage_versus_static_prominence/00_SCHEMATIC_BRIEF.txt",
+      "manuscript_figure_assembly_v5_3/nature_figure_trial/Fig03/schematic_a_trial/build_fig03a_schematic_v1.py"
+    ],
+    "b": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig03/Fig03_b__Validated_dynamics-aware_advantage/source_data/01_Stage4A_a_method_performance__Stage4A_a_method_performance.csv",
+      "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig03/Fig03_b__Validated_dynamics-aware_advantage/source_data/02_Stage4A_b_paired_gain__Stage4A_b_paired_gain.csv"
+    ],
+    "c": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig03/Fig03_f__Search-versus-validation_separation/source_data/01_Stage4A_f_search_validation__Stage4A_f_search_validation.csv"
+    ],
+    "d": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig03/Fig03_c__Structural_departure_from_static_descriptors/source_data/01_Stage4A_d_structural_phenotype__Stage4A_d_structural_phenotype.csv",
+      "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig03/Fig03_c__Structural_departure_from_static_descriptors/source_data/02_Stage4A_e_descriptor_gain__Stage4A_e_descriptor_gain.csv"
+    ],
+    "e": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig03/Fig03_d__Independent_replication_and_cross-phase_generalization/source_data/01_stage4_main_discovery_replication_forest__stage4_paired_contrasts.csv",
+      "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig03/Fig03_b__Validated_dynamics-aware_advantage/source_data/02_Stage4A_b_paired_gain__Stage4A_b_paired_gain.csv"
+    ],
+    "f": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig03/Fig03_e__Gain_landscape_across_topology_and_collective_regime/source_data/01_stage4_main_gain_landscape_vs_spectral__stage4_gain_landscape_vs_spectral.csv"
+    ]
+  },
+  "source_data": [
+    "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig03/Fig03_a__Dynamical_leverage_versus_static_prominence/00_SCHEMATIC_BRIEF.txt",
+    "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig03/Fig03_b__Validated_dynamics-aware_advantage/source_data/01_Stage4A_a_method_performance__Stage4A_a_method_performance.csv",
+    "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig03/Fig03_b__Validated_dynamics-aware_advantage/source_data/02_Stage4A_b_paired_gain__Stage4A_b_paired_gain.csv",
+    "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig03/Fig03_c__Structural_departure_from_static_descriptors/source_data/01_Stage4A_d_structural_phenotype__Stage4A_d_structural_phenotype.csv",
+    "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig03/Fig03_c__Structural_departure_from_static_descriptors/source_data/02_Stage4A_e_descriptor_gain__Stage4A_e_descriptor_gain.csv",
+    "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig03/Fig03_d__Independent_replication_and_cross-phase_generalization/source_data/01_stage4_main_discovery_replication_forest__stage4_paired_contrasts.csv",
+    "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig03/Fig03_e__Gain_landscape_across_topology_and_collective_regime/source_data/01_stage4_main_gain_landscape_vs_spectral__stage4_gain_landscape_vs_spectral.csv",
+    "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig03/Fig03_f__Search-versus-validation_separation/source_data/01_Stage4A_f_search_validation__Stage4A_f_search_validation.csv",
+    "manuscript_figure_assembly_v5_3/nature_figure_trial/Fig03/schematic_a_trial/build_fig03a_schematic_v1.py"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "figure": "ED05",
+  "version": "biological_robustness_v2",
+  "status": "review_not_frozen",
+  "scientific_role": "Support Fig.5 by establishing cohort integrity, held-out biological generalization, temporal robustness and epsilon-definition stability.",
+  "panel_source_map": {
+    "a": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED06/ED06_a__Biological-complexity_cohort_construction/source_data/01_S5A_01_cohort_attrition__cohort_attrition.csv"
+    ],
+    "b": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED06/ED06_b__Prediction_by_observed_complexity_level/source_data/01_S5A_04_prediction_by_observed_Creq__nested_rerun_multiaxial_predictions.csv"
+    ],
+    "c": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED06/ED06_c__Ordinal_confusion_structure/source_data/01_S5A_05_ordinal_confusion__nested_rerun_multiaxial_predictions.csv"
+    ],
+    "d": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED06/ED06_d__Within-layer_held-out_effects/source_data/01_S5A_08_within_layer_oof_effects__within_group_oof_associations.csv"
+    ],
+    "e": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED06/ED06_e__Within-dendrite_held-out_effects/source_data/01_S5A_09_within_dendrite_oof_effects__within_group_oof_associations.csv"
+    ],
+    "f": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED06/ED06_f__Temporal_consistency_and_context_boundary/source_data/01_S5A_12_temporal_AB_BA_consistency__temporal_boundary_1213_cells.csv",
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED06/ED06_f__Temporal_consistency_and_context_boundary/source_data/02_S5A_13_long_vs_short_context_gain__temporal_boundary_1213_cells.csv"
+    ],
+    "g": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED06/ED06_g__Complexity_distribution_across_epsilon/source_data/01_stage5a_epsilon_creq_distribution_heatmap__epsilon_creq_distribution_long.csv"
+    ],
+    "h": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED06/ED06_h__Mean_required_complexity_across_epsilon/source_data/01_stage5a_epsilon_mean_creq__epsilon_sensitivity_summary.csv"
+    ],
+    "i": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED06/ED06_i__Cell-wise_epsilon_transitions/source_data/01_stage5a_epsilon_transition_baseline_to_0p015__epsilon_creq_per_cell.csv",
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED06/ED06_i__Cell-wise_epsilon_transitions/source_data/02_stage5a_epsilon_transition_baseline_to_0p025__epsilon_creq_per_cell.csv"
+    ]
+  }
+}

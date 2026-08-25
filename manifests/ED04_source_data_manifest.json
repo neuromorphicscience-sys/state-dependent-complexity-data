@@ -1,0 +1,38 @@
+{
+  "figure": "ED04",
+  "version": "degeneracy_v2",
+  "status": "review_not_frozen",
+  "scientific_role": "Support Fig.4 by linking near-optimal solution multiplicity to functional degeneracy geometry.",
+  "panel_source_map": {
+    "a": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED05/ED05_a__Near-optimal_solution_count_versus_budget/source_data/01_DG03_near_optimal_count_by_budget__DG03_near_optimal_count_by_budget_source.csv"
+    ],
+    "b": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED05/ED05_a__Near-optimal_solution_count_versus_budget/source_data/01_DG03_near_optimal_count_by_budget__DG03_near_optimal_count_by_budget_source.csv"
+    ],
+    "c": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED05/ED05_a__Near-optimal_solution_count_versus_budget/source_data/01_DG03_near_optimal_count_by_budget__DG03_near_optimal_count_by_budget_source.csv"
+    ],
+    "d": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED05/ED05_a__Near-optimal_solution_count_versus_budget/source_data/01_DG03_near_optimal_count_by_budget__DG03_near_optimal_count_by_budget_source.csv",
+      "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig04/Fig04_b__Degeneracy_index_versus_complexity_budget/source_data/01_DG02_D_epsilon_by_budget__DG02_D_epsilon_by_budget_source.csv"
+    ],
+    "e": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED05/ED05_a__Near-optimal_solution_count_versus_budget/source_data/01_DG03_near_optimal_count_by_budget__DG03_near_optimal_count_by_budget_source.csv",
+      "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig04/Fig04_c__Near-optimal_union_expansion/source_data/01_DG04_union_expansion_by_budget__DG04_union_expansion_by_budget_source.csv"
+    ],
+    "f": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED05/ED05_a__Near-optimal_solution_count_versus_budget/source_data/01_DG03_near_optimal_count_by_budget__DG03_near_optimal_count_by_budget_source.csv",
+      "Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig04/Fig04_d__Emergent_shared-core_fraction/source_data/01_DG05_core_fraction_by_budget__DG05_core_fraction_by_budget_source.csv"
+    ],
+    "g": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED05/ED05_a__Near-optimal_solution_count_versus_budget/source_data/01_DG03_near_optimal_count_by_budget__DG03_near_optimal_count_by_budget_source.csv",
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED05/ED05_b__Node-selection_entropy_versus_budget/source_data/01_DG06_selection_entropy_by_budget__DG06_selection_entropy_by_budget_source.csv"
+    ]
+  },
+  "display_computations": {
+    "b": "Mean near-optimal count by regime and budget.",
+    "c": "Count minus the matched regime-by-budget mean.",
+    "d_g": "Exact-key merges on graph_seed, regime and k; Spearman rho shown descriptively."
+  }
+}

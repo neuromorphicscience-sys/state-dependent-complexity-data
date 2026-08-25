@@ -1,0 +1,41 @@
+{
+  "figure": "ED02",
+  "version": "expanded_v2",
+  "status": "review_not_frozen",
+  "scientific_role": "Support Fig.2 collective transitions, allocation economy and topology generalization.",
+  "panel_source_map": {
+    "a": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED02/ED02_a__Collective-state_composition_transition/source_data/01_stage1b_window_frequency_transition__stage1b_window_frequency_transition.csv"
+    ],
+    "b": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED02/ED02_b__Transition-window_frequency_and_rhythm-state_transitions/source_data/01_stage1b_frequency_transition_frequency_state_composition__stage1b_frequency_transition_frequency_state_composition.csv",
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED02/ED02_b__Transition-window_frequency_and_rhythm-state_transitions/source_data/02_stage1b_window_rhythm_transition__stage1b_window_rhythm_transition.csv"
+    ],
+    "c": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED02/ED02_c__Rhythm_organization_within_the_transition_window/source_data/01_stage1b_window_rhythm_score__stage1b_window_rhythm_score.csv"
+    ],
+    "d": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED02/ED02_d__Independent_activity-gain_characterization/source_data/01_stage3_complexity_activity_gain__stage3_complexity_activity_gain.csv",
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED02/ED02_e__Independent_synchrony_characterization/source_data/01_stage3_complexity_synchrony__stage3_complexity_synchrony.csv"
+    ],
+    "e": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED02/ED02_f__Budget-emergence_curves_across_topologies/source_data/01_stage3_emergence_vs_budget_by_topology__stage3_emergence_vs_budget_by_topology.csv",
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED02/ED02_g__Prevalence_of_positive_emergence/source_data/01_stage3_positive_emergence_fraction__stage3_positive_emergence_fraction.csv"
+    ],
+    "f": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED03/ED03_a__State-dependent_allocation_gain/source_data/01_stage2_regime_by_allocation_gain__stage2_regime_by_allocation_gain.csv"
+    ],
+    "g": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED03/ED03_b__Topology-dependent_allocation_gain/source_data/01_stage2_topology_by_allocation_gain__stage2_topology_by_allocation_gain.csv"
+    ],
+    "h": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED03/ED03_e__Targeted-versus-random_complexity_requirement/source_data/01_stage3_targeted_vs_random_complexity_requirement__stage3_targeted_vs_random_complexity_requirement.csv"
+    ]
+  },
+  "excluded_to_SI": [
+    "Four topology-specific placement-advantage curves from former ED04."
+  ],
+  "data_filters": {
+    "f_g": "Rows with placement=None are excluded as invalid computational output."
+  }
+}

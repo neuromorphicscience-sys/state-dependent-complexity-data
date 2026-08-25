@@ -1,0 +1,32 @@
+﻿topology,regime,placement,wins,total,win_fraction,row_label
+er,sparse_minimal,coverage_greedy,1,7,0.14285714285714285,Er | Sparse Minimal
+er,sparse_minimal,feedback_hub,1,7,0.14285714285714285,Er | Sparse Minimal
+er,sparse_minimal,module_bridge,1,7,0.14285714285714285,Er | Sparse Minimal
+er,sparse_minimal,none,1,7,0.14285714285714285,Er | Sparse Minimal
+er,sparse_minimal,random,3,7,0.42857142857142855,Er | Sparse Minimal
+er,transition_edge,coverage_greedy,1,6,0.16666666666666666,Er | Transition Edge
+er,transition_edge,cycle_proxy,1,6,0.16666666666666666,Er | Transition Edge
+er,transition_edge,feedback_hub,2,6,0.3333333333333333,Er | Transition Edge
+er,transition_edge,high_degree,1,6,0.16666666666666666,Er | Transition Edge
+er,transition_edge,module_bridge,1,6,0.16666666666666666,Er | Transition Edge
+modular,sparse_minimal,coverage_greedy,3,7,0.42857142857142855,Modular | Sparse Minimal
+modular,sparse_minimal,cycle_proxy,1,7,0.14285714285714285,Modular | Sparse Minimal
+modular,sparse_minimal,module_bridge,1,7,0.14285714285714285,Modular | Sparse Minimal
+modular,sparse_minimal,none,1,7,0.14285714285714285,Modular | Sparse Minimal
+modular,sparse_minimal,random,1,7,0.14285714285714285,Modular | Sparse Minimal
+modular,transition_edge,coverage_greedy,3,6,0.5,Modular | Transition Edge
+modular,transition_edge,feedback_hub,3,6,0.5,Modular | Transition Edge
+scale_free,sparse_minimal,cycle_proxy,2,7,0.2857142857142857,Scale Free | Sparse Minimal
+scale_free,sparse_minimal,none,1,7,0.14285714285714285,Scale Free | Sparse Minimal
+scale_free,sparse_minimal,random,4,7,0.5714285714285714,Scale Free | Sparse Minimal
+scale_free,transition_edge,cycle_proxy,4,6,0.6666666666666666,Scale Free | Transition Edge
+scale_free,transition_edge,high_degree,1,6,0.16666666666666666,Scale Free | Transition Edge
+scale_free,transition_edge,module_bridge,1,6,0.16666666666666666,Scale Free | Transition Edge
+small_world,sparse_minimal,coverage_greedy,1,7,0.14285714285714285,Small World | Sparse Minimal
+small_world,sparse_minimal,feedback_hub,3,7,0.42857142857142855,Small World | Sparse Minimal
+small_world,sparse_minimal,high_degree,1,7,0.14285714285714285,Small World | Sparse Minimal
+small_world,sparse_minimal,none,1,7,0.14285714285714285,Small World | Sparse Minimal
+small_world,sparse_minimal,random,1,7,0.14285714285714285,Small World | Sparse Minimal
+small_world,transition_edge,coverage_greedy,1,6,0.16666666666666666,Small World | Transition Edge
+small_world,transition_edge,feedback_hub,4,6,0.6666666666666666,Small World | Transition Edge
+small_world,transition_edge,module_bridge,1,6,0.16666666666666666,Small World | Transition Edge

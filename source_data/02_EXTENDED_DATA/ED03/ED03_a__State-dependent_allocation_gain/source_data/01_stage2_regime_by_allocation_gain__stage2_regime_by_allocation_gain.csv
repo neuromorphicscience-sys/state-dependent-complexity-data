@@ -1,0 +1,15 @@
+﻿regime,placement,placement_gain_vs_random_mean
+sparse_minimal,coverage_greedy,0.001591596858461125
+transition_edge,coverage_greedy,0.07268874377498809
+sparse_minimal,cycle_proxy,-0.0005996877359152945
+transition_edge,cycle_proxy,0.06628188792198665
+sparse_minimal,feedback_hub,0.0013739564457727635
+transition_edge,feedback_hub,0.07499510940971893
+sparse_minimal,high_degree,0.002048475932552362
+transition_edge,high_degree,0.07016888556618452
+sparse_minimal,module_bridge,0.0021997707833388944
+transition_edge,module_bridge,0.07208760060992504
+sparse_minimal,none,
+transition_edge,none,
+sparse_minimal,random,0.0
+transition_edge,random,0.0

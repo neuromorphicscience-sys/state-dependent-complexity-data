@@ -1,0 +1,35 @@
+{
+  "figure": "ED06",
+  "version": "population_controls_v2",
+  "status": "review_not_frozen",
+  "scientific_role": "Support Fig.6 with latent-model quality boundaries, activity controls, identity-shuffle tests and within-session arousal-state robustness.",
+  "panel_source_map": {
+    "a": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED07/ED07_a__Steinmetz_latent-model_quality/source_data/01_S5BR_02_steinmetz_latent_r2__steinmetz_latent_r2.csv"
+    ],
+    "b": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED07/ED07_c__Activity_loading_contribution/source_data/01_S5BR_06_steinmetz_activity_loading_confound__steinmetz_confound_correlations.csv"
+    ],
+    "c": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED07/ED07_d__Leverage_flexibility_versus_activity/source_data/01_S5BR_07_steinmetz_flex_vs_mean_activity__steinmetz_role_flexibility_corrected.csv",
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED07/ED07_d__Leverage_flexibility_versus_activity/source_data/02_S5BR_08_steinmetz_flex_vs_activity_flexibility__steinmetz_role_flexibility_corrected.csv"
+    ],
+    "d": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED07/ED07_e__Neuron-identity_shuffle/source_data/01_S5BR_10_steinmetz_identity_shuffle__steinmetz_identity_shuffle.csv"
+    ],
+    "e": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED07/ED07_f__Allen_model-quality_boundary/source_data/01_S5BR_15_allen_primary_latent_r2__allen_primary_latent_r2.csv",
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED07/ED07_f__Allen_model-quality_boundary/source_data/02_S5BR_16_allen_positive_r2_fraction__allen_primary_latent_r2.csv"
+    ],
+    "f": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED07/ED07_i__Allen_activity_controls/source_data/01_S5BR_21_allen_flex_vs_mean_activity__allen_role_flexibility_corrected.csv",
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED07/ED07_i__Allen_activity_controls/source_data/02_S5BR_22_allen_flex_vs_activity_flexibility__allen_role_flexibility_corrected.csv"
+    ],
+    "g": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED07/ED07_j__Within-session_running_and_pupil_state_tests/source_data/01_S5BR_23_allen_running_within_session__allen_within_session_arousal_pairs_raw.csv",
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED07/ED07_j__Within-session_running_and_pupil_state_tests/source_data/01_S5BR_23_allen_running_within_session__allen_within_session_arousal_pairs_residual.csv",
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED07/ED07_j__Within-session_running_and_pupil_state_tests/source_data/02_S5BR_24_allen_pupil_within_session__allen_within_session_arousal_pairs_raw.csv",
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED07/ED07_j__Within-session_running_and_pupil_state_tests/source_data/02_S5BR_24_allen_pupil_within_session__allen_within_session_arousal_pairs_residual.csv"
+    ]
+  }
+}

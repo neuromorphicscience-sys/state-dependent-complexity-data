@@ -1,0 +1,31 @@
+{
+  "figure": "ED01",
+  "version": "expanded_v2",
+  "status": "review_not_frozen",
+  "scientific_role": "Robustness and boundary tests for Fig. 1 state-dependent transfer",
+  "panel_source_map": {
+    "a": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED01/ED01_a__Off-diagonal_transfer_penalties/source_data/01_CT05_offdiagonal_transfer_penalties__CT05_offdiagonal_transfer_penalties_source.csv"
+    ],
+    "b": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED01/ED01_a__Off-diagonal_transfer_penalties/source_data/01_CT05_offdiagonal_transfer_penalties__CT05_offdiagonal_transfer_penalties_source.csv"
+    ],
+    "c": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED01/ED01_a__Off-diagonal_transfer_penalties/source_data/01_CT05_offdiagonal_transfer_penalties__CT05_offdiagonal_transfer_penalties_source.csv"
+    ],
+    "d": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED01/ED01_b__Graph-realization_consistency/source_data/01_CT06_graph_seed_consistency__CT06_graph_seed_consistency_source.csv"
+    ],
+    "e": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED01/ED01_b__Graph-realization_consistency/source_data/01_CT06_graph_seed_consistency__CT06_graph_seed_consistency_source.csv"
+    ],
+    "f": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/02_EXTENDED_DATA/ED01/ED01_b__Graph-realization_consistency/source_data/01_CT06_graph_seed_consistency__CT06_graph_seed_consistency_source.csv"
+    ]
+  },
+  "derived_panels": {
+    "b": "Grouped CT05 transfer penalties by target state and complexity budget.",
+    "c": "Matched directional difference for each unordered state pair, graph seed and budget.",
+    "f": "Graph-seed by budget matrix of the CT06 crossover interaction."
+  }
+}

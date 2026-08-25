@@ -1,0 +1,34 @@
+{
+  "figure": "ED03",
+  "version": "confirmatory_v2",
+  "status": "review_not_frozen",
+  "scientific_role": "Support Fig.3 dynamics-aware leverage with independent replication and cross-phase generalization.",
+  "promoted_from": "Former Supplementary Figure S08",
+  "panel_source_map": {
+    "a": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/03_SUPPLEMENTARY/S08/S08_a__Confirmatory_baseline_comparison_across_Stage4_phases/source_data/01_stage4_main_phase_baseline_heatmap__stage4_paired_contrasts.csv"
+    ],
+    "b": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/03_SUPPLEMENTARY/S08/S08_b__Model-side_descriptor-to-leverage_bridge/source_data/01_stage4_main_model_biology_bridge__model_side_biology_bridge.csv"
+    ],
+    "c": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/03_SUPPLEMENTARY/S08/S08_c__ER-patch_phase_gain_curves/source_data/01_si_phase_curve_er_patch__stage4_core_225_task_methods.csv"
+    ],
+    "d": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/03_SUPPLEMENTARY/S08/S08_c__ER-patch_phase_gain_curves/source_data/01_si_phase_curve_er_patch__stage4_core_225_task_methods.csv"
+    ],
+    "e": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/03_SUPPLEMENTARY/S08/S08_c__ER-patch_phase_gain_curves/source_data/01_si_phase_curve_er_patch__stage4_core_225_task_methods.csv"
+    ],
+    "f": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/03_SUPPLEMENTARY/S08/S08_c__ER-patch_phase_gain_curves/source_data/01_si_phase_curve_er_patch__stage4_core_225_task_methods.csv"
+    ],
+    "g": [
+      "Manuscript_Figures_Nature_DataFirst_V5_3/03_SUPPLEMENTARY/S08/S08_c__ER-patch_phase_gain_curves/source_data/01_si_phase_curve_er_patch__stage4_core_225_task_methods.csv"
+    ]
+  },
+  "display_computations": {
+    "b": "Spearman rho computed for coverage2 versus leverage_gain_vs_spectral.",
+    "c_g": "Dynamics-aware score minus spectral score, summarized by regime and budget."
+  }
+}

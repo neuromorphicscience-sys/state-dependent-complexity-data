@@ -1,0 +1,83 @@
+{
+  "figure": "Full Fig01 nature-figure trial",
+  "backend": "Python/Matplotlib only",
+  "final_size_mm": [
+    183,
+    118
+  ],
+  "axes_contract_mm": {
+    "a_wide": [
+      70,
+      42
+    ],
+    "b_heatmap": [
+      46,
+      46
+    ],
+    "c_to_f_standard": [
+      58,
+      42
+    ],
+    "combined_standard_fit": [
+      45,
+      36
+    ],
+    "combined_heatmap_fit": [
+      36,
+      36
+    ],
+    "combined_colorbar": [
+      2.5,
+      36
+    ]
+  },
+  "panel_order": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+  ],
+  "palette": {
+    "states": {
+      "sparse_drive": "#2A9D8F",
+      "transition_dense": "#38598C",
+      "transition_mid": "#8B7DAA"
+    },
+    "heatmap": [
+      "#2166AC",
+      "#F7F7F7",
+      "#B2182B"
+    ],
+    "heatmap_center": 0,
+    "interaction_mean": "#C97C7C",
+    "budgets": [
+      "#D9E1E8",
+      "#9FB0BE",
+      "#667D8C"
+    ]
+  },
+  "source_data": {
+    "a": "/mnt/d/research/neural science/plot/Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig01/Fig01_a__State_\u00d7_complexity-budget_dependence/source_data/01_Stage4A_c_state_budget__Stage4A_c_state_budget.csv",
+    "b": "/mnt/d/research/neural science/plot/Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig01/Fig01_b__Cross-state_transfer_matrix/source_data/01_CT01_transfer_matrix_centered__CT01_transfer_matrix_centered_source.csv",
+    "c": "/mnt/d/research/neural science/plot/Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig01/Fig01_c__Matched-topology_crossover_across_budgets/source_data/01_CT02_crossover_by_budget__CT02_crossover_by_budget_source.csv",
+    "d": "/mnt/d/research/neural science/plot/Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig01/Fig01_d__Home_allocation_advantage/source_data/01_CT03_home_advantage_paired__CT03_home_advantage_paired_source.csv",
+    "e": "/mnt/d/research/neural science/plot/Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig01/Fig01_e__Home-versus-foreign_score_geometry/source_data/01_CT07_home_vs_foreign_scores__CT07_home_vs_foreign_scores_source.csv",
+    "f": "/mnt/d/research/neural science/plot/Manuscript_Figures_Nature_DataFirst_V5_3/01_MAIN/Fig01/Fig01_f__Replicate-level_validation_of_the_state_crossover/source_data/01_CT04_replicate_crossover_distribution__CT04_replicate_crossover_distribution_source.csv"
+  },
+  "display_computations": {
+    "a": "Archived mean_gain and archived ci95 bounds; no recomputation",
+    "b": "Archived delta_vs_target_home",
+    "c": "Archived graph-seed values plus descriptive mean by budget",
+    "d": "All nine archived matched pairs",
+    "e": "All 72 archived observations",
+    "f": "All 36 archived observations plus standard descriptive box summaries"
+  },
+  "exports": [
+    "SVG",
+    "PDF",
+    "PNG 600 dpi",
+    "TIFF 600 dpi"
+  ]
+}
