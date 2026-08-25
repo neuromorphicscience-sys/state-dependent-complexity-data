@@ -1,7 +1,7 @@
 {
   "figure": "ED03",
   "version": "confirmatory_v2",
-  "status": "review_not_frozen",
+  "status": "FROZEN",
   "scientific_role": "Support Fig.3 dynamics-aware leverage with independent replication and cross-phase generalization.",
   "promoted_from": "Former Supplementary Figure S08",
   "panel_source_map": {

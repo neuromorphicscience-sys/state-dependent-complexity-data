@@ -1,7 +1,7 @@
 {
   "figure": "ED02",
   "version": "expanded_v2",
-  "status": "review_not_frozen",
+  "status": "FROZEN",
   "scientific_role": "Support Fig.2 collective transitions, allocation economy and topology generalization.",
   "panel_source_map": {
     "a": [

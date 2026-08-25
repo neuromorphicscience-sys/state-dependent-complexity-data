@@ -1,7 +1,7 @@
 {
   "figure": "ED05",
   "version": "biological_robustness_v2",
-  "status": "review_not_frozen",
+  "status": "FROZEN",
   "scientific_role": "Support Fig.5 by establishing cohort integrity, held-out biological generalization, temporal robustness and epsilon-definition stability.",
   "panel_source_map": {
     "a": [
