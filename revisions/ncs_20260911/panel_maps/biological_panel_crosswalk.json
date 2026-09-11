@@ -1,0 +1,909 @@
+{
+  "scope": "Source-reviewed mapping of all 19 quantitative lettered panels / 28 microplots in Fig. 5-6; not a refit or new render.",
+  "rows": [
+    {
+      "figure": "Fig05",
+      "panel": "b",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {
+        "plot_a": "4810e5d1e505eeabe6ed8aaa96053c9f4ef3e99d49382b8a0cc86097d3f5d72b"
+      },
+      "assembler_function_AST_sha256": "2f57c3d19f5d07640a3af90cf397e6ef129ffad343f997935022c42bcc9f09b1",
+      "datasets": [
+        {
+          "dataset_id": "sd_43b567a5360385353e1e",
+          "sha256": "43b567a5360385353e1e640103f00c242f52aa1b06b8a54e54db45b2a0463118",
+          "source_table_name": "01_stage5a_epsilon_ev_gap_to_best__epsilon_creq_per_cell.csv",
+          "rows": 400,
+          "columns": [
+            "specimen_id",
+            "specimen_name",
+            "ev_glif1",
+            "ev_glif2",
+            "ev_glif3",
+            "ev_glif4",
+            "ev_glif5",
+            "model_id_glif1",
+            "model_id_glif2",
+            "model_id_glif3",
+            "model_id_glif4",
+            "model_id_glif5",
+            "ev_cost0",
+            "ev_cost1",
+            "ev_cost2",
+            "ev_cost3",
+            "ev_best",
+            "creq_eps_0p000",
+            "creq_eps_0p005",
+            "creq_eps_0p010",
+            "creq_eps_0p015",
+            "creq_eps_0p020",
+            "creq_eps_0p025",
+            "creq_eps_0p030",
+            "creq_eps_0p040",
+            "creq_eps_0p050"
+          ],
+          "public_file": "tables/sd_43b567a5360385353e1e.csv"
+        }
+      ],
+      "displayed_estimate": "EV_best minus EV_cost0..3; cost1 = max(GLIF2, GLIF3). Adequacy reference epsilon=0.02.",
+      "observational_unit": "400 source mouse cells, one row per specimen.",
+      "interval_or_spread": "Median/IQR; 1.5-IQR whiskers; outlier symbols omitted.",
+      "inference_limits": "Not a target-cell cost measurement."
+    },
+    {
+      "figure": "Fig05",
+      "panel": "c",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {
+        "plot_c": "2507817fde68a0452aa33cc3b9814a0e7d6770f26adc2ce4d26a9405b829e6cc"
+      },
+      "assembler_function_AST_sha256": "2f57c3d19f5d07640a3af90cf397e6ef129ffad343f997935022c42bcc9f09b1",
+      "datasets": [
+        {
+          "dataset_id": "sd_b593a20cfbcae9fd0b6a",
+          "sha256": "b593a20cfbcae9fd0b6af42f149d7d16beb8e3b3d187ec11d535ef4fec5f8006",
+          "source_table_name": "01_S5A_06_full_pipeline_permutation__full_pipeline_permutation_multiaxial.csv",
+          "rows": 300,
+          "columns": [
+            "permutation",
+            "rho",
+            "median_alpha"
+          ],
+          "public_file": "tables/sd_b593a20cfbcae9fd0b6a.csv"
+        },
+        {
+          "dataset_id": "sd_306538b8385c4e1aa127",
+          "sha256": "306538b8385c4e1aa127fbaac4006a85563943d4f96934605d5f424227268d1f",
+          "source_table_name": "01_S5A_06_full_pipeline_permutation__full_pipeline_permutation_summary.json",
+          "rows": null,
+          "columns": null,
+          "public_file": "tables/sd_306538b8385c4e1aa127.json"
+        }
+      ],
+      "displayed_estimate": "Histogram of 300 null rho values, 28 bins; observed rho and full_pipeline_p read from JSON.",
+      "observational_unit": "400 source cells; 300 permutations are null draws, not biological samples.",
+      "interval_or_spread": "No confidence interval in this panel.",
+      "inference_limits": "Observed nested rho is not the earlier descriptive model-comparison rho."
+    },
+    {
+      "figure": "Fig05",
+      "panel": "d",
+      "quantitative_microplots": 2,
+      "plotting_function_AST_sha256": {
+        "plot_b": "94a96fc360ad8deb4eb7991d17194f3ae1d9357847cddbce8b72053bb972dd5c"
+      },
+      "assembler_function_AST_sha256": "2f57c3d19f5d07640a3af90cf397e6ef129ffad343f997935022c42bcc9f09b1",
+      "datasets": [
+        {
+          "dataset_id": "sd_fcea70ce9700748ac772",
+          "sha256": "fcea70ce9700748ac7725e429130243ad90217e91c8b71d5925b38309d9a4339",
+          "source_table_name": "01_S5A_02_model_comparison_rho__model_metrics_and_naive_baselines.csv",
+          "rows": 8,
+          "columns": [
+            "model",
+            "n",
+            "spearman_rho",
+            "spearman_p",
+            "mae",
+            "r2",
+            "rounded_accuracy",
+            "within_one_class_accuracy",
+            "quadratic_weighted_kappa"
+          ],
+          "public_file": "tables/sd_fcea70ce9700748ac772.csv"
+        }
+      ],
+      "displayed_estimate": "Left: spearman_rho for Temporal, Multiaxial, Metadata, Ephys+metadata, Ephys+temporal. Right: mae for Naive, Temporal, Metadata, Multiaxial, Ephys+metadata.",
+      "observational_unit": "Source-cell held-out prediction summaries; bars are models, not replicates.",
+      "interval_or_spread": "Point estimates, no uncertainty bars.",
+      "inference_limits": "Both microplots actually read the same table. The second MAE alias is returned by the helper but not read, and has identical content."
+    },
+    {
+      "figure": "Fig05",
+      "panel": "e",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {
+        "plot_d": "16adbc8a9022707a8c2e114b13d0859dee3671b68b0e891e33aef3b6a3b9a8f1"
+      },
+      "assembler_function_AST_sha256": "2f57c3d19f5d07640a3af90cf397e6ef129ffad343f997935022c42bcc9f09b1",
+      "datasets": [
+        {
+          "dataset_id": "sd_cc6f8438dddad0a7a1d9",
+          "sha256": "cc6f8438dddad0a7a1d9204d94106656194848dbfdc11b138f52396275828d63",
+          "source_table_name": "01_S5A_07_group_generalization__group_generalization_summary.csv",
+          "rows": 4,
+          "columns": [
+            "scheme",
+            "n",
+            "spearman_rho",
+            "spearman_p",
+            "mae",
+            "r2",
+            "rounded_accuracy",
+            "within_one_class_accuracy",
+            "quadratic_weighted_kappa",
+            "median_alpha"
+          ],
+          "public_file": "tables/sd_cc6f8438dddad0a7a1d9.csv"
+        }
+      ],
+      "displayed_estimate": "spearman_rho in saved order: repeated CV, leave-layer, leave-dendrite, VISp-only.",
+      "observational_unit": "Source cells; 400 main, 352 VISp-only.",
+      "interval_or_spread": "Point estimates only.",
+      "inference_limits": "Negative leave-dendrite transfer retained."
+    },
+    {
+      "figure": "Fig05",
+      "panel": "f",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {
+        "plot_f": "b7eae19728d508bae74f85604928b138dc247eac0520c521f872f590e10292cf"
+      },
+      "assembler_function_AST_sha256": "2f57c3d19f5d07640a3af90cf397e6ef129ffad343f997935022c42bcc9f09b1",
+      "datasets": [
+        {
+          "dataset_id": "sd_d30ea123d812d0c4a47c",
+          "sha256": "d30ea123d812d0c4a47c24e6c6c496dda9b18369f136a307e1443027d3bc712f",
+          "source_table_name": "01_stage5a_epsilon_definition_stability__epsilon_sensitivity_summary.csv",
+          "rows": 9,
+          "columns": [
+            "epsilon",
+            "n",
+            "spearman_vs_eps_0p02",
+            "exact_agreement_vs_eps_0p02",
+            "weighted_kappa_vs_eps_0p02",
+            "mean_creq",
+            "count_cost0",
+            "count_cost1",
+            "count_cost2",
+            "count_cost3"
+          ],
+          "public_file": "tables/sd_d30ea123d812d0c4a47c.csv"
+        }
+      ],
+      "displayed_estimate": "spearman_vs_eps_0p02 and exact_agreement_vs_eps_0p02 over epsilon.",
+      "observational_unit": "Same 400 cells across tolerances.",
+      "interval_or_spread": "No confidence band.",
+      "inference_limits": "Tolerance points are not independent cohorts."
+    },
+    {
+      "figure": "Fig05",
+      "panel": "g",
+      "quantitative_microplots": 2,
+      "plotting_function_AST_sha256": {
+        "plot_e": "bba28216c27595fcd914e3157a69a49dc7e4c85e8147f9e8dd01307895b0417a"
+      },
+      "assembler_function_AST_sha256": "2f57c3d19f5d07640a3af90cf397e6ef129ffad343f997935022c42bcc9f09b1",
+      "datasets": [
+        {
+          "dataset_id": "sd_34fcb3fccb69a3217edc",
+          "sha256": "34fcb3fccb69a3217edcd3a85fa3e61156c43cd5bc4d9a55333be970120e9923",
+          "source_table_name": "01_S5A_10_feature_associations__feature_Creq_associations.csv",
+          "rows": 44,
+          "columns": [
+            "category",
+            "feature",
+            "n",
+            "p",
+            "q_fdr",
+            "rho"
+          ],
+          "public_file": "tables/sd_34fcb3fccb69a3217edc.csv"
+        },
+        {
+          "dataset_id": "sd_1eec9d7ec2a69bceb3b9",
+          "sha256": "1eec9d7ec2a69bceb3b9800a8041384e5753cfb2d9e8f720f65ac606a20047b8",
+          "source_table_name": "02_S5A_11_category_ablation__category_ablation.csv",
+          "rows": 6,
+          "columns": [
+            "delta_rho_full_minus_without",
+            "removed_category",
+            "rho_without"
+          ],
+          "public_file": "tables/sd_1eec9d7ec2a69bceb3b9.csv"
+        }
+      ],
+      "displayed_estimate": "Left: 16 largest absolute rho entries, displayed sorted by signed rho. Right: delta_rho_full_minus_without sorted by value.",
+      "observational_unit": "Features and removed feature categories from the source-cell analysis.",
+      "interval_or_spread": "Point estimates only.",
+      "inference_limits": "Top-16 is magnitude-selected descriptive display, not 16 independently confirmed mechanisms."
+    },
+    {
+      "figure": "Fig05",
+      "panel": "h",
+      "quantitative_microplots": 2,
+      "plotting_function_AST_sha256": {
+        "plot_mapping": "da41ca06042a24402461957c8ff808a0a0ab98ffadc04d9b9b7333890e1f99b7"
+      },
+      "assembler_function_AST_sha256": "2f57c3d19f5d07640a3af90cf397e6ef129ffad343f997935022c42bcc9f09b1",
+      "datasets": [
+        {
+          "dataset_id": "sd_0566ef157a527b5f95fd",
+          "sha256": "0566ef157a527b5f95fdc7f2de5c123af4d8e77af20986bb0b1b77683227f1a5",
+          "source_table_name": "01_SYN02_primary_mapper_oof__SYN02_primary_mapper_oof.csv",
+          "rows": 350,
+          "columns": [
+            "observed",
+            "predicted"
+          ],
+          "public_file": "tables/sd_0566ef157a527b5f95fd.csv"
+        },
+        {
+          "dataset_id": "sd_d41eba73c601eda40a9d",
+          "sha256": "d41eba73c601eda40a9d1ecc26eea59da10d3a6b980911912f08a21db0c1fb9b",
+          "source_table_name": "02_SYN03_conservative_mapper_oof__SYN03_conservative_mapper_oof.csv",
+          "rows": 400,
+          "columns": [
+            "observed",
+            "predicted"
+          ],
+          "public_file": "tables/sd_d41eba73c601eda40a9d.csv"
+        }
+      ],
+      "displayed_estimate": "Observed source-cell cost versus out-of-fold predicted cost; visual x jitter seeds 53/54; black line = median predicted value within observed class.",
+      "observational_unit": "350 primary and 400 conservative source cells.",
+      "interval_or_spread": "No interval; jitter is visual only.",
+      "inference_limits": "Not measured target-cell ground truth or independent target validation."
+    },
+    {
+      "figure": "Fig05",
+      "panel": "i",
+      "quantitative_microplots": 2,
+      "plotting_function_AST_sha256": {
+        "plot_h_absorption": "55f4645a7d371486af2d313a27b84eaa1514fec6d39d0b16dc83e9a7739981a1",
+        "plot_h_decomp": "386a3dd0e3acd335b81c1253e0836fa072d697b80d64b495771b0248d114ae3b"
+      },
+      "assembler_function_AST_sha256": "2f57c3d19f5d07640a3af90cf397e6ef129ffad343f997935022c42bcc9f09b1",
+      "datasets": [
+        {
+          "dataset_id": "sd_eff15dd93262ff4545d0",
+          "sha256": "eff15dd93262ff4545d090d7b5d0684411b8b2286708feaef1a0832bb3290e3e",
+          "source_table_name": "01_SYN15_identity_absorption_fraction__SYN15_identity_absorption_fraction.csv",
+          "rows": 20,
+          "columns": [
+            "definition",
+            "score_col",
+            "family",
+            "endpoint",
+            "n",
+            "n_experiments",
+            "beta_after_identity",
+            "se_after_identity",
+            "p_after_identity",
+            "effect_scale",
+            "odds_ratio",
+            "delta_before",
+            "delta_after",
+            "fold_local_increment_after",
+            "fold_local_metric",
+            "q_within_definition_descriptive",
+            "absorption_fraction"
+          ],
+          "public_file": "tables/sd_eff15dd93262ff4545d0.csv"
+        },
+        {
+          "dataset_id": "sd_295fc6a229aacd284fb4",
+          "sha256": "295fc6a229aacd284fb45739f9a6158f3a0429bf3987574d928b6602a24a55cc",
+          "source_table_name": "02_SYN22_within_between_identity_decomposition__SYN22_within_between_identity_decomposition.csv",
+          "rows": 4,
+          "columns": [
+            "identity",
+            "term",
+            "beta",
+            "se",
+            "p",
+            "label"
+          ],
+          "public_file": "tables/sd_295fc6a229aacd284fb4.csv"
+        }
+      ],
+      "displayed_estimate": "Left: absorption_fraction by endpoint and mapper. Right: beta for within/between class and Cre decompositions.",
+      "observational_unit": "Endpoint-level fitted summaries; right has four coefficient rows.",
+      "interval_or_spread": "Right only: beta \u00b1 1.96 se; left has no intervals.",
+      "inference_limits": "Right colors encode between/within identity, not primary/conservative mapper."
+    },
+    {
+      "figure": "Fig05",
+      "panel": "j",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {
+        "plot_i_generalization": "6c44bc4d81ac5b60ad96b274951fdb1704957da2ea03d0aa1e7173886bcc0f04"
+      },
+      "assembler_function_AST_sha256": "2f57c3d19f5d07640a3af90cf397e6ef129ffad343f997935022c42bcc9f09b1",
+      "datasets": [
+        {
+          "dataset_id": "sd_2bae1fc3ba399c534db0",
+          "sha256": "2bae1fc3ba399c534db0b74b57133d21b425e4358c2b7765c7aa953f480ac240",
+          "source_table_name": "01_SYN20_fold_local_continuous_generalization__SYN20_fold_local_continuous_generalization.csv",
+          "rows": 6,
+          "columns": [
+            "definition",
+            "score_col",
+            "family",
+            "endpoint",
+            "n",
+            "n_experiments",
+            "beta_after_identity",
+            "se_after_identity",
+            "p_after_identity",
+            "effect_scale",
+            "odds_ratio",
+            "delta_before",
+            "delta_after",
+            "fold_local_increment_after",
+            "fold_local_metric",
+            "q_within_definition_descriptive"
+          ],
+          "public_file": "tables/sd_2bae1fc3ba399c534db0.csv"
+        }
+      ],
+      "displayed_estimate": "fold_local_increment_after for PSP, PSC and G_norm_50hz, separately for both definitions.",
+      "observational_unit": "Six endpoint/definition summaries; n and n_experiments retained in source.",
+      "interval_or_spread": "Points only: no confidence interval is plotted.",
+      "inference_limits": "Held-out prediction increment is distinct from an in-sample coefficient."
+    },
+    {
+      "figure": "Fig05",
+      "panel": "k",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {
+        "plot_j": "119280016b99b40c56c1818e7ae2cf8dfbc0aad8126bade2a9f63678ff9d4e61"
+      },
+      "assembler_function_AST_sha256": "2f57c3d19f5d07640a3af90cf397e6ef129ffad343f997935022c42bcc9f09b1",
+      "datasets": [
+        {
+          "dataset_id": "sd_b5df5e40bba683628413",
+          "sha256": "b5df5e40bba683628413ce217d2a9adc664ebee9ebad00b869f850f1c2e65e15",
+          "source_table_name": "01_SYN27_narrative_closure_forest__SYN27_narrative_closure_forest.csv",
+          "rows": 12,
+          "columns": [
+            "definition",
+            "score_col",
+            "family",
+            "endpoint",
+            "n",
+            "n_experiments",
+            "beta_after_identity",
+            "se_after_identity",
+            "p_after_identity",
+            "effect_scale",
+            "odds_ratio",
+            "delta_before",
+            "delta_after",
+            "fold_local_increment_after",
+            "fold_local_metric",
+            "q_within_definition_descriptive"
+          ],
+          "public_file": "tables/sd_b5df5e40bba683628413.csv"
+        }
+      ],
+      "displayed_estimate": "beta_after_identity by endpoint and definition.",
+      "observational_unit": "Endpoint-specific pairs and experiment clusters; counts in table.",
+      "interval_or_spread": "beta_after_identity \u00b1 1.96 se_after_identity.",
+      "inference_limits": "Connection log odds and continuous standardized coefficients have different scales."
+    },
+    {
+      "figure": "Fig06",
+      "panel": "b",
+      "quantitative_microplots": 2,
+      "plotting_function_AST_sha256": {
+        "plot_a": "de8ab3fb79db82d7609409e7b493ea0e1f42fe1fdd41d58efda263cb6363ce61",
+        "paired_summary": "725d3b4ea067f964ae4d6787e5241b3cfb947ec76180b5f87c1522aee36143bd"
+      },
+      "assembler_function_AST_sha256": "3f3cbe94a9413d01a9e683d0df4919740350c5fb88b47309ba95fa9c23f85401",
+      "datasets": [
+        {
+          "dataset_id": "sd_789bd813d0296d1b5ef1",
+          "sha256": "789bd813d0296d1b5ef1ca00efbca6ca30e944a8023ec15d30ad3ce39cb8d3bf",
+          "source_table_name": "01_S5BR_05_steinmetz_raw_vs_residual_state_stability__steinmetz_state_pairs_raw_summary.csv",
+          "rows": 10,
+          "columns": [
+            "state_a",
+            "state_b",
+            "n_groups",
+            "median_rho",
+            "ci95_low",
+            "ci95_high",
+            "mean_rho"
+          ],
+          "public_file": "tables/sd_789bd813d0296d1b5ef1.csv"
+        },
+        {
+          "dataset_id": "sd_13e92ed9a467caad65ba",
+          "sha256": "13e92ed9a467caad65bab3e9c1be0e9f8fcc4c2a0fbd9ce4247141d5b3a5ed8b",
+          "source_table_name": "01_S5BR_05_steinmetz_raw_vs_residual_state_stability__steinmetz_state_pairs_residual_summary.csv",
+          "rows": 10,
+          "columns": [
+            "state_a",
+            "state_b",
+            "n_groups",
+            "median_rho",
+            "ci95_low",
+            "ci95_high",
+            "mean_rho"
+          ],
+          "public_file": "tables/sd_13e92ed9a467caad65ba.csv"
+        },
+        {
+          "dataset_id": "sd_0b37995c0627e6b0c994",
+          "sha256": "0b37995c0627e6b0c9940e7fe005217c8b391a7dc430dc1accc623cdc9d1b9fb",
+          "source_table_name": "02_S5BR_09_steinmetz_backbone_fraction__steinmetz_backbone_fraction.csv",
+          "rows": 39,
+          "columns": [
+            "session_id",
+            "n_cells",
+            "n_states",
+            "between_var",
+            "within_var",
+            "backbone_fraction"
+          ],
+          "public_file": "tables/sd_0b37995c0627e6b0c994.csv"
+        }
+      ],
+      "displayed_estimate": "Left: merge raw/residual median_rho on state_a/state_b. Right: backbone_fraction distribution.",
+      "observational_unit": "Left state-pair summaries; right 39 sessions from 10 mice.",
+      "interval_or_spread": "Left no intervals; right median/IQR/1.5-IQR whiskers plus individual values.",
+      "inference_limits": "Sessions within mouse are not independent animals."
+    },
+    {
+      "figure": "Fig06",
+      "panel": "c",
+      "quantitative_microplots": 2,
+      "plotting_function_AST_sha256": {
+        "plot_b": "28288307fca61d0786d16f4c38f0970f272ff0b8234dfefd98719c9efda76c1e",
+        "plot_b_quality": "569849439359b8d9ded128d92e7ebbb5ec8067394318d71f6e5a0ba15888dbe1",
+        "paired_summary": "725d3b4ea067f964ae4d6787e5241b3cfb947ec76180b5f87c1522aee36143bd"
+      },
+      "assembler_function_AST_sha256": "3f3cbe94a9413d01a9e683d0df4919740350c5fb88b47309ba95fa9c23f85401",
+      "datasets": [
+        {
+          "dataset_id": "sd_ccfe3d0f40f3bf475c18",
+          "sha256": "ccfe3d0f40f3bf475c182ba88f36762081b81ef14464fe032f3a6275ed4cfaf1",
+          "source_table_name": "01_S5BR_19_allen_raw_vs_residual_state_stability__allen_primary_state_pairs_raw_summary.csv",
+          "rows": 3,
+          "columns": [
+            "state_a",
+            "state_b",
+            "n_groups",
+            "median_rho",
+            "ci95_low",
+            "ci95_high",
+            "mean_rho"
+          ],
+          "public_file": "tables/sd_ccfe3d0f40f3bf475c18.csv"
+        },
+        {
+          "dataset_id": "sd_d83cd1d972ec69fa5707",
+          "sha256": "d83cd1d972ec69fa5707cc1de8fdad2ab980432055fee6c758ce50e98ae1422e",
+          "source_table_name": "01_S5BR_19_allen_raw_vs_residual_state_stability__allen_primary_state_pairs_residual_summary.csv",
+          "rows": 3,
+          "columns": [
+            "state_a",
+            "state_b",
+            "n_groups",
+            "median_rho",
+            "ci95_low",
+            "ci95_high",
+            "mean_rho"
+          ],
+          "public_file": "tables/sd_d83cd1d972ec69fa5707.csv"
+        },
+        {
+          "dataset_id": "sd_fce7ab1d978f7325f229",
+          "sha256": "fce7ab1d978f7325f229fed11c87c7bbaae9edeef98f8e467998e814f3ec3ce9",
+          "source_table_name": "01_S5BR_20_allen_r2_gated_state_stability__allen_primary_state_pairs_r2_gated_summary.csv",
+          "rows": 6,
+          "columns": [
+            "r2_threshold",
+            "state_a",
+            "state_b",
+            "n_groups",
+            "median_rho",
+            "mean_rho"
+          ],
+          "public_file": "tables/sd_fce7ab1d978f7325f229.csv"
+        }
+      ],
+      "displayed_estimate": "Left raw/residual state-pair median_rho; right median_rho versus r2_threshold within each state pair.",
+      "observational_unit": "Container-level source analyses summarized by state pairs and quality thresholds.",
+      "interval_or_spread": "Connected summary points, not animal trajectories; no confidence intervals.",
+      "inference_limits": "Counts vary by state pair and quality gate."
+    },
+    {
+      "figure": "Fig06",
+      "panel": "d",
+      "quantitative_microplots": 2,
+      "plotting_function_AST_sha256": {
+        "plot_c": "a0971c2498a56a2be8d25ffb885191511ed4fab64093529d96f4e460db111cdd"
+      },
+      "assembler_function_AST_sha256": "3f3cbe94a9413d01a9e683d0df4919740350c5fb88b47309ba95fa9c23f85401",
+      "datasets": [
+        {
+          "dataset_id": "sd_789bd813d0296d1b5ef1",
+          "sha256": "789bd813d0296d1b5ef1ca00efbca6ca30e944a8023ec15d30ad3ce39cb8d3bf",
+          "source_table_name": "01_S5BR_25_cross_dataset_state_stability__steinmetz_state_pairs_raw_summary.csv",
+          "rows": 10,
+          "columns": [
+            "state_a",
+            "state_b",
+            "n_groups",
+            "median_rho",
+            "ci95_low",
+            "ci95_high",
+            "mean_rho"
+          ],
+          "public_file": "tables/sd_789bd813d0296d1b5ef1.csv"
+        },
+        {
+          "dataset_id": "sd_ccfe3d0f40f3bf475c18",
+          "sha256": "ccfe3d0f40f3bf475c182ba88f36762081b81ef14464fe032f3a6275ed4cfaf1",
+          "source_table_name": "01_S5BR_25_cross_dataset_state_stability__allen_primary_state_pairs_raw_summary.csv",
+          "rows": 3,
+          "columns": [
+            "state_a",
+            "state_b",
+            "n_groups",
+            "median_rho",
+            "ci95_low",
+            "ci95_high",
+            "mean_rho"
+          ],
+          "public_file": "tables/sd_ccfe3d0f40f3bf475c18.csv"
+        },
+        {
+          "dataset_id": "sd_a9a3802e078499dc56ab",
+          "sha256": "a9a3802e078499dc56ab981491745fb154dc06593ec3a39f49f3fedbe5d4dd51",
+          "source_table_name": "01_S5BR_25_cross_dataset_state_stability__allen_within_session_arousal_raw_summary.csv",
+          "rows": 2,
+          "columns": [
+            "contrast",
+            "n_experiments",
+            "median_rho",
+            "mean_rho"
+          ],
+          "public_file": "tables/sd_a9a3802e078499dc56ab.csv"
+        },
+        {
+          "dataset_id": "sd_0b37995c0627e6b0c994",
+          "sha256": "0b37995c0627e6b0c9940e7fe005217c8b391a7dc430dc1accc623cdc9d1b9fb",
+          "source_table_name": "02_S5BR_26_cross_dataset_backbone_fraction__steinmetz_backbone_fraction.csv",
+          "rows": 39,
+          "columns": [
+            "session_id",
+            "n_cells",
+            "n_states",
+            "between_var",
+            "within_var",
+            "backbone_fraction"
+          ],
+          "public_file": "tables/sd_0b37995c0627e6b0c994.csv"
+        },
+        {
+          "dataset_id": "sd_b4b7856a3d3a58c2bf43",
+          "sha256": "b4b7856a3d3a58c2bf431583d4170fd7adc298b7c6fe07f007854f145bb8cc44",
+          "source_table_name": "02_S5BR_26_cross_dataset_backbone_fraction__allen_backbone_fraction.csv",
+          "rows": 22,
+          "columns": [
+            "container_id",
+            "n_cells",
+            "n_states",
+            "between_var",
+            "within_var",
+            "backbone_fraction"
+          ],
+          "public_file": "tables/sd_b4b7856a3d3a58c2bf43.csv"
+        }
+      ],
+      "displayed_estimate": "Left median of median_rho across state-pair summary rows for each dataset, plus running/pupil median_rho. Right backbone_fraction distributions.",
+      "observational_unit": "Nested session/container/state summaries; running/pupil use 71/69 experiments.",
+      "interval_or_spread": "Bars no CI; boxes median/IQR/1.5-IQR whiskers and individual values.",
+      "inference_limits": "Cross-dataset contrasts are descriptive, not a matched experimental intervention."
+    },
+    {
+      "figure": "Fig06",
+      "panel": "e",
+      "quantitative_microplots": 2,
+      "plotting_function_AST_sha256": {
+        "paired_mouse": "e327fc58eeb9c6ef8646d5ad94061225c0df09d9b5014cdaea2405735fd45d54"
+      },
+      "assembler_function_AST_sha256": "3f3cbe94a9413d01a9e683d0df4919740350c5fb88b47309ba95fa9c23f85401",
+      "datasets": [
+        {
+          "dataset_id": "sd_eee33052633db55c847e",
+          "sha256": "eee33052633db55c847e3f85d745b17214f6d68665db6bcad3c55aa79b75fd13",
+          "source_table_name": "01_OS_M01_decoder_home_vs_cross_auc_paired__OS_M01_decoder_home_vs_cross_auc_paired.csv",
+          "rows": 12,
+          "columns": [
+            "subject",
+            "decoder_auc_home",
+            "decoder_auc_cross"
+          ],
+          "public_file": "tables/sd_eee33052633db55c847e.csv"
+        },
+        {
+          "dataset_id": "sd_d220e46a29901760a7ac",
+          "sha256": "d220e46a29901760a7acf904b61a008ea891c4f78aa52e6b9a365b1c2bf7c6e3",
+          "source_table_name": "02_OS_M02_Rdecoder_by_mouse__OS_M02_Rdecoder_by_mouse.csv",
+          "rows": 12,
+          "columns": [
+            "subject",
+            "decoder_auc_crossover"
+          ],
+          "public_file": "tables/sd_d220e46a29901760a7ac.csv"
+        },
+        {
+          "dataset_id": "sd_66abcb2658a4c26e2ba4",
+          "sha256": "66abcb2658a4c26e2ba43d87f19b9abcfb45e4c1309e71e17947427526404586",
+          "source_table_name": "01_OS_M03_Rdecoder_formal_effect_ci__OS_M03_Rdecoder_formal_effect_ci.csv",
+          "rows": 1,
+          "columns": [
+            "endpoint",
+            "column",
+            "n_mouse_sessions",
+            "null",
+            "mean_raw",
+            "mean_effect",
+            "median_effect",
+            "sd_effect",
+            "sem_effect",
+            "min_effect",
+            "max_effect",
+            "positive_fraction",
+            "n_positive",
+            "n_negative",
+            "exact_signflip_one_sided_p",
+            "exact_signflip_two_sided_p",
+            "wilcoxon_one_sided_p",
+            "wilcoxon_two_sided_p",
+            "exact_binomial_sign_one_sided_p",
+            "paired_standardized_effect_dz",
+            "bootstrap_ci_low",
+            "bootstrap_ci_high"
+          ],
+          "public_file": "tables/sd_66abcb2658a4c26e2ba4.csv"
+        }
+      ],
+      "displayed_estimate": "Left home/cross mouse means. Right mouse crossover with arithmetic mean and frozen bootstrap_ci_low/high.",
+      "observational_unit": "12 mice, same cohort in all OpenScope controls.",
+      "interval_or_spread": "Right 50,000-resample formal mouse-bootstrap CI; left mean line only.",
+      "inference_limits": "Repeat-averaged endpoint differs from fixed-repeat null in f."
+    },
+    {
+      "figure": "Fig06",
+      "panel": "f",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {},
+      "assembler_function_AST_sha256": "3f3cbe94a9413d01a9e683d0df4919740350c5fb88b47309ba95fa9c23f85401",
+      "datasets": [
+        {
+          "dataset_id": "sd_92e3c3dedd1577c5b460",
+          "sha256": "92e3c3dedd1577c5b46065fa5567465d16c917c6d814ac000f63655097cb638d",
+          "source_table_name": "02_OS_M04_Rdecoder_high_precision_permutation__OS_M04_Rdecoder_high_precision_permutation.csv",
+          "rows": 2000,
+          "columns": [
+            "null",
+            "observed"
+          ],
+          "public_file": "tables/sd_92e3c3dedd1577c5b460.csv"
+        }
+      ],
+      "displayed_estimate": "35-bin null histogram; observed column reference; plus-one P=(count(null>=observed)+1)/(2000+1).",
+      "observational_unit": "2,000 matched null draws; fixed repeat 0 of the same 12 mice.",
+      "interval_or_spread": "No CI.",
+      "inference_limits": "Permutation draws are not independent animals."
+    },
+    {
+      "figure": "Fig06",
+      "panel": "g",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {
+        "paired_mouse": "e327fc58eeb9c6ef8646d5ad94061225c0df09d9b5014cdaea2405735fd45d54"
+      },
+      "assembler_function_AST_sha256": "3f3cbe94a9413d01a9e683d0df4919740350c5fb88b47309ba95fa9c23f85401",
+      "datasets": [
+        {
+          "dataset_id": "sd_95644ce1ca8780567e7e",
+          "sha256": "95644ce1ca8780567e7e267618d1d3a7d0f692f7c4b85d063c5047d3809f4774",
+          "source_table_name": "ED07g_openscope_split_population.csv",
+          "rows": 12,
+          "columns": [
+            "session",
+            "repeats",
+            "decoder_auc_home",
+            "decoder_auc_cross",
+            "decoder_auc_crossover",
+            "decoder_balacc_crossover"
+          ],
+          "public_file": "tables/sd_95644ce1ca8780567e7e.csv"
+        }
+      ],
+      "displayed_estimate": "Home/cross AUC pairs and arithmetic mean; source already averages 24 disjoint-unit splits within each mouse.",
+      "observational_unit": "12 rows = 12 mice, each repeats=24. Not 288 plotted or independent samples.",
+      "interval_or_spread": "Paired mouse lines and mean only; no interval.",
+      "inference_limits": "Disjoint unit subsets separate state definition from decoder features."
+    },
+    {
+      "figure": "Fig06",
+      "panel": "h",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {},
+      "assembler_function_AST_sha256": "3f3cbe94a9413d01a9e683d0df4919740350c5fb88b47309ba95fa9c23f85401",
+      "datasets": [
+        {
+          "dataset_id": "sd_b44b2edf819359aed2a3",
+          "sha256": "b44b2edf819359aed2a36f19640ed8d8fed59f68efc6f660b1f93f96b9ef11dc",
+          "source_table_name": "02_OS_M06_same_image_state_excess_by_mouse__OS_M06_same_image_state_excess_by_mouse.csv",
+          "rows": 12,
+          "columns": [
+            "subject",
+            "same_image_state_auc_excess_mean"
+          ],
+          "public_file": "tables/sd_b44b2edf819359aed2a3.csv"
+        },
+        {
+          "dataset_id": "sd_23b5385fd32c0fb107a3",
+          "sha256": "23b5385fd32c0fb107a339ad59479dd2648d32d9ae97a0c071f2736fcc58e6d0",
+          "source_table_name": "03_OS_M17_same_image_formal_effect_ci__OS_M17_same_image_formal_effect_ci.csv",
+          "rows": 1,
+          "columns": [
+            "endpoint",
+            "column",
+            "n_mouse_sessions",
+            "null",
+            "mean_raw",
+            "mean_effect",
+            "median_effect",
+            "sd_effect",
+            "sem_effect",
+            "min_effect",
+            "max_effect",
+            "positive_fraction",
+            "n_positive",
+            "n_negative",
+            "exact_signflip_one_sided_p",
+            "exact_signflip_two_sided_p",
+            "wilcoxon_one_sided_p",
+            "wilcoxon_two_sided_p",
+            "exact_binomial_sign_one_sided_p",
+            "paired_standardized_effect_dz",
+            "bootstrap_ci_low",
+            "bootstrap_ci_high"
+          ],
+          "public_file": "tables/sd_23b5385fd32c0fb107a3.csv"
+        }
+      ],
+      "displayed_estimate": "same_image_state_auc_excess_mean by mouse, arithmetic mean, frozen bootstrap_ci_low/high.",
+      "observational_unit": "Same 12 mice.",
+      "interval_or_spread": "50,000-resample formal mouse-bootstrap CI.",
+      "inference_limits": "AUC excess is relative to 0.5, not decoder home-minus-cross."
+    },
+    {
+      "figure": "Fig06",
+      "panel": "i",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {
+        "plot_g": "ccdb16ffa7561cb1a157f0093fef3f30b18a730f46d41dbcc48c5363678cbe28"
+      },
+      "assembler_function_AST_sha256": "3f3cbe94a9413d01a9e683d0df4919740350c5fb88b47309ba95fa9c23f85401",
+      "datasets": [
+        {
+          "dataset_id": "sd_ae5311830a20d9eed4bf",
+          "sha256": "ae5311830a20d9eed4bfecc3824d9d01350502a69c0450237091d27df65c44e0",
+          "source_table_name": "01_OS_M11_state_time_confound_by_mouse__OS_M11_state_time_confound_by_mouse.csv",
+          "rows": 12,
+          "columns": [
+            "subject",
+            "_abs_time"
+          ],
+          "public_file": "tables/sd_ae5311830a20d9eed4bf.csv"
+        },
+        {
+          "dataset_id": "sd_ecb2794227a608b4b4da",
+          "sha256": "ecb2794227a608b4b4da03cf99ac0832ea86daf34ec492de68a529d8204c82d4",
+          "source_table_name": "02_OS_M12_running_confound_by_mouse__OS_M12_running_confound_by_mouse.csv",
+          "rows": 12,
+          "columns": [
+            "subject",
+            "_abs_run"
+          ],
+          "public_file": "tables/sd_ecb2794227a608b4b4da.csv"
+        },
+        {
+          "dataset_id": "sd_7da2bbe9c315aa0a2588",
+          "sha256": "7da2bbe9c315aa0a2588e8fb967a68f3f190369e93bb4f77dbc5f742061739a7",
+          "source_table_name": "03_OS_M13_stimulus_state_cramers_v_by_mouse__OS_M13_stimulus_state_cramers_v_by_mouse.csv",
+          "rows": 12,
+          "columns": [
+            "subject",
+            "state_stimulus_cramers_v"
+          ],
+          "public_file": "tables/sd_7da2bbe9c315aa0a2588.csv"
+        }
+      ],
+      "displayed_estimate": "Merge on subject, display _abs_time, _abs_run and state_stimulus_cramers_v plus means.",
+      "observational_unit": "12 mice after subject merge.",
+      "interval_or_spread": "No intervals.",
+      "inference_limits": "Different association scales are not interchangeable measures of causal confounding."
+    },
+    {
+      "figure": "Fig06",
+      "panel": "j",
+      "quantitative_microplots": 2,
+      "plotting_function_AST_sha256": {
+        "paired_mouse": "e327fc58eeb9c6ef8646d5ad94061225c0df09d9b5014cdaea2405735fd45d54"
+      },
+      "assembler_function_AST_sha256": "3f3cbe94a9413d01a9e683d0df4919740350c5fb88b47309ba95fa9c23f85401",
+      "datasets": [
+        {
+          "dataset_id": "sd_f82233d80444be3e889a",
+          "sha256": "f82233d80444be3e889a79cbb8d896dd33aed17fd575c10f3fc2ba25419c3f7f",
+          "source_table_name": "01_OS_S29_real_edge_home_vs_cross_auc__OS_S29_real_edge_home_vs_cross_auc.csv",
+          "rows": 12,
+          "columns": [
+            "subject",
+            "decoder_auc_home",
+            "decoder_auc_cross"
+          ],
+          "public_file": "tables/sd_f82233d80444be3e889a.csv"
+        },
+        {
+          "dataset_id": "sd_6cca44d080b89a6af499",
+          "sha256": "6cca44d080b89a6af499d379095396d8b1b303780b8a42011f70b74a9e7aa5bf",
+          "source_table_name": "02_OS_S30_real_edge_Rdecoder_by_mouse__OS_S30_real_edge_Rdecoder_by_mouse.csv",
+          "rows": 12,
+          "columns": [
+            "subject",
+            "decoder_auc_crossover"
+          ],
+          "public_file": "tables/sd_6cca44d080b89a6af499.csv"
+        }
+      ],
+      "displayed_estimate": "Left paired home/cross AUC; right crossover and mean with deterministic percentile mean bootstrap.",
+      "observational_unit": "Same 12 mice.",
+      "interval_or_spread": "Right 20,000 resamples, NumPy default_rng seed 90260908; descriptive 2.5/97.5 percentiles.",
+      "inference_limits": "Not the formal 50,000-resample interval from e/h."
+    }
+  ],
+  "frozen_figure_sha256": {
+    "Fig05": "8e8d60f05c7e1ab7a3443943cfcb361da971a890069e637ea2edb57c698bdbba",
+    "Fig06": "d7207287ea59ab7f1af34a98d7ff5f3be8483eba2bfa7fcf70d70cd642cb0afa"
+  },
+  "source_resolver_AST_sha256": {
+    "Fig05": "95c7ce9ce9c668a0f5da3c5f487836951ed2d7a544c0347b7d6ba058a572b613",
+    "Fig06": "06893b462461351d05382514fc19994d35d7e170a24c33d0a3663111dc659f0f"
+  },
+  "limits": [
+    "Only Fig. 5-6 panel binding is audited in this record; the remaining display items require separate crosswalk work.",
+    "Read-order source manifests are not used as sole evidence of per-panel dependence.",
+    "This checks source identities and reviewed display transformations; it does not independently refit every endpoint or revalidate all statistical assumptions."
+  ],
+  "verified_date": "2026-09-11",
+  "review_method": "Read actual assembler and plotting helpers; bind explicit data reads by exact SHA-256. Check panel counts against frozen geometry and helper call coverage against AST. No raw-model refit or figure export.",
+  "added_processed_summary_ids": [
+    "sd_306538b8385c4e1aa127"
+  ],
+  "quantitative_lettered_panels": 19,
+  "microplots": 28,
+  "unique_datasets": 34
+}

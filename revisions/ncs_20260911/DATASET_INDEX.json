@@ -4072,9 +4072,23 @@
       "metadata_transformations": [],
       "scientific_values_unchanged": true,
       "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_306538b8385c4e1aa127",
+      "file": "tables/sd_306538b8385c4e1aa127.json",
+      "sha256": "306538b8385c4e1aa127fbaac4006a85563943d4f96934605d5f424227268d1f",
+      "bytes": 412,
+      "format": "json",
+      "source_table_names": [
+        "01_S5A_06_full_pipeline_permutation__full_pipeline_permutation_summary.json"
+      ],
+      "original_sha256": "306538b8385c4e1aa127fbaac4006a85563943d4f96934605d5f424227268d1f",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "Existing processed summary directly used for Fig. 5c annotations; not new research data"
     }
   ],
-  "unique_datasets": 288,
+  "unique_datasets": 289,
   "raw_recordings_redistributed": false,
   "archival_doi": null,
   "reuse_license": "Not assigned; the public availability does not itself grant a reuse license."

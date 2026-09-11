@@ -2,9 +2,22 @@
 
 This additive revision supports six main figures, eight Extended Data figures and six Supplementary figures in **Collective state conditions the computational value of neuronal complexity**. Earlier data releases are preserved unchanged.
 
-`DATASET_INDEX.json` lists 288 content-deduplicated CSV/JSON source datasets. `tables/` contains the processed values, `panel_maps/` preserves the revised display-item grouping, and `supplementary_tables/` contains the two tabular supplements. The companion [code revision](https://github.com/neuromorphicscience-sys/state-dependent-complexity/tree/main/revisions/ncs_20260911) provides numerical replay commands.
+`DATASET_INDEX.json` lists 289 content-deduplicated CSV/JSON source datasets. `tables/` contains the processed values, `panel_maps/` preserves the revised display-item grouping, and `supplementary_tables/` contains the two tabular supplements. The companion [code revision](https://github.com/neuromorphicscience-sys/state-dependent-complexity/tree/main/revisions/ncs_20260911) provides numerical replay commands.
 
 ## Traceability
+
+`panel_maps/biological_panel_crosswalk.json` and its CSV companion bind all
+19 quantitative lettered panels (28 microplots) in Fig. 5-6 to 34 exact dataset
+IDs, display transformations, observation units and interval rules. Plotting
+helpers and assembler functions were reviewed, rather than inferring use from
+file-read order alone. This uncovered one omitted existing summary, now added
+as `sd_306538b8385c4e1aa127`: Fig. 5c reads its observed rho and permutation P
+from this JSON, in addition to its null-draw CSV. The earlier 288 datasets are
+unchanged; this is a source-coverage correction, not an added experiment.
+Fig. 6g has 12 plotted mouse rows, each already averaging 24 unit splits.
+Fig. 5j shows point estimates without error bars; Fig. 5i(right) and 5k show
+coefficient intervals. The remaining figures still require this finer-grained
+mapping; this record does not certify every statistical model or raw fit.
 
 Each dataset has a stable content identifier, SHA256, source-table aliases and a relative filename. Dataset aliases are scientific table names, not private workstation paths. Three records had local path metadata removed; these changes are explicitly recorded and do not alter numerical values. All other dataset bytes are unchanged. Different source filenames with identical content are stored once. `SHA256SUMS.json` binds every file in this revision except itself.
 
