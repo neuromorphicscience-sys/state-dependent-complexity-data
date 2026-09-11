@@ -14,6 +14,17 @@ The assembly-level source collections are not a claim that every listed dataset 
 
 ## Scientific scope
 
+Two additional metadata-only source manifests bind the population analyses:
+`resource_provenance/steinmetz_000017.json` identifies DANDI version
+0.240329.1926, 39 sessions from 10 mice and the matching published SHA-256s.
+`resource_provenance/allen_vbo_1_1_0.json` identifies official Allen manifest
+1.1.0, its versioned S3 objects and BLAKE2b hashes: 72 input experiments from
+24 containers/24 mice, three experiments per container. All referenced raw
+files were freshly content-hashed; archived input identities and metadata also
+match. Endpoint-specific filtering can reduce these counts. Original fits and
+cache extraction were not rerun; historical fit outputs lack contemporaneous
+raw hashes. Only identifiers and verification metadata are included here.
+
 The release retains the complete six-task comparison families, not only delayed recall and interval discrimination. Shared-policy results use the reference-corrected frozen evaluation. Task primary-null results, unresolved shared sufficiency and biological landscape-null controls remain explicit. Biological tables are processed summaries from public resources; no raw third-party recordings are redistributed.
 
 The underlying resources include Allen Cell Types/GLIF, SynPhys, Steinmetz, Allen Visual Behavior and OpenScope. Access raw data through the original providers under their terms. The data repository currently has no assigned reuse license; public availability alone does not grant a reuse license. No new license or archival DOI is asserted by this revision.
