@@ -1,0 +1,13 @@
+{
+  "version": "ncs18h_semantics_v1",
+  "states": {"sparse_drive": "#2A9D8F", "transition_mid": "#38598C", "transition_dense": "#C27628"},
+  "policies": {"A_shared": "#7B68A6", "A_mid": "#38598C", "A_sparse": "#2A9D8F", "shared_random": "#737C82", "A_pool": "#C27628", "spectral": "#5875A4"},
+  "legacy_method_families": {"dynamics_aware": "#2A9D8F", "spectral": "#38598C", "feedback_hub": "#5875A4", "high_degree": "#8B7DAA", "module_bridge": "#6F9D63", "cycle_proxy": "#D06F82", "random": "#737C82"},
+  "policies_linestyle": {"A_shared": "-", "A_mid": "--", "A_sparse": "--", "shared_random": ":", "A_pool": "-.", "spectral": ":"},
+  "policies_marker": {"A_shared": "o", "A_mid": "s", "A_sparse": "^", "shared_random": "x", "A_pool": "D", "spectral": "v"},
+  "neutral": {"ink": "#26343C", "paired_lines": "#D6DEE1", "zero": "#98A2A7", "background": "#FFFFFF"},
+  "source_basis": ["Actual Fig03 plotting source state colors", "R4 standalone plotting source state/shared colors", "Established blue/teal/purple manuscript family"],
+  "historical_conflict": "Fig01 and historical robustness use mid purple and dense blue, unlike Fig03/R4. Sparse is consistently teal. Earlier oral suggestion Sparse blue/Mid teal was an inspection error and is superseded by this source-verified mapping.",
+  "revision_rule": "State colors may be harmonized only on semantically identified artists and their legend keys. Never replace a hex value globally: old colors also encode methods, budgets and validation variants. Values, intervals, masks, cohorts and axes must not change.",
+  "context_rule": "States, policy identities and old selector families are separate semantic namespaces. Use labels plus marker/linestyle in six-policy curves; color alone must not conflate A_mid with spectral. The spectral policy muted blue is a display distinction within six-policy comparisons, not a scientific identity change."
+}

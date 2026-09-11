@@ -1,0 +1,598 @@
+{
+  "protocol_hash": "bb1a994062ec1a1ba8b50666436192cd531fb124cb7c880a702f5d691ce05e41",
+  "primary": "population_vs_budget_random/equal_weight_six_task_graph_aggregate",
+  "verified_prediction_score_pairs": 3024,
+  "results": {
+    "population_vs_budget_random": {
+      "equal_weight_six_task_graph_aggregate": {
+        "n_graphs": 12,
+        "mean": -0.006800291359411709,
+        "ci95_percentile_bootstrap": [
+          -0.016076151060436472,
+          0.003570876298861118
+        ],
+        "exact_two_sided_sign_flip_p": 0.22021484375,
+        "positive_graphs": 4,
+        "zero_graphs": 0,
+        "values": [
+          -0.008097163724899473,
+          -0.02509791435518427,
+          0.03412328029449171,
+          -0.01953125,
+          -0.0007498015833318772,
+          -0.02395717821523365,
+          0.007435714261970261,
+          -0.029103335913127526,
+          0.007589593534601387,
+          -0.005401469325885903,
+          0.0026704037136588235,
+          -0.021484375
+        ]
+      },
+      "tasks": {
+        "delayed_recall": {
+          "n_graphs": 12,
+          "mean": 0.0031435643435297387,
+          "ci95_percentile_bootstrap": [
+            -0.008249006244571413,
+            0.0143863863742325
+          ],
+          "exact_two_sided_sign_flip_p": 0.61328125,
+          "positive_graphs": 7,
+          "zero_graphs": 2,
+          "values": [
+            0.0021982676506031584,
+            0.005662513868894381,
+            0.025052181766950232,
+            0.0,
+            -0.012311309499991263,
+            -0.007024319291401904,
+            0.013364285571821566,
+            -0.041807515478765156,
+            0.045537561207608324,
+            0.0027474340446845824,
+            0.004303672281952942,
+            0.0
+          ],
+          "holm_six_task_p": 1.0
+        },
+        "nonlinear_integration": {
+          "n_graphs": 12,
+          "mean": -0.015950520833333332,
+          "ci95_percentile_bootstrap": [
+            -0.0283203125,
+            -0.005208333333333333
+          ],
+          "exact_two_sided_sign_flip_p": 0.021484375,
+          "positive_graphs": 2,
+          "zero_graphs": 0,
+          "values": [
+            -0.015625,
+            -0.00390625,
+            0.01953125,
+            0.00390625,
+            -0.01171875,
+            -0.015625,
+            -0.0078125,
+            -0.06640625,
+            -0.02734375,
+            -0.0390625,
+            -0.0078125,
+            -0.01953125
+          ],
+          "holm_six_task_p": 0.12890625
+        },
+        "pulse_order": {
+          "n_graphs": 12,
+          "mean": -0.012044270833333334,
+          "ci95_percentile_bootstrap": [
+            -0.039388020833333336,
+            0.013346354166666666
+          ],
+          "exact_two_sided_sign_flip_p": 0.421875,
+          "positive_graphs": 5,
+          "zero_graphs": 2,
+          "values": [
+            -0.0703125,
+            -0.109375,
+            0.03515625,
+            -0.03125,
+            0.0,
+            -0.06640625,
+            0.01171875,
+            0.0390625,
+            0.00390625,
+            0.0,
+            0.05078125,
+            -0.0078125
+          ],
+          "holm_six_task_p": 1.0
+        },
+        "interval": {
+          "n_graphs": 12,
+          "mean": 0.0126953125,
+          "ci95_percentile_bootstrap": [
+            -0.0048828125,
+            0.031901041666666664
+          ],
+          "exact_two_sided_sign_flip_p": 0.25,
+          "positive_graphs": 5,
+          "zero_graphs": 4,
+          "values": [
+            0.0703125,
+            0.0,
+            0.0,
+            -0.00390625,
+            0.078125,
+            0.03515625,
+            0.01953125,
+            -0.0390625,
+            0.0,
+            0.015625,
+            -0.0234375,
+            0.0
+          ],
+          "holm_six_task_p": 1.0
+        },
+        "evidence_accumulation": {
+          "n_graphs": 12,
+          "mean": -0.011067708333333334,
+          "ci95_percentile_bootstrap": [
+            -0.037109375,
+            0.016276041666666668
+          ],
+          "exact_two_sided_sign_flip_p": 0.45703125,
+          "positive_graphs": 4,
+          "zero_graphs": 3,
+          "values": [
+            -0.0390625,
+            -0.05078125,
+            0.09765625,
+            0.00390625,
+            -0.0703125,
+            -0.08984375,
+            0.0,
+            0.00390625,
+            0.02734375,
+            -0.015625,
+            0.0,
+            0.0
+          ],
+          "holm_six_task_p": 1.0
+        },
+        "context_recall": {
+          "n_graphs": 12,
+          "mean": -0.017578125,
+          "ci95_percentile_bootstrap": [
+            -0.042643229166666664,
+            0.004231770833333333
+          ],
+          "exact_two_sided_sign_flip_p": 0.240234375,
+          "positive_graphs": 6,
+          "zero_graphs": 1,
+          "values": [
+            0.00390625,
+            0.0078125,
+            0.02734375,
+            -0.08984375,
+            0.01171875,
+            0.0,
+            0.0078125,
+            -0.0703125,
+            -0.00390625,
+            0.00390625,
+            -0.0078125,
+            -0.1015625
+          ],
+          "holm_six_task_p": 1.0
+        }
+      }
+    },
+    "population_vs_unselected_random": {
+      "equal_weight_six_task_graph_aggregate": {
+        "n_graphs": 12,
+        "mean": 0.024356691938573052,
+        "ci95_percentile_bootstrap": [
+          0.017039058167461946,
+          0.032210582590969726
+        ],
+        "exact_two_sided_sign_flip_p": 0.00048828125,
+        "positive_graphs": 12,
+        "zero_graphs": 0,
+        "values": [
+          0.014536050246951962,
+          0.008700973270620768,
+          0.04897943195131732,
+          0.03292739959985436,
+          0.020627420547240594,
+          0.017119668878434486,
+          0.043728263290416035,
+          0.011001994421398098,
+          0.018133259455836475,
+          0.03576009244000169,
+          0.032368538944994286,
+          0.00839721021581056
+        ]
+      },
+      "tasks": {
+        "delayed_recall": {
+          "n_graphs": 12,
+          "mean": 0.027243667256438314,
+          "ci95_percentile_bootstrap": [
+            0.017121759793377652,
+            0.03634531828285684
+          ],
+          "exact_two_sided_sign_flip_p": 0.00146484375,
+          "positive_graphs": 11,
+          "zero_graphs": 0,
+          "values": [
+            0.03545848898171178,
+            0.038045683373724604,
+            0.04778284170790392,
+            0.05254486634912614,
+            0.01829577328344356,
+            0.03387035702060692,
+            0.031412548492496195,
+            0.004488529028388588,
+            0.03165111923501884,
+            0.025107429640010115,
+            0.019894827419965733,
+            -0.011628457455136632
+          ],
+          "holm_six_task_p": 0.0087890625
+        },
+        "nonlinear_integration": {
+          "n_graphs": 12,
+          "mean": 0.019694010416666668,
+          "ci95_percentile_bootstrap": [
+            0.0047607421875,
+            0.035359700520833336
+          ],
+          "exact_two_sided_sign_flip_p": 0.03173828125,
+          "positive_graphs": 9,
+          "zero_graphs": 0,
+          "values": [
+            -0.0087890625,
+            0.041015625,
+            0.07861328125,
+            0.04833984375,
+            0.02001953125,
+            0.01416015625,
+            0.0244140625,
+            -0.0205078125,
+            0.0234375,
+            -0.01806640625,
+            0.025390625,
+            0.00830078125
+          ],
+          "holm_six_task_p": 0.09521484375
+        },
+        "pulse_order": {
+          "n_graphs": 12,
+          "mean": -0.0029296875,
+          "ci95_percentile_bootstrap": [
+            -0.027587890625,
+            0.0205078125
+          ],
+          "exact_two_sided_sign_flip_p": 0.82373046875,
+          "positive_graphs": 7,
+          "zero_graphs": 0,
+          "values": [
+            -0.03662109375,
+            -0.07177734375,
+            0.02734375,
+            0.02978515625,
+            -0.0029296875,
+            -0.06640625,
+            0.00244140625,
+            0.01220703125,
+            -0.05810546875,
+            0.0341796875,
+            0.052734375,
+            0.0419921875
+          ],
+          "holm_six_task_p": 0.82373046875
+        },
+        "interval": {
+          "n_graphs": 12,
+          "mean": 0.050984700520833336,
+          "ci95_percentile_bootstrap": [
+            0.029743448893229166,
+            0.07145284016927075
+          ],
+          "exact_two_sided_sign_flip_p": 0.001953125,
+          "positive_graphs": 10,
+          "zero_graphs": 0,
+          "values": [
+            0.06396484375,
+            0.03369140625,
+            -0.001953125,
+            0.03515625,
+            0.0576171875,
+            0.11376953125,
+            0.07861328125,
+            0.08984375,
+            0.04541015625,
+            0.0908203125,
+            -0.01513671875,
+            0.02001953125
+          ],
+          "holm_six_task_p": 0.009765625
+        },
+        "evidence_accumulation": {
+          "n_graphs": 12,
+          "mean": 0.029825846354166668,
+          "ci95_percentile_bootstrap": [
+            0.011515299479166666,
+            0.049195353190104076
+          ],
+          "exact_two_sided_sign_flip_p": 0.01318359375,
+          "positive_graphs": 10,
+          "zero_graphs": 0,
+          "values": [
+            0.015625,
+            -0.00244140625,
+            0.06982421875,
+            0.0302734375,
+            0.005859375,
+            -0.02685546875,
+            0.06201171875,
+            0.0009765625,
+            0.09375,
+            0.015625,
+            0.0576171875,
+            0.03564453125
+          ],
+          "holm_six_task_p": 0.052734375
+        },
+        "context_recall": {
+          "n_graphs": 12,
+          "mean": 0.021321614583333332,
+          "ci95_percentile_bootstrap": [
+            3.967285156250092e-05,
+            0.041951497395833336
+          ],
+          "exact_two_sided_sign_flip_p": 0.08642578125,
+          "positive_graphs": 9,
+          "zero_graphs": 0,
+          "values": [
+            0.017578125,
+            0.013671875,
+            0.072265625,
+            0.00146484375,
+            0.02490234375,
+            0.0341796875,
+            0.0634765625,
+            -0.02099609375,
+            -0.02734375,
+            0.06689453125,
+            0.0537109375,
+            -0.0439453125
+          ],
+          "holm_six_task_p": 0.1728515625
+        }
+      }
+    },
+    "population_vs_group_matched": {
+      "equal_weight_six_task_graph_aggregate": {
+        "n_graphs": 12,
+        "mean": 0.029846413945796128,
+        "ci95_percentile_bootstrap": [
+          0.022410822915430815,
+          0.038385570582385266
+        ],
+        "exact_two_sided_sign_flip_p": 0.00048828125,
+        "positive_graphs": 12,
+        "zero_graphs": 0,
+        "values": [
+          0.02594970154824509,
+          0.03238139642911616,
+          0.06376668307996308,
+          0.022337974573623114,
+          0.01748049171494842,
+          0.009124478033189812,
+          0.04090594909679063,
+          0.023406671112324622,
+          0.02196990034259298,
+          0.04814867392656256,
+          0.029715092833381602,
+          0.02296995465881546
+        ]
+      },
+      "tasks": {
+        "delayed_recall": {
+          "n_graphs": 12,
+          "mean": 0.01859671284144343,
+          "ci95_percentile_bootstrap": [
+            0.009748684149494986,
+            0.027497594954016606
+          ],
+          "exact_two_sided_sign_flip_p": 0.00390625,
+          "positive_graphs": 10,
+          "zero_graphs": 0,
+          "values": [
+            0.015073209289470535,
+            0.02924931607469694,
+            0.032990723479778494,
+            0.02367628494173868,
+            -0.0005857997103094759,
+            0.019590618199138876,
+            0.02668569458074377,
+            0.011533776673947727,
+            0.015608464555557866,
+            0.010571731059375367,
+            0.05036086950028962,
+            -0.011594334547107232
+          ],
+          "holm_six_task_p": 0.015625
+        },
+        "nonlinear_integration": {
+          "n_graphs": 12,
+          "mean": 0.023274739583333332,
+          "ci95_percentile_bootstrap": [
+            0.005615234375,
+            0.041666666666666664
+          ],
+          "exact_two_sided_sign_flip_p": 0.033203125,
+          "positive_graphs": 9,
+          "zero_graphs": 0,
+          "values": [
+            -0.02734375,
+            0.0869140625,
+            0.0673828125,
+            0.0283203125,
+            0.0224609375,
+            0.01953125,
+            0.0419921875,
+            -0.0146484375,
+            0.021484375,
+            -0.0185546875,
+            0.033203125,
+            0.0185546875
+          ],
+          "holm_six_task_p": 0.099609375
+        },
+        "pulse_order": {
+          "n_graphs": 12,
+          "mean": 0.014485677083333334,
+          "ci95_percentile_bootstrap": [
+            -0.008791097005208331,
+            0.037353515625
+          ],
+          "exact_two_sided_sign_flip_p": 0.2587890625,
+          "positive_graphs": 8,
+          "zero_graphs": 1,
+          "values": [
+            -0.0458984375,
+            0.0029296875,
+            0.064453125,
+            0.0,
+            0.0322265625,
+            -0.046875,
+            0.0263671875,
+            0.03515625,
+            -0.0390625,
+            0.0849609375,
+            0.01953125,
+            0.0400390625
+          ],
+          "holm_six_task_p": 0.2587890625
+        },
+        "interval": {
+          "n_graphs": 12,
+          "mean": 0.06437174479166667,
+          "ci95_percentile_bootstrap": [
+            0.03604939778645833,
+            0.09415690104166667
+          ],
+          "exact_two_sided_sign_flip_p": 0.00244140625,
+          "positive_graphs": 11,
+          "zero_graphs": 0,
+          "values": [
+            0.1728515625,
+            0.0361328125,
+            0.080078125,
+            0.0712890625,
+            0.064453125,
+            0.033203125,
+            0.064453125,
+            0.0537109375,
+            0.0380859375,
+            0.1435546875,
+            -0.041015625,
+            0.0556640625
+          ],
+          "holm_six_task_p": 0.01220703125
+        },
+        "evidence_accumulation": {
+          "n_graphs": 12,
+          "mean": 0.021158854166666668,
+          "ci95_percentile_bootstrap": [
+            -8.138020833333333e-05,
+            0.041829427083333336
+          ],
+          "exact_two_sided_sign_flip_p": 0.0869140625,
+          "positive_graphs": 9,
+          "zero_graphs": 0,
+          "values": [
+            -0.0107421875,
+            0.0009765625,
+            0.0498046875,
+            -0.0107421875,
+            -0.0546875,
+            0.013671875,
+            0.0537109375,
+            0.01953125,
+            0.095703125,
+            0.0146484375,
+            0.03515625,
+            0.046875
+          ],
+          "holm_six_task_p": 0.173828125
+        },
+        "context_recall": {
+          "n_graphs": 12,
+          "mean": 0.037190755208333336,
+          "ci95_percentile_bootstrap": [
+            0.021565755208333332,
+            0.05322265625
+          ],
+          "exact_two_sided_sign_flip_p": 0.001953125,
+          "positive_graphs": 10,
+          "zero_graphs": 1,
+          "values": [
+            0.0517578125,
+            0.0380859375,
+            0.087890625,
+            0.021484375,
+            0.041015625,
+            0.015625,
+            0.0322265625,
+            0.03515625,
+            0.0,
+            0.0537109375,
+            0.0810546875,
+            -0.01171875
+          ],
+          "holm_six_task_p": 0.01171875
+        }
+      }
+    },
+    "secondary_state_interaction": {
+      "equal_weight_six_task_graph_aggregate": {
+        "n_graphs": 12,
+        "mean": -0.000661968229632323,
+        "ci95_percentile_bootstrap": [
+          -0.01848906650868511,
+          0.01637271295462584
+        ],
+        "exact_two_sided_sign_flip_p": 0.94384765625,
+        "positive_graphs": 6,
+        "zero_graphs": 0,
+        "values": [
+          -0.055706344800928474,
+          -0.018711623401950466,
+          -0.014502490673555265,
+          0.031901041666666664,
+          -0.00019576856587692296,
+          0.02664262427806474,
+          0.0002964268824786065,
+          0.04276907084918232,
+          -0.007259359451899354,
+          0.007200922309241298,
+          -0.05488332618034436,
+          0.034505208333333336
+        ]
+      },
+      "definition": "High minus low coupling difference in population-vs-budget-random normalized task gain; state-matched readout training."
+    }
+  },
+  "limitations": [
+    "Synthetic episodic tasks, one graph family and one HH budget.",
+    "Six task types are not six independent empirical datasets.",
+    "Task-wise Holm correction is within each stated contrast family; secondary families are not promoted to a primary claim.",
+    "Confidence intervals are graph-bootstrap intervals conditional on the frozen input task distributions.",
+    "Coupling labels do not by themselves establish the old collective-state regimes under drive.",
+    "No energy, latency, universality or biological-intervention claim is established by this benchmark."
+  ]
+}

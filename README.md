@@ -1,4 +1,12 @@
-# Source data for "Collective state determines the value of neuronal complexity"
+# State-dependent neuronal complexity: processed data
+
+## September 2026 manuscript revision
+
+The additive [NCS revision](revisions/ncs_20260911/README.md) contains 288 deduplicated processed source datasets for **Collective state conditions the computational value of neuronal complexity**, with revised six-main/eight-Extended-Data/six-Supplementary mappings and two supplementary tables. Its checksum manifest and source index are authoritative for this revision. Earlier data and their original status records remain unchanged below. No raw third-party recordings, new reuse license or archival DOI are asserted.
+
+## Historical initial-release documentation
+
+Source data for "Collective state determines the value of neuronal complexity".
 
 This public release candidate contains the processed values underlying the six main figures and six Extended Data figures in the Nature manuscript draft. It does not contain raw third-party datasets or analysis code.
 

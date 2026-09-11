@@ -1,0 +1,5 @@
+﻿identity,term,beta,se,p,label
+pre_cell_class,C_between_z,0.293332820657626,0.225330716168079,0.1939400463448751,cell class | between
+pre_cell_class,C_within_z,-0.1018470750854772,0.2407208292669363,0.6725167861742263,cell class | within
+pre_cre_type,C_between_z,-0.0448827651811451,0.1864968593771868,0.8099744088155778,cre type | between
+pre_cre_type,C_within_z,0.0877571323196079,0.2142103570821289,0.682322874337054,cre type | within

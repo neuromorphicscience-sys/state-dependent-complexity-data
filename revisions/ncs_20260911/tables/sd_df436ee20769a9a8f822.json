@@ -1,0 +1,41 @@
+{
+  "protocol_sha256": "f9e878c5093f2764e186e248d5982719ea2b776e99485e469d72381e02ae3939",
+  "execution_amendment_sha256": "c5d6c705ec877f908eaf1633180c2ba36320f1c64b0bddf92eb71afaa2760a60",
+  "execution_approval_sha256": "d3ad02455d73ad190ea82b6094fd82cefc685cf9dcb38adc79af5b02082fb3f9",
+  "completion_receipt_sha256": "8ce73c341c778be7137ee25e20985c4332914fb894cc10baa8633696dbac4029",
+  "raw_table_hashes": {
+    "STRESS_PHYSICAL_RESULTS.csv": "7d7417415e2fe70a4f5d78e7e7427b505d743c618be2af70aef3fa3d09f66a86",
+    "STRESS_LOGICAL_RESULTS.csv": "fc43dee28dc832e53b986d23caa2fb521bbc8406db8c17ea5e29cbf7357adf42"
+  },
+  "physical_evu": 25920,
+  "logical_rows": 25920,
+  "checks": {
+    "physical_logical_aliases_consistent": true,
+    "all_15_conditions_and_24_seeds_per_graph": true,
+    "all_seven_raw_metrics_retained": true,
+    "original_frozen_masks_and_graphs_preserved": true,
+    "all_180_checkpoints_bound": true,
+    "exact_v3_execution_source_bound": true,
+    "strict_nonnominal_reference_parity_passed": true
+  },
+  "analysis": {
+    "version": "v1",
+    "statistics_path": "LOCAL_METADATA_PATH_OMITTED",
+    "statistics_sha256": "e40a6cf0ecef0e4a70b8e99cadd543c59c56da2c12198dccaf00bb5f245636c3",
+    "script_sha256": "60e9ed5a9913def8b10cd622060c01cba076d474df29111a28202b2fb0a20884",
+    "source_raw_sha256": "fc43dee28dc832e53b986d23caa2fb521bbc8406db8c17ea5e29cbf7357adf42",
+    "source_completion_sha256": "8ce73c341c778be7137ee25e20985c4332914fb894cc10baa8633696dbac4029",
+    "table_hashes": {
+      "GRAPH_CONDITION_METRICS.csv": "feccd8635346ae03cba660875177bca3984dcbc2d3e600ed04ae79b875e0328d",
+      "PAIRED_CONDITION_EFFECTS.csv": "80e3ba9ae2a93e7f7be38fd73dd6f3eb871fc6ca8611ff0da8097250da94b6ba",
+      "GRAPH_ROBUSTNESS_ENDPOINTS.csv": "0f2d2f7e53593c8c9573c614a35229600572ef67f3f62d1212bef22fbcaa7a7f",
+      "CONDITION_GAIN_SUMMARY.csv": "5763e99ce9128e60b0fe7c5713f2ea9d46c88f18c0722564d9fe6dc920205d86",
+      "METRIC_PROFILES.csv": "6af9838271aac05334efcc8ecaea1a24eee04a7d04ccf15b0cb8392f9e651ce8"
+    }
+  },
+  "status": "PASS",
+  "stage": "analysis",
+  "checked_at": "2026-09-08T03:49:10.925611+08:00",
+  "reviewer_script_sha256": "f2959526748ad3b54fee187eb7e61a5273aff0139608204531247ad255bb5933",
+  "visual_review": "Separate real-output visual review is still required; this report is provenance QA only."
+}

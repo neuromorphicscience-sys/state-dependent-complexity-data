@@ -1,0 +1,4081 @@
+{
+  "revision": "ncs_20260911",
+  "display_items": {
+    "main": 6,
+    "extended_data": 8,
+    "supplementary": 6
+  },
+  "datasets": [
+    {
+      "id": "sd_5763e99ce9128e60b0fe",
+      "file": "tables/sd_5763e99ce9128e60b0fe.csv",
+      "sha256": "5763e99ce9128e60b0fe7c5713f2ea9d46c88f18c0722564d9fe6dc920205d86",
+      "bytes": 2270,
+      "format": "csv",
+      "source_table_names": [
+        "CONDITION_GAIN_SUMMARY.csv"
+      ],
+      "original_sha256": "5763e99ce9128e60b0fe7c5713f2ea9d46c88f18c0722564d9fe6dc920205d86",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_0f2d2f7e53593c8c9573",
+      "file": "tables/sd_0f2d2f7e53593c8c9573.csv",
+      "sha256": "0f2d2f7e53593c8c9573c614a35229600572ef67f3f62d1212bef22fbcaa7a7f",
+      "bytes": 5241,
+      "format": "csv",
+      "source_table_names": [
+        "GRAPH_ROBUSTNESS_ENDPOINTS.csv"
+      ],
+      "original_sha256": "0f2d2f7e53593c8c9573c614a35229600572ef67f3f62d1212bef22fbcaa7a7f",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_62025e1a4762177f5bc6",
+      "file": "tables/sd_62025e1a4762177f5bc6.json",
+      "sha256": "62025e1a4762177f5bc640369451b80ee734b6d26dc0cf0c79088642196f847a",
+      "bytes": 2507,
+      "format": "json",
+      "source_table_names": [
+        "STATISTICS.json"
+      ],
+      "original_sha256": "e40a6cf0ecef0e4a70b8e99cadd543c59c56da2c12198dccaf00bb5f245636c3",
+      "metadata_transformations": [
+        {
+          "field": "/input_path",
+          "operation": "local metadata path omitted"
+        }
+      ],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_f4f3a571f4abde360ac3",
+      "file": "tables/sd_f4f3a571f4abde360ac3.json",
+      "sha256": "f4f3a571f4abde360ac3d991b62aa53cd649c8df99cfd49ad3f1413bde7b3cbc",
+      "bytes": 4039,
+      "format": "json",
+      "source_table_names": [
+        "STATISTICS.json"
+      ],
+      "original_sha256": "f4f3a571f4abde360ac3d991b62aa53cd649c8df99cfd49ad3f1413bde7b3cbc",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_b8f457b5267e3545f831",
+      "file": "tables/sd_b8f457b5267e3545f831.csv",
+      "sha256": "b8f457b5267e3545f8310762dd6530af04a38570209bf504731fe0a0fb54c34d",
+      "bytes": 2309,
+      "format": "csv",
+      "source_table_names": [
+        "shared_vs_random_data.csv"
+      ],
+      "original_sha256": "b8f457b5267e3545f8310762dd6530af04a38570209bf504731fe0a0fb54c34d",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_8807141fbfd50009bf91",
+      "file": "tables/sd_8807141fbfd50009bf91.csv",
+      "sha256": "8807141fbfd50009bf91f745187772ac4289443c8ac964b28c5bf980161b28e5",
+      "bytes": 4047,
+      "format": "csv",
+      "source_table_names": [
+        "shared_vs_specialized_effects.csv"
+      ],
+      "original_sha256": "8807141fbfd50009bf91f745187772ac4289443c8ac964b28c5bf980161b28e5",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_758b5dee0e5e590791cb",
+      "file": "tables/sd_758b5dee0e5e590791cb.csv",
+      "sha256": "758b5dee0e5e590791cb865d7a293b29ffa432ffc9159146762dd10f66c3b887",
+      "bytes": 6746,
+      "format": "csv",
+      "source_table_names": [
+        "structure_relation_data.csv"
+      ],
+      "original_sha256": "758b5dee0e5e590791cb865d7a293b29ffa432ffc9159146762dd10f66c3b887",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_c16cc414a8f01ec8f726",
+      "file": "tables/sd_c16cc414a8f01ec8f726.csv",
+      "sha256": "c16cc414a8f01ec8f7266f37dbf439005c25867965de8274fbb89f10a23902a4",
+      "bytes": 292383,
+      "format": "csv",
+      "source_table_names": [
+        "final_long_table.csv"
+      ],
+      "original_sha256": "c16cc414a8f01ec8f7266f37dbf439005c25867965de8274fbb89f10a23902a4",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_2fe45a875165fe9d1f47",
+      "file": "tables/sd_2fe45a875165fe9d1f47.json",
+      "sha256": "2fe45a875165fe9d1f473ab38d840a98f5b0d9f4a07c2b786725d778d2364b3d",
+      "bytes": 17250,
+      "format": "json",
+      "source_table_names": [
+        "statistics.json"
+      ],
+      "original_sha256": "2fe45a875165fe9d1f473ab38d840a98f5b0d9f4a07c2b786725d778d2364b3d",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_a7e88bebe236dfe1ae5f",
+      "file": "tables/sd_a7e88bebe236dfe1ae5f.csv",
+      "sha256": "a7e88bebe236dfe1ae5f59c193da22d0e49951901cebbff146a6d0fa8f5ac1c1",
+      "bytes": 19846,
+      "format": "csv",
+      "source_table_names": [
+        "ASSEMBLY_PLACEMENTS.csv"
+      ],
+      "original_sha256": "a7e88bebe236dfe1ae5f59c193da22d0e49951901cebbff146a6d0fa8f5ac1c1",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_b60b029244c936451956",
+      "file": "tables/sd_b60b029244c936451956.csv",
+      "sha256": "b60b029244c936451956a73fcdf936ed6416983c384a960a26248b68b24a62e7",
+      "bytes": 2408,
+      "format": "csv",
+      "source_table_names": [
+        "01_Stage4A_c_state_budget__Stage4A_c_state_budget.csv"
+      ],
+      "original_sha256": "b60b029244c936451956a73fcdf936ed6416983c384a960a26248b68b24a62e7",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_2408303a9ecbb4f08762",
+      "file": "tables/sd_2408303a9ecbb4f08762.csv",
+      "sha256": "2408303a9ecbb4f0876224a84a5c9a26d0831ba707fe60bdaf2bda397c5af600",
+      "bytes": 458,
+      "format": "csv",
+      "source_table_names": [
+        "01_CT01_transfer_matrix_centered__CT01_transfer_matrix_centered_source.csv"
+      ],
+      "original_sha256": "2408303a9ecbb4f0876224a84a5c9a26d0831ba707fe60bdaf2bda397c5af600",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_93cace5ae14b9907cd1c",
+      "file": "tables/sd_93cace5ae14b9907cd1c.csv",
+      "sha256": "93cace5ae14b9907cd1c69b05893ef66b27096bab211218abd58f68d64134967",
+      "bytes": 676,
+      "format": "csv",
+      "source_table_names": [
+        "01_CT02_crossover_by_budget__CT02_crossover_by_budget_source.csv",
+        "01_CT03_home_advantage_paired__CT03_home_advantage_paired_source.csv",
+        "01_CT06_graph_seed_consistency__CT06_graph_seed_consistency_source.csv"
+      ],
+      "original_sha256": "93cace5ae14b9907cd1c69b05893ef66b27096bab211218abd58f68d64134967",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_aeb797b9a37a3aec1c72",
+      "file": "tables/sd_aeb797b9a37a3aec1c72.csv",
+      "sha256": "aeb797b9a37a3aec1c728ca5dd00631f365e401f3b2da7e90ab071b34454f2d3",
+      "bytes": 4456,
+      "format": "csv",
+      "source_table_names": [
+        "01_CT07_home_vs_foreign_scores__CT07_home_vs_foreign_scores_source.csv"
+      ],
+      "original_sha256": "aeb797b9a37a3aec1c728ca5dd00631f365e401f3b2da7e90ab071b34454f2d3",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_7be2b25388989a17277e",
+      "file": "tables/sd_7be2b25388989a17277e.csv",
+      "sha256": "7be2b25388989a17277ef6dcd646a742a4bb8b62a21d919458f5ffe970f84228",
+      "bytes": 5646,
+      "format": "csv",
+      "source_table_names": [
+        "01_CT04_replicate_crossover_distribution__CT04_replicate_crossover_distribution_source.csv"
+      ],
+      "original_sha256": "7be2b25388989a17277ef6dcd646a742a4bb8b62a21d919458f5ffe970f84228",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_a0bec49fe4f8716cc4f6",
+      "file": "tables/sd_a0bec49fe4f8716cc4f6.csv",
+      "sha256": "a0bec49fe4f8716cc4f6b7a19e5dc1b59aaba6011c92515cabb13498faeabfc7",
+      "bytes": 3519,
+      "format": "csv",
+      "source_table_names": [
+        "01_stage1_global_complexity_fraction_mean_rate__stage1_global_complexity_fraction_mean_rate.csv"
+      ],
+      "original_sha256": "a0bec49fe4f8716cc4f6b7a19e5dc1b59aaba6011c92515cabb13498faeabfc7",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_6b5674079cfc48e894c3",
+      "file": "tables/sd_6b5674079cfc48e894c3.csv",
+      "sha256": "6b5674079cfc48e894c3c8f7ea77dbd5aab56e85cce64c70c5d8c30c27a9fe76",
+      "bytes": 3557,
+      "format": "csv",
+      "source_table_names": [
+        "02_stage1_global_complexity_fraction_synchrony__stage1_global_complexity_fraction_synchrony.csv"
+      ],
+      "original_sha256": "6b5674079cfc48e894c3c8f7ea77dbd5aab56e85cce64c70c5d8c30c27a9fe76",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_ead2a64b8dc5a30f2fa0",
+      "file": "tables/sd_ead2a64b8dc5a30f2fa0.csv",
+      "sha256": "ead2a64b8dc5a30f2fa0e128d3e07244e54301544741c8ded9ba764f9194eac7",
+      "bytes": 3600,
+      "format": "csv",
+      "source_table_names": [
+        "03_stage1_global_complexity_fraction_rhythm_score__stage1_global_complexity_fraction_rhythm_score.csv"
+      ],
+      "original_sha256": "ead2a64b8dc5a30f2fa0e128d3e07244e54301544741c8ded9ba764f9194eac7",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_56eb072d5abf132ee77e",
+      "file": "tables/sd_56eb072d5abf132ee77e.csv",
+      "sha256": "56eb072d5abf132ee77e822561944a24f01f5ebc5b6b58d808ddbdbcb20523f1",
+      "bytes": 3556,
+      "format": "csv",
+      "source_table_names": [
+        "04_stage1_global_complexity_fraction_frequency__stage1_global_complexity_fraction_frequency.csv"
+      ],
+      "original_sha256": "56eb072d5abf132ee77e822561944a24f01f5ebc5b6b58d808ddbdbcb20523f1",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_8d2af417758a223838b5",
+      "file": "tables/sd_8d2af417758a223838b5.csv",
+      "sha256": "8d2af417758a223838b54adfaff2c3866b175fe75c1cca4713b0bc011feb3ee9",
+      "bytes": 4787,
+      "format": "csv",
+      "source_table_names": [
+        "01_stage1b_heterogeneity_optimum_frequency_state_composition__stage1b_heterogeneity_optimum_frequency_state_composition.csv"
+      ],
+      "original_sha256": "8d2af417758a223838b54adfaff2c3866b175fe75c1cca4713b0bc011feb3ee9",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_eba9435b67e36503b6ff",
+      "file": "tables/sd_eba9435b67e36503b6ff.csv",
+      "sha256": "eba9435b67e36503b6ff5cb63b698c2196335a25f8657eadbd9720707bb9df5e",
+      "bytes": 5380,
+      "format": "csv",
+      "source_table_names": [
+        "02_stage1b_sparse_complexity_frequency_state_composition__stage1b_sparse_complexity_frequency_state_composition.csv"
+      ],
+      "original_sha256": "eba9435b67e36503b6ff5cb63b698c2196335a25f8657eadbd9720707bb9df5e",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_a0d2d1d64374403b0153",
+      "file": "tables/sd_a0d2d1d64374403b0153.csv",
+      "sha256": "a0d2d1d64374403b01537e743fe2ae9d70669d7ad98c406a32a1b6a4466e0e1a",
+      "bytes": 4758,
+      "format": "csv",
+      "source_table_names": [
+        "01_stage1b_window_complexity_efficiency__stage1b_window_complexity_efficiency.csv"
+      ],
+      "original_sha256": "a0d2d1d64374403b01537e743fe2ae9d70669d7ad98c406a32a1b6a4466e0e1a",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_b41424668e67e157ce93",
+      "file": "tables/sd_b41424668e67e157ce93.csv",
+      "sha256": "b41424668e67e157ce93ac552dabc57a924a2187fffebea0adc22aef59527e78",
+      "bytes": 5339,
+      "format": "csv",
+      "source_table_names": [
+        "02_stage1b_window_emergence_gain__stage1b_window_emergence_gain.csv"
+      ],
+      "original_sha256": "b41424668e67e157ce93ac552dabc57a924a2187fffebea0adc22aef59527e78",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_b6ea8a8a3cf983373d5e",
+      "file": "tables/sd_b6ea8a8a3cf983373d5e.csv",
+      "sha256": "b6ea8a8a3cf983373d5e11328831ee13781a4342bff13f5bf4453c8533571b01",
+      "bytes": 6370,
+      "format": "csv",
+      "source_table_names": [
+        "01_stage2_gain_per_complex_unit__stage2_gain_per_complex_unit.csv"
+      ],
+      "original_sha256": "b6ea8a8a3cf983373d5e11328831ee13781a4342bff13f5bf4453c8533571b01",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_6c5c13f0f5baf5356b29",
+      "file": "tables/sd_6c5c13f0f5baf5356b29.csv",
+      "sha256": "6c5c13f0f5baf5356b2951d2ce5189363f50e102813d7ef3f9d0fe226476cfec",
+      "bytes": 670,
+      "format": "csv",
+      "source_table_names": [
+        "02_stage2_minimum_complexity_for_80pct_best__stage2_minimum_complexity_for_80pct_best.csv"
+      ],
+      "original_sha256": "6c5c13f0f5baf5356b2951d2ce5189363f50e102813d7ef3f9d0fe226476cfec",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_d7d938b6c31165e96133",
+      "file": "tables/sd_d7d938b6c31165e96133.csv",
+      "sha256": "d7d938b6c31165e96133c5d06af1303bf0efe7fac0c427bfc4e2e8b5b97072ae",
+      "bytes": 2679,
+      "format": "csv",
+      "source_table_names": [
+        "01_stage2_allocation_rule_winner_atlas__stage2_allocation_rule_winner_atlas.csv"
+      ],
+      "original_sha256": "d7d938b6c31165e96133c5d06af1303bf0efe7fac0c427bfc4e2e8b5b97072ae",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_e4a8d9c9411c7906dca4",
+      "file": "tables/sd_e4a8d9c9411c7906dca4.csv",
+      "sha256": "e4a8d9c9411c7906dca43eb92efe05d4505a086abaff7c567ec6d7a9ab88a58d",
+      "bytes": 10282,
+      "format": "csv",
+      "source_table_names": [
+        "02_stage2_fraction_of_condition_best__stage2_fraction_of_condition_best.csv"
+      ],
+      "original_sha256": "e4a8d9c9411c7906dca43eb92efe05d4505a086abaff7c567ec6d7a9ab88a58d",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_63af3ef8827beb7a8fea",
+      "file": "tables/sd_63af3ef8827beb7a8fea.csv",
+      "sha256": "63af3ef8827beb7a8fea0222c41925ca5d7feb34e93bd3a08e6779001162ba4b",
+      "bytes": 11269,
+      "format": "csv",
+      "source_table_names": [
+        "01_stage3_score_vs_budget_er__stage3_score_vs_budget_er.csv"
+      ],
+      "original_sha256": "63af3ef8827beb7a8fea0222c41925ca5d7feb34e93bd3a08e6779001162ba4b",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_b3b9c86836b79fa3a519",
+      "file": "tables/sd_b3b9c86836b79fa3a519.csv",
+      "sha256": "b3b9c86836b79fa3a51957e1823711c2b26d3b0245e8145555aa84f47bb68809",
+      "bytes": 11284,
+      "format": "csv",
+      "source_table_names": [
+        "02_stage3_score_vs_budget_modular__stage3_score_vs_budget_modular.csv"
+      ],
+      "original_sha256": "b3b9c86836b79fa3a51957e1823711c2b26d3b0245e8145555aa84f47bb68809",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_61535d410beb933227ce",
+      "file": "tables/sd_61535d410beb933227ce.csv",
+      "sha256": "61535d410beb933227ce816adda0d3bc68a2d78373a3316383bd1130be159fae",
+      "bytes": 11263,
+      "format": "csv",
+      "source_table_names": [
+        "03_stage3_score_vs_budget_scale_free__stage3_score_vs_budget_scale_free.csv"
+      ],
+      "original_sha256": "61535d410beb933227ce816adda0d3bc68a2d78373a3316383bd1130be159fae",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_d7b16ea5f73240eaa68a",
+      "file": "tables/sd_d7b16ea5f73240eaa68a.csv",
+      "sha256": "d7b16ea5f73240eaa68a808cf6dcc7232a649e7cd9156c0bb9dc5ad6c64c8057",
+      "bytes": 11246,
+      "format": "csv",
+      "source_table_names": [
+        "04_stage3_score_vs_budget_small_world__stage3_score_vs_budget_small_world.csv"
+      ],
+      "original_sha256": "d7b16ea5f73240eaa68a808cf6dcc7232a649e7cd9156c0bb9dc5ad6c64c8057",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_b1093c006da110c6991d",
+      "file": "tables/sd_b1093c006da110c6991d.csv",
+      "sha256": "b1093c006da110c6991d2319e8cae9474025a80ec6d234a0263690040cb5be8f",
+      "bytes": 1160,
+      "format": "csv",
+      "source_table_names": [
+        "01_stage3_topology_by_allocation_gain__stage3_topology_by_allocation_gain.csv"
+      ],
+      "original_sha256": "b1093c006da110c6991d2319e8cae9474025a80ec6d234a0263690040cb5be8f",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_b07fc4cdf35bbed1061b",
+      "file": "tables/sd_b07fc4cdf35bbed1061b.csv",
+      "sha256": "b07fc4cdf35bbed1061b939034556b6d694260d6b3c541c37af96d6f4299b507",
+      "bytes": 965,
+      "format": "csv",
+      "source_table_names": [
+        "01_Stage4A_a_method_performance__Stage4A_a_method_performance.csv"
+      ],
+      "original_sha256": "b07fc4cdf35bbed1061b939034556b6d694260d6b3c541c37af96d6f4299b507",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_ce2da33f72d613da0bf6",
+      "file": "tables/sd_ce2da33f72d613da0bf6.csv",
+      "sha256": "ce2da33f72d613da0bf649fe69dbe05cb5099c5542896458d48843200d23c7aa",
+      "bytes": 1334,
+      "format": "csv",
+      "source_table_names": [
+        "02_Stage4A_b_paired_gain__Stage4A_b_paired_gain.csv"
+      ],
+      "original_sha256": "ce2da33f72d613da0bf649fe69dbe05cb5099c5542896458d48843200d23c7aa",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_22e0303c79bf9f2bf307",
+      "file": "tables/sd_22e0303c79bf9f2bf307.csv",
+      "sha256": "22e0303c79bf9f2bf30703eaf08a2f10fdf9f44f271420122ee113b4787a9fe2",
+      "bytes": 1425,
+      "format": "csv",
+      "source_table_names": [
+        "01_Stage4A_d_structural_phenotype__Stage4A_d_structural_phenotype.csv"
+      ],
+      "original_sha256": "22e0303c79bf9f2bf30703eaf08a2f10fdf9f44f271420122ee113b4787a9fe2",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_4142c087dc9bbf848240",
+      "file": "tables/sd_4142c087dc9bbf848240.csv",
+      "sha256": "4142c087dc9bbf848240d60937c53f00eb09e4aaa910007d4b69e425df92e853",
+      "bytes": 754,
+      "format": "csv",
+      "source_table_names": [
+        "02_Stage4A_e_descriptor_gain__Stage4A_e_descriptor_gain.csv"
+      ],
+      "original_sha256": "4142c087dc9bbf848240d60937c53f00eb09e4aaa910007d4b69e425df92e853",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_db6513feb18f8244a58c",
+      "file": "tables/sd_db6513feb18f8244a58c.csv",
+      "sha256": "db6513feb18f8244a58c721c58936c60bab04e46728a58eba0f59a0688ee79bb",
+      "bytes": 13926,
+      "format": "csv",
+      "source_table_names": [
+        "01_stage4_main_discovery_replication_forest__stage4_paired_contrasts.csv",
+        "01_stage4_main_phase_baseline_heatmap__stage4_paired_contrasts.csv"
+      ],
+      "original_sha256": "db6513feb18f8244a58c721c58936c60bab04e46728a58eba0f59a0688ee79bb",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_b01ede95291d1677a941",
+      "file": "tables/sd_b01ede95291d1677a941.csv",
+      "sha256": "b01ede95291d1677a94140ce70cae7ac0bc663e1d88fd658503a3020c61510ee",
+      "bytes": 14111,
+      "format": "csv",
+      "source_table_names": [
+        "01_stage4_main_gain_landscape_vs_spectral__stage4_gain_landscape_vs_spectral.csv"
+      ],
+      "original_sha256": "b01ede95291d1677a94140ce70cae7ac0bc663e1d88fd658503a3020c61510ee",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_340b094087aa383ddf80",
+      "file": "tables/sd_340b094087aa383ddf80.csv",
+      "sha256": "340b094087aa383ddf80c0f0c124790bdd62b8803351f2c94440002be39b774c",
+      "bytes": 42955,
+      "format": "csv",
+      "source_table_names": [
+        "01_Stage4A_f_search_validation__Stage4A_f_search_validation.csv"
+      ],
+      "original_sha256": "baf060132336cf9359dfe633bb947f213c7a55ba563ece8c1142079aa7b65eed",
+      "metadata_transformations": [
+        {
+          "field": "source_file",
+          "operation": "local metadata path omitted; numerical columns unchanged"
+        }
+      ],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_bd0ed04d2f6d3ff21c46",
+      "file": "tables/sd_bd0ed04d2f6d3ff21c46.csv",
+      "sha256": "bd0ed04d2f6d3ff21c462d412709b5d33fdeebeae102fe5e5a73b70f6856e930",
+      "bytes": 22958,
+      "format": "csv",
+      "source_table_names": [
+        "01_DG01_pairwise_geometry__DG01_pairwise_geometry_source.csv"
+      ],
+      "original_sha256": "bd0ed04d2f6d3ff21c462d412709b5d33fdeebeae102fe5e5a73b70f6856e930",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_ad2bb833fdee3a392638",
+      "file": "tables/sd_ad2bb833fdee3a392638.csv",
+      "sha256": "ad2bb833fdee3a392638a52d8ca354c3019f37742fa771857702c877ff39c501",
+      "bytes": 957,
+      "format": "csv",
+      "source_table_names": [
+        "01_DG02_D_epsilon_by_budget__DG02_D_epsilon_by_budget_source.csv"
+      ],
+      "original_sha256": "ad2bb833fdee3a392638a52d8ca354c3019f37742fa771857702c877ff39c501",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_0e29506451e5ca61f58d",
+      "file": "tables/sd_0e29506451e5ca61f58d.csv",
+      "sha256": "0e29506451e5ca61f58db575c89a9b62716da2e58701b120b8c31a50ccfdbe99",
+      "bytes": 833,
+      "format": "csv",
+      "source_table_names": [
+        "01_DG04_union_expansion_by_budget__DG04_union_expansion_by_budget_source.csv"
+      ],
+      "original_sha256": "0e29506451e5ca61f58db575c89a9b62716da2e58701b120b8c31a50ccfdbe99",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_04042b6c2ceba43c6a58",
+      "file": "tables/sd_04042b6c2ceba43c6a58.csv",
+      "sha256": "04042b6c2ceba43c6a5892ca08c20c4fd6f8a09fa877425624d57601096da5ea",
+      "bytes": 828,
+      "format": "csv",
+      "source_table_names": [
+        "01_DG05_core_fraction_by_budget__DG05_core_fraction_by_budget_source.csv"
+      ],
+      "original_sha256": "04042b6c2ceba43c6a5892ca08c20c4fd6f8a09fa877425624d57601096da5ea",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_52fdc8500a07826d79e6",
+      "file": "tables/sd_52fdc8500a07826d79e6.csv",
+      "sha256": "52fdc8500a07826d79e6711b61b826390602a0412639375a552907c452b5733a",
+      "bytes": 1308,
+      "format": "csv",
+      "source_table_names": [
+        "01_DG08_independent_replication_D__DG08_independent_replication_D_source.csv"
+      ],
+      "original_sha256": "52fdc8500a07826d79e6711b61b826390602a0412639375a552907c452b5733a",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_0c3c24ff682f0e20de5c",
+      "file": "tables/sd_0c3c24ff682f0e20de5c.csv",
+      "sha256": "0c3c24ff682f0e20de5cf7326aa9ee8b54255f4c8c9a636d2b57788f453552ac",
+      "bytes": 205,
+      "format": "csv",
+      "source_table_names": [
+        "01_DG09_state_budget_degeneracy_heatmap__DG09_state_budget_degeneracy_heatmap_source.csv"
+      ],
+      "original_sha256": "0c3c24ff682f0e20de5cf7326aa9ee8b54255f4c8c9a636d2b57788f453552ac",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_43b567a5360385353e1e",
+      "file": "tables/sd_43b567a5360385353e1e.csv",
+      "sha256": "43b567a5360385353e1e640103f00c242f52aa1b06b8a54e54db45b2a0463118",
+      "bytes": 117812,
+      "format": "csv",
+      "source_table_names": [
+        "01_stage5a_epsilon_ev_gap_to_best__epsilon_creq_per_cell.csv",
+        "01_stage5a_epsilon_transition_baseline_to_0p015__epsilon_creq_per_cell.csv",
+        "02_stage5a_epsilon_transition_baseline_to_0p025__epsilon_creq_per_cell.csv"
+      ],
+      "original_sha256": "43b567a5360385353e1e640103f00c242f52aa1b06b8a54e54db45b2a0463118",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_fcea70ce9700748ac772",
+      "file": "tables/sd_fcea70ce9700748ac772.csv",
+      "sha256": "fcea70ce9700748ac7725e429130243ad90217e91c8b71d5925b38309d9a4339",
+      "bytes": 967,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5A_02_model_comparison_rho__model_metrics_and_naive_baselines.csv"
+      ],
+      "original_sha256": "fcea70ce9700748ac7725e429130243ad90217e91c8b71d5925b38309d9a4339",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_b593a20cfbcae9fd0b6a",
+      "file": "tables/sd_b593a20cfbcae9fd0b6a.csv",
+      "sha256": "b593a20cfbcae9fd0b6af42f149d7d16beb8e3b3d187ec11d535ef4fec5f8006",
+      "bytes": 9763,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5A_06_full_pipeline_permutation__full_pipeline_permutation_multiaxial.csv"
+      ],
+      "original_sha256": "b593a20cfbcae9fd0b6af42f149d7d16beb8e3b3d187ec11d535ef4fec5f8006",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_cc6f8438dddad0a7a1d9",
+      "file": "tables/sd_cc6f8438dddad0a7a1d9.csv",
+      "sha256": "cc6f8438dddad0a7a1d9204d94106656194848dbfdc11b138f52396275828d63",
+      "bytes": 744,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5A_07_group_generalization__group_generalization_summary.csv"
+      ],
+      "original_sha256": "cc6f8438dddad0a7a1d9204d94106656194848dbfdc11b138f52396275828d63",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_34fcb3fccb69a3217edc",
+      "file": "tables/sd_34fcb3fccb69a3217edc.csv",
+      "sha256": "34fcb3fccb69a3217edcd3a85fa3e61156c43cd5bc4d9a55333be970120e9923",
+      "bytes": 4469,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5A_10_feature_associations__feature_Creq_associations.csv"
+      ],
+      "original_sha256": "34fcb3fccb69a3217edcd3a85fa3e61156c43cd5bc4d9a55333be970120e9923",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_1eec9d7ec2a69bceb3b9",
+      "file": "tables/sd_1eec9d7ec2a69bceb3b9.csv",
+      "sha256": "1eec9d7ec2a69bceb3b9800a8041384e5753cfb2d9e8f720f65ac606a20047b8",
+      "bytes": 404,
+      "format": "csv",
+      "source_table_names": [
+        "02_S5A_11_category_ablation__category_ablation.csv"
+      ],
+      "original_sha256": "1eec9d7ec2a69bceb3b9800a8041384e5753cfb2d9e8f720f65ac606a20047b8",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_d30ea123d812d0c4a47c",
+      "file": "tables/sd_d30ea123d812d0c4a47c.csv",
+      "sha256": "d30ea123d812d0c4a47c24e6c6c496dda9b18369f136a307e1443027d3bc712f",
+      "bytes": 770,
+      "format": "csv",
+      "source_table_names": [
+        "01_stage5a_epsilon_definition_stability__epsilon_sensitivity_summary.csv",
+        "01_stage5a_epsilon_mean_creq__epsilon_sensitivity_summary.csv"
+      ],
+      "original_sha256": "d30ea123d812d0c4a47c24e6c6c496dda9b18369f136a307e1443027d3bc712f",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_0566ef157a527b5f95fd",
+      "file": "tables/sd_0566ef157a527b5f95fd.csv",
+      "sha256": "0566ef157a527b5f95fdc7f2de5c123af4d8e77af20986bb0b1b77683227f1a5",
+      "bytes": 8310,
+      "format": "csv",
+      "source_table_names": [
+        "01_SYN02_primary_mapper_oof__SYN02_primary_mapper_oof.csv"
+      ],
+      "original_sha256": "0566ef157a527b5f95fdc7f2de5c123af4d8e77af20986bb0b1b77683227f1a5",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_d41eba73c601eda40a9d",
+      "file": "tables/sd_d41eba73c601eda40a9d.csv",
+      "sha256": "d41eba73c601eda40a9d1ecc26eea59da10d3a6b980911912f08a21db0c1fb9b",
+      "bytes": 9508,
+      "format": "csv",
+      "source_table_names": [
+        "02_SYN03_conservative_mapper_oof__SYN03_conservative_mapper_oof.csv"
+      ],
+      "original_sha256": "d41eba73c601eda40a9d1ecc26eea59da10d3a6b980911912f08a21db0c1fb9b",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_eff15dd93262ff4545d0",
+      "file": "tables/sd_eff15dd93262ff4545d0.csv",
+      "sha256": "eff15dd93262ff4545d090d7b5d0684411b8b2286708feaef1a0832bb3290e3e",
+      "bytes": 5605,
+      "format": "csv",
+      "source_table_names": [
+        "01_SYN15_identity_absorption_fraction__SYN15_identity_absorption_fraction.csv"
+      ],
+      "original_sha256": "eff15dd93262ff4545d090d7b5d0684411b8b2286708feaef1a0832bb3290e3e",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_295fc6a229aacd284fb4",
+      "file": "tables/sd_295fc6a229aacd284fb4.csv",
+      "sha256": "295fc6a229aacd284fb45739f9a6158f3a0429bf3987574d928b6602a24a55cc",
+      "bytes": 445,
+      "format": "csv",
+      "source_table_names": [
+        "02_SYN22_within_between_identity_decomposition__SYN22_within_between_identity_decomposition.csv"
+      ],
+      "original_sha256": "295fc6a229aacd284fb45739f9a6158f3a0429bf3987574d928b6602a24a55cc",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_2bae1fc3ba399c534db0",
+      "file": "tables/sd_2bae1fc3ba399c534db0.csv",
+      "sha256": "2bae1fc3ba399c534db0b74b57133d21b425e4358c2b7765c7aa953f480ac240",
+      "bytes": 1662,
+      "format": "csv",
+      "source_table_names": [
+        "01_SYN20_fold_local_continuous_generalization__SYN20_fold_local_continuous_generalization.csv"
+      ],
+      "original_sha256": "2bae1fc3ba399c534db0b74b57133d21b425e4358c2b7765c7aa953f480ac240",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_b5df5e40bba683628413",
+      "file": "tables/sd_b5df5e40bba683628413.csv",
+      "sha256": "b5df5e40bba683628413ce217d2a9adc664ebee9ebad00b869f850f1c2e65e15",
+      "bytes": 3098,
+      "format": "csv",
+      "source_table_names": [
+        "01_SYN27_narrative_closure_forest__SYN27_narrative_closure_forest.csv"
+      ],
+      "original_sha256": "b5df5e40bba683628413ce217d2a9adc664ebee9ebad00b869f850f1c2e65e15",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_789bd813d0296d1b5ef1",
+      "file": "tables/sd_789bd813d0296d1b5ef1.csv",
+      "sha256": "789bd813d0296d1b5ef1ca00efbca6ca30e944a8023ec15d30ad3ce39cb8d3bf",
+      "bytes": 1027,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5BR_05_steinmetz_raw_vs_residual_state_stability__steinmetz_state_pairs_raw_summary.csv",
+        "01_S5BR_25_cross_dataset_state_stability__steinmetz_state_pairs_raw_summary.csv"
+      ],
+      "original_sha256": "789bd813d0296d1b5ef1ca00efbca6ca30e944a8023ec15d30ad3ce39cb8d3bf",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_13e92ed9a467caad65ba",
+      "file": "tables/sd_13e92ed9a467caad65ba.csv",
+      "sha256": "13e92ed9a467caad65bab3e9c1be0e9f8fcc4c2a0fbd9ce4247141d5b3a5ed8b",
+      "bytes": 1030,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5BR_05_steinmetz_raw_vs_residual_state_stability__steinmetz_state_pairs_residual_summary.csv"
+      ],
+      "original_sha256": "13e92ed9a467caad65bab3e9c1be0e9f8fcc4c2a0fbd9ce4247141d5b3a5ed8b",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_0b37995c0627e6b0c994",
+      "file": "tables/sd_0b37995c0627e6b0c994.csv",
+      "sha256": "0b37995c0627e6b0c9940e7fe005217c8b391a7dc430dc1accc623cdc9d1b9fb",
+      "bytes": 3949,
+      "format": "csv",
+      "source_table_names": [
+        "02_S5BR_09_steinmetz_backbone_fraction__steinmetz_backbone_fraction.csv",
+        "02_S5BR_26_cross_dataset_backbone_fraction__steinmetz_backbone_fraction.csv"
+      ],
+      "original_sha256": "0b37995c0627e6b0c9940e7fe005217c8b391a7dc430dc1accc623cdc9d1b9fb",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_ccfe3d0f40f3bf475c18",
+      "file": "tables/sd_ccfe3d0f40f3bf475c18.csv",
+      "sha256": "ccfe3d0f40f3bf475c182ba88f36762081b81ef14464fe032f3a6275ed4cfaf1",
+      "bytes": 367,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5BR_19_allen_raw_vs_residual_state_stability__allen_primary_state_pairs_raw_summary.csv",
+        "01_S5BR_25_cross_dataset_state_stability__allen_primary_state_pairs_raw_summary.csv"
+      ],
+      "original_sha256": "ccfe3d0f40f3bf475c182ba88f36762081b81ef14464fe032f3a6275ed4cfaf1",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_d83cd1d972ec69fa5707",
+      "file": "tables/sd_d83cd1d972ec69fa5707.csv",
+      "sha256": "d83cd1d972ec69fa5707cc1de8fdad2ab980432055fee6c758ce50e98ae1422e",
+      "bytes": 386,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5BR_19_allen_raw_vs_residual_state_stability__allen_primary_state_pairs_residual_summary.csv"
+      ],
+      "original_sha256": "d83cd1d972ec69fa5707cc1de8fdad2ab980432055fee6c758ce50e98ae1422e",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_a9a3802e078499dc56ab",
+      "file": "tables/sd_a9a3802e078499dc56ab.csv",
+      "sha256": "a9a3802e078499dc56ab981491745fb154dc06593ec3a39f49f3fedbe5d4dd51",
+      "bytes": 142,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5BR_25_cross_dataset_state_stability__allen_within_session_arousal_raw_summary.csv"
+      ],
+      "original_sha256": "a9a3802e078499dc56ab981491745fb154dc06593ec3a39f49f3fedbe5d4dd51",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_b4b7856a3d3a58c2bf43",
+      "file": "tables/sd_b4b7856a3d3a58c2bf43.csv",
+      "sha256": "b4b7856a3d3a58c2bf431583d4170fd7adc298b7c6fe07f007854f145bb8cc44",
+      "bytes": 1730,
+      "format": "csv",
+      "source_table_names": [
+        "02_S5BR_26_cross_dataset_backbone_fraction__allen_backbone_fraction.csv"
+      ],
+      "original_sha256": "b4b7856a3d3a58c2bf431583d4170fd7adc298b7c6fe07f007854f145bb8cc44",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_eee33052633db55c847e",
+      "file": "tables/sd_eee33052633db55c847e.csv",
+      "sha256": "eee33052633db55c847e3f85d745b17214f6d68665db6bcad3c55aa79b75fd13",
+      "bytes": 580,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_M01_decoder_home_vs_cross_auc_paired__OS_M01_decoder_home_vs_cross_auc_paired.csv"
+      ],
+      "original_sha256": "eee33052633db55c847e3f85d745b17214f6d68665db6bcad3c55aa79b75fd13",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_d220e46a29901760a7ac",
+      "file": "tables/sd_d220e46a29901760a7ac.csv",
+      "sha256": "d220e46a29901760a7acf904b61a008ea891c4f78aa52e6b9a365b1c2bf7c6e3",
+      "bytes": 345,
+      "format": "csv",
+      "source_table_names": [
+        "02_OS_M02_Rdecoder_by_mouse__OS_M02_Rdecoder_by_mouse.csv"
+      ],
+      "original_sha256": "d220e46a29901760a7acf904b61a008ea891c4f78aa52e6b9a365b1c2bf7c6e3",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_66abcb2658a4c26e2ba4",
+      "file": "tables/sd_66abcb2658a4c26e2ba4.csv",
+      "sha256": "66abcb2658a4c26e2ba43d87f19b9abcfb45e4c1309e71e17947427526404586",
+      "bytes": 688,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_M03_Rdecoder_formal_effect_ci__OS_M03_Rdecoder_formal_effect_ci.csv"
+      ],
+      "original_sha256": "66abcb2658a4c26e2ba43d87f19b9abcfb45e4c1309e71e17947427526404586",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_92e3c3dedd1577c5b460",
+      "file": "tables/sd_92e3c3dedd1577c5b460.csv",
+      "sha256": "92e3c3dedd1577c5b46065fa5567465d16c917c6d814ac000f63655097cb638d",
+      "bytes": 80894,
+      "format": "csv",
+      "source_table_names": [
+        "02_OS_M04_Rdecoder_high_precision_permutation__OS_M04_Rdecoder_high_precision_permutation.csv"
+      ],
+      "original_sha256": "92e3c3dedd1577c5b46065fa5567465d16c917c6d814ac000f63655097cb638d",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_b44b2edf819359aed2a3",
+      "file": "tables/sd_b44b2edf819359aed2a3.csv",
+      "sha256": "b44b2edf819359aed2a36f19640ed8d8fed59f68efc6f660b1f93f96b9ef11dc",
+      "bytes": 353,
+      "format": "csv",
+      "source_table_names": [
+        "02_OS_M06_same_image_state_excess_by_mouse__OS_M06_same_image_state_excess_by_mouse.csv"
+      ],
+      "original_sha256": "b44b2edf819359aed2a36f19640ed8d8fed59f68efc6f660b1f93f96b9ef11dc",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_23b5385fd32c0fb107a3",
+      "file": "tables/sd_23b5385fd32c0fb107a3.csv",
+      "sha256": "23b5385fd32c0fb107a339ad59479dd2648d32d9ae97a0c071f2736fcc58e6d0",
+      "bytes": 686,
+      "format": "csv",
+      "source_table_names": [
+        "03_OS_M17_same_image_formal_effect_ci__OS_M17_same_image_formal_effect_ci.csv"
+      ],
+      "original_sha256": "23b5385fd32c0fb107a339ad59479dd2648d32d9ae97a0c071f2736fcc58e6d0",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_ae5311830a20d9eed4bf",
+      "file": "tables/sd_ae5311830a20d9eed4bf.csv",
+      "sha256": "ae5311830a20d9eed4bfecc3824d9d01350502a69c0450237091d27df65c44e0",
+      "bytes": 331,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_M11_state_time_confound_by_mouse__OS_M11_state_time_confound_by_mouse.csv"
+      ],
+      "original_sha256": "ae5311830a20d9eed4bfecc3824d9d01350502a69c0450237091d27df65c44e0",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_ecb2794227a608b4b4da",
+      "file": "tables/sd_ecb2794227a608b4b4da.csv",
+      "sha256": "ecb2794227a608b4b4da03cf99ac0832ea86daf34ec492de68a529d8204c82d4",
+      "bytes": 330,
+      "format": "csv",
+      "source_table_names": [
+        "02_OS_M12_running_confound_by_mouse__OS_M12_running_confound_by_mouse.csv"
+      ],
+      "original_sha256": "ecb2794227a608b4b4da03cf99ac0832ea86daf34ec492de68a529d8204c82d4",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_7da2bbe9c315aa0a2588",
+      "file": "tables/sd_7da2bbe9c315aa0a2588.csv",
+      "sha256": "7da2bbe9c315aa0a2588e8fb967a68f3f190369e93bb4f77dbc5f742061739a7",
+      "bytes": 347,
+      "format": "csv",
+      "source_table_names": [
+        "03_OS_M13_stimulus_state_cramers_v_by_mouse__OS_M13_stimulus_state_cramers_v_by_mouse.csv"
+      ],
+      "original_sha256": "7da2bbe9c315aa0a2588e8fb967a68f3f190369e93bb4f77dbc5f742061739a7",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_f82233d80444be3e889a",
+      "file": "tables/sd_f82233d80444be3e889a.csv",
+      "sha256": "f82233d80444be3e889a79cbb8d896dd33aed17fd575c10f3fc2ba25419c3f7f",
+      "bytes": 585,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_S29_real_edge_home_vs_cross_auc__OS_S29_real_edge_home_vs_cross_auc.csv"
+      ],
+      "original_sha256": "f82233d80444be3e889a79cbb8d896dd33aed17fd575c10f3fc2ba25419c3f7f",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_6cca44d080b89a6af499",
+      "file": "tables/sd_6cca44d080b89a6af499.csv",
+      "sha256": "6cca44d080b89a6af499d379095396d8b1b303780b8a42011f70b74a9e7aa5bf",
+      "bytes": 366,
+      "format": "csv",
+      "source_table_names": [
+        "02_OS_S30_real_edge_Rdecoder_by_mouse__OS_S30_real_edge_Rdecoder_by_mouse.csv"
+      ],
+      "original_sha256": "6cca44d080b89a6af499d379095396d8b1b303780b8a42011f70b74a9e7aa5bf",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_49d2a4a6c1b940eb9dec",
+      "file": "tables/sd_49d2a4a6c1b940eb9dec.csv",
+      "sha256": "49d2a4a6c1b940eb9decb6b554c2e44fbb70f53415a25738518767e90b6321dc",
+      "bytes": 65466,
+      "format": "csv",
+      "source_table_names": [
+        "01_stage3_complexity_saving_by_topology__stage3_complexity_saving_by_topology.csv"
+      ],
+      "original_sha256": "49d2a4a6c1b940eb9decb6b554c2e44fbb70f53415a25738518767e90b6321dc",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_4b3603119557505f6c2f",
+      "file": "tables/sd_4b3603119557505f6c2f.csv",
+      "sha256": "4b3603119557505f6c2fec89e4b83642b1e3a697acf9b3433818bad5e66d4d7d",
+      "bytes": 274,
+      "format": "csv",
+      "source_table_names": [
+        "01_stage3_positive_saving_fraction_by_topology__stage3_positive_saving_fraction_by_topology.csv"
+      ],
+      "original_sha256": "4b3603119557505f6c2fec89e4b83642b1e3a697acf9b3433818bad5e66d4d7d",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_458df1f448b2870137d9",
+      "file": "tables/sd_458df1f448b2870137d9.csv",
+      "sha256": "458df1f448b2870137d91c6e6ab3593a644d8f08525f518a5c0af6f7bbc3baeb",
+      "bytes": 952,
+      "format": "csv",
+      "source_table_names": [
+        "01_DG06_selection_entropy_by_budget__DG06_selection_entropy_by_budget_source.csv"
+      ],
+      "original_sha256": "458df1f448b2870137d91c6e6ab3593a644d8f08525f518a5c0af6f7bbc3baeb",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_fce7ab1d978f7325f229",
+      "file": "tables/sd_fce7ab1d978f7325f229.csv",
+      "sha256": "fce7ab1d978f7325f229fed11c87c7bbaae9edeef98f8e467998e814f3ec3ce9",
+      "bytes": 482,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5BR_20_allen_r2_gated_state_stability__allen_primary_state_pairs_r2_gated_summary.csv"
+      ],
+      "original_sha256": "fce7ab1d978f7325f229fed11c87c7bbaae9edeef98f8e467998e814f3ec3ce9",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_95644ce1ca8780567e7e",
+      "file": "tables/sd_95644ce1ca8780567e7e.csv",
+      "sha256": "95644ce1ca8780567e7e267618d1d3a7d0f692f7c4b85d063c5047d3809f4774",
+      "bytes": 1357,
+      "format": "csv",
+      "source_table_names": [
+        "ED07g_openscope_split_population.csv"
+      ],
+      "original_sha256": "95644ce1ca8780567e7e267618d1d3a7d0f692f7c4b85d063c5047d3809f4774",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_768480c9a5c0bc62aa22",
+      "file": "tables/sd_768480c9a5c0bc62aa22.csv",
+      "sha256": "768480c9a5c0bc62aa22d3b6ecad2a07ce4ee2cb920cc9ff27bfe077525695f3",
+      "bytes": 551,
+      "format": "csv",
+      "source_table_names": [
+        "Fig01f_graph_level_primary_matched.csv"
+      ],
+      "original_sha256": "768480c9a5c0bc62aa22d3b6ecad2a07ce4ee2cb920cc9ff27bfe077525695f3",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_295146dce895ddb48c33",
+      "file": "tables/sd_295146dce895ddb48c33.csv",
+      "sha256": "295146dce895ddb48c33d23c7a3b9d27ef6e9ef3e668d85875500dc8d3fda5e0",
+      "bytes": 25980,
+      "format": "csv",
+      "source_table_names": [
+        "SI09a_c_calibration_grid.csv"
+      ],
+      "original_sha256": "295146dce895ddb48c33d23c7a3b9d27ef6e9ef3e668d85875500dc8d3fda5e0",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_42182c12681e02cbda85",
+      "file": "tables/sd_42182c12681e02cbda85.csv",
+      "sha256": "42182c12681e02cbda858b6e30e3740be992941cbc0dbc02ab1a61a84c235ebb",
+      "bytes": 1397,
+      "format": "csv",
+      "source_table_names": [
+        "ED07b_operating_point_calibration.csv",
+        "SI09b_d_selected_calibration.csv"
+      ],
+      "original_sha256": "42182c12681e02cbda858b6e30e3740be992941cbc0dbc02ab1a61a84c235ebb",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_95dd57dbb52d81a10d0b",
+      "file": "tables/sd_95dd57dbb52d81a10d0b.csv",
+      "sha256": "95dd57dbb52d81a10d0be57292b2b534f1699c35bdeb9267d09d81884426c5cf",
+      "bytes": 18633,
+      "format": "csv",
+      "source_table_names": [
+        "SI09e_validation_rates.csv"
+      ],
+      "original_sha256": "95dd57dbb52d81a10d0be57292b2b534f1699c35bdeb9267d09d81884426c5cf",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_feccd8635346ae03cba6",
+      "file": "tables/sd_feccd8635346ae03cba6.csv",
+      "sha256": "feccd8635346ae03cba660875177bca3984dcbc2d3e600ed04ae79b875e0328d",
+      "bytes": 264343,
+      "format": "csv",
+      "source_table_names": [
+        "GRAPH_CONDITION_METRICS.csv"
+      ],
+      "original_sha256": "feccd8635346ae03cba660875177bca3984dcbc2d3e600ed04ae79b875e0328d",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_6af9838271aac05334ef",
+      "file": "tables/sd_6af9838271aac05334ef.csv",
+      "sha256": "6af9838271aac05334efcc8ecaea1a24eee04a7d04ccf15b0cb8392f9e651ce8",
+      "bytes": 98458,
+      "format": "csv",
+      "source_table_names": [
+        "METRIC_PROFILES.csv"
+      ],
+      "original_sha256": "6af9838271aac05334efcc8ecaea1a24eee04a7d04ccf15b0cb8392f9e651ce8",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_80e3ba9ae2a93e7f7be3",
+      "file": "tables/sd_80e3ba9ae2a93e7f7be3.csv",
+      "sha256": "80e3ba9ae2a93e7f7be38fd73dd6f3eb871fc6ca8611ff0da8097250da94b6ba",
+      "bytes": 57247,
+      "format": "csv",
+      "source_table_names": [
+        "PAIRED_CONDITION_EFFECTS.csv"
+      ],
+      "original_sha256": "80e3ba9ae2a93e7f7be38fd73dd6f3eb871fc6ca8611ff0da8097250da94b6ba",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_b454b8fef6b502b40259",
+      "file": "tables/sd_b454b8fef6b502b40259.json",
+      "sha256": "b454b8fef6b502b4025905a0a221893a66f433d18b08c40f3463a24c1e09ca12",
+      "bytes": 1900,
+      "format": "json",
+      "source_table_names": [
+        "SEMANTIC_PALETTE.json"
+      ],
+      "original_sha256": "b454b8fef6b502b4025905a0a221893a66f433d18b08c40f3463a24c1e09ca12",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_df436ee20769a9a8f822",
+      "file": "tables/sd_df436ee20769a9a8f822.json",
+      "sha256": "df436ee20769a9a8f82288d3878864bb9aa4b9a428079a45fe44076b92c61c37",
+      "bytes": 2353,
+      "format": "json",
+      "source_table_names": [
+        "STRESS_INDEPENDENT_PROVENANCE_QA_v1.json"
+      ],
+      "original_sha256": "cd45f5a119f823b69ea6b8ec88ebe637a62b6bd669f9956bd9fa4c35009d12bb",
+      "metadata_transformations": [
+        {
+          "field": "/analysis/statistics_path",
+          "operation": "local metadata path omitted"
+        }
+      ],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_b18703285f8ece528b2d",
+      "file": "tables/sd_b18703285f8ece528b2d.json",
+      "sha256": "b18703285f8ece528b2de77ece107347321087dfdce6e1ee705a4b617f7dcefc",
+      "bytes": 9645,
+      "format": "json",
+      "source_table_names": [
+        "INPUT_HISTORY_AUDIT.json"
+      ],
+      "original_sha256": "b18703285f8ece528b2de77ece107347321087dfdce6e1ee705a4b617f7dcefc",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_ed698b866d7d9593bcd9",
+      "file": "tables/sd_ed698b866d7d9593bcd9.csv",
+      "sha256": "ed698b866d7d9593bcd939a20656cb14eab9ff4bec29e2c69e6b1355fa81e0e4",
+      "bytes": 293585,
+      "format": "csv",
+      "source_table_names": [
+        "all_methods_state_scores.csv"
+      ],
+      "original_sha256": "ed698b866d7d9593bcd939a20656cb14eab9ff4bec29e2c69e6b1355fa81e0e4",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_3ca292a7930a12263efa",
+      "file": "tables/sd_3ca292a7930a12263efa.csv",
+      "sha256": "3ca292a7930a12263efaf5296c11de168d384547f010519635819f63643b8e7c",
+      "bytes": 1853,
+      "format": "csv",
+      "source_table_names": [
+        "input_history_controls.csv"
+      ],
+      "original_sha256": "3ca292a7930a12263efaf5296c11de168d384547f010519635819f63643b8e7c",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_eab3d59c11bcbc7fbc32",
+      "file": "tables/sd_eab3d59c11bcbc7fbc32.json",
+      "sha256": "eab3d59c11bcbc7fbc32ebdb01e95d9cd63a77511c7dede325f7b9bb3c2101d9",
+      "bytes": 4071,
+      "format": "json",
+      "source_table_names": [
+        "protocol_frozen.json"
+      ],
+      "original_sha256": "eab3d59c11bcbc7fbc32ebdb01e95d9cd63a77511c7dede325f7b9bb3c2101d9",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_42a8268ad01d7f982db1",
+      "file": "tables/sd_42a8268ad01d7f982db1.csv",
+      "sha256": "42a8268ad01d7f982db1f6882e8276cb30f57eef8cc7646bb8e2a6f7e052ba7a",
+      "bytes": 567,
+      "format": "csv",
+      "source_table_names": [
+        "ED07d_primary_vs_random_home_score.csv",
+        "SI11a_home_primary_random.csv"
+      ],
+      "original_sha256": "42a8268ad01d7f982db1f6882e8276cb30f57eef8cc7646bb8e2a6f7e052ba7a",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_2577bf5e4ec7bbcf3372",
+      "file": "tables/sd_2577bf5e4ec7bbcf3372.csv",
+      "sha256": "2577bf5e4ec7bbcf33728f4188b9d6c13f4d85db648734d91b6a4d4aff7ade1e",
+      "bytes": 556,
+      "format": "csv",
+      "source_table_names": [
+        "SI11b_crossover_primary_random.csv"
+      ],
+      "original_sha256": "2577bf5e4ec7bbcf33728f4188b9d6c13f4d85db648734d91b6a4d4aff7ade1e",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_dedcad7317b8dec208d7",
+      "file": "tables/sd_dedcad7317b8dec208d7.csv",
+      "sha256": "dedcad7317b8dec208d76e3074f98d79261bc67f5d7e7635af7f4f2c1f357ee7",
+      "bytes": 2704,
+      "format": "csv",
+      "source_table_names": [
+        "SI11e_home_foreign_geometry.csv"
+      ],
+      "original_sha256": "dedcad7317b8dec208d76e3074f98d79261bc67f5d7e7635af7f4f2c1f357ee7",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_ae552d746be7901a1dac",
+      "file": "tables/sd_ae552d746be7901a1dac.csv",
+      "sha256": "ae552d746be7901a1dac126d39adb055babf33081a0420823b2d0dc724634b61",
+      "bytes": 7955,
+      "format": "csv",
+      "source_table_names": [
+        "SI11f_search_heldout_variants.csv"
+      ],
+      "original_sha256": "ae552d746be7901a1dac126d39adb055babf33081a0420823b2d0dc724634b61",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_5296af3c5f204aef2cf5",
+      "file": "tables/sd_5296af3c5f204aef2cf5.csv",
+      "sha256": "5296af3c5f204aef2cf5646f74134c5359e4ab10b524a078c50dbf913879365f",
+      "bytes": 441,
+      "format": "csv",
+      "source_table_names": [
+        "forest_alternative_spectral_score_crossover_interaction.csv"
+      ],
+      "original_sha256": "5296af3c5f204aef2cf5646f74134c5359e4ab10b524a078c50dbf913879365f",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_9a00c5a543586f7b5b62",
+      "file": "tables/sd_9a00c5a543586f7b5b62.csv",
+      "sha256": "9a00c5a543586f7b5b6268853e074695a68fac3336413675a64f4eadc9d71d6c",
+      "bytes": 443,
+      "format": "csv",
+      "source_table_names": [
+        "forest_rhythm_score_crossover_interaction.csv"
+      ],
+      "original_sha256": "9a00c5a543586f7b5b6268853e074695a68fac3336413675a64f4eadc9d71d6c",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_4a3e3a389b2639bb604b",
+      "file": "tables/sd_4a3e3a389b2639bb604b.csv",
+      "sha256": "4a3e3a389b2639bb604b126e602c7def0f13030a721b3570876508a0df68af72",
+      "bytes": 9554,
+      "format": "csv",
+      "source_table_names": [
+        "01_stage2_placement_gain_vs_random__stage2_placement_gain_vs_random.csv"
+      ],
+      "original_sha256": "4a3e3a389b2639bb604b126e602c7def0f13030a721b3570876508a0df68af72",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_f0edc9327a7c8b222feb",
+      "file": "tables/sd_f0edc9327a7c8b222feb.csv",
+      "sha256": "f0edc9327a7c8b222feb2f1a6d8295868ed7d5dc5c5eab69cac0096eeb4f8aec",
+      "bytes": 455,
+      "format": "csv",
+      "source_table_names": [
+        "01_DG07_epsilon_sensitivity__DG07_epsilon_sensitivity_source.csv"
+      ],
+      "original_sha256": "f0edc9327a7c8b222feb2f1a6d8295868ed7d5dc5c5eab69cac0096eeb4f8aec",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_fc2dda6e440b1ad7a507",
+      "file": "tables/sd_fc2dda6e440b1ad7a507.csv",
+      "sha256": "fc2dda6e440b1ad7a507b61fd1a7c7345395a254cacbda4a9155ff8b7d24651c",
+      "bytes": 4922,
+      "format": "csv",
+      "source_table_names": [
+        "02_SYN16_measured_STP_conditioned_forest__SYN16_measured_STP_conditioned_forest.csv"
+      ],
+      "original_sha256": "fc2dda6e440b1ad7a507b61fd1a7c7345395a254cacbda4a9155ff8b7d24651c",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_a5b02a101f54211c0072",
+      "file": "tables/sd_a5b02a101f54211c0072.csv",
+      "sha256": "a5b02a101f54211c0072b29a7a6a5d542e9e976de4f402b0d09884b34ebf12b3",
+      "bytes": 2193,
+      "format": "csv",
+      "source_table_names": [
+        "03_SYN17_local_temporal_gain_frequency_boundary__SYN17_local_temporal_gain_frequency_boundary.csv"
+      ],
+      "original_sha256": "a5b02a101f54211c0072b29a7a6a5d542e9e976de4f402b0d09884b34ebf12b3",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_a0e679744f600df3e385",
+      "file": "tables/sd_a0e679744f600df3e385.csv",
+      "sha256": "a0e679744f600df3e3859b23647016a1e1590a6be6fe6969b444d7ee99357c1f",
+      "bytes": 6968,
+      "format": "csv",
+      "source_table_names": [
+        "01_CT05_offdiagonal_transfer_penalties__CT05_offdiagonal_transfer_penalties_source.csv"
+      ],
+      "original_sha256": "a0e679744f600df3e3859b23647016a1e1590a6be6fe6969b444d7ee99357c1f",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_08e35c3d5f3b520489f4",
+      "file": "tables/sd_08e35c3d5f3b520489f4.csv",
+      "sha256": "08e35c3d5f3b520489f426925ac1dc374b1ee48c03ccda4559abcc08f74b6d26",
+      "bytes": 5037,
+      "format": "csv",
+      "source_table_names": [
+        "01_stage1b_window_frequency_transition__stage1b_window_frequency_transition.csv"
+      ],
+      "original_sha256": "08e35c3d5f3b520489f426925ac1dc374b1ee48c03ccda4559abcc08f74b6d26",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_4bc37f5715a0880704b7",
+      "file": "tables/sd_4bc37f5715a0880704b7.csv",
+      "sha256": "4bc37f5715a0880704b705ccd1ddb8c8ba2dfba4f5e76179531d16c814c362ff",
+      "bytes": 5451,
+      "format": "csv",
+      "source_table_names": [
+        "01_stage1b_frequency_transition_frequency_state_composition__stage1b_frequency_transition_frequency_state_composition.csv"
+      ],
+      "original_sha256": "4bc37f5715a0880704b705ccd1ddb8c8ba2dfba4f5e76179531d16c814c362ff",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_05fc249bfd4e02154f39",
+      "file": "tables/sd_05fc249bfd4e02154f39.csv",
+      "sha256": "05fc249bfd4e02154f397c78120f8da22aa1dbba507e64e118ee1e550071a47e",
+      "bytes": 5078,
+      "format": "csv",
+      "source_table_names": [
+        "02_stage1b_window_rhythm_transition__stage1b_window_rhythm_transition.csv"
+      ],
+      "original_sha256": "05fc249bfd4e02154f397c78120f8da22aa1dbba507e64e118ee1e550071a47e",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_4141036814c8fa4e0555",
+      "file": "tables/sd_4141036814c8fa4e0555.csv",
+      "sha256": "4141036814c8fa4e05559b7f48d38bb3fd9a5cbb6de0a91db5a16fc1216741be",
+      "bytes": 5317,
+      "format": "csv",
+      "source_table_names": [
+        "01_stage1b_window_rhythm_score__stage1b_window_rhythm_score.csv"
+      ],
+      "original_sha256": "4141036814c8fa4e05559b7f48d38bb3fd9a5cbb6de0a91db5a16fc1216741be",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_66330205b9ba136a62d6",
+      "file": "tables/sd_66330205b9ba136a62d6.csv",
+      "sha256": "66330205b9ba136a62d6b0e301b4d23a5a31c762393b3117517f9d3ec50cb6ed",
+      "bytes": 6444,
+      "format": "csv",
+      "source_table_names": [
+        "01_stage3_emergence_vs_budget_by_topology__stage3_emergence_vs_budget_by_topology.csv"
+      ],
+      "original_sha256": "66330205b9ba136a62d6b0e301b4d23a5a31c762393b3117517f9d3ec50cb6ed",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_8d9a7d8b521388d3912f",
+      "file": "tables/sd_8d9a7d8b521388d3912f.csv",
+      "sha256": "8d9a7d8b521388d3912f3c9c46f3c708b2d39924095387d8d56d8406e823a637",
+      "bytes": 659,
+      "format": "csv",
+      "source_table_names": [
+        "01_stage2_regime_by_allocation_gain__stage2_regime_by_allocation_gain.csv"
+      ],
+      "original_sha256": "8d9a7d8b521388d3912f3c9c46f3c708b2d39924095387d8d56d8406e823a637",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_17e1f99ed70196bfc365",
+      "file": "tables/sd_17e1f99ed70196bfc365.csv",
+      "sha256": "17e1f99ed70196bfc365f76bf3496b09919d109fb46853f1cff1c6f2df28e2e4",
+      "bytes": 1072,
+      "format": "csv",
+      "source_table_names": [
+        "01_stage2_topology_by_allocation_gain__stage2_topology_by_allocation_gain.csv"
+      ],
+      "original_sha256": "17e1f99ed70196bfc365f76bf3496b09919d109fb46853f1cff1c6f2df28e2e4",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_48e53c4f654f0c71f346",
+      "file": "tables/sd_48e53c4f654f0c71f346.csv",
+      "sha256": "48e53c4f654f0c71f3465bb160b11aefecde1fa47ce834ab77bdfbe0ccf2e436",
+      "bytes": 36761,
+      "format": "csv",
+      "source_table_names": [
+        "01_stage3_targeted_vs_random_complexity_requirement__stage3_targeted_vs_random_complexity_requirement.csv"
+      ],
+      "original_sha256": "48e53c4f654f0c71f3465bb160b11aefecde1fa47ce834ab77bdfbe0ccf2e436",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_f5bdb2066253211e4ed7",
+      "file": "tables/sd_f5bdb2066253211e4ed7.csv",
+      "sha256": "f5bdb2066253211e4ed72e9bd4e202c5baad84bd43b21816662ff7610bfefae0",
+      "bytes": 760,
+      "format": "csv",
+      "source_table_names": [
+        "01_DG03_near_optimal_count_by_budget__DG03_near_optimal_count_by_budget_source.csv"
+      ],
+      "original_sha256": "f5bdb2066253211e4ed72e9bd4e202c5baad84bd43b21816662ff7610bfefae0",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_f5b653f338a4cc67c90c",
+      "file": "tables/sd_f5b653f338a4cc67c90c.csv",
+      "sha256": "f5b653f338a4cc67c90c5ad87ef51832ab2cc601d6c3eb12199efe006bbc086e",
+      "bytes": 210,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5A_01_cohort_attrition__cohort_attrition.csv"
+      ],
+      "original_sha256": "f5b653f338a4cc67c90c5ad87ef51832ab2cc601d6c3eb12199efe006bbc086e",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_676665dd72e834e30e7c",
+      "file": "tables/sd_676665dd72e834e30e7c.csv",
+      "sha256": "676665dd72e834e30e7cf3d96e93039cb265ae076cd2c4013fade9e764a94153",
+      "bytes": 13552,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5A_04_prediction_by_observed_Creq__nested_rerun_multiaxial_predictions.csv",
+        "01_S5A_05_ordinal_confusion__nested_rerun_multiaxial_predictions.csv"
+      ],
+      "original_sha256": "676665dd72e834e30e7cf3d96e93039cb265ae076cd2c4013fade9e764a94153",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_b04554cb7941f7a206e2",
+      "file": "tables/sd_b04554cb7941f7a206e2.csv",
+      "sha256": "b04554cb7941f7a206e2f27adc3fc8c5017095993245fcac37e62d46000de071",
+      "bytes": 943,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5A_08_within_layer_oof_effects__within_group_oof_associations.csv",
+        "01_S5A_09_within_dendrite_oof_effects__within_group_oof_associations.csv"
+      ],
+      "original_sha256": "b04554cb7941f7a206e2f27adc3fc8c5017095993245fcac37e62d46000de071",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_50b4c889b7e875774023",
+      "file": "tables/sd_50b4c889b7e875774023.csv",
+      "sha256": "50b4c889b7e875774023d68712345bd7c1806c4727d3fd4545a3d40eeac712b1",
+      "bytes": 98350,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5A_12_temporal_AB_BA_consistency__temporal_boundary_1213_cells.csv",
+        "02_S5A_13_long_vs_short_context_gain__temporal_boundary_1213_cells.csv"
+      ],
+      "original_sha256": "50b4c889b7e875774023d68712345bd7c1806c4727d3fd4545a3d40eeac712b1",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_84f3f5fe447877a6dc67",
+      "file": "tables/sd_84f3f5fe447877a6dc67.csv",
+      "sha256": "84f3f5fe447877a6dc673fc33a6315a8d5bf40c8b9a88fc360ba9e5a00cf9cd4",
+      "bytes": 632,
+      "format": "csv",
+      "source_table_names": [
+        "01_stage5a_epsilon_creq_distribution_heatmap__epsilon_creq_distribution_long.csv"
+      ],
+      "original_sha256": "84f3f5fe447877a6dc673fc33a6315a8d5bf40c8b9a88fc360ba9e5a00cf9cd4",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_1ea8e1128f41923d7512",
+      "file": "tables/sd_1ea8e1128f41923d7512.csv",
+      "sha256": "1ea8e1128f41923d7512072b8519c4b08ee4c09dd7a6b914de2361679dfa0a73",
+      "bytes": 11776,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5BR_02_steinmetz_latent_r2__steinmetz_latent_r2.csv"
+      ],
+      "original_sha256": "1ea8e1128f41923d7512072b8519c4b08ee4c09dd7a6b914de2361679dfa0a73",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_3ca45ffb3d903b1b3959",
+      "file": "tables/sd_3ca45ffb3d903b1b3959.csv",
+      "sha256": "3ca45ffb3d903b1b3959659af435831e18bc62e8ad6607b154b5e83b991c7df0",
+      "bytes": 37892,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5BR_06_steinmetz_activity_loading_confound__steinmetz_confound_correlations.csv"
+      ],
+      "original_sha256": "3ca45ffb3d903b1b3959659af435831e18bc62e8ad6607b154b5e83b991c7df0",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_9ed5cfae4550b26ee4e1",
+      "file": "tables/sd_9ed5cfae4550b26ee4e1.csv",
+      "sha256": "9ed5cfae4550b26ee4e192aef9eef0ab8ed70120f93b6af2b660999795d3baee",
+      "bytes": 6774696,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5BR_07_steinmetz_flex_vs_mean_activity__steinmetz_role_flexibility_corrected.csv",
+        "02_S5BR_08_steinmetz_flex_vs_activity_flexibility__steinmetz_role_flexibility_corrected.csv"
+      ],
+      "original_sha256": "9ed5cfae4550b26ee4e192aef9eef0ab8ed70120f93b6af2b660999795d3baee",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_729cb1003230252deabf",
+      "file": "tables/sd_729cb1003230252deabf.csv",
+      "sha256": "729cb1003230252deabfe1d8cd893d3801e9b6ca6827ad302b2b54b295507131",
+      "bytes": 4793,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5BR_10_steinmetz_identity_shuffle__steinmetz_identity_shuffle.csv"
+      ],
+      "original_sha256": "729cb1003230252deabfe1d8cd893d3801e9b6ca6827ad302b2b54b295507131",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_777e94efab618d9132cd",
+      "file": "tables/sd_777e94efab618d9132cd.csv",
+      "sha256": "777e94efab618d9132cd0f60711b3079f2e14bbee2e958a16888c6b911632202",
+      "bytes": 5597,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5BR_15_allen_primary_latent_r2__allen_primary_latent_r2.csv"
+      ],
+      "original_sha256": "777e94efab618d9132cd0f60711b3079f2e14bbee2e958a16888c6b911632202",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_4c3fde7ef706650fa13e",
+      "file": "tables/sd_4c3fde7ef706650fa13e.csv",
+      "sha256": "4c3fde7ef706650fa13e21bb6240dc25d70ed897a64f1d8bc5704f9bae357b65",
+      "bytes": 216119,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5BR_21_allen_flex_vs_mean_activity__allen_role_flexibility_corrected.csv",
+        "02_S5BR_22_allen_flex_vs_activity_flexibility__allen_role_flexibility_corrected.csv"
+      ],
+      "original_sha256": "4c3fde7ef706650fa13e21bb6240dc25d70ed897a64f1d8bc5704f9bae357b65",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_dc34de9dd6846b4f8606",
+      "file": "tables/sd_dc34de9dd6846b4f8606.csv",
+      "sha256": "dc34de9dd6846b4f860611d8506b9e2cb05a476920f33827a673f9c7f005490b",
+      "bytes": 12009,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5BR_23_allen_running_within_session__allen_within_session_arousal_pairs_raw.csv",
+        "02_S5BR_24_allen_pupil_within_session__allen_within_session_arousal_pairs_raw.csv"
+      ],
+      "original_sha256": "dc34de9dd6846b4f860611d8506b9e2cb05a476920f33827a673f9c7f005490b",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_b027ff0b75953c55853d",
+      "file": "tables/sd_b027ff0b75953c55853d.csv",
+      "sha256": "b027ff0b75953c55853d9e6ef88aa0f931b105fc75c72370f08ba1c761f8b358",
+      "bytes": 11707,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5BR_23_allen_running_within_session__allen_within_session_arousal_pairs_residual.csv",
+        "02_S5BR_24_allen_pupil_within_session__allen_within_session_arousal_pairs_residual.csv"
+      ],
+      "original_sha256": "b027ff0b75953c55853d9e6ef88aa0f931b105fc75c72370f08ba1c761f8b358",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_ee961faee5cabf60f81e",
+      "file": "tables/sd_ee961faee5cabf60f81e.csv",
+      "sha256": "ee961faee5cabf60f81e243247fe1babd1ef05c41590eab7e862f927060f608c",
+      "bytes": 649,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5A_16_PFC_subtype_structural_effects_descriptive__pfc2022_feature_subtype_effects.csv"
+      ],
+      "original_sha256": "ee961faee5cabf60f81e243247fe1babd1ef05c41590eab7e862f927060f608c",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_a2c9f2e1cfe6797501ad",
+      "file": "tables/sd_a2c9f2e1cfe6797501ad.csv",
+      "sha256": "a2c9f2e1cfe6797501ad7d2087d25da459a3360c63e6a6741e3b5bb4af7820d1",
+      "bytes": 13782,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5A_17_PFC_subtype_sample_sizes__pfc2022_subtype_centroids.csv"
+      ],
+      "original_sha256": "a2c9f2e1cfe6797501ad7d2087d25da459a3360c63e6a6741e3b5bb4af7820d1",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_28689718a7836318516b",
+      "file": "tables/sd_28689718a7836318516b.csv",
+      "sha256": "28689718a7836318516bff379b01857c2b0467be1601d52206972940ac018a38",
+      "bytes": 2337,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5A_18_PFC_zero_variance_audit__pfc_feature_qc.csv"
+      ],
+      "original_sha256": "28689718a7836318516bff379b01857c2b0467be1601d52206972940ac018a38",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_1ffaca2cff7bc5de089b",
+      "file": "tables/sd_1ffaca2cff7bc5de089b.csv",
+      "sha256": "1ffaca2cff7bc5de089bd6ba5be6f55b91dba3f86090f36cb482ceb3fb39d9f2",
+      "bytes": 2156,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5BR_11_steinmetz_predictive_choice__steinmetz_predictive_state_pairs_summary.csv",
+        "01_S5BR_12_steinmetz_predictive_outcome__steinmetz_predictive_state_pairs_summary.csv",
+        "01_S5BR_13_steinmetz_predictive_engagement__steinmetz_predictive_state_pairs_summary.csv"
+      ],
+      "original_sha256": "1ffaca2cff7bc5de089bd6ba5be6f55b91dba3f86090f36cb482ceb3fb39d9f2",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_2f249c50720046cab459",
+      "file": "tables/sd_2f249c50720046cab459.csv",
+      "sha256": "2f249c50720046cab4597064d0971a5d24f90a844da2ea9d3be464dc12472432",
+      "bytes": 66625,
+      "format": "csv",
+      "source_table_names": [
+        "01_S5BR_14_predictive_vs_dynamic__steinmetz_predictive_vs_dynamic.csv"
+      ],
+      "original_sha256": "2f249c50720046cab4597064d0971a5d24f90a844da2ea9d3be464dc12472432",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_e1d06052542b56dc9250",
+      "file": "tables/sd_e1d06052542b56dc9250.csv",
+      "sha256": "e1d06052542b56dc9250cf973fc8095e0b318150bd6e0f5e3caa349f15e81b1f",
+      "bytes": 270,
+      "format": "csv",
+      "source_table_names": [
+        "01_AL01_selected_lag_distribution__AL01_selected_lag_distribution_source.csv"
+      ],
+      "original_sha256": "e1d06052542b56dc9250cf973fc8095e0b318150bd6e0f5e3caa349f15e81b1f",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_68217d3e9fb0286d987c",
+      "file": "tables/sd_68217d3e9fb0286d987c.csv",
+      "sha256": "68217d3e9fb0286d987c09b949967e28d52acd7dba44635f0539e0af470c4c44",
+      "bytes": 91,
+      "format": "csv",
+      "source_table_names": [
+        "01_AL02_lag_by_state_heatmap__AL02_lag_by_state_heatmap_source.csv"
+      ],
+      "original_sha256": "68217d3e9fb0286d987c09b949967e28d52acd7dba44635f0539e0af470c4c44",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_9a2663c9ec2644f884bb",
+      "file": "tables/sd_9a2663c9ec2644f884bb.csv",
+      "sha256": "9a2663c9ec2644f884bb4d8025f6bd0be3015e3a7d5c787398e19f889b9c366d",
+      "bytes": 250,
+      "format": "csv",
+      "source_table_names": [
+        "01_AL06_raw_state_pair_heatmap__AL06_raw_state_pair_heatmap_source.csv"
+      ],
+      "original_sha256": "9a2663c9ec2644f884bb4d8025f6bd0be3015e3a7d5c787398e19f889b9c366d",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_0b51fd9ff7f1634034b2",
+      "file": "tables/sd_0b51fd9ff7f1634034b2.csv",
+      "sha256": "0b51fd9ff7f1634034b22b5d45345c4f2a6a0a44a7785632a0a1b5898ceeb78a",
+      "bytes": 6763,
+      "format": "csv",
+      "source_table_names": [
+        "01_AL10_r2_improvement_distribution__AL10_r2_improvement_distribution_source.csv"
+      ],
+      "original_sha256": "0b51fd9ff7f1634034b22b5d45345c4f2a6a0a44a7785632a0a1b5898ceeb78a",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_24bcc363b7a76df5145e",
+      "file": "tables/sd_24bcc363b7a76df5145e.csv",
+      "sha256": "24bcc363b7a76df5145e9d9ce427b93a2484adc1eb4c5c0dc08ec7ee6b23b81d",
+      "bytes": 3451,
+      "format": "csv",
+      "source_table_names": [
+        "01_AL13_lag_vs_test_r2__AL13_lag_vs_test_r2_source.csv"
+      ],
+      "original_sha256": "24bcc363b7a76df5145e9d9ce427b93a2484adc1eb4c5c0dc08ec7ee6b23b81d",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_cf927def2cfe76e7abc1",
+      "file": "tables/sd_cf927def2cfe76e7abc1.csv",
+      "sha256": "cf927def2cfe76e7abc139e5771db2e942200d075e69fa0cadef4eddd12c18ec",
+      "bytes": 1558,
+      "format": "csv",
+      "source_table_names": [
+        "01_AL14_quality_vs_residual_stability__AL14_quality_vs_residual_stability_source.csv"
+      ],
+      "original_sha256": "cf927def2cfe76e7abc139e5771db2e942200d075e69fa0cadef4eddd12c18ec",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_17d121b5df5225a52caa",
+      "file": "tables/sd_17d121b5df5225a52caa.csv",
+      "sha256": "17d121b5df5225a52caad19b11583f4a7c3b8b87ffe64e925f47751aa6bd0265",
+      "bytes": 570,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_M07_coefficient_rho_within_vs_cross_paired__OS_M07_coefficient_rho_within_vs_cross_paired.csv"
+      ],
+      "original_sha256": "17d121b5df5225a52caad19b11583f4a7c3b8b87ffe64e925f47751aa6bd0265",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_4b637ad21ba505910883",
+      "file": "tables/sd_4b637ad21ba505910883.csv",
+      "sha256": "4b637ad21ba505910883517e1ca0419fd31664c8f64178535c36ecf7bf301a8b",
+      "bytes": 334,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_M08_Rrho_by_mouse__OS_M08_Rrho_by_mouse.csv"
+      ],
+      "original_sha256": "4b637ad21ba505910883517e1ca0419fd31664c8f64178535c36ecf7bf301a8b",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_76aa354807c9d735f998",
+      "file": "tables/sd_76aa354807c9d735f998.csv",
+      "sha256": "76aa354807c9d735f9985792d6fb85e4f888e35b4070febdbf72ed2a933ff9ae",
+      "bytes": 861,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_M09_landscape_residualization_by_mouse__OS_M09_landscape_residualization_by_mouse.csv"
+      ],
+      "original_sha256": "76aa354807c9d735f9985792d6fb85e4f888e35b4070febdbf72ed2a933ff9ae",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_5b0b9d7bfc24529c2b97",
+      "file": "tables/sd_5b0b9d7bfc24529c2b97.csv",
+      "sha256": "5b0b9d7bfc24529c2b97ae508d72d4ad2b8effa124cf63840696cb0791c3302e",
+      "bytes": 353,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_S13_activity_residual_Rrho_by_mouse__OS_S13_activity_residual_Rrho_by_mouse.csv"
+      ],
+      "original_sha256": "5b0b9d7bfc24529c2b97ae508d72d4ad2b8effa124cf63840696cb0791c3302e",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_4baff255c4ae88d93db6",
+      "file": "tables/sd_4baff255c4ae88d93db6.csv",
+      "sha256": "4baff255c4ae88d93db62cc5275e9bc29bd35d16779fe59591fb919664db2a42",
+      "bytes": 364,
+      "format": "csv",
+      "source_table_names": [
+        "02_OS_S14_activity_selectivity_residual_Rrho_by_mouse__OS_S14_activity_selectivity_residual_Rrho_by_mouse.csv"
+      ],
+      "original_sha256": "4baff255c4ae88d93db62cc5275e9bc29bd35d16779fe59591fb919664db2a42",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_e895d473518631edb7a4",
+      "file": "tables/sd_e895d473518631edb7a4.csv",
+      "sha256": "e895d473518631edb7a44c026e391e2a5c7bb20afa26acf0f8e8b2015f18cf21",
+      "bytes": 13232,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_S15_regularization_sensitivity_Rrho__OS_S15_regularization_sensitivity_Rrho.csv"
+      ],
+      "original_sha256": "e895d473518631edb7a44c026e391e2a5c7bb20afa26acf0f8e8b2015f18cf21",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_efac6529403f200bcbe3",
+      "file": "tables/sd_efac6529403f200bcbe3.csv",
+      "sha256": "efac6529403f200bcbe3ab0e3243037b676efedd6a51e0d01fcc975eaa04e79e",
+      "bytes": 13086,
+      "format": "csv",
+      "source_table_names": [
+        "02_OS_S16_regularization_sensitivity_rho_within__OS_S16_regularization_sensitivity_rho_within.csv"
+      ],
+      "original_sha256": "efac6529403f200bcbe3ab0e3243037b676efedd6a51e0d01fcc975eaa04e79e",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_432a7168cdc4938b0a6c",
+      "file": "tables/sd_432a7168cdc4938b0a6c.csv",
+      "sha256": "432a7168cdc4938b0a6c1c45ec45f0cc1c8af975db3438384dae11491f48a838",
+      "bytes": 13077,
+      "format": "csv",
+      "source_table_names": [
+        "03_OS_S17_regularization_sensitivity_rho_cross__OS_S17_regularization_sensitivity_rho_cross.csv"
+      ],
+      "original_sha256": "432a7168cdc4938b0a6c1c45ec45f0cc1c8af975db3438384dae11491f48a838",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_e97ab58553a62532979e",
+      "file": "tables/sd_e97ab58553a62532979e.csv",
+      "sha256": "e97ab58553a62532979e5927dd921f2a15e62f91ad6dfc1e240fcbbf6d7f6ecc",
+      "bytes": 13236,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_S18_regularization_sensitivity_activity_residual_Rrho__OS_S18_regularization_sensitivity_activity_residual_Rrho.csv"
+      ],
+      "original_sha256": "e97ab58553a62532979e5927dd921f2a15e62f91ad6dfc1e240fcbbf6d7f6ecc",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_ae8b6a9c698ef0151403",
+      "file": "tables/sd_ae8b6a9c698ef0151403.csv",
+      "sha256": "ae8b6a9c698ef01514035062fdf7ab4da977d38b112bb292f93019c5afa49a18",
+      "bytes": 13254,
+      "format": "csv",
+      "source_table_names": [
+        "02_OS_S19_regularization_sensitivity_activity_selectivity_Rrho__OS_S19_regularization_sensitivity_activity_selectivity_Rrho.csv"
+      ],
+      "original_sha256": "ae8b6a9c698ef01514035062fdf7ab4da977d38b112bb292f93019c5afa49a18",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_7d97130a07111c5dabc8",
+      "file": "tables/sd_7d97130a07111c5dabc8.csv",
+      "sha256": "7d97130a07111c5dabc87e405d8579a78615b10978e62f8f5b4bfb33f9e71734",
+      "bytes": 355,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_S31_real_edge_Rrho_by_mouse__OS_S31_real_edge_Rrho_by_mouse.csv"
+      ],
+      "original_sha256": "7d97130a07111c5dabc87e405d8579a78615b10978e62f8f5b4bfb33f9e71734",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_ac4f913658cf71fdf6da",
+      "file": "tables/sd_ac4f913658cf71fdf6da.csv",
+      "sha256": "ac4f913658cf71fdf6da311fce86ce81f0d877d1863628c2651a99fdfcd01a2a",
+      "bytes": 80826,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_S34_Rrho_high_precision_permutation_boundary__OS_S34_Rrho_high_precision_permutation_boundary.csv"
+      ],
+      "original_sha256": "ac4f913658cf71fdf6da311fce86ce81f0d877d1863628c2651a99fdfcd01a2a",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_60fe301d1c8ff1891b66",
+      "file": "tables/sd_60fe301d1c8ff1891b66.csv",
+      "sha256": "60fe301d1c8ff1891b66ba2afbbf858a18e16f4ef38cbba7c57b769c7dd09b49",
+      "bytes": 327,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_S36_leave_one_mouse_out_Rrho__OS_S36_leave_one_mouse_out_Rrho.csv"
+      ],
+      "original_sha256": "60fe301d1c8ff1891b66ba2afbbf858a18e16f4ef38cbba7c57b769c7dd09b49",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_4e97a9bc607b9df965d6",
+      "file": "tables/sd_4e97a9bc607b9df965d6.csv",
+      "sha256": "4e97a9bc607b9df965d633b80907345f73f27affdbdbc779b7004027c1227a68",
+      "bytes": 351,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_S41_Rrho_repeat_sd_by_mouse__OS_S41_Rrho_repeat_sd_by_mouse.csv"
+      ],
+      "original_sha256": "4e97a9bc607b9df965d633b80907345f73f27affdbdbc779b7004027c1227a68",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_b6029ee4b910986d842e",
+      "file": "tables/sd_b6029ee4b910986d842e.csv",
+      "sha256": "b6029ee4b910986d842ee354fbef4a88492f18da74b840d9f4312f0604656269",
+      "bytes": 582,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_S07_topset_home_vs_cross_auc_paired__OS_S07_topset_home_vs_cross_auc_paired.csv"
+      ],
+      "original_sha256": "b6029ee4b910986d842ee354fbef4a88492f18da74b840d9f4312f0604656269",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_7ad94da34b056c7d258d",
+      "file": "tables/sd_7ad94da34b056c7d258d.csv",
+      "sha256": "7ad94da34b056c7d258d7ce9e2b8b4ced05dcf6851f0aba09e33e6e315fae623",
+      "bytes": 351,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_S08_topset_R_by_mouse__OS_S08_topset_R_by_mouse.csv"
+      ],
+      "original_sha256": "7ad94da34b056c7d258d7ce9e2b8b4ced05dcf6851f0aba09e33e6e315fae623",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_7bcf1eee3423eb393347",
+      "file": "tables/sd_7bcf1eee3423eb393347.csv",
+      "sha256": "7bcf1eee3423eb3933476f656586265ff75ee2b2f49c307ed03c37e1fd453abd",
+      "bytes": 17658,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_S09_topset_budget_sensitivity_auc__OS_S09_topset_budget_sensitivity_auc.csv"
+      ],
+      "original_sha256": "7bcf1eee3423eb3933476f656586265ff75ee2b2f49c307ed03c37e1fd453abd",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_77e0500fa84a7cd54a31",
+      "file": "tables/sd_77e0500fa84a7cd54a31.csv",
+      "sha256": "77e0500fa84a7cd54a31690ddcec766f29bfe1b11c8a82ec08cd3cedd191524e",
+      "bytes": 17611,
+      "format": "csv",
+      "source_table_names": [
+        "02_OS_S10_topset_budget_sensitivity_balanced_accuracy__OS_S10_topset_budget_sensitivity_balanced_accuracy.csv"
+      ],
+      "original_sha256": "77e0500fa84a7cd54a31690ddcec766f29bfe1b11c8a82ec08cd3cedd191524e",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_239fc387cbb7a176a17c",
+      "file": "tables/sd_239fc387cbb7a176a17c.csv",
+      "sha256": "239fc387cbb7a176a17cfdfeb496984fe136b0e257afce99c5f9277e4e47d8e0",
+      "bytes": 574,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_S11_jaccard_within_vs_cross_paired__OS_S11_jaccard_within_vs_cross_paired.csv"
+      ],
+      "original_sha256": "239fc387cbb7a176a17cfdfeb496984fe136b0e257afce99c5f9277e4e47d8e0",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_46072a84dac4bb5959ff",
+      "file": "tables/sd_46072a84dac4bb5959ff.csv",
+      "sha256": "46072a84dac4bb5959ffd491004ff56ac811dff987b9ef632ed173f492154fb1",
+      "bytes": 336,
+      "format": "csv",
+      "source_table_names": [
+        "02_OS_S12_delta_jaccard_by_mouse__OS_S12_delta_jaccard_by_mouse.csv"
+      ],
+      "original_sha256": "46072a84dac4bb5959ffd491004ff56ac811dff987b9ef632ed173f492154fb1",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_fb30b4480e6beb3fe1f3",
+      "file": "tables/sd_fb30b4480e6beb3fe1f3.csv",
+      "sha256": "fb30b4480e6beb3fe1f3dc2515fad6d426e56dd955bc9a77d33a484a3ad53360",
+      "bytes": 13238,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_S20_regularization_sensitivity_delta_jaccard__OS_S20_regularization_sensitivity_delta_jaccard.csv"
+      ],
+      "original_sha256": "fb30b4480e6beb3fe1f3dc2515fad6d426e56dd955bc9a77d33a484a3ad53360",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_0b6095f94b16d070ced8",
+      "file": "tables/sd_0b6095f94b16d070ced8.csv",
+      "sha256": "0b6095f94b16d070ced806fcc09c081d2dd9d9f789b2a1a2f3b780a9a022b798",
+      "bytes": 82914,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_S35_delta_jaccard_high_precision_permutation_boundary__OS_S35_delta_jaccard_high_precision_permutation_boundary.csv"
+      ],
+      "original_sha256": "0b6095f94b16d070ced806fcc09c081d2dd9d9f789b2a1a2f3b780a9a022b798",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_1d3af5b97a978e8c96df",
+      "file": "tables/sd_1d3af5b97a978e8c96df.csv",
+      "sha256": "1d3af5b97a978e8c96dff1f1d757d566ae2a57bfa6b9dc801da93eeed696c904",
+      "bytes": 329,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_S38_leave_one_mouse_out_topset__OS_S38_leave_one_mouse_out_topset.csv"
+      ],
+      "original_sha256": "1d3af5b97a978e8c96dff1f1d757d566ae2a57bfa6b9dc801da93eeed696c904",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_ba5f152f7c99fc1bc9e5",
+      "file": "tables/sd_ba5f152f7c99fc1bc9e5.csv",
+      "sha256": "ba5f152f7c99fc1bc9e5e5152ca0d64baaad11823cd79c4a0c93ec2fe35e51c2",
+      "bytes": 346,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_S06_half_model_min_auc_by_mouse__OS_S06_half_model_min_auc_by_mouse.csv"
+      ],
+      "original_sha256": "ba5f152f7c99fc1bc9e5e5152ca0d64baaad11823cd79c4a0c93ec2fe35e51c2",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_0cd8c342bf046d2a52b3",
+      "file": "tables/sd_0cd8c342bf046d2a52b3.csv",
+      "sha256": "0cd8c342bf046d2a52b3979016e5a980514c9b5e7f76c5026bd13601e0d5fb60",
+      "bytes": 336,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_S21_pc1_explained_by_mouse__OS_S21_pc1_explained_by_mouse.csv"
+      ],
+      "original_sha256": "0cd8c342bf046d2a52b3979016e5a980514c9b5e7f76c5026bd13601e0d5fb60",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_7bd32be46752ae0296ac",
+      "file": "tables/sd_7bd32be46752ae0296ac.csv",
+      "sha256": "7bd32be46752ae0296acf8333c4c33b5c1477afd6aa9bb8abcbcd834c5e0dd0e",
+      "bytes": 333,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_S22_state_fraction_balance_by_mouse__OS_S22_state_fraction_balance_by_mouse.csv"
+      ],
+      "original_sha256": "7bd32be46752ae0296acf8333c4c33b5c1477afd6aa9bb8abcbcd834c5e0dd0e",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_a1a0cd9ea6d64aa5ed7e",
+      "file": "tables/sd_a1a0cd9ea6d64aa5ed7e.csv",
+      "sha256": "a1a0cd9ea6d64aa5ed7e7a8ee343ec6e84a9cca91a8d7384055409b51a9b9afc",
+      "bytes": 175,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_S23_n_units_by_mouse__OS_S23_n_units_by_mouse.csv"
+      ],
+      "original_sha256": "a1a0cd9ea6d64aa5ed7e7a8ee343ec6e84a9cca91a8d7384055409b51a9b9afc",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_96a573879f01f15caf64",
+      "file": "tables/sd_96a573879f01f15caf64.csv",
+      "sha256": "96a573879f01f15caf64603e9ead528537c822915e6bbcee19c15a2c17d615eb",
+      "bytes": 197,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_S24_n_analysis_trials_by_mouse__OS_S24_n_analysis_trials_by_mouse.csv"
+      ],
+      "original_sha256": "96a573879f01f15caf64603e9ead528537c822915e6bbcee19c15a2c17d615eb",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_6f7167b3ee6369f4745c",
+      "file": "tables/sd_6f7167b3ee6369f4745c.csv",
+      "sha256": "6f7167b3ee6369f4745c9e076d66465e0d9995dd75b1c2d19fd87b147f05f992",
+      "bytes": 399,
+      "format": "csv",
+      "source_table_names": [
+        "01_OS_S25_discovery_final_trial_counts__OS_S25_discovery_final_trial_counts.csv"
+      ],
+      "original_sha256": "6f7167b3ee6369f4745c9e076d66465e0d9995dd75b1c2d19fd87b147f05f992",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_c3766dfe8fb62ced6da4",
+      "file": "tables/sd_c3766dfe8fb62ced6da4.csv",
+      "sha256": "c3766dfe8fb62ced6da463b05d3189a87c7ef861ad46723dab25c29d9d73d4bf",
+      "bytes": 64500,
+      "format": "csv",
+      "source_table_names": [
+        "01_SYN07_complexity_by_cre_type__SYN07_complexity_by_cre_type.csv"
+      ],
+      "original_sha256": "c3766dfe8fb62ced6da463b05d3189a87c7ef861ad46723dab25c29d9d73d4bf",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_da1968085caf5e734e34",
+      "file": "tables/sd_da1968085caf5e734e34.csv",
+      "sha256": "da1968085caf5e734e34e3503981b18b75b186fb635191caafd2c23ea2226b10",
+      "bytes": 59701,
+      "format": "csv",
+      "source_table_names": [
+        "02_SYN08_complexity_by_layer__SYN08_complexity_by_layer.csv"
+      ],
+      "original_sha256": "da1968085caf5e734e34e3503981b18b75b186fb635191caafd2c23ea2226b10",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_77409b1e6d00fb378768",
+      "file": "tables/sd_77409b1e6d00fb378768.csv",
+      "sha256": "77409b1e6d00fb3787684f42933ad220df976133312fb0fc6c51472548311341",
+      "bytes": 4917,
+      "format": "csv",
+      "source_table_names": [
+        "01_SYN12_connection_repeated_holdout__SYN12_connection_repeated_holdout.csv"
+      ],
+      "original_sha256": "77409b1e6d00fb3787684f42933ad220df976133312fb0fc6c51472548311341",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_344441aba4e446ece45c",
+      "file": "tables/sd_344441aba4e446ece45c.csv",
+      "sha256": "344441aba4e446ece45c807676864131c45a401f1a04516689befae9229b3e52",
+      "bytes": 2866,
+      "format": "csv",
+      "source_table_names": [
+        "01_SYN13_identity_absorption_dumbbell_primary__SYN13_identity_absorption_dumbbell_primary.csv"
+      ],
+      "original_sha256": "344441aba4e446ece45c807676864131c45a401f1a04516689befae9229b3e52",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_362968ee3e80a79cfb56",
+      "file": "tables/sd_362968ee3e80a79cfb56.csv",
+      "sha256": "362968ee3e80a79cfb56cab3d2f043b894420725f8c5cc2d9c288e3e3eba7841",
+      "bytes": 2997,
+      "format": "csv",
+      "source_table_names": [
+        "02_SYN14_identity_absorption_dumbbell_conservative__SYN14_identity_absorption_dumbbell_conservative.csv"
+      ],
+      "original_sha256": "362968ee3e80a79cfb56cab3d2f043b894420725f8c5cc2d9c288e3e3eba7841",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_758c3b74a98bb5a2403a",
+      "file": "tables/sd_758c3b74a98bb5a2403a.csv",
+      "sha256": "758c3b74a98bb5a2403af070abdd68462d350df1702c192e8083b33a568473bc",
+      "bytes": 14770,
+      "format": "csv",
+      "source_table_names": [
+        "01_SYN21_repeated_experiment_holdout_continuous__SYN21_repeated_experiment_holdout_continuous.csv"
+      ],
+      "original_sha256": "758c3b74a98bb5a2403af070abdd68462d350df1702c192e8083b33a568473bc",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_7748ba57319756627557",
+      "file": "tables/sd_7748ba57319756627557.csv",
+      "sha256": "7748ba5731975662755790a4436d4d704827fe0d073855e6d6b73eb328bb02f8",
+      "bytes": 101023,
+      "format": "csv",
+      "source_table_names": [
+        "01_stage4_main_model_biology_bridge__model_side_biology_bridge.csv"
+      ],
+      "original_sha256": "7748ba5731975662755790a4436d4d704827fe0d073855e6d6b73eb328bb02f8",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_f22bc19a40798d86b475",
+      "file": "tables/sd_f22bc19a40798d86b475.csv",
+      "sha256": "f22bc19a40798d86b47528d65dc30b49374c7ef4ce918466011b9e27d769de90",
+      "bytes": 591300,
+      "format": "csv",
+      "source_table_names": [
+        "01_si_phase_curve_er_patch__stage4_core_225_task_methods.csv"
+      ],
+      "original_sha256": "f22bc19a40798d86b47528d65dc30b49374c7ef4ce918466011b9e27d769de90",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_1f299a44cdcd020877a6",
+      "file": "tables/sd_1f299a44cdcd020877a6.csv",
+      "sha256": "1f299a44cdcd020877a626f600a949e7b34bb4e497b447384ff83158b221ef1c",
+      "bytes": 377,
+      "format": "csv",
+      "source_table_names": [
+        "stage3_complexity_activity_gain.csv"
+      ],
+      "original_sha256": "1f299a44cdcd020877a626f600a949e7b34bb4e497b447384ff83158b221ef1c",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_32793edd4a120e6f5502",
+      "file": "tables/sd_32793edd4a120e6f5502.csv",
+      "sha256": "32793edd4a120e6f5502cc9ae918e4f400cb8a28076a922e5696d2d851f74863",
+      "bytes": 386,
+      "format": "csv",
+      "source_table_names": [
+        "stage3_complexity_synchrony.csv"
+      ],
+      "original_sha256": "32793edd4a120e6f5502cc9ae918e4f400cb8a28076a922e5696d2d851f74863",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_9c4e9f0788b913ed54fe",
+      "file": "tables/sd_9c4e9f0788b913ed54fe.csv",
+      "sha256": "9c4e9f0788b913ed54fe5071fbcc5e4fc43a2ab8d1a1b4b065388ba7afa91612",
+      "bytes": 337,
+      "format": "csv",
+      "source_table_names": [
+        "stage3_positive_emergence_fraction.csv"
+      ],
+      "original_sha256": "9c4e9f0788b913ed54fe5071fbcc5e4fc43a2ab8d1a1b4b065388ba7afa91612",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_28d053ac8b08f47f88c8",
+      "file": "tables/sd_28d053ac8b08f47f88c8.csv",
+      "sha256": "28d053ac8b08f47f88c8da589e403c59e70facea6bfc05d57852c5af3badb6e2",
+      "bytes": 7675,
+      "format": "csv",
+      "source_table_names": [
+        "search_saturation_curve.csv"
+      ],
+      "original_sha256": "28d053ac8b08f47f88c8da589e403c59e70facea6bfc05d57852c5af3badb6e2",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_7ada3091abd728801a55",
+      "file": "tables/sd_7ada3091abd728801a55.csv",
+      "sha256": "7ada3091abd728801a553b9f033ebf8b96ec7e60f7c5de8d58afebc111fb5742",
+      "bytes": 14945,
+      "format": "csv",
+      "source_table_names": [
+        "state_transfer_interactions.csv"
+      ],
+      "original_sha256": "7ada3091abd728801a553b9f033ebf8b96ec7e60f7c5de8d58afebc111fb5742",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_1b0fc71ecfb4ce33fc4c",
+      "file": "tables/sd_1b0fc71ecfb4ce33fc4c.csv",
+      "sha256": "1b0fc71ecfb4ce33fc4cc678cb846215491bd2e7d2a8b5aea2634a6cc76572cd",
+      "bytes": 6375,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93001_repeat_00.csv"
+      ],
+      "original_sha256": "1b0fc71ecfb4ce33fc4cc678cb846215491bd2e7d2a8b5aea2634a6cc76572cd",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_0a734a436480773489d3",
+      "file": "tables/sd_0a734a436480773489d3.csv",
+      "sha256": "0a734a436480773489d39aaa269fb83ea7d2f56f2b255015d6fee31e294f8f36",
+      "bytes": 6363,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93002_repeat_00.csv"
+      ],
+      "original_sha256": "0a734a436480773489d39aaa269fb83ea7d2f56f2b255015d6fee31e294f8f36",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_25e5500e64fb38c6fbe5",
+      "file": "tables/sd_25e5500e64fb38c6fbe5.csv",
+      "sha256": "25e5500e64fb38c6fbe54a674f7a68347a492cf2eef18cb5c089a016fdec5c44",
+      "bytes": 6386,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93003_repeat_00.csv"
+      ],
+      "original_sha256": "25e5500e64fb38c6fbe54a674f7a68347a492cf2eef18cb5c089a016fdec5c44",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_b335845c4a4a3ccf0679",
+      "file": "tables/sd_b335845c4a4a3ccf0679.csv",
+      "sha256": "b335845c4a4a3ccf0679aa6e1830f03ab34acdcb7b76d44aaf3abf09d0ff9e48",
+      "bytes": 6374,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93004_repeat_00.csv"
+      ],
+      "original_sha256": "b335845c4a4a3ccf0679aa6e1830f03ab34acdcb7b76d44aaf3abf09d0ff9e48",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_d3e468fbb4bf2475095a",
+      "file": "tables/sd_d3e468fbb4bf2475095a.csv",
+      "sha256": "d3e468fbb4bf2475095a9e2e13b1c0859e2c288318798809d9798ffe08af67f6",
+      "bytes": 6363,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93005_repeat_00.csv"
+      ],
+      "original_sha256": "d3e468fbb4bf2475095a9e2e13b1c0859e2c288318798809d9798ffe08af67f6",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_94e56817e5e6a4c7cd01",
+      "file": "tables/sd_94e56817e5e6a4c7cd01.csv",
+      "sha256": "94e56817e5e6a4c7cd0161f1f2c7f678792fb25a713b159a1c8f189031488614",
+      "bytes": 6362,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93006_repeat_00.csv"
+      ],
+      "original_sha256": "94e56817e5e6a4c7cd0161f1f2c7f678792fb25a713b159a1c8f189031488614",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_c8e3a56b2474bae0d826",
+      "file": "tables/sd_c8e3a56b2474bae0d826.csv",
+      "sha256": "c8e3a56b2474bae0d826c9fffe49ce6d82e98909c3de82c50cfc07d39615b123",
+      "bytes": 6368,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93007_repeat_00.csv"
+      ],
+      "original_sha256": "c8e3a56b2474bae0d826c9fffe49ce6d82e98909c3de82c50cfc07d39615b123",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_d33a74cbbc5cbacc2df4",
+      "file": "tables/sd_d33a74cbbc5cbacc2df4.csv",
+      "sha256": "d33a74cbbc5cbacc2df41eee21df74cc939719c33294219adf445d755b792257",
+      "bytes": 6380,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93008_repeat_00.csv"
+      ],
+      "original_sha256": "d33a74cbbc5cbacc2df41eee21df74cc939719c33294219adf445d755b792257",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_b4a458aa1d3710f2c905",
+      "file": "tables/sd_b4a458aa1d3710f2c905.csv",
+      "sha256": "b4a458aa1d3710f2c9058f3680b9368a97e59bd5f0d1c071ea473b96a4a3aa45",
+      "bytes": 6380,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93009_repeat_00.csv"
+      ],
+      "original_sha256": "b4a458aa1d3710f2c9058f3680b9368a97e59bd5f0d1c071ea473b96a4a3aa45",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_87a2f97249693f131924",
+      "file": "tables/sd_87a2f97249693f131924.csv",
+      "sha256": "87a2f97249693f131924e2f4a5d4dcd8c513d44215ea2fb5f1bbc62c6c0f7d82",
+      "bytes": 6377,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93010_repeat_00.csv"
+      ],
+      "original_sha256": "87a2f97249693f131924e2f4a5d4dcd8c513d44215ea2fb5f1bbc62c6c0f7d82",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_a415081d2da3aef9059f",
+      "file": "tables/sd_a415081d2da3aef9059f.csv",
+      "sha256": "a415081d2da3aef9059f42fdcb8cf553b89583c27b744998b344b801417501ca",
+      "bytes": 6377,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93011_repeat_00.csv"
+      ],
+      "original_sha256": "a415081d2da3aef9059f42fdcb8cf553b89583c27b744998b344b801417501ca",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_0673aecea5c4f2f0e9b7",
+      "file": "tables/sd_0673aecea5c4f2f0e9b7.csv",
+      "sha256": "0673aecea5c4f2f0e9b7b879b8c1ba646ce96a63eaf0708f10f000d6798b2f48",
+      "bytes": 6371,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93012_repeat_00.csv"
+      ],
+      "original_sha256": "0673aecea5c4f2f0e9b7b879b8c1ba646ce96a63eaf0708f10f000d6798b2f48",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_ec4cd6b3df177ad96bc8",
+      "file": "tables/sd_ec4cd6b3df177ad96bc8.csv",
+      "sha256": "ec4cd6b3df177ad96bc86a57192a46eeed2255b7c06d7f28fbbb1ec9d33d3a47",
+      "bytes": 6271,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93001_repeat_00.csv"
+      ],
+      "original_sha256": "ec4cd6b3df177ad96bc86a57192a46eeed2255b7c06d7f28fbbb1ec9d33d3a47",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_c8a14df4c971c2839fa6",
+      "file": "tables/sd_c8a14df4c971c2839fa6.csv",
+      "sha256": "c8a14df4c971c2839fa60ea4d29b4dab7747c361c028273c39f3152f0f713225",
+      "bytes": 6244,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93002_repeat_00.csv"
+      ],
+      "original_sha256": "c8a14df4c971c2839fa60ea4d29b4dab7747c361c028273c39f3152f0f713225",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_23a98b55c16f9439695f",
+      "file": "tables/sd_23a98b55c16f9439695f.csv",
+      "sha256": "23a98b55c16f9439695febd9c9df14a731213211de93bc552881deb6a7cc89ea",
+      "bytes": 6249,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93003_repeat_00.csv"
+      ],
+      "original_sha256": "23a98b55c16f9439695febd9c9df14a731213211de93bc552881deb6a7cc89ea",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_d0846bece12acf1dd67e",
+      "file": "tables/sd_d0846bece12acf1dd67e.csv",
+      "sha256": "d0846bece12acf1dd67ef258f0c5565c83ab098e36d0956bfa0d644eb2f9951f",
+      "bytes": 6247,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93004_repeat_00.csv"
+      ],
+      "original_sha256": "d0846bece12acf1dd67ef258f0c5565c83ab098e36d0956bfa0d644eb2f9951f",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_fe05938f737c88d23e98",
+      "file": "tables/sd_fe05938f737c88d23e98.csv",
+      "sha256": "fe05938f737c88d23e984757b0d4222a51b66597ace4a3532b7d7a6e6df82ed0",
+      "bytes": 6251,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93005_repeat_00.csv"
+      ],
+      "original_sha256": "fe05938f737c88d23e984757b0d4222a51b66597ace4a3532b7d7a6e6df82ed0",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_22059e2607f466a87ca9",
+      "file": "tables/sd_22059e2607f466a87ca9.csv",
+      "sha256": "22059e2607f466a87ca991b2a7ad88fb16166af4b7e7e6c4979c3082c13b93fc",
+      "bytes": 6267,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93006_repeat_00.csv"
+      ],
+      "original_sha256": "22059e2607f466a87ca991b2a7ad88fb16166af4b7e7e6c4979c3082c13b93fc",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_5135dddc845bfe54b160",
+      "file": "tables/sd_5135dddc845bfe54b160.csv",
+      "sha256": "5135dddc845bfe54b1601ad6557abe82a4751e990d3e1657dfc8d00abc4195f0",
+      "bytes": 6254,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93007_repeat_00.csv"
+      ],
+      "original_sha256": "5135dddc845bfe54b1601ad6557abe82a4751e990d3e1657dfc8d00abc4195f0",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_c77295be6cb28d70c548",
+      "file": "tables/sd_c77295be6cb28d70c548.csv",
+      "sha256": "c77295be6cb28d70c548f1ecafa9eaf5edceca97cac2f168c6bf62e380630314",
+      "bytes": 6247,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93008_repeat_00.csv"
+      ],
+      "original_sha256": "c77295be6cb28d70c548f1ecafa9eaf5edceca97cac2f168c6bf62e380630314",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_939c80ab1190fb1751dd",
+      "file": "tables/sd_939c80ab1190fb1751dd.csv",
+      "sha256": "939c80ab1190fb1751ddb424373608776bcfee50109dbd013ec0d519909a0faa",
+      "bytes": 6259,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93009_repeat_00.csv"
+      ],
+      "original_sha256": "939c80ab1190fb1751ddb424373608776bcfee50109dbd013ec0d519909a0faa",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_89ee422b1cdf5e3bac4c",
+      "file": "tables/sd_89ee422b1cdf5e3bac4c.csv",
+      "sha256": "89ee422b1cdf5e3bac4cb528867e7f7d27e05dca475156a1328cd08b68e78486",
+      "bytes": 6269,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93010_repeat_00.csv"
+      ],
+      "original_sha256": "89ee422b1cdf5e3bac4cb528867e7f7d27e05dca475156a1328cd08b68e78486",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_9b23238217d5ad3a1d8a",
+      "file": "tables/sd_9b23238217d5ad3a1d8a.csv",
+      "sha256": "9b23238217d5ad3a1d8aa1c472fa5ba35666bde8db74b95b6d50fbaf445a39f2",
+      "bytes": 6263,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93011_repeat_00.csv"
+      ],
+      "original_sha256": "9b23238217d5ad3a1d8aa1c472fa5ba35666bde8db74b95b6d50fbaf445a39f2",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_8c0661f6226a8debef4f",
+      "file": "tables/sd_8c0661f6226a8debef4f.csv",
+      "sha256": "8c0661f6226a8debef4f0895c9ec8e72567b8a9d71b2fce57c5299d2a9a0a9cc",
+      "bytes": 6269,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93012_repeat_00.csv"
+      ],
+      "original_sha256": "8c0661f6226a8debef4f0895c9ec8e72567b8a9d71b2fce57c5299d2a9a0a9cc",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_b97b3bd4c078172f4b79",
+      "file": "tables/sd_b97b3bd4c078172f4b79.csv",
+      "sha256": "b97b3bd4c078172f4b79c670a9d092c0043d25c7872c50a8a694b50d84f1ee13",
+      "bytes": 6250,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93001_repeat_00.csv"
+      ],
+      "original_sha256": "b97b3bd4c078172f4b79c670a9d092c0043d25c7872c50a8a694b50d84f1ee13",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_7a47f68acfc0d0a86ffe",
+      "file": "tables/sd_7a47f68acfc0d0a86ffe.csv",
+      "sha256": "7a47f68acfc0d0a86ffe4fa9160339300e0241f9a217f178bfe200ea9e18b17b",
+      "bytes": 6249,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93001_repeat_01.csv"
+      ],
+      "original_sha256": "7a47f68acfc0d0a86ffe4fa9160339300e0241f9a217f178bfe200ea9e18b17b",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_7894f21a67c583d4f18d",
+      "file": "tables/sd_7894f21a67c583d4f18d.csv",
+      "sha256": "7894f21a67c583d4f18dcb8fe7d652b0280bb7080deede9227e9d6e1a10445a3",
+      "bytes": 6232,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93001_repeat_02.csv"
+      ],
+      "original_sha256": "7894f21a67c583d4f18dcb8fe7d652b0280bb7080deede9227e9d6e1a10445a3",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_ed650189b6c7b058da64",
+      "file": "tables/sd_ed650189b6c7b058da64.csv",
+      "sha256": "ed650189b6c7b058da642049ab3c6d0cff32a9e9455098c192082b588ea5db03",
+      "bytes": 6251,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93001_repeat_03.csv"
+      ],
+      "original_sha256": "ed650189b6c7b058da642049ab3c6d0cff32a9e9455098c192082b588ea5db03",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_6845544f19ff69d9dee9",
+      "file": "tables/sd_6845544f19ff69d9dee9.csv",
+      "sha256": "6845544f19ff69d9dee9f752235bcd5cb9646bbde40dbcf54593bd424e394ff7",
+      "bytes": 6251,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93001_repeat_04.csv"
+      ],
+      "original_sha256": "6845544f19ff69d9dee9f752235bcd5cb9646bbde40dbcf54593bd424e394ff7",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_93e85dd86fd1292e183d",
+      "file": "tables/sd_93e85dd86fd1292e183d.csv",
+      "sha256": "93e85dd86fd1292e183d48b731153cb90601ae75e4bcf5494b4853ac5603015e",
+      "bytes": 6250,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93001_repeat_05.csv"
+      ],
+      "original_sha256": "93e85dd86fd1292e183d48b731153cb90601ae75e4bcf5494b4853ac5603015e",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_ac4364c6624d4e1a7e51",
+      "file": "tables/sd_ac4364c6624d4e1a7e51.csv",
+      "sha256": "ac4364c6624d4e1a7e512c4324c2103db6ea84722e6aaf17afe2788754677eaa",
+      "bytes": 6258,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93001_repeat_06.csv"
+      ],
+      "original_sha256": "ac4364c6624d4e1a7e512c4324c2103db6ea84722e6aaf17afe2788754677eaa",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_daffa63a1ce829d590d2",
+      "file": "tables/sd_daffa63a1ce829d590d2.csv",
+      "sha256": "daffa63a1ce829d590d24f6c85e54db5d10e1433af1b2c8697ae6790f1da48f6",
+      "bytes": 6249,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93001_repeat_07.csv"
+      ],
+      "original_sha256": "daffa63a1ce829d590d24f6c85e54db5d10e1433af1b2c8697ae6790f1da48f6",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_3a4109f89e57f60a20c3",
+      "file": "tables/sd_3a4109f89e57f60a20c3.csv",
+      "sha256": "3a4109f89e57f60a20c35417899b909b9b7a3592afb6c25acad82443c1f05538",
+      "bytes": 6246,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93001_repeat_08.csv"
+      ],
+      "original_sha256": "3a4109f89e57f60a20c35417899b909b9b7a3592afb6c25acad82443c1f05538",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_8893ac9f561fc6d28b1f",
+      "file": "tables/sd_8893ac9f561fc6d28b1f.csv",
+      "sha256": "8893ac9f561fc6d28b1facb81ab341f7a707f3fa2f429039f129bfa82f4a16e4",
+      "bytes": 6258,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93001_repeat_09.csv"
+      ],
+      "original_sha256": "8893ac9f561fc6d28b1facb81ab341f7a707f3fa2f429039f129bfa82f4a16e4",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_87b1c41ba38ca47f2aa1",
+      "file": "tables/sd_87b1c41ba38ca47f2aa1.csv",
+      "sha256": "87b1c41ba38ca47f2aa121bfbf5422b34c2aebcd1b6a2346778f1ad03c6721b0",
+      "bytes": 6271,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93001_repeat_10.csv"
+      ],
+      "original_sha256": "87b1c41ba38ca47f2aa121bfbf5422b34c2aebcd1b6a2346778f1ad03c6721b0",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_53929cdd7b6499119b19",
+      "file": "tables/sd_53929cdd7b6499119b19.csv",
+      "sha256": "53929cdd7b6499119b193149236cdf35c8b2db958fc6134e44cc5320aa7b9f35",
+      "bytes": 6288,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93001_repeat_11.csv"
+      ],
+      "original_sha256": "53929cdd7b6499119b193149236cdf35c8b2db958fc6134e44cc5320aa7b9f35",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_28e9e40b8495565bf72e",
+      "file": "tables/sd_28e9e40b8495565bf72e.csv",
+      "sha256": "28e9e40b8495565bf72e3dc6136bef8a9e2647dc5878b6ea70a769e30f904ee4",
+      "bytes": 6280,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93001_repeat_12.csv"
+      ],
+      "original_sha256": "28e9e40b8495565bf72e3dc6136bef8a9e2647dc5878b6ea70a769e30f904ee4",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_8789a3324dcae9819e4e",
+      "file": "tables/sd_8789a3324dcae9819e4e.csv",
+      "sha256": "8789a3324dcae9819e4ed76e58e670f8824aaeb1e6c87bd8238b0fa4a0655c57",
+      "bytes": 6280,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93001_repeat_13.csv"
+      ],
+      "original_sha256": "8789a3324dcae9819e4ed76e58e670f8824aaeb1e6c87bd8238b0fa4a0655c57",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_419486edd61443a0210b",
+      "file": "tables/sd_419486edd61443a0210b.csv",
+      "sha256": "419486edd61443a0210bd45ac8ad7fe5abdbf5ab288a0c03ba851aefc07f3b57",
+      "bytes": 6286,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93001_repeat_14.csv"
+      ],
+      "original_sha256": "419486edd61443a0210bd45ac8ad7fe5abdbf5ab288a0c03ba851aefc07f3b57",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_5f14a4182519bdbdf5e8",
+      "file": "tables/sd_5f14a4182519bdbdf5e8.csv",
+      "sha256": "5f14a4182519bdbdf5e81fdfa83aa93be6c58c0e761797e3f16b0d60db4d32fe",
+      "bytes": 6271,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93001_repeat_15.csv"
+      ],
+      "original_sha256": "5f14a4182519bdbdf5e81fdfa83aa93be6c58c0e761797e3f16b0d60db4d32fe",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_c8f14cc6035389780218",
+      "file": "tables/sd_c8f14cc6035389780218.csv",
+      "sha256": "c8f14cc603538978021885bd5e6367311efa936181f6199b10f28db8bcb6b503",
+      "bytes": 6266,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93001_repeat_16.csv"
+      ],
+      "original_sha256": "c8f14cc603538978021885bd5e6367311efa936181f6199b10f28db8bcb6b503",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_4a4f9c84965685991318",
+      "file": "tables/sd_4a4f9c84965685991318.csv",
+      "sha256": "4a4f9c84965685991318db86706cfd8a6332ddb72b745228b8dc7357cb5dbef0",
+      "bytes": 6274,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93001_repeat_17.csv"
+      ],
+      "original_sha256": "4a4f9c84965685991318db86706cfd8a6332ddb72b745228b8dc7357cb5dbef0",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_86af2430ae9f29020315",
+      "file": "tables/sd_86af2430ae9f29020315.csv",
+      "sha256": "86af2430ae9f2902031551d5aabb214c013bb34ab330686f569eee7a8bc855f6",
+      "bytes": 6288,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93001_repeat_18.csv"
+      ],
+      "original_sha256": "86af2430ae9f2902031551d5aabb214c013bb34ab330686f569eee7a8bc855f6",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_a86507eaf527fce5829f",
+      "file": "tables/sd_a86507eaf527fce5829f.csv",
+      "sha256": "a86507eaf527fce5829f8af02585f15b1498b1cd5a5581c7a4cdaacd42573168",
+      "bytes": 6269,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93001_repeat_19.csv"
+      ],
+      "original_sha256": "a86507eaf527fce5829f8af02585f15b1498b1cd5a5581c7a4cdaacd42573168",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_526fd746baafdf6f62c1",
+      "file": "tables/sd_526fd746baafdf6f62c1.csv",
+      "sha256": "526fd746baafdf6f62c1cbb151aa647b508cd58ca80a88fb8c21aaf2ace2ff83",
+      "bytes": 6245,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93002_repeat_00.csv"
+      ],
+      "original_sha256": "526fd746baafdf6f62c1cbb151aa647b508cd58ca80a88fb8c21aaf2ace2ff83",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_91256992435f9840c4ee",
+      "file": "tables/sd_91256992435f9840c4ee.csv",
+      "sha256": "91256992435f9840c4ee2c0b1bb537dd8134c14e910c21a6b6d3e199e4b38779",
+      "bytes": 6244,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93002_repeat_01.csv"
+      ],
+      "original_sha256": "91256992435f9840c4ee2c0b1bb537dd8134c14e910c21a6b6d3e199e4b38779",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_6222631d986e3612fdd3",
+      "file": "tables/sd_6222631d986e3612fdd3.csv",
+      "sha256": "6222631d986e3612fdd3f646e788ea0a6813759687275d4bf240a1beb3b497f3",
+      "bytes": 6257,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93002_repeat_02.csv"
+      ],
+      "original_sha256": "6222631d986e3612fdd3f646e788ea0a6813759687275d4bf240a1beb3b497f3",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_8a2c557f7ddf8d6a50e2",
+      "file": "tables/sd_8a2c557f7ddf8d6a50e2.csv",
+      "sha256": "8a2c557f7ddf8d6a50e2493869db6994e452db4730f1880b0d170abbbde0da38",
+      "bytes": 6250,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93002_repeat_03.csv"
+      ],
+      "original_sha256": "8a2c557f7ddf8d6a50e2493869db6994e452db4730f1880b0d170abbbde0da38",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_f63ab0a1ea90f70af752",
+      "file": "tables/sd_f63ab0a1ea90f70af752.csv",
+      "sha256": "f63ab0a1ea90f70af7529faa4d9799d2480162d78e3ef3d38bd517225893f945",
+      "bytes": 6232,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93002_repeat_04.csv"
+      ],
+      "original_sha256": "f63ab0a1ea90f70af7529faa4d9799d2480162d78e3ef3d38bd517225893f945",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_41a8582ad0f5f6869b75",
+      "file": "tables/sd_41a8582ad0f5f6869b75.csv",
+      "sha256": "41a8582ad0f5f6869b7513c0e04c1ddfa226e96a646c8b2f552d9acf02bfcb58",
+      "bytes": 6243,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93002_repeat_05.csv"
+      ],
+      "original_sha256": "41a8582ad0f5f6869b7513c0e04c1ddfa226e96a646c8b2f552d9acf02bfcb58",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_c8d12f5ace3997cc4e12",
+      "file": "tables/sd_c8d12f5ace3997cc4e12.csv",
+      "sha256": "c8d12f5ace3997cc4e123e96b2b8446a859956c69cfe67ad16aceaf8708d5be7",
+      "bytes": 6244,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93002_repeat_06.csv"
+      ],
+      "original_sha256": "c8d12f5ace3997cc4e123e96b2b8446a859956c69cfe67ad16aceaf8708d5be7",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_cdecbfd268cf7211a312",
+      "file": "tables/sd_cdecbfd268cf7211a312.csv",
+      "sha256": "cdecbfd268cf7211a31225a585e10d18a6aed037d8e66439f5b08569ee4ff2ca",
+      "bytes": 6252,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93002_repeat_07.csv"
+      ],
+      "original_sha256": "cdecbfd268cf7211a31225a585e10d18a6aed037d8e66439f5b08569ee4ff2ca",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_2f0af071750c3dcc7479",
+      "file": "tables/sd_2f0af071750c3dcc7479.csv",
+      "sha256": "2f0af071750c3dcc7479fc612afae8b4d454f17d16ac8dc123adf8f31abf39a7",
+      "bytes": 6241,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93002_repeat_08.csv"
+      ],
+      "original_sha256": "2f0af071750c3dcc7479fc612afae8b4d454f17d16ac8dc123adf8f31abf39a7",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_5467c1057a4ae12dbe24",
+      "file": "tables/sd_5467c1057a4ae12dbe24.csv",
+      "sha256": "5467c1057a4ae12dbe24b3b2c3d098496f92ded3fddc9389a5a424d21a066744",
+      "bytes": 6249,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93002_repeat_09.csv"
+      ],
+      "original_sha256": "5467c1057a4ae12dbe24b3b2c3d098496f92ded3fddc9389a5a424d21a066744",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_5ee65ecde0dc61e10c57",
+      "file": "tables/sd_5ee65ecde0dc61e10c57.csv",
+      "sha256": "5ee65ecde0dc61e10c577f0b70f14b3b1a5db1eba8edf03a9f68c50e964c20c0",
+      "bytes": 6282,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93002_repeat_10.csv"
+      ],
+      "original_sha256": "5ee65ecde0dc61e10c577f0b70f14b3b1a5db1eba8edf03a9f68c50e964c20c0",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_fe424e26ced54be80ad9",
+      "file": "tables/sd_fe424e26ced54be80ad9.csv",
+      "sha256": "fe424e26ced54be80ad97fe2094b8dc9d01ee098f59f6b5cd581f55a4b48d1ac",
+      "bytes": 6276,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93002_repeat_11.csv"
+      ],
+      "original_sha256": "fe424e26ced54be80ad97fe2094b8dc9d01ee098f59f6b5cd581f55a4b48d1ac",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_b7a704d78b94549d241e",
+      "file": "tables/sd_b7a704d78b94549d241e.csv",
+      "sha256": "b7a704d78b94549d241e2de4831e674065fffde534c9c1988d91ca6c3f0d93ab",
+      "bytes": 6274,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93002_repeat_12.csv"
+      ],
+      "original_sha256": "b7a704d78b94549d241e2de4831e674065fffde534c9c1988d91ca6c3f0d93ab",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_78d403b7fd7941037b02",
+      "file": "tables/sd_78d403b7fd7941037b02.csv",
+      "sha256": "78d403b7fd7941037b02d383212f97b7ecade12cbfb4bf686a0359d4d38b21d5",
+      "bytes": 6283,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93002_repeat_13.csv"
+      ],
+      "original_sha256": "78d403b7fd7941037b02d383212f97b7ecade12cbfb4bf686a0359d4d38b21d5",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_c530540924f1da11db84",
+      "file": "tables/sd_c530540924f1da11db84.csv",
+      "sha256": "c530540924f1da11db8402464fdaa066c3c490bde77dd380b027213a03d23683",
+      "bytes": 6274,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93002_repeat_14.csv"
+      ],
+      "original_sha256": "c530540924f1da11db8402464fdaa066c3c490bde77dd380b027213a03d23683",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_f78fd4334bc90a39698b",
+      "file": "tables/sd_f78fd4334bc90a39698b.csv",
+      "sha256": "f78fd4334bc90a39698b00ea607c22185d3350ba81c7debe13dec46a9246a2fd",
+      "bytes": 6264,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93002_repeat_15.csv"
+      ],
+      "original_sha256": "f78fd4334bc90a39698b00ea607c22185d3350ba81c7debe13dec46a9246a2fd",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_d9c330e2ec26f084ddf1",
+      "file": "tables/sd_d9c330e2ec26f084ddf1.csv",
+      "sha256": "d9c330e2ec26f084ddf1598d3e766653738ce251aa520fbc694bae7bcb08874e",
+      "bytes": 6277,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93002_repeat_16.csv"
+      ],
+      "original_sha256": "d9c330e2ec26f084ddf1598d3e766653738ce251aa520fbc694bae7bcb08874e",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_5270af9439eab2770336",
+      "file": "tables/sd_5270af9439eab2770336.csv",
+      "sha256": "5270af9439eab277033661b77bf4c6d8c60d4e047cc5865db39ed61f34c0429b",
+      "bytes": 6280,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93002_repeat_17.csv"
+      ],
+      "original_sha256": "5270af9439eab277033661b77bf4c6d8c60d4e047cc5865db39ed61f34c0429b",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_ab63a62d65fc4177e3dd",
+      "file": "tables/sd_ab63a62d65fc4177e3dd.csv",
+      "sha256": "ab63a62d65fc4177e3dd8602aa8a9ebc61603da8bf413039e862281e992a5159",
+      "bytes": 6287,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93002_repeat_18.csv"
+      ],
+      "original_sha256": "ab63a62d65fc4177e3dd8602aa8a9ebc61603da8bf413039e862281e992a5159",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_0a945c493a7c2d95834b",
+      "file": "tables/sd_0a945c493a7c2d95834b.csv",
+      "sha256": "0a945c493a7c2d95834bb321db12a4fb365bd9bdd3e3a43dd11a43bcfc4726db",
+      "bytes": 6284,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93002_repeat_19.csv"
+      ],
+      "original_sha256": "0a945c493a7c2d95834bb321db12a4fb365bd9bdd3e3a43dd11a43bcfc4726db",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_5ab164a13df73a0d0ce9",
+      "file": "tables/sd_5ab164a13df73a0d0ce9.csv",
+      "sha256": "5ab164a13df73a0d0ce9ee2f31257bb1b4713e4141c62a5e581e6ad5a7076661",
+      "bytes": 6259,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93003_repeat_00.csv"
+      ],
+      "original_sha256": "5ab164a13df73a0d0ce9ee2f31257bb1b4713e4141c62a5e581e6ad5a7076661",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_1f2d5ee65bff012ea707",
+      "file": "tables/sd_1f2d5ee65bff012ea707.csv",
+      "sha256": "1f2d5ee65bff012ea707bb08479ac371b6fefa7a51288541a8959fc026fa25fa",
+      "bytes": 6244,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93003_repeat_01.csv"
+      ],
+      "original_sha256": "1f2d5ee65bff012ea707bb08479ac371b6fefa7a51288541a8959fc026fa25fa",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_ddd9a9ad3835f5bfe881",
+      "file": "tables/sd_ddd9a9ad3835f5bfe881.csv",
+      "sha256": "ddd9a9ad3835f5bfe88127ec64447d43332ad74d27e0c4d943d8f448847ea88a",
+      "bytes": 6243,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93003_repeat_02.csv"
+      ],
+      "original_sha256": "ddd9a9ad3835f5bfe88127ec64447d43332ad74d27e0c4d943d8f448847ea88a",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_32a498872b34749fb694",
+      "file": "tables/sd_32a498872b34749fb694.csv",
+      "sha256": "32a498872b34749fb694bfa029d87155ba094a095fbb58a01aaec3f54a4a13aa",
+      "bytes": 6250,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93003_repeat_03.csv"
+      ],
+      "original_sha256": "32a498872b34749fb694bfa029d87155ba094a095fbb58a01aaec3f54a4a13aa",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_c480c2f45d6170601b90",
+      "file": "tables/sd_c480c2f45d6170601b90.csv",
+      "sha256": "c480c2f45d6170601b9054e38826d5b47f9120d2d1a848e19cb70616c8d5e996",
+      "bytes": 6252,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93003_repeat_04.csv"
+      ],
+      "original_sha256": "c480c2f45d6170601b9054e38826d5b47f9120d2d1a848e19cb70616c8d5e996",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_413558a59d031fa284ac",
+      "file": "tables/sd_413558a59d031fa284ac.csv",
+      "sha256": "413558a59d031fa284acc2d9b48e245bee7ea0450dc9dc65602c9121665ea1df",
+      "bytes": 6254,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93003_repeat_05.csv"
+      ],
+      "original_sha256": "413558a59d031fa284acc2d9b48e245bee7ea0450dc9dc65602c9121665ea1df",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_b7f2b0e1a31d142b6736",
+      "file": "tables/sd_b7f2b0e1a31d142b6736.csv",
+      "sha256": "b7f2b0e1a31d142b67366f4b1076989a35b94309ba0161d641e6be6d06090353",
+      "bytes": 6255,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93003_repeat_06.csv"
+      ],
+      "original_sha256": "b7f2b0e1a31d142b67366f4b1076989a35b94309ba0161d641e6be6d06090353",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_ee507d9baf81eed3d75d",
+      "file": "tables/sd_ee507d9baf81eed3d75d.csv",
+      "sha256": "ee507d9baf81eed3d75dc9db176af8e1ba8945612a22dcd4da1f6118629590ab",
+      "bytes": 6248,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93003_repeat_07.csv"
+      ],
+      "original_sha256": "ee507d9baf81eed3d75dc9db176af8e1ba8945612a22dcd4da1f6118629590ab",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_dcaa68c0eb57c0c373e1",
+      "file": "tables/sd_dcaa68c0eb57c0c373e1.csv",
+      "sha256": "dcaa68c0eb57c0c373e1e2389d981ee7d8aa59c4b30c23a27068e626a55ab8a5",
+      "bytes": 6242,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93003_repeat_08.csv"
+      ],
+      "original_sha256": "dcaa68c0eb57c0c373e1e2389d981ee7d8aa59c4b30c23a27068e626a55ab8a5",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_e890b1762307628813f0",
+      "file": "tables/sd_e890b1762307628813f0.csv",
+      "sha256": "e890b1762307628813f0f497b681d6e504ac033baf139e3903921479b9cfbd4e",
+      "bytes": 6247,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93003_repeat_09.csv"
+      ],
+      "original_sha256": "e890b1762307628813f0f497b681d6e504ac033baf139e3903921479b9cfbd4e",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_77afb025665773543bb8",
+      "file": "tables/sd_77afb025665773543bb8.csv",
+      "sha256": "77afb025665773543bb825289f0ff5dc92615cd91373d2faa71af4684a95f561",
+      "bytes": 6281,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93003_repeat_10.csv"
+      ],
+      "original_sha256": "77afb025665773543bb825289f0ff5dc92615cd91373d2faa71af4684a95f561",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_2ddfc633cd4b30b17d85",
+      "file": "tables/sd_2ddfc633cd4b30b17d85.csv",
+      "sha256": "2ddfc633cd4b30b17d857efeea0e58216bc2be4424f053857caea11965180322",
+      "bytes": 6292,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93003_repeat_11.csv"
+      ],
+      "original_sha256": "2ddfc633cd4b30b17d857efeea0e58216bc2be4424f053857caea11965180322",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_7c3c673e17ad32ba14ec",
+      "file": "tables/sd_7c3c673e17ad32ba14ec.csv",
+      "sha256": "7c3c673e17ad32ba14ec229305b053b800f71fe40182519f77074294610a0954",
+      "bytes": 6290,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93003_repeat_12.csv"
+      ],
+      "original_sha256": "7c3c673e17ad32ba14ec229305b053b800f71fe40182519f77074294610a0954",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_d023e020d9ea0d4bcd47",
+      "file": "tables/sd_d023e020d9ea0d4bcd47.csv",
+      "sha256": "d023e020d9ea0d4bcd4777e74f3044a88ca30266ad4356b0ab9749cfb8391082",
+      "bytes": 6277,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93003_repeat_13.csv"
+      ],
+      "original_sha256": "d023e020d9ea0d4bcd4777e74f3044a88ca30266ad4356b0ab9749cfb8391082",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_f98a17d40242d3175513",
+      "file": "tables/sd_f98a17d40242d3175513.csv",
+      "sha256": "f98a17d40242d3175513bd8cb8b8dfc46bbf8f743eac4f82e55ed60d3fa62c1f",
+      "bytes": 6297,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93003_repeat_14.csv"
+      ],
+      "original_sha256": "f98a17d40242d3175513bd8cb8b8dfc46bbf8f743eac4f82e55ed60d3fa62c1f",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_c0b67070b0555c2eeae1",
+      "file": "tables/sd_c0b67070b0555c2eeae1.csv",
+      "sha256": "c0b67070b0555c2eeae137b3412876099c9fc7ea7be4ad1458b493998efc09d7",
+      "bytes": 6286,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93003_repeat_15.csv"
+      ],
+      "original_sha256": "c0b67070b0555c2eeae137b3412876099c9fc7ea7be4ad1458b493998efc09d7",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_6224c564513816df47c1",
+      "file": "tables/sd_6224c564513816df47c1.csv",
+      "sha256": "6224c564513816df47c1efee2b0380204066fc4399f8993cf4b8cdc263f8127a",
+      "bytes": 6281,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93003_repeat_16.csv"
+      ],
+      "original_sha256": "6224c564513816df47c1efee2b0380204066fc4399f8993cf4b8cdc263f8127a",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_ce6faf3d9221beb91f82",
+      "file": "tables/sd_ce6faf3d9221beb91f82.csv",
+      "sha256": "ce6faf3d9221beb91f8272b3ccbd9821fac5dc626fedb6ac49d326c256a64b4b",
+      "bytes": 6287,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93003_repeat_17.csv"
+      ],
+      "original_sha256": "ce6faf3d9221beb91f8272b3ccbd9821fac5dc626fedb6ac49d326c256a64b4b",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_af12bee20dbbb8371437",
+      "file": "tables/sd_af12bee20dbbb8371437.csv",
+      "sha256": "af12bee20dbbb83714375a726c74dbb5aabb9de5196621e4240f14f85950b1f1",
+      "bytes": 6283,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93003_repeat_18.csv"
+      ],
+      "original_sha256": "af12bee20dbbb83714375a726c74dbb5aabb9de5196621e4240f14f85950b1f1",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_7069f416d67d62929224",
+      "file": "tables/sd_7069f416d67d62929224.csv",
+      "sha256": "7069f416d67d629292245ee540cd17fafedc054981ca5a8b7020ae6b95f6c593",
+      "bytes": 6272,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93003_repeat_19.csv"
+      ],
+      "original_sha256": "7069f416d67d629292245ee540cd17fafedc054981ca5a8b7020ae6b95f6c593",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_6ac23cd25fa9dd5b82be",
+      "file": "tables/sd_6ac23cd25fa9dd5b82be.csv",
+      "sha256": "6ac23cd25fa9dd5b82bebfc8cacd203e8d72e24fee972fcbcbc028e98e522028",
+      "bytes": 6256,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93004_repeat_00.csv"
+      ],
+      "original_sha256": "6ac23cd25fa9dd5b82bebfc8cacd203e8d72e24fee972fcbcbc028e98e522028",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_f6376d8470351042a0a9",
+      "file": "tables/sd_f6376d8470351042a0a9.csv",
+      "sha256": "f6376d8470351042a0a903e6102da625be08d6dbb2da6cb984351aafc533c7f1",
+      "bytes": 6238,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93005_repeat_00.csv"
+      ],
+      "original_sha256": "f6376d8470351042a0a903e6102da625be08d6dbb2da6cb984351aafc533c7f1",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_2ed3dc6701e38fa66440",
+      "file": "tables/sd_2ed3dc6701e38fa66440.csv",
+      "sha256": "2ed3dc6701e38fa664400f1b1201e00f0e31dc3f4389af298055dcb82ee0a2f2",
+      "bytes": 6241,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93006_repeat_00.csv"
+      ],
+      "original_sha256": "2ed3dc6701e38fa664400f1b1201e00f0e31dc3f4389af298055dcb82ee0a2f2",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_7e7029d1492c028e5ee9",
+      "file": "tables/sd_7e7029d1492c028e5ee9.csv",
+      "sha256": "7e7029d1492c028e5ee903d5440e6970666a244f89a675354a0e60297cee1071",
+      "bytes": 6254,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93007_repeat_00.csv"
+      ],
+      "original_sha256": "7e7029d1492c028e5ee903d5440e6970666a244f89a675354a0e60297cee1071",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_a92284930c73d06fe2a3",
+      "file": "tables/sd_a92284930c73d06fe2a3.csv",
+      "sha256": "a92284930c73d06fe2a35b8c0365c860a8af80fbfcf9c43c31f840c5c97fa255",
+      "bytes": 6237,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93008_repeat_00.csv"
+      ],
+      "original_sha256": "a92284930c73d06fe2a35b8c0365c860a8af80fbfcf9c43c31f840c5c97fa255",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_b5ea5538936b83a3c273",
+      "file": "tables/sd_b5ea5538936b83a3c273.csv",
+      "sha256": "b5ea5538936b83a3c273593753f7d1bf4d26d855d246268c8e8c63c0b51ef8d3",
+      "bytes": 6250,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93009_repeat_00.csv"
+      ],
+      "original_sha256": "b5ea5538936b83a3c273593753f7d1bf4d26d855d246268c8e8c63c0b51ef8d3",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_22bfb64294f90bddab05",
+      "file": "tables/sd_22bfb64294f90bddab05.csv",
+      "sha256": "22bfb64294f90bddab05be259a914c43d27540c55cc134a6c6323cfe6466bbf8",
+      "bytes": 6245,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93010_repeat_00.csv"
+      ],
+      "original_sha256": "22bfb64294f90bddab05be259a914c43d27540c55cc134a6c6323cfe6466bbf8",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_a12a68d443d0f61cdd8a",
+      "file": "tables/sd_a12a68d443d0f61cdd8a.csv",
+      "sha256": "a12a68d443d0f61cdd8a74e746751981ef0929710d8172f6ab5007d92c027a9c",
+      "bytes": 6253,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93011_repeat_00.csv"
+      ],
+      "original_sha256": "a12a68d443d0f61cdd8a74e746751981ef0929710d8172f6ab5007d92c027a9c",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_a3a1cb88dac797ac99c1",
+      "file": "tables/sd_a3a1cb88dac797ac99c1.csv",
+      "sha256": "a3a1cb88dac797ac99c15ad265e287ee12b25210578a28b38b4ed8d39c4bab9d",
+      "bytes": 6249,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93012_repeat_00.csv"
+      ],
+      "original_sha256": "a3a1cb88dac797ac99c15ad265e287ee12b25210578a28b38b4ed8d39c4bab9d",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_ca5f5a6f5dce5fdc675c",
+      "file": "tables/sd_ca5f5a6f5dce5fdc675c.csv",
+      "sha256": "ca5f5a6f5dce5fdc675c3a815d14136342e121e19cc4e82addaac81123d1ff97",
+      "bytes": 6367,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93001_repeat_00.csv"
+      ],
+      "original_sha256": "ca5f5a6f5dce5fdc675c3a815d14136342e121e19cc4e82addaac81123d1ff97",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_d89ebda3938856ff72a8",
+      "file": "tables/sd_d89ebda3938856ff72a8.csv",
+      "sha256": "d89ebda3938856ff72a80cf6c22357ba8a5575c1929a3ef30ede71e7a7973635",
+      "bytes": 6390,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93002_repeat_00.csv"
+      ],
+      "original_sha256": "d89ebda3938856ff72a80cf6c22357ba8a5575c1929a3ef30ede71e7a7973635",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_8e80b0ae6b89916a777b",
+      "file": "tables/sd_8e80b0ae6b89916a777b.csv",
+      "sha256": "8e80b0ae6b89916a777bb94877d8a9d45a74e295ceca01e5425d314e49ff23f9",
+      "bytes": 6370,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93003_repeat_00.csv"
+      ],
+      "original_sha256": "8e80b0ae6b89916a777bb94877d8a9d45a74e295ceca01e5425d314e49ff23f9",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_1dfd59a741e72fd3c811",
+      "file": "tables/sd_1dfd59a741e72fd3c811.csv",
+      "sha256": "1dfd59a741e72fd3c811bd6530d4be36172761594dcbec2f919138bb0a8ed8ed",
+      "bytes": 6370,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93004_repeat_00.csv"
+      ],
+      "original_sha256": "1dfd59a741e72fd3c811bd6530d4be36172761594dcbec2f919138bb0a8ed8ed",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_8973f7590030066c666d",
+      "file": "tables/sd_8973f7590030066c666d.csv",
+      "sha256": "8973f7590030066c666d6920a80ea921cff3766455f770e622d8fb32c54af215",
+      "bytes": 6387,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93005_repeat_00.csv"
+      ],
+      "original_sha256": "8973f7590030066c666d6920a80ea921cff3766455f770e622d8fb32c54af215",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_ed7abfc14cd8c7a7126e",
+      "file": "tables/sd_ed7abfc14cd8c7a7126e.csv",
+      "sha256": "ed7abfc14cd8c7a7126e138ce5f288393d25410cdfac6cb42036d2736a0684aa",
+      "bytes": 6395,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93006_repeat_00.csv"
+      ],
+      "original_sha256": "ed7abfc14cd8c7a7126e138ce5f288393d25410cdfac6cb42036d2736a0684aa",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_2ce5741befacf35643e9",
+      "file": "tables/sd_2ce5741befacf35643e9.csv",
+      "sha256": "2ce5741befacf35643e90cd892365e05ffae22095f63b8a9a9576dfa3bf5ed35",
+      "bytes": 6363,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93007_repeat_00.csv"
+      ],
+      "original_sha256": "2ce5741befacf35643e90cd892365e05ffae22095f63b8a9a9576dfa3bf5ed35",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_bc00fe29ce868c094e18",
+      "file": "tables/sd_bc00fe29ce868c094e18.csv",
+      "sha256": "bc00fe29ce868c094e181e57185e8468488ae7f60af6b46e2590b35ad7354e17",
+      "bytes": 6357,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93008_repeat_00.csv"
+      ],
+      "original_sha256": "bc00fe29ce868c094e181e57185e8468488ae7f60af6b46e2590b35ad7354e17",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_573759b29549d11c2aeb",
+      "file": "tables/sd_573759b29549d11c2aeb.csv",
+      "sha256": "573759b29549d11c2aeb3997800c463a13ed312add88fb7bcc97eada1697d27b",
+      "bytes": 6405,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93009_repeat_00.csv"
+      ],
+      "original_sha256": "573759b29549d11c2aeb3997800c463a13ed312add88fb7bcc97eada1697d27b",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_52b4b225a700d8959a88",
+      "file": "tables/sd_52b4b225a700d8959a88.csv",
+      "sha256": "52b4b225a700d8959a881e4f8fb3e39ccd92c672f917972ddf3218fa763dd649",
+      "bytes": 6364,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93010_repeat_00.csv"
+      ],
+      "original_sha256": "52b4b225a700d8959a881e4f8fb3e39ccd92c672f917972ddf3218fa763dd649",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_35f548c3834f505453bb",
+      "file": "tables/sd_35f548c3834f505453bb.csv",
+      "sha256": "35f548c3834f505453bb178f65c937fcd5afc7ba2995660fad58559a16f6adf3",
+      "bytes": 6370,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93011_repeat_00.csv"
+      ],
+      "original_sha256": "35f548c3834f505453bb178f65c937fcd5afc7ba2995660fad58559a16f6adf3",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_9e44f3b6935555edc0e7",
+      "file": "tables/sd_9e44f3b6935555edc0e7.csv",
+      "sha256": "9e44f3b6935555edc0e7031eb9316466e2c60c51d503bf91d312492602da0e8d",
+      "bytes": 6374,
+      "format": "csv",
+      "source_table_names": [
+        "graph_93012_repeat_00.csv"
+      ],
+      "original_sha256": "9e44f3b6935555edc0e7031eb9316466e2c60c51d503bf91d312492602da0e8d",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_b95a28703610ab262bab",
+      "file": "tables/sd_b95a28703610ab262bab.csv",
+      "sha256": "b95a28703610ab262bab6f419e692b2f1de0a138709635aa7b291cabd0ca4980",
+      "bytes": 1841,
+      "format": "csv",
+      "source_table_names": [
+        "ED07a_primary_graph_crossover.csv"
+      ],
+      "original_sha256": "b95a28703610ab262bab6f419e692b2f1de0a138709635aa7b291cabd0ca4980",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_502c7aa734788c7a943a",
+      "file": "tables/sd_502c7aa734788c7a943a.csv",
+      "sha256": "502c7aa734788c7a943a6e26b8bcf92faafdc26292c776d0ea31cf9dc4a6c02d",
+      "bytes": 1827,
+      "format": "csv",
+      "source_table_names": [
+        "ED07c_matched_graph_crossover.csv"
+      ],
+      "original_sha256": "502c7aa734788c7a943a6e26b8bcf92faafdc26292c776d0ea31cf9dc4a6c02d",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    },
+    {
+      "id": "sd_3edb43a22a047ecbf523",
+      "file": "tables/sd_3edb43a22a047ecbf523.csv",
+      "sha256": "3edb43a22a047ecbf5231c83ca13cbc42256d46bf0ef20c1b498894f55cc4857",
+      "bytes": 7611,
+      "format": "csv",
+      "source_table_names": [
+        "ED07f_search_depth.csv"
+      ],
+      "original_sha256": "3edb43a22a047ecbf5231c83ca13cbc42256d46bf0ef20c1b498894f55cc4857",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "processed source data; no raw third-party recording"
+    }
+  ],
+  "unique_datasets": 288,
+  "raw_recordings_redistributed": false,
+  "archival_doi": null,
+  "reuse_license": "Not assigned; the public availability does not itself grant a reuse license."
+}

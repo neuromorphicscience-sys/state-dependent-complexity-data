@@ -1,0 +1,67 @@
+new_figure,new_panel,row,column_start,column_span,quant_microplots,source_id,component,topic
+Fig01,a,1,1,2,0,Fig01a,complete,Design
+Fig01,b,1,3,2,2,Fig01g,complete,Primary and matched crossover
+Fig01,c,2,1,1,1,Fig01c,complete,Full transfer matrix
+Fig01,d,2,2,2,2,Fig01e,complete,Home advantages
+Fig01,e,2,4,1,1,Fig01f,complete,Home versus foreign scores
+Fig01,f,3,1,3,3,Fig01b,complete,State-wise budget gains
+Fig01,g,3,4,1,1,Fig01d,complete,Budget crossover
+Fig01,h,4,1,2,2,SI09a;SI09c,complete,Calibration scan and error
+Fig01,i,4,3,1,1,SI09b,complete,Original and matched activity
+Fig01,j,4,4,1,1,SI09e,complete,Validation activity
+Fig02,a,1,1,2,0,Fig02a,complete,数量与位置示意
+Fig02,b,1,3,2,2,Fig02c,complete,两窗口状态组成
+Fig02,c,2,1,3,3,Fig02b,complete,组成剂量响应
+Fig02,d,2,4,1,1,Fig02g,complete,归一化配置表现
+Fig02,e,3,1,2,2,Fig02d,complete,涌现与单位收益
+Fig02,f,3,3,2,2,Fig02f,complete,复杂度需求与经济性
+Fig02,g,4,1,4,4,Fig02h,complete,四拓扑预算曲线
+Fig02,h,5,1,2,2,Fig02i,complete,优胜规则及配置图谱
+Fig02,i,5,3,1,1,Fig02j,complete,拓扑节省幅度
+Fig02,j,5,4,1,1,Fig02k,complete,正节省比例
+Fig03,a,1,1,2,0,Fig03a,complete,配置与杠杆示意
+Fig03,b,1,3,2,2,Fig03b,complete,新噪声分数及配对收益
+Fig03,c,2,1,1,1,Fig03c,complete,搜索与验证分离
+Fig03,d,2,2,2,2,SI13d,complete,配置描述子及关联
+Fig03,e,2,4,1,1,SI13e,complete,跨阶段确认
+Fig03,f,3,1,1,1,TASK_DELAY_ABSOLUTE,complete,延迟回忆逐图最差状态绝对表现
+Fig03,g,3,2,1,1,TASK_DELAY_GAIN,complete,延迟回忆对未选及分组匹配参照的配对收益
+Fig03,h,3,3,1,1,TASK_INTERVAL_ABSOLUTE,complete,间隔辨别逐图最差状态绝对表现
+Fig03,i,3,4,1,1,TASK_INTERVAL_GAIN,complete,间隔辨别对未选及分组匹配参照的配对收益
+Fig03,j,4,1,4,4,SI13f,complete,四拓扑预算增益
+Fig04,a,1,1,2,0,SHARED_SCHEMATIC,complete,共享与状态专用配置示意
+Fig04,b,1,3,1,1,Fig04a,complete,配置距离与分数差
+Fig04,c,1,4,1,1,Fig04b,complete,采样多样性与预算
+Fig04,d,2,1,1,1,ED08a,complete,采样并集扩张
+Fig04,e,2,2,1,1,ED08b,complete,采样共享核心
+Fig04,f,2,3,1,1,ED08d,complete,采样选择熵
+Fig04,g,2,4,1,1,Fig04c,complete,独立噪声复评一致性
+Fig04,h,3,1,1,1,Fig04e,complete,专用减共享差值
+Fig04,i,3,2,1,1,Fig04f,complete,共享减预算随机收益
+Fig04,j,3,3,1,1,ED08e,complete,两状态损失联合图
+Fig04,k,3,4,1,1,SHARED_SUFFICIENCY,complete,冻结ε充分性上界
+Fig04,l,4,1,1,1,Fig04g,complete,局部扰动网格平均收益
+Fig04,m,4,2,1,1,Fig04h,complete,局部扰动条件收益矩阵
+Fig04,n,4,3,1,1,ED08f,complete,共享与专用集合重叠
+Fig04,o,4,4,1,1,Fig04d,complete,状态×预算多样性
+Fig05,a,1,1,2,0,Fig05a,complete,细胞机制与局部连接示意
+Fig05,b,1,3,1,1,Fig05b,complete,最低充分机制成本
+Fig05,c,1,4,1,1,Fig05d,complete,全流程置换
+Fig05,d,2,1,2,2,Fig05c,complete,秩信息及绝对预测误差
+Fig05,e,2,3,1,1,Fig05e,complete,生物分组泛化
+Fig05,f,2,4,1,1,Fig05g,complete,容差稳定性
+Fig05,g,3,1,2,2,Fig05f,complete,特征关联及类别消融
+Fig05,h,3,3,2,2,Fig05h,complete,主及保守代理映射
+Fig05,i,4,1,2,2,Fig05i,complete,身份吸收与组内组间分解
+Fig05,j,4,3,1,1,Fig05j,heldout_increment,局部预测增量与动力学端点
+Fig05,k,4,4,1,1,Fig05k,complete,条件化局部端点效应
+Fig06,a,1,1,2,0,Fig06a,complete,记录与跨状态组织示意
+Fig06,b,1,3,2,2,Fig06b,complete,Steinmetz稳定性及骨架
+Fig06,c,2,1,2,2,Fig06c,complete,Allen稳定性及质量门槛
+Fig06,d,2,3,2,2,Fig06d,complete,跨数据集状态对照与骨架
+Fig06,e,3,1,2,2,Fig06e,complete,主读出配对及逐鼠效应
+Fig06,f,3,3,1,1,Fig06f,permutation_and_merged_CI,正式效应区间及匹配置换
+Fig06,g,3,4,1,1,ED07d,complete,互斥单元读出
+Fig06,h,4,1,1,1,Fig06g,mouse_and_merged_CI,同图像状态辨别及正式区间
+Fig06,i,4,2,1,1,Fig06h,complete,时间运动刺激混杂
+Fig06,j,4,3,2,2,Fig06i,complete,真实边缘刺激控制

@@ -1,0 +1,10 @@
+source_state,target_state,delta_vs_target_home
+sparse_drive,sparse_drive,0.0
+sparse_drive,transition_dense,-0.0623747662498822
+sparse_drive,transition_mid,-0.0427066758727758
+transition_dense,sparse_drive,-0.113555346662502
+transition_dense,transition_dense,0.0
+transition_dense,transition_mid,-0.1223151322736628
+transition_mid,sparse_drive,-0.0709606792963178
+transition_mid,transition_dense,-0.0560504653710975
+transition_mid,transition_mid,0.0

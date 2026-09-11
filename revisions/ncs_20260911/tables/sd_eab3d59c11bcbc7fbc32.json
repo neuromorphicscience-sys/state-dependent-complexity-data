@@ -1,0 +1,127 @@
+{
+  "status": "FROZEN",
+  "version": "six_task_utility_v1",
+  "frozen_utc": "2026-09-08T10:26:20.547306+00:00",
+  "deadline_utc": "2026-09-09T03:51:02Z",
+  "disk_limit_bytes": 30000000000,
+  "graph_ids": [
+    "formal-01",
+    "formal-02",
+    "formal-03",
+    "formal-04",
+    "formal-05",
+    "formal-06",
+    "formal-07",
+    "formal-08",
+    "formal-09",
+    "formal-10",
+    "formal-11",
+    "formal-12"
+  ],
+  "tasks": [
+    "delayed_recall",
+    "nonlinear_integration",
+    "pulse_order",
+    "interval",
+    "evidence_accumulation",
+    "context_recall"
+  ],
+  "task_version": "challenge_v3",
+  "n_neurons": 256,
+  "hh_budget": 32,
+  "graph_kind": "scale_free",
+  "density_parameter": 0.05,
+  "cfg": {
+    "dt_ms": 0.05,
+    "duration_ms": 400.0,
+    "warmup_ms": 100.0,
+    "record_bin_ms": 5.0,
+    "noise_chunk_steps": 256,
+    "lif": {
+      "v_rest": -65.0,
+      "v_reset": -65.0,
+      "v_th": -50.0,
+      "tau_m_ms": 20.0,
+      "refractory_ms": 2.0,
+      "bias": 0.75
+    },
+    "hh": {
+      "bias_uA_cm2": 9.5
+    },
+    "synapse": {
+      "tau_ms": 5.0,
+      "e_rev_mv": 0.0
+    }
+  },
+  "couplings": [
+    0.035,
+    0.05
+  ],
+  "coupling_labels": [
+    "coupling_low",
+    "coupling_high"
+  ],
+  "noise_sigma": 1.0,
+  "amplitude": 5.0,
+  "filter_tau_ms": 30.0,
+  "mask_batch": 24,
+  "trial_batch": 128,
+  "train_blocks": 2,
+  "search_blocks": 1,
+  "selection_blocks": 1,
+  "test_blocks": 4,
+  "ridge_alpha": 10.0,
+  "initial_candidates": 8,
+  "generations": 3,
+  "offspring_per_generation": 8,
+  "elite_count": 4,
+  "shortlist_size": 3,
+  "matched_controls": 4,
+  "unique_candidate_budget_per_method": 32,
+  "primary_endpoint": "Graph-level equal-weight six-task mean of normalized worst-state score difference: population_search minus equal-budget random_search.",
+  "score_normalization": "Regression 1-MSE/Var(y); binary classification 2*accuracy-1. No clipping. Worst-state = minimum over two couplings.",
+  "secondary_endpoints": [
+    "Task-wise primary contrast with Holm correction across six tasks.",
+    "Expected worst-state gain over eight unselected random masks; random-mask scores averaged, not predictions ensembled.",
+    "Expected worst-state gain over four input-group-count-matched randomized masks.",
+    "Local search, each fixed structural/input-access baseline, and state-specific selections from the common population-search pool.",
+    "High-minus-low coupling interaction and cross-state frozen-readout transfer (secondary)."
+  ],
+  "inference": "Graph is the independent unit; 20,000 graph bootstrap replicates and exhaustive two-sided paired sign-flip test. Task instances/seeds are not independent graph replicates.",
+  "stopping": "All 12 graphs and 6 tasks regardless of sign/significance. Technical failure stops and is reported, not dropped. Hard authorized deadline overrides completion.",
+  "development_validity": {
+    "pulse_order": {
+      "mean_accuracy": 0.6276041666666666,
+      "minimum": 0.5625,
+      "maximum": 0.6875
+    },
+    "interval": {
+      "mean_accuracy": 0.7916666666666666,
+      "minimum": 0.703125,
+      "maximum": 0.84375
+    },
+    "context_recall": {
+      "mean_accuracy": 0.8489583333333334,
+      "minimum": 0.75,
+      "maximum": 0.96875
+    }
+  },
+  "timing_basis": {
+    "mask_batch": 24,
+    "trials": 128,
+    "neurons": 256,
+    "seconds": 10.026394728003652,
+    "seconds_per_mask_trial": 0.0032638003671886886,
+    "peak_cuda_bytes": 171931648,
+    "finite": true
+  },
+  "estimated_simulation_hours": 7.6200599932827755,
+  "conservative_compute_hours": 11.287080990931749,
+  "source_hashes": {
+    "benchmark_core.py": "a3dc719e23e83fbdd68826ac2edbb8a2ad600844587f0a99b059809884a9b655",
+    "run_formal.py": "4483b25c52f2725c419ae30fc7a448363f4b9ca23a3b2bcfe7b6ebee6f8c469a",
+    "analyze_results.py": "7a898dda1019f623d101ed3115bf4d83fef3af642aef5c93660f894dde80062f",
+    "stage4_gpu_simulator.py": "6f31518c432731b856b16a20fc55b13d59a81626770981a7019c9c1bfe2db624",
+    "stage4_topology.py": "e474d2d0255b014ef8b473f954f999aaecdc7a5bf1ddcb8d903ae0e91946158a"
+  }
+}

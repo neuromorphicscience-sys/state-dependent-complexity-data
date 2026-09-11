@@ -1,0 +1,369 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "graph": "formal-01",
+      "task": "delayed_recall",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-02",
+      "task": "delayed_recall",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-03",
+      "task": "delayed_recall",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-04",
+      "task": "delayed_recall",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-05",
+      "task": "delayed_recall",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-06",
+      "task": "delayed_recall",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-07",
+      "task": "delayed_recall",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-08",
+      "task": "delayed_recall",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-09",
+      "task": "delayed_recall",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-10",
+      "task": "delayed_recall",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-11",
+      "task": "delayed_recall",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-12",
+      "task": "delayed_recall",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-01",
+      "task": "nonlinear_integration",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-02",
+      "task": "nonlinear_integration",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-03",
+      "task": "nonlinear_integration",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-04",
+      "task": "nonlinear_integration",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-05",
+      "task": "nonlinear_integration",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-06",
+      "task": "nonlinear_integration",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-07",
+      "task": "nonlinear_integration",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-08",
+      "task": "nonlinear_integration",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-09",
+      "task": "nonlinear_integration",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-10",
+      "task": "nonlinear_integration",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-11",
+      "task": "nonlinear_integration",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-12",
+      "task": "nonlinear_integration",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-01",
+      "task": "pulse_order",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-02",
+      "task": "pulse_order",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-03",
+      "task": "pulse_order",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-04",
+      "task": "pulse_order",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-05",
+      "task": "pulse_order",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-06",
+      "task": "pulse_order",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-07",
+      "task": "pulse_order",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-08",
+      "task": "pulse_order",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-09",
+      "task": "pulse_order",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-10",
+      "task": "pulse_order",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-11",
+      "task": "pulse_order",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-12",
+      "task": "pulse_order",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-01",
+      "task": "interval",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-02",
+      "task": "interval",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-03",
+      "task": "interval",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-04",
+      "task": "interval",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-05",
+      "task": "interval",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-06",
+      "task": "interval",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-07",
+      "task": "interval",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-08",
+      "task": "interval",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-09",
+      "task": "interval",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-10",
+      "task": "interval",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-11",
+      "task": "interval",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-12",
+      "task": "interval",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-01",
+      "task": "evidence_accumulation",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-02",
+      "task": "evidence_accumulation",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-03",
+      "task": "evidence_accumulation",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-04",
+      "task": "evidence_accumulation",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-05",
+      "task": "evidence_accumulation",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-06",
+      "task": "evidence_accumulation",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-07",
+      "task": "evidence_accumulation",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-08",
+      "task": "evidence_accumulation",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-09",
+      "task": "evidence_accumulation",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-10",
+      "task": "evidence_accumulation",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-11",
+      "task": "evidence_accumulation",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-12",
+      "task": "evidence_accumulation",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-01",
+      "task": "context_recall",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-02",
+      "task": "context_recall",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-03",
+      "task": "context_recall",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-04",
+      "task": "context_recall",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-05",
+      "task": "context_recall",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-06",
+      "task": "context_recall",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-07",
+      "task": "context_recall",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-08",
+      "task": "context_recall",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-09",
+      "task": "context_recall",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-10",
+      "task": "context_recall",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-11",
+      "task": "context_recall",
+      "input_history_training_only_reconstruction": true
+    },
+    {
+      "graph": "formal-12",
+      "task": "context_recall",
+      "input_history_training_only_reconstruction": true
+    }
+  ],
+  "checks_count": 72,
+  "protocol_hash": "bb1a994062ec1a1ba8b50666436192cd531fb124cb7c880a702f5d691ce05e41",
+  "readout_training_role": "search_train",
+  "test_used_for_fitting": false
+}

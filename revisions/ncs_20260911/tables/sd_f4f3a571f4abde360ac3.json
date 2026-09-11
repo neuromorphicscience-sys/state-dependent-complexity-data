@@ -1,0 +1,145 @@
+{
+  "D_g": {
+    "n_graphs": 12,
+    "mean": 0.029766826631708283,
+    "median": 0.013185486042251199,
+    "ci95_low": 0.0026186916757271472,
+    "ci95_high": 0.05979635763279573,
+    "exact_signflip_p": 0.083984375,
+    "positive_graphs": 9,
+    "negative_graphs": 3
+  },
+  "d_mid": {
+    "n_graphs": 12,
+    "mean": 0.013043484495331834,
+    "median": 0.0076486412435770035,
+    "ci95_low": -0.018552614290577685,
+    "ci95_high": 0.043527954463691745,
+    "exact_signflip_p": 0.43994140625,
+    "positive_graphs": 8,
+    "negative_graphs": 4,
+    "holm_p_two_state_family": 0.43994140625
+  },
+  "d_sparse": {
+    "n_graphs": 12,
+    "mean": 0.03536560857254598,
+    "median": 0.020509594585746527,
+    "ci95_low": 0.005120049413138382,
+    "ci95_high": 0.06828626744487946,
+    "exact_signflip_p": 0.068359375,
+    "positive_graphs": 9,
+    "negative_graphs": 3,
+    "holm_p_two_state_family": 0.13671875
+  },
+  "gain_mid": {
+    "n_graphs": 12,
+    "mean": 0.17251288568756237,
+    "median": 0.16492804652079943,
+    "ci95_low": 0.13643326437514694,
+    "ci95_high": 0.20751284259636638,
+    "exact_signflip_p": 0.00048828125,
+    "positive_graphs": 12,
+    "negative_graphs": 0,
+    "holm_p_exploratory_three_control_family": 0.00146484375
+  },
+  "gain_sparse": {
+    "n_graphs": 12,
+    "mean": 0.14426587403350927,
+    "median": 0.12693556669789058,
+    "ci95_low": 0.10408718546548498,
+    "ci95_high": 0.1898533395572384,
+    "exact_signflip_p": 0.00048828125,
+    "positive_graphs": 12,
+    "negative_graphs": 0,
+    "holm_p_exploratory_three_control_family": 0.00146484375
+  },
+  "gain_maximin": {
+    "n_graphs": 12,
+    "mean": 0.14863526095804344,
+    "median": 0.1273062253215661,
+    "ci95_low": 0.112020533132535,
+    "ci95_high": 0.19109167831080012,
+    "exact_signflip_p": 0.00048828125,
+    "positive_graphs": 12,
+    "negative_graphs": 0,
+    "holm_p_exploratory_three_control_family": 0.00146484375
+  },
+  "Jaccard_shared_mid": {
+    "n_graphs": 12,
+    "mean": 0.49470222969446126,
+    "median": 0.4883720930232558,
+    "ci95_low": 0.4536240031019187,
+    "ci95_high": 0.5354786151698528
+  },
+  "Jaccard_shared_sparse": {
+    "n_graphs": 12,
+    "mean": 0.5190238865200024,
+    "median": 0.5238095238095238,
+    "ci95_low": 0.472405282234378,
+    "ci95_high": 0.5637297296788282
+  },
+  "overlap_mid_minus_sparse": {
+    "n_graphs": 12,
+    "mean": -0.024321656825541018,
+    "median": -0.0372309105150852,
+    "ci95_low": -0.07928190575654137,
+    "ci95_high": 0.03393642120737732,
+    "exact_signflip_p": 0.4228515625,
+    "positive_graphs": 4,
+    "negative_graphs": 7
+  },
+  "sufficiency": {
+    "mid_ucb": 0.04536507429715205,
+    "sparse_ucb": 0.06862833403162025,
+    "epsilon": 0.02,
+    "sufficient": false,
+    "wording": "sufficiency_not_established",
+    "implementation": "frozen R2 normal approximation, z=1.959963984540054; not small-n exact coverage"
+  },
+  "epsilon_sensitivity": [
+    {
+      "mid_ucb": 0.04536507429715205,
+      "sparse_ucb": 0.06862833403162025,
+      "epsilon": 0.01,
+      "sufficient": false,
+      "wording": "sufficiency_not_established"
+    },
+    {
+      "mid_ucb": 0.04536507429715205,
+      "sparse_ucb": 0.06862833403162025,
+      "epsilon": 0.05,
+      "sufficient": false,
+      "wording": "sufficiency_not_established"
+    }
+  ],
+  "tradeoff_counts": {
+    "mid_loss / sparse_loss": 6,
+    "mid_shared_gain / sparse_loss": 3,
+    "mid_loss / sparse_shared_gain": 2,
+    "mid_shared_gain / sparse_shared_gain": 1
+  },
+  "both_observed_losses_le_epsilon_count": 3,
+  "closure_connection": {
+    "direct_mask_comparison": "NOT_IDENTIFIABLE_ACROSS_DIFFERENT_GRAPHS",
+    "closure_graphs": [
+      42001,
+      42002,
+      42003
+    ],
+    "new_graphs": [
+      93001,
+      93002,
+      93003,
+      93004,
+      93005,
+      93006,
+      93007,
+      93008,
+      93009,
+      93010,
+      93011,
+      93012
+    ],
+    "same_graph_archival_robustness_comparison": "available exploratory; unequal pool sizes, including singleton sets; no global geometry claim"
+  }
+}

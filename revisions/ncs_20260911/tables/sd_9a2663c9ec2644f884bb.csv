@@ -1,0 +1,4 @@
+state_a,state_b,n_containers,median_rho,mean_rho
+familiar_active,novel_active,23,0.4297400837779701,0.4097322502017582
+familiar_active,passive,24,0.5728896103896104,0.5609421008178994
+novel_active,passive,23,0.4545454545454545,0.4267740156483955

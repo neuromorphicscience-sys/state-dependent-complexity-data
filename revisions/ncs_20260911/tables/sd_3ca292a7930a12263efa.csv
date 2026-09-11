@@ -1,0 +1,13 @@
+task,method,score,normalized_score,n_final_trials,independent_graph_replicates,scope
+delayed_recall,linear_full_input_history,0.9928764157269279,0.9928764157269279,512,0,One fixed task/input realization shared across all graphs; not n=12 independent controls
+delayed_recall,constant,-0.0034880638122558594,-0.0034880638122558594,512,0,One fixed task/input realization shared across all graphs; not n=12 independent controls
+nonlinear_integration,linear_full_input_history,0.4921875,-0.015625,512,0,One fixed task/input realization shared across all graphs; not n=12 independent controls
+nonlinear_integration,constant,0.5,0.0,512,0,One fixed task/input realization shared across all graphs; not n=12 independent controls
+pulse_order,linear_full_input_history,0.931640625,0.86328125,512,0,One fixed task/input realization shared across all graphs; not n=12 independent controls
+pulse_order,constant,0.5,0.0,512,0,One fixed task/input realization shared across all graphs; not n=12 independent controls
+interval,linear_full_input_history,1.0,1.0,512,0,One fixed task/input realization shared across all graphs; not n=12 independent controls
+interval,constant,0.5,0.0,512,0,One fixed task/input realization shared across all graphs; not n=12 independent controls
+evidence_accumulation,linear_full_input_history,0.90234375,0.8046875,512,0,One fixed task/input realization shared across all graphs; not n=12 independent controls
+evidence_accumulation,constant,0.5,0.0,512,0,One fixed task/input realization shared across all graphs; not n=12 independent controls
+context_recall,linear_full_input_history,0.7578125,0.515625,512,0,One fixed task/input realization shared across all graphs; not n=12 independent controls
+context_recall,constant,0.5,0.0,512,0,One fixed task/input realization shared across all graphs; not n=12 independent controls

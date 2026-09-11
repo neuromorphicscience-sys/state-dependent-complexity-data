@@ -1,0 +1,54 @@
+{
+  "status": "ANALYSIS_COMPLETE",
+  "primary_secondary_protocol_contrast": {
+    "n_graphs": 12,
+    "mean": 0.1645631503719078,
+    "median": 0.16098171621819757,
+    "ci95_low": 0.14597169535193613,
+    "ci95_high": 0.18520413880118958,
+    "positive_graphs": 12,
+    "negative_graphs": 0,
+    "zero_graphs": 0,
+    "exact_two_sided_signflip_p": 0.00048828125,
+    "test_assumption": "Independent graph-level paired effects; sign-exchangeable null"
+  },
+  "descriptive_difference_in_grid_minima": {
+    "n_graphs": 12,
+    "mean": 0.14937872599370572,
+    "median": 0.13645412757371864,
+    "ci95_low": 0.12826548857362163,
+    "ci95_high": 0.17131252529684893,
+    "positive_graphs": 12,
+    "negative_graphs": 0,
+    "zero_graphs": 0
+  },
+  "graph_bootstrap_seed": 7303392046645421002,
+  "bootstrap_resamples": 10000,
+  "n_graphs": 12,
+  "logical_rows": 25920,
+  "graph_condition_method_rows": 1080,
+  "weighting": "Uniform 1/15 over the predeclared coupling-noise grid within each graph",
+  "primary_test_family_size": 1,
+  "limitations": [
+    "Reused graph cohort; not unseen-graph generalization",
+    "Finite local grid; not a complete phase diagram",
+    "Fixed configurations; no condition-wise optimization",
+    "R4 epsilon sufficiency conclusion is unchanged",
+    "Metric profiles are descriptive and do not alter score weights",
+    "Pointwise intervals do not imply simultaneous cell significance",
+    "Minima of finite-noise estimated means can be biased; descriptive endpoint"
+  ],
+  "created_at": "2026-09-08T03:14:33.423646+08:00",
+  "input_path": "LOCAL_METADATA_PATH_OMITTED",
+  "input_sha256": "fc43dee28dc832e53b986d23caa2fb521bbc8406db8c17ea5e29cbf7357adf42",
+  "protocol_sha256": "f9e878c5093f2764e186e248d5982719ea2b776e99485e469d72381e02ae3939",
+  "completion_receipt_sha256": "8ce73c341c778be7137ee25e20985c4332914fb894cc10baa8633696dbac4029",
+  "analysis_script_sha256": "60e9ed5a9913def8b10cd622060c01cba076d474df29111a28202b2fb0a20884",
+  "table_hashes": {
+    "GRAPH_CONDITION_METRICS.csv": "feccd8635346ae03cba660875177bca3984dcbc2d3e600ed04ae79b875e0328d",
+    "PAIRED_CONDITION_EFFECTS.csv": "80e3ba9ae2a93e7f7be38fd73dd6f3eb871fc6ca8611ff0da8097250da94b6ba",
+    "GRAPH_ROBUSTNESS_ENDPOINTS.csv": "0f2d2f7e53593c8c9573c614a35229600572ef67f3f62d1212bef22fbcaa7a7f",
+    "CONDITION_GAIN_SUMMARY.csv": "5763e99ce9128e60b0fe7c5713f2ea9d46c88f18c0722564d9fe6dc920205d86",
+    "METRIC_PROFILES.csv": "6af9838271aac05334efcc8ecaea1a24eee04a7d04ccf15b0cb8392f9e651ce8"
+  }
+}

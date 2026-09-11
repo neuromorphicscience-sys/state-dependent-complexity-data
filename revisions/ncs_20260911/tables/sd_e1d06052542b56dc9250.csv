@@ -1,0 +1,13 @@
+chosen_lag_seconds,state,count
+0.25,familiar_active,13
+0.25,novel_active,13
+0.25,passive,14
+0.5,familiar_active,4
+0.5,novel_active,5
+0.5,passive,2
+1.0,familiar_active,2
+1.0,novel_active,5
+1.0,passive,2
+2.0,familiar_active,5
+2.0,novel_active,1
+2.0,passive,6

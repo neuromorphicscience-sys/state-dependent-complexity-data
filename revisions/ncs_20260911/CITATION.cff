@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite this versioned processed-data revision; the associated manuscript is under preparation."
+type: dataset
+title: "Collective state conditions the computational value of neuronal complexity: processed source data"
+version: "2026.09.11"
+url: "https://github.com/neuromorphicscience-sys/state-dependent-complexity-data"
+authors:
+  - family-names: Zhang
+    given-names: Jinhao
+  - family-names: Meng
+    given-names: Jialin
+    email: jlmeng@sdu.edu.cn
+  - family-names: Wang
+    given-names: Tianyu

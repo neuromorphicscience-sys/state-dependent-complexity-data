@@ -1,0 +1,27 @@
+Variable,Type,n,Unique,Mean,s.d.,Minimum,Maximum,Zero variance,QC interpretation
+Archive ID,Identifier,6357,161,NA,NA,NA,NA,No,Identifier; descriptive numeric moments not interpreted
+Axon length,Continuous,6357,38,634.13,"10,292.1",0,3.384e+05,No,Non-zero variance
+Axon nodes,Count,6357,38,251.22,"3,999.7",0,1.319e+05,No,Non-zero variance
+"Bounding-box extent, x",Continuous,6357,6357,"5,475.0","2,075.1",739.02,"11,276.2",No,Non-zero variance
+"Bounding-box extent, y",Continuous,6357,6357,"4,099.3","1,188.8",413.18,"7,215.6",No,Non-zero variance
+"Bounding-box extent, z",Continuous,6357,6357,"4,450.5","2,107.9",482.22,"10,333.6",No,Non-zero variance
+Bounding-box volume,Continuous,6357,6357,1.132e+11,8.840e+10,7.936e+08,5.795e+11,No,Non-zero variance
+Branch points,Count,6357,819,272.72,223.83,1.000,"3,812.0",No,Non-zero variance
+Cell ID,Identifier,6357,198,NA,NA,NA,NA,No,Identifier; descriptive numeric moments not interpreted
+Dendrite length,Continuous,6357,1,0,0,0,0,Yes,Zero variance; not informative for variance-based analyses
+Dendrite nodes,Count,6357,1,0,0,0,0,Yes,Zero variance; not informative for variance-based analyses
+Endpoints,Count,6357,862,281.33,233.22,2.000,"3,827.0",No,Non-zero variance
+Maximum Euclidean radius,Continuous,6357,6357,"5,979.9","1,936.4",944.04,"12,034.5",No,Non-zero variance
+Maximum path length,Continuous,6357,6357,"10,391.6","3,009.3","2,564.4","22,232.8",No,Non-zero variance
+Total nodes,Count,6357,6110,"46,854.5","31,080.0","2,001.0",2.614e+05,No,Non-zero variance
+Node-type entropy,Continuous,6357,6352,0.006,0.005,9.881e-05,0.139,No,Non-zero variance
+Path-tortuosity proxy,Continuous,6357,6357,1.789,0.369,1.089,6.406,No,Non-zero variance
+Projection subtype,Categorical code,6357,64,NA,NA,NA,NA,No,Categorical code; descriptive numeric moments not interpreted
+Radius of gyration,Continuous,6357,6357,"2,053.4",653.95,369.14,"4,084.5",No,Non-zero variance
+Soma nodes,Count,6357,2,1.059,4.716,1.000,377.00,No,Non-zero variance
+"Soma coordinate, x",Continuous,6357,6356,"3,366.6",872.57,"1,955.3","5,951.1",No,Non-zero variance
+"Soma coordinate, y",Continuous,6357,6357,"3,096.3",882.09,862.87,"5,331.8",No,Non-zero variance
+"Soma coordinate, z",Continuous,6357,6357,"5,331.5","1,245.7","1,855.8","9,373.0",No,Non-zero variance
+Spatial entropy (4),Continuous,6357,6357,3.940,0.475,1.240,5.125,No,Non-zero variance
+Spatial entropy (6),Continuous,6357,6357,4.923,0.506,1.817,6.211,No,Non-zero variance
+Total length,Continuous,6357,6357,1.169e+05,"78,610.8","4,585.7",6.459e+05,No,Non-zero variance
