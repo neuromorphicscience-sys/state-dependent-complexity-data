@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "resource": "Allen Cell Types GLIF model-run metadata",
+  "source_api": "https://api.brain-map.org/api/v2/data/query.json",
+  "metadata_created_utc": "2026-08-18T08:12:00.936708+00:00",
+  "metadata_sha256": "f1050ca56e07bce79ece045cebcd5e2d658f203b5ac9e3ec8027d5d71385c515",
+  "metadata_bytes": 8131910,
+  "archived_specimens": 1218,
+  "archived_runs": 3753,
+  "primary_mouse_cells": 400,
+  "current_api_runs_verified": 2000,
+  "atlas_member_sha256": "341ff197d97a56da354cf4dc7311ccacc546bae4fa704fe19c090879d469f2d8",
+  "cohort_member_sha256": "56caf71d39980cc0b30b242a72d9b26fe69febf4ebe681da450547de1b7b8825",
+  "public_cost_dataset_id": "sd_43b567a5360385353e1e",
+  "public_cost_sha256": "43b567a5360385353e1e640103f00c242f52aa1b06b8a54e54db45b2a0463118",
+  "limits": [
+    "The Allen RMA response is not an immutable versioned dataset release. The archived timestamp/hash and exact model/run identifiers are retained.",
+    "Current API model-run IDs and EVR values match all 2,000 primary-cohort records; other returned fields are not asserted identical.",
+    "This binds model-performance metadata and cohort membership, not raw electrophysiological feature extraction, model refitting or the temporal-fit pipeline.",
+    "No raw NWB, third-party model configuration or new data license is redistributed."
+  ],
+  "verified_utc": "2026-09-11T13:01:51.445058+00:00",
+  "model_run_manifest": "glif_model_runs_400.csv",
+  "raw_data_redistributed": false,
+  "processed_revision_license_assigned": false,
+  "model_run_manifest_sha256": "5ef45fb168959e0b8d71e961a652866ffdb2878c00b1f5cfeca16b252449e88b"
+}

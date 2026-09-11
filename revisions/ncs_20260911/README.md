@@ -25,6 +25,22 @@ match. Endpoint-specific filtering can reduce these counts. Original fits and
 cache extraction were not rerun; historical fit outputs lack contemporaneous
 raw hashes. Only identifiers and verification metadata are included here.
 
+Cellular source bindings are in `resource_provenance/glif_metadata.json`,
+`glif_model_runs_400.csv` and `synphys_r2_1.json`. GLIF archived model-run metadata
+(created 18 August 2026; hash recorded) match the historical 1,218-cell atlas.
+All 2,000 model-run IDs and explained-variance values for the 400-cell primary
+mouse cohort also match the current Allen API and the released cost table.
+This mutable API is not represented as an immutable versioned release.
+The SynPhys Phase-1 record identifies `synphys_r2.1_full.sqlite`: direct read-only
+queries reproduce all 57 selected cell fields (24,739 rows) and 34 pair fields
+(123,506 rows) in the archived input tables. Numerical differences are zero;
+literal empty-string/CSV-null conversions are explicitly recorded. Official
+release manifest, schema metadata and object length agree. The database was
+**not** fully content-hashed, and its multipart ETag is not a raw-file MD5.
+These checks do not rerun raw feature extraction, model fitting or later
+transfer/statistical analyses. Only identifiers and verification metadata are
+added; no raw database or electrophysiological recordings are redistributed.
+
 The release retains the complete six-task comparison families, not only delayed recall and interval discrimination. Shared-policy results use the reference-corrected frozen evaluation. Task primary-null results, unresolved shared sufficiency and biological landscape-null controls remain explicit. Biological tables are processed summaries from public resources; no raw third-party recordings are redistributed.
 
 The underlying resources include Allen Cell Types/GLIF, SynPhys, Steinmetz, Allen Visual Behavior and OpenScope. Access raw data through the original providers under their terms. The data repository currently has no assigned reuse license; public availability alone does not grant a reuse license. No new license or archival DOI is asserted by this revision.

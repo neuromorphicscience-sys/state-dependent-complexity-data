@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "resource": "Allen Synaptic Physiology",
+  "database_file": "synphys_r2.1_full.sqlite",
+  "release": "r2.1",
+  "database_variant": "full",
+  "bytes": 267676073984,
+  "metadata": {
+    "db_version": "22",
+    "creation_date": "2021-12-21",
+    "origin": "Allen Institute for Brain Science / Synaptic Physiology"
+  },
+  "manifest_url": "https://raw.githubusercontent.com/AllenInstitute/aisynphys/download_urls/download_urls.json",
+  "manifest_sha256": "539fff46732dccbf39ba71f9b94f683f0ba4806764d890119bce532b0e1067f0",
+  "original_resource_url": "https://allen-synphys.s3-us-west-2.amazonaws.com/synphys_r2.1_full.sqlite",
+  "source_head": {
+    "Content-Length": "267676073984",
+    "ETag": "\"1965f01ac61663079ccf3dbd3a5a9a4e-7978\"",
+    "Last-Modified": "Thu, 26 Jan 2023 00:55:20 GMT",
+    "x-amz-version-id": "null"
+  },
+  "archived_report_sha256": "a81d2908221420a0c3528024a64f58c752bd0393bc71e76417cdb337659eb098",
+  "original_query_script_sha256": "ee94a989fc40e7cb7531222362619206331f280590d2ca44c643b2909bfafef5",
+  "source_table_checks": {
+    "cell_sql": {
+      "rows": 24739,
+      "columns": 57,
+      "missingness_exact_after_csv_empty_null_normalization": true,
+      "sql_empty_strings_serialized_as_csv_missing": {
+        "target_layer": 7359,
+        "target_region": 404,
+        "internal": 27,
+        "acsf": 3
+      },
+      "identifiers_exact": true,
+      "numeric_rtol": 2e-12,
+      "numeric_atol": 1e-18,
+      "max_absolute_numeric_roundtrip_difference": 0.0,
+      "passed": true,
+      "archived_table_sha256": "08c7acc71505713c2baa1cad361151219813db0578283bad5df4a7073af22be1",
+      "query_sha256": "0957c6b6e4c9ae07f749f82e7ac1b15aec1daebb84e0d162afb3507100d53ee9"
+    },
+    "pair_sql": {
+      "rows": 123506,
+      "columns": 34,
+      "missingness_exact_after_csv_empty_null_normalization": true,
+      "sql_empty_strings_serialized_as_csv_missing": {},
+      "identifiers_exact": true,
+      "numeric_rtol": 2e-12,
+      "numeric_atol": 1e-18,
+      "max_absolute_numeric_roundtrip_difference": 0.0,
+      "passed": true,
+      "archived_table_sha256": "7dbda574eb89aaaecaaa7b4b9e7d865515fef076fabfa2c3b9586c11d011282b",
+      "query_sha256": "0e04b97fb97900e487c1ffb9ecf11300264e90683dbe4dd9527f10cdead03b51"
+    }
+  },
+  "archived_counts": {
+    "cells": 24739,
+    "pairs": 123506,
+    "tested_pairs_primary": 81942,
+    "connected_pairs_primary": 3299,
+    "dynamics_qc_pairs": 2112
+  },
+  "species_cells": {
+    "human": 3306,
+    "mouse": 21433
+  },
+  "transfer_report_sha256": "89015db10b5234fb9a05ef9f44b810449ce55afa2b827a58dd845c21261635a7",
+  "limits": [
+    "Analysis input is bound by its original Phase-1 report and full cell/pair SELECT-output comparisons, not inferred solely from a filename.",
+    "Schema 22 is shared by more than one release; it does not uniquely identify r2.1.",
+    "Official manifest filename and HTTP object length agree; the multipart ETag is NOT interpreted as a raw-file MD5 or SHA-256.",
+    "No whole-database checksum or raw BLOB validation was performed; upstream byte-for-byte identity is not established.",
+    "The cell/pair projections are compared with archived tables, with explicit numeric roundtrip tolerance; no model fitting, raw download or database write occurs.",
+    "This does not independently replay the later transfer, leverage aggregation or statistical models."
+  ],
+  "verified_utc": "2026-09-11T13:01:51.467608+00:00",
+  "raw_data_redistributed": false,
+  "processed_revision_license_assigned": false,
+  "full_database_hash_verified": false
+}
