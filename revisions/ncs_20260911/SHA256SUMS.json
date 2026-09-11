@@ -1,11 +1,12 @@
 {
   "CITATION.cff": "01df33111060a91b5718c23b25357af2a81ee0ebbeb8e0d9e5dc3c927eef424d",
   "DATASET_INDEX.json": "f6f1e568635be0fc745e6578ec21fb632dd71d0be0cda64727a0bd53b64e20ba",
-  "README.md": "a8e1b6e3295b9d22784e4b8961bb9271be25a9592deb78be9c13bbf1bea15057",
+  "README.md": "7a46172776488cc2aceee76ecfb1590bb54a16c849f87b11c0dfb005c471780c",
   "panel_maps/main.csv": "6d990ea6b4c74d79a2f193938aa54b9f8781fd2bc95239cb0ab3eb94157e58fc",
   "panel_maps/main_source_collection.json": "a80f9e7e61f06c1ef5eafbfcf6d5839020f178bed20abb9e5f3f97d09f01c80f",
   "panel_maps/supporting.csv": "2334ccc9305b7a5e4c8e42801d740725203b68780a2ff36c37fb83940419d41c",
   "panel_maps/supporting_source_collection.json": "fd37a0b037cd8b627e0a8794487193671d3521b2608f5caebf8a6aed4cd27403",
+  "resource_provenance/openscope_000248.json": "6d965088ad2b19c0f7fb7a8f0802a15764ca70014a395dabc994db7c3e447d7f",
   "supplementary_tables/Supplementary_Table_1.csv": "6d8feebbbe913266eaaf35cabae806226f9b15b8b7cd16505c2a52fbd4dcb591",
   "supplementary_tables/Supplementary_Table_2.csv": "858b4134b405b02efa7874a403b35f4229aef75857af7d6f00856874302aa771",
   "tables/sd_04042b6c2ceba43c6a58.csv": "04042b6c2ceba43c6a5892ca08c20c4fd6f8a09fa877425624d57601096da5ea",

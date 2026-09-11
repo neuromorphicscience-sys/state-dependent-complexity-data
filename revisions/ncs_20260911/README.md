@@ -10,6 +10,8 @@ Each dataset has a stable content identifier, SHA256, source-table aliases and a
 
 The assembly-level source collections are not a claim that every listed dataset is used in every panel. The panel map gives the exact historical panel/group identity, while the dataset index resolves source-table aliases. More detailed source-to-estimator coverage is provided with the code. Independent sample counts follow the relevant dataset and legend; the number of tables or microplots is not an experimental sample size.
 
+`resource_provenance/openscope_000248.json` records the original DANDI 000248 version 0.240502.2344, upstream DOI and the twelve analysis-source session assets. The 78-file inventory matches published asset identities, paths and sizes; all twelve session NWBs identified by archived cache source paths were freshly SHA-256 verified against the official version. This manifest contains identifiers and hashes, not raw recordings. Historical cache extraction was not repeated, and old caches did not record raw hashes at creation. The upstream resource DOI/license is not a DOI/license assigned to this processed-data revision.
+
 ## Scientific scope
 
 The release retains the complete six-task comparison families, not only delayed recall and interval discrimination. Shared-policy results use the reference-corrected frozen evaluation. Task primary-null results, unresolved shared sufficiency and biological landscape-null controls remain explicit. Biological tables are processed summaries from public resources; no raw third-party recordings are redistributed.

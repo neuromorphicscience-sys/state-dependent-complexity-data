@@ -1,0 +1,120 @@
+{
+  "resource": "Allen Institute OpenScope Illusion project",
+  "dandiset": "000248",
+  "version": "0.240502.2344",
+  "original_resource_doi": "10.48324/dandi.000248/0.240502.2344",
+  "official_url": "https://dandiarchive.org/dandiset/000248/0.240502.2344",
+  "original_resource_license": [
+    "spdx:CC-BY-4.0"
+  ],
+  "verified_date": "2026-09-11",
+  "n_analysis_mice": 12,
+  "recorded_inventory_assets": 78,
+  "verification": "Published version asset IDs, relative paths and sizes match the 78-file local inventory. The 12 session NWBs identified by archived analysis-cache source paths were freshly SHA-256 checked against the published metadata.",
+  "analysis_source_assets": [
+    {
+      "subject": "619293",
+      "session": "1184980079",
+      "path": "sub-619293/sub-619293_ses-1184980079_ogen.nwb",
+      "asset_id": "e61edcf3-26e9-44e1-9017-3ee558197da5",
+      "bytes": 2453451408,
+      "published_sha256": "8b3a4c763cc91f2dd0d7a1c07abc28f321e5857784d5e178c00e47fc71465a81"
+    },
+    {
+      "subject": "619296",
+      "session": "1187930705",
+      "path": "sub-619296/sub-619296_ses-1187930705_ogen.nwb",
+      "asset_id": "f1a26076-0a3e-43c8-b138-5320bca7a23f",
+      "bytes": 2469141920,
+      "published_sha256": "ea7fbc07a80a23799fc77d9ce1d1794e18b9c58c0ac4fd16953e058911d9f818"
+    },
+    {
+      "subject": "620333",
+      "session": "1188137866",
+      "path": "sub-620333/sub-620333_ses-1188137866_ogen.nwb",
+      "asset_id": "6b321a1c-55c4-4de5-8a25-373f2c5a4bc8",
+      "bytes": 3036007774,
+      "published_sha256": "ac46d11894858a1a830838058b153f61874e978b0991521710160afd8f1d23de"
+    },
+    {
+      "subject": "620334",
+      "session": "1189887297",
+      "path": "sub-620334/sub-620334_ses-1189887297_ogen.nwb",
+      "asset_id": "f7b65765-41b5-4605-9585-95338c3a9e5a",
+      "bytes": 2717870004,
+      "published_sha256": "b5e1a0a11639c61c5e2ee08e7edb6854c4adcdc460762967863fb6509ebda251"
+    },
+    {
+      "subject": "625545",
+      "session": "1182865981",
+      "path": "sub-625545/sub-625545_ses-1182865981_ogen.nwb",
+      "asset_id": "efb53d2c-2d51-4a26-9b36-5d3d3ff7e19e",
+      "bytes": 2803551453,
+      "published_sha256": "d61d8467e12c642d0914edefa50eb6a748260de0902fc1b7622068ee0e6880d7"
+    },
+    {
+      "subject": "625554",
+      "session": "1181330601",
+      "path": "sub-625554/sub-625554_ses-1181330601_ogen.nwb",
+      "asset_id": "3e3d9ce2-4d45-4f41-a957-532cbdf5bc39",
+      "bytes": 3619691457,
+      "published_sha256": "0e5d5b38a5394a53b5fc3b0ecb7f58899c54273ae285e805a5d0c80cb6da6118"
+    },
+    {
+      "subject": "625555",
+      "session": "1183070926",
+      "path": "sub-625555/sub-625555_ses-1183070926_ogen.nwb",
+      "asset_id": "1b7aaf88-eabd-46f5-8f2a-c1fecba823f2",
+      "bytes": 2598789798,
+      "published_sha256": "89fa7d4060b513485b41976e5e502ede4add71a1e3bf90f7720c14b41f7a4c9f"
+    },
+    {
+      "subject": "630506",
+      "session": "1192952695",
+      "path": "sub-630506/sub-630506_ses-1192952695_ogen.nwb",
+      "asset_id": "bc340647-7b72-4ec8-aa86-ac236da36713",
+      "bytes": 2709636662,
+      "published_sha256": "8a0a5229313ec7aa7f19645ebf60ac669240003c7abf0f60d2775275463df5a0"
+    },
+    {
+      "subject": "631510",
+      "session": "1196157974",
+      "path": "sub-631510/sub-631510_ses-1196157974_ogen.nwb",
+      "asset_id": "15bbb781-f912-4630-b9fe-f3df864290ad",
+      "bytes": 2773818936,
+      "published_sha256": "2e83c62e63c51b0bab448ac504ebc7a812764b7b58fa74bc22e6a9f43e7e9db6"
+    },
+    {
+      "subject": "631570",
+      "session": "1194857009",
+      "path": "sub-631570/sub-631570_ses-1194857009_ogen.nwb",
+      "asset_id": "0073a783-5b41-42a8-882a-2960554d4e43",
+      "bytes": 2108745405,
+      "published_sha256": "eeb23511b88a9d53dc69a973cdd6d54c1ce676b7bc678482c71dd96b1d49c9ee"
+    },
+    {
+      "subject": "633229",
+      "session": "1199247593",
+      "path": "sub-633229/sub-633229_ses-1199247593_ogen.nwb",
+      "asset_id": "9ab6bfff-70ed-44dc-b384-96b4cef2b566",
+      "bytes": 3308934228,
+      "published_sha256": "6a78cd32db3d5194927dcbb7228d0a7cf50479e5df6d7ed43c2cea510acee4db"
+    },
+    {
+      "subject": "637484",
+      "session": "1208667752",
+      "path": "sub-637484/sub-637484_ses-1208667752_ogen.nwb",
+      "asset_id": "233e6f43-d51e-47f0-9cda-838444c274f6",
+      "bytes": 2557113684,
+      "published_sha256": "53d84377712a9bcd15e140d360d91d9f86835b0e22dfdc905170e39b58e1d996"
+    }
+  ],
+  "raw_data_redistributed": false,
+  "processed_revision_license_assigned": false,
+  "limits": [
+    "No raw trial extraction or model fitting was rerun.",
+    "Historical caches did not store raw SHA-256 at creation; this check binds current source bytes and archived source paths.",
+    "Auxiliary probe NWBs were checked by asset identity and size, not freshly content-hashed.",
+    "This upstream DOI and license are not a DOI or license assigned to the project processed-data revision."
+  ]
+}
