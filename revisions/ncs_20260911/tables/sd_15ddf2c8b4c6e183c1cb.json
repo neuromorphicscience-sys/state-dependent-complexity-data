@@ -1,0 +1,12 @@
+{
+  "dyn_rows_raw": 319990,
+  "dyn_duplicate_rows": 78295,
+  "dyn_rows_strict": 241695,
+  "pred_rows_raw": 952265,
+  "pred_duplicate_rows": 229525,
+  "pred_rows_strict": 722740,
+  "unique_sessions": 39,
+  "inventory_rows": 52,
+  "inventory_unique_file_stems": 39,
+  "inventory_unique_identifiers": 39
+}

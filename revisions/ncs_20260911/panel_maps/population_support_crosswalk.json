@@ -1,0 +1,1693 @@
+{
+  "scope": "Exact ED7 and SI2-6 source/display mapping: 41 quantitative panels,53 microplots. Findings do not certify unchanged captions.",
+  "rows": [
+    {
+      "figure": "ED07",
+      "panel": "a",
+      "source_panel": "ED06a",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_1ea8e1128f41923d7512",
+          "sha256": "1ea8e1128f41923d7512072b8519c4b08ee4c09dd7a6b914de2361679dfa0a73",
+          "source_table_name": "01_S5BR_02_steinmetz_latent_r2__steinmetz_latent_r2.csv",
+          "rows": 195,
+          "columns": [
+            "session_id",
+            "state",
+            "latent_r2"
+          ],
+          "public_file": "tables/sd_1ea8e1128f41923d7512.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED06:plot_latent_quality": "1e6413ed80162a230a9c3c7dbdec79696293bd40bc35621b77205fe292a5c646",
+        "ED06:box_strip": "cc4c103f3dc08f94dc796e35d988130ca1ba6070e6dbc42af45336be96f12c46"
+      },
+      "source_resolver_AST_sha256": "eb6f9bf5883bc298896657584e565a65ca81625ee8b8d652ae8fe8d22ac3ce4d",
+      "source_build_AST_sha256": "30299d3a3f266aa61c7e4fb59de61177c120579f69a5a1cbd1712e4498767fbe",
+      "displayed_estimate": "Steinmetz latent_r2 by state.",
+      "observational_unit": "39 sessions x 5 states = 195 fits; 10 mice.",
+      "interval_or_spread": "Median/IQR/1.5-IQR whiskers; jittered source observations, no confidence interval.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "ED07",
+      "panel": "g",
+      "source_panel": "ED06g",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_777e94efab618d9132cd",
+          "sha256": "777e94efab618d9132cd0f60711b3079f2e14bbee2e958a16888c6b911632202",
+          "source_table_name": "01_S5BR_15_allen_primary_latent_r2__allen_primary_latent_r2.csv",
+          "rows": 72,
+          "columns": [
+            "experiment_id",
+            "container_id",
+            "experiment_state",
+            "latent_r2",
+            "cre_line",
+            "targeted_structure",
+            "imaging_depth"
+          ],
+          "public_file": "tables/sd_777e94efab618d9132cd.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED06:plot_latent_quality": "1e6413ed80162a230a9c3c7dbdec79696293bd40bc35621b77205fe292a5c646",
+        "ED06:box_strip": "cc4c103f3dc08f94dc796e35d988130ca1ba6070e6dbc42af45336be96f12c46"
+      },
+      "source_resolver_AST_sha256": "eb6f9bf5883bc298896657584e565a65ca81625ee8b8d652ae8fe8d22ac3ce4d",
+      "source_build_AST_sha256": "30299d3a3f266aa61c7e4fb59de61177c120579f69a5a1cbd1712e4498767fbe",
+      "displayed_estimate": "Allen latent_r2 by state.",
+      "observational_unit": "72 experiments, 24 per state, nested in 24 containers/mice.",
+      "interval_or_spread": "Median/IQR/1.5-IQR whiskers; jittered source observations, no confidence interval.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "ED07",
+      "panel": "b",
+      "source_panel": "ED06b",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_1ea8e1128f41923d7512",
+          "sha256": "1ea8e1128f41923d7512072b8519c4b08ee4c09dd7a6b914de2361679dfa0a73",
+          "source_table_name": "01_S5BR_02_steinmetz_latent_r2__steinmetz_latent_r2.csv",
+          "rows": 195,
+          "columns": [
+            "session_id",
+            "state",
+            "latent_r2"
+          ],
+          "public_file": "tables/sd_1ea8e1128f41923d7512.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED06:positive_summary": "11c8cdba53b3c79066e4d799bc77caea24926927dcf921c2b212d362456e65bf",
+        "ED06:plot_positive_fraction": "e0e8c29bb14b5703c6fc83cccf7f971b9f301b13f048678e065fac2f4dfe6b8b"
+      },
+      "source_resolver_AST_sha256": "eb6f9bf5883bc298896657584e565a65ca81625ee8b8d652ae8fe8d22ac3ce4d",
+      "source_build_AST_sha256": "30299d3a3f266aa61c7e4fb59de61177c120579f69a5a1cbd1712e4498767fbe",
+      "displayed_estimate": "Fraction of latent_r2 values >0 per state.",
+      "observational_unit": "Same session/experiment fits as a or g; no new sample.",
+      "interval_or_spread": "No confidence interval.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "ED07",
+      "panel": "h",
+      "source_panel": "ED06h",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_777e94efab618d9132cd",
+          "sha256": "777e94efab618d9132cd0f60711b3079f2e14bbee2e958a16888c6b911632202",
+          "source_table_name": "01_S5BR_15_allen_primary_latent_r2__allen_primary_latent_r2.csv",
+          "rows": 72,
+          "columns": [
+            "experiment_id",
+            "container_id",
+            "experiment_state",
+            "latent_r2",
+            "cre_line",
+            "targeted_structure",
+            "imaging_depth"
+          ],
+          "public_file": "tables/sd_777e94efab618d9132cd.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED06:positive_summary": "11c8cdba53b3c79066e4d799bc77caea24926927dcf921c2b212d362456e65bf",
+        "ED06:plot_positive_fraction": "e0e8c29bb14b5703c6fc83cccf7f971b9f301b13f048678e065fac2f4dfe6b8b"
+      },
+      "source_resolver_AST_sha256": "eb6f9bf5883bc298896657584e565a65ca81625ee8b8d652ae8fe8d22ac3ce4d",
+      "source_build_AST_sha256": "30299d3a3f266aa61c7e4fb59de61177c120579f69a5a1cbd1712e4498767fbe",
+      "displayed_estimate": "Fraction of latent_r2 values >0 per state.",
+      "observational_unit": "Same session/experiment fits as a or g; no new sample.",
+      "interval_or_spread": "No confidence interval.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "ED07",
+      "panel": "c",
+      "source_panel": "ED06c",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_3ca45ffb3d903b1b3959",
+          "sha256": "3ca45ffb3d903b1b3959659af435831e18bc62e8ad6607b154b5e83b991c7df0",
+          "source_table_name": "01_S5BR_06_steinmetz_activity_loading_confound__steinmetz_confound_correlations.csv",
+          "rows": 390,
+          "columns": [
+            "session_id",
+            "state",
+            "confound",
+            "rho",
+            "p",
+            "n"
+          ],
+          "public_file": "tables/sd_3ca45ffb3d903b1b3959.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED06:plot_confound": "403b125e0d6bbad69b8fa265d2e0162e4de2ccd24a641f3e5eb6a108062a1fb3",
+        "ED06:box_strip": "cc4c103f3dc08f94dc796e35d988130ca1ba6070e6dbc42af45336be96f12c46"
+      },
+      "source_resolver_AST_sha256": "eb6f9bf5883bc298896657584e565a65ca81625ee8b8d652ae8fe8d22ac3ce4d",
+      "source_build_AST_sha256": "30299d3a3f266aa61c7e4fb59de61177c120579f69a5a1cbd1712e4498767fbe",
+      "displayed_estimate": "Spearman rho with leverage rank for mean activity and PCA loading norm.",
+      "observational_unit": "195 session-state correlations per covariate, nested in 39 sessions/10 mice.",
+      "interval_or_spread": "Median/IQR/1.5-IQR whiskers; jittered source observations, no confidence interval.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "ED07",
+      "panel": "d",
+      "source_panel": "ED06d",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_9ed5cfae4550b26ee4e1",
+          "sha256": "9ed5cfae4550b26ee4e192aef9eef0ab8ed70120f93b6af2b660999795d3baee",
+          "source_table_name": "01_S5BR_07_steinmetz_flex_vs_mean_activity__steinmetz_role_flexibility_corrected.csv",
+          "rows": 48339,
+          "columns": [
+            "session_id",
+            "neuron_index",
+            "n_states",
+            "mean_leverage",
+            "role_flexibility",
+            "leverage_range",
+            "mean_activity",
+            "activity_flexibility"
+          ],
+          "public_file": "tables/sd_9ed5cfae4550b26ee4e1.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED06:plot_flex": "42439e558cc6e863e2ba0f9e8f4c1aca9298256d496f167572a8e5362980b914"
+      },
+      "source_resolver_AST_sha256": "eb6f9bf5883bc298896657584e565a65ca81625ee8b8d652ae8fe8d22ac3ce4d",
+      "source_build_AST_sha256": "30299d3a3f266aa61c7e4fb59de61177c120579f69a5a1cbd1712e4498767fbe",
+      "displayed_estimate": "role_flexibility versus mean_activity; displayed descriptive Spearman rho uses all source rows.",
+      "observational_unit": "48,339 neurons nested in 39 sessions/10 mice.",
+      "interval_or_spread": "No CI; original x upper limit is 99.5th percentile, y upper limit 1.04 times 99.5th percentile.",
+      "inference_limits": "Some plotted coordinates are outside inherited display limits; all data retained. Correlation is not an independent-cell causal test."
+    },
+    {
+      "figure": "ED07",
+      "panel": "e",
+      "source_panel": "ED06e",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_9ed5cfae4550b26ee4e1",
+          "sha256": "9ed5cfae4550b26ee4e192aef9eef0ab8ed70120f93b6af2b660999795d3baee",
+          "source_table_name": "02_S5BR_08_steinmetz_flex_vs_activity_flexibility__steinmetz_role_flexibility_corrected.csv",
+          "rows": 48339,
+          "columns": [
+            "session_id",
+            "neuron_index",
+            "n_states",
+            "mean_leverage",
+            "role_flexibility",
+            "leverage_range",
+            "mean_activity",
+            "activity_flexibility"
+          ],
+          "public_file": "tables/sd_9ed5cfae4550b26ee4e1.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED06:plot_flex": "42439e558cc6e863e2ba0f9e8f4c1aca9298256d496f167572a8e5362980b914"
+      },
+      "source_resolver_AST_sha256": "eb6f9bf5883bc298896657584e565a65ca81625ee8b8d652ae8fe8d22ac3ce4d",
+      "source_build_AST_sha256": "30299d3a3f266aa61c7e4fb59de61177c120579f69a5a1cbd1712e4498767fbe",
+      "displayed_estimate": "role_flexibility versus activity_flexibility; displayed descriptive Spearman rho uses all source rows.",
+      "observational_unit": "Same 48,339 neurons.",
+      "interval_or_spread": "No CI; original x upper limit is 99.5th percentile, y upper limit 1.04 times 99.5th percentile.",
+      "inference_limits": "Some plotted coordinates are outside inherited display limits; all data retained. Correlation is not an independent-cell causal test."
+    },
+    {
+      "figure": "ED07",
+      "panel": "i",
+      "source_panel": "ED06i",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_4c3fde7ef706650fa13e",
+          "sha256": "4c3fde7ef706650fa13e21bb6240dc25d70ed897a64f1d8bc5704f9bae357b65",
+          "source_table_name": "01_S5BR_21_allen_flex_vs_mean_activity__allen_role_flexibility_corrected.csv",
+          "rows": 1730,
+          "columns": [
+            "container_id",
+            "cell_specimen_id",
+            "n_states",
+            "mean_leverage",
+            "role_flexibility",
+            "leverage_range",
+            "mean_activity",
+            "activity_flexibility"
+          ],
+          "public_file": "tables/sd_4c3fde7ef706650fa13e.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED06:plot_flex": "42439e558cc6e863e2ba0f9e8f4c1aca9298256d496f167572a8e5362980b914"
+      },
+      "source_resolver_AST_sha256": "eb6f9bf5883bc298896657584e565a65ca81625ee8b8d652ae8fe8d22ac3ce4d",
+      "source_build_AST_sha256": "30299d3a3f266aa61c7e4fb59de61177c120579f69a5a1cbd1712e4498767fbe",
+      "displayed_estimate": "role_flexibility versus mean_activity; displayed descriptive Spearman rho uses all source rows.",
+      "observational_unit": "1,730 matched cells nested in Allen containers.",
+      "interval_or_spread": "No CI; original x upper limit is 99.5th percentile, y upper limit 1.04 times 99.5th percentile.",
+      "inference_limits": "Some plotted coordinates are outside inherited display limits; all data retained. Correlation is not an independent-cell causal test."
+    },
+    {
+      "figure": "ED07",
+      "panel": "j",
+      "source_panel": "ED06j",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_4c3fde7ef706650fa13e",
+          "sha256": "4c3fde7ef706650fa13e21bb6240dc25d70ed897a64f1d8bc5704f9bae357b65",
+          "source_table_name": "02_S5BR_22_allen_flex_vs_activity_flexibility__allen_role_flexibility_corrected.csv",
+          "rows": 1730,
+          "columns": [
+            "container_id",
+            "cell_specimen_id",
+            "n_states",
+            "mean_leverage",
+            "role_flexibility",
+            "leverage_range",
+            "mean_activity",
+            "activity_flexibility"
+          ],
+          "public_file": "tables/sd_4c3fde7ef706650fa13e.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED06:plot_flex": "42439e558cc6e863e2ba0f9e8f4c1aca9298256d496f167572a8e5362980b914"
+      },
+      "source_resolver_AST_sha256": "eb6f9bf5883bc298896657584e565a65ca81625ee8b8d652ae8fe8d22ac3ce4d",
+      "source_build_AST_sha256": "30299d3a3f266aa61c7e4fb59de61177c120579f69a5a1cbd1712e4498767fbe",
+      "displayed_estimate": "role_flexibility versus activity_flexibility; displayed descriptive Spearman rho uses all source rows.",
+      "observational_unit": "Same 1,730 matched cells.",
+      "interval_or_spread": "No CI; original x upper limit is 99.5th percentile, y upper limit 1.04 times 99.5th percentile.",
+      "inference_limits": "Some plotted coordinates are outside inherited display limits; all data retained. Correlation is not an independent-cell causal test."
+    },
+    {
+      "figure": "ED07",
+      "panel": "f",
+      "source_panel": "ED06f",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_729cb1003230252deabf",
+          "sha256": "729cb1003230252deabfe1d8cd893d3801e9b6ca6827ad302b2b54b295507131",
+          "source_table_name": "01_S5BR_10_steinmetz_identity_shuffle__steinmetz_identity_shuffle.csv",
+          "rows": 39,
+          "columns": [
+            "session_id",
+            "n_cells",
+            "observed_mean_flex",
+            "null_mean_flex",
+            "observed_to_null",
+            "p_less_than_shuffle"
+          ],
+          "public_file": "tables/sd_729cb1003230252deabf.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED06:plot_identity": "94dda00a64f946526bb1f0f3c2a9608c6e7cd3e4d1486615c2d1f61fd8dc5eeb"
+      },
+      "source_resolver_AST_sha256": "eb6f9bf5883bc298896657584e565a65ca81625ee8b8d652ae8fe8d22ac3ce4d",
+      "source_build_AST_sha256": "30299d3a3f266aa61c7e4fb59de61177c120579f69a5a1cbd1712e4498767fbe",
+      "displayed_estimate": "Observed session-mean flexibility versus shuffled mean; text gives median observed_to_null.",
+      "observational_unit": "39 session summaries, not shuffled draws as biological samples.",
+      "interval_or_spread": "No confidence interval.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "ED07",
+      "panel": "k",
+      "source_panel": "ED06k",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_dc34de9dd6846b4f8606",
+          "sha256": "dc34de9dd6846b4f860611d8506b9e2cb05a476920f33827a673f9c7f005490b",
+          "source_table_name": "01_S5BR_23_allen_running_within_session__allen_within_session_arousal_pairs_raw.csv",
+          "rows": 144,
+          "columns": [
+            "experiment_id",
+            "state_a",
+            "state_b",
+            "rho",
+            "p",
+            "n_units",
+            "contrast"
+          ],
+          "public_file": "tables/sd_dc34de9dd6846b4f8606.csv"
+        },
+        {
+          "dataset_id": "sd_b027ff0b75953c55853d",
+          "sha256": "b027ff0b75953c55853d9e6ef88aa0f931b105fc75c72370f08ba1c761f8b358",
+          "source_table_name": "01_S5BR_23_allen_running_within_session__allen_within_session_arousal_pairs_residual.csv",
+          "rows": 144,
+          "columns": [
+            "experiment_id",
+            "state_a",
+            "state_b",
+            "rho",
+            "p",
+            "n_units",
+            "contrast"
+          ],
+          "public_file": "tables/sd_b027ff0b75953c55853d.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED06:plot_arousal": "ccdabb9698f3d99d3720e084df1a81660a02c3df8a24d0c8a7805c74fce95808",
+        "ED06:box_strip": "cc4c103f3dc08f94dc796e35d988130ca1ba6070e6dbc42af45336be96f12c46"
+      },
+      "source_resolver_AST_sha256": "eb6f9bf5883bc298896657584e565a65ca81625ee8b8d652ae8fe8d22ac3ce4d",
+      "source_build_AST_sha256": "30299d3a3f266aa61c7e4fb59de61177c120579f69a5a1cbd1712e4498767fbe",
+      "displayed_estimate": "Finite raw/residual within-experiment rho points. Original arrays include NaN; all box summary coordinates are NaN, so no boxes are actually visible.",
+      "observational_unit": "72 experiment records per representation. Running has 71 raw/67 residual finite values; pupil has 69 raw/65 residual.",
+      "interval_or_spread": "Individual points only; source boxplot summaries are undefined because NaNs were passed unfiltered.",
+      "inference_limits": "Unequal finite sets are not a paired-complete cohort. Retain data; clarify caption rather than inventing missing values or claiming visible boxes."
+    },
+    {
+      "figure": "ED07",
+      "panel": "l",
+      "source_panel": "ED06l",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_dc34de9dd6846b4f8606",
+          "sha256": "dc34de9dd6846b4f860611d8506b9e2cb05a476920f33827a673f9c7f005490b",
+          "source_table_name": "02_S5BR_24_allen_pupil_within_session__allen_within_session_arousal_pairs_raw.csv",
+          "rows": 144,
+          "columns": [
+            "experiment_id",
+            "state_a",
+            "state_b",
+            "rho",
+            "p",
+            "n_units",
+            "contrast"
+          ],
+          "public_file": "tables/sd_dc34de9dd6846b4f8606.csv"
+        },
+        {
+          "dataset_id": "sd_b027ff0b75953c55853d",
+          "sha256": "b027ff0b75953c55853d9e6ef88aa0f931b105fc75c72370f08ba1c761f8b358",
+          "source_table_name": "02_S5BR_24_allen_pupil_within_session__allen_within_session_arousal_pairs_residual.csv",
+          "rows": 144,
+          "columns": [
+            "experiment_id",
+            "state_a",
+            "state_b",
+            "rho",
+            "p",
+            "n_units",
+            "contrast"
+          ],
+          "public_file": "tables/sd_b027ff0b75953c55853d.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED06:plot_arousal": "ccdabb9698f3d99d3720e084df1a81660a02c3df8a24d0c8a7805c74fce95808",
+        "ED06:box_strip": "cc4c103f3dc08f94dc796e35d988130ca1ba6070e6dbc42af45336be96f12c46"
+      },
+      "source_resolver_AST_sha256": "eb6f9bf5883bc298896657584e565a65ca81625ee8b8d652ae8fe8d22ac3ce4d",
+      "source_build_AST_sha256": "30299d3a3f266aa61c7e4fb59de61177c120579f69a5a1cbd1712e4498767fbe",
+      "displayed_estimate": "Finite raw/residual within-experiment rho points. Original arrays include NaN; all box summary coordinates are NaN, so no boxes are actually visible.",
+      "observational_unit": "72 experiment records per representation. Running has 71 raw/67 residual finite values; pupil has 69 raw/65 residual.",
+      "interval_or_spread": "Individual points only; source boxplot summaries are undefined because NaNs were passed unfiltered.",
+      "inference_limits": "Unequal finite sets are not a paired-complete cohort. Retain data; clarify caption rather than inventing missing values or claiming visible boxes."
+    },
+    {
+      "figure": "ED07",
+      "panel": "m",
+      "source_panel": "SI04a",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_e1d06052542b56dc9250",
+          "sha256": "e1d06052542b56dc9250cf973fc8095e0b318150bd6e0f5e3caa349f15e81b1f",
+          "source_table_name": "01_AL01_selected_lag_distribution__AL01_selected_lag_distribution_source.csv",
+          "rows": 12,
+          "columns": [
+            "chosen_lag_seconds",
+            "state",
+            "count"
+          ],
+          "public_file": "tables/sd_e1d06052542b56dc9250.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI04:plot_lag_distribution": "2b178f7c1fc571166db50c905370559965cacc6543e8186913de725f0c1c1018"
+      },
+      "source_resolver_AST_sha256": "e0ed568937967cfc096989509a1b9e5e33940ab8eaad2daad9102c1348f9072f",
+      "source_build_AST_sha256": "a09b67ed5df3f731806d5c2b9e43d4800c2f169ad897a95c7c95baa5cb69ec3e",
+      "displayed_estimate": "Sum archived selected-lag counts over states; 0.25,0.5,1,2 s.",
+      "observational_unit": "72 experiments.",
+      "interval_or_spread": "No confidence interval.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "ED07",
+      "panel": "n",
+      "source_panel": "SI04b",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_68217d3e9fb0286d987c",
+          "sha256": "68217d3e9fb0286d987c09b949967e28d52acd7dba44635f0539e0af470c4c44",
+          "source_table_name": "01_AL02_lag_by_state_heatmap__AL02_lag_by_state_heatmap_source.csv",
+          "rows": 3,
+          "columns": [
+            "state",
+            "0.25",
+            "0.5",
+            "1.0",
+            "2.0"
+          ],
+          "public_file": "tables/sd_68217d3e9fb0286d987c.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI04:plot_lag_state": "27018bbffe6fa7d0e19e7f994b4ed92b70db3884b9dcf5769aa65e2dacac807c"
+      },
+      "source_resolver_AST_sha256": "e0ed568937967cfc096989509a1b9e5e33940ab8eaad2daad9102c1348f9072f",
+      "source_build_AST_sha256": "a09b67ed5df3f731806d5c2b9e43d4800c2f169ad897a95c7c95baa5cb69ec3e",
+      "displayed_estimate": "3 states x 4 lags count matrix.",
+      "observational_unit": "24 experiments per state.",
+      "interval_or_spread": "No confidence interval.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "ED07",
+      "panel": "o",
+      "source_panel": "SI04d",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_0b51fd9ff7f1634034b2",
+          "sha256": "0b51fd9ff7f1634034b22b5d45345c4f2a6a0a44a7785632a0a1b5898ceeb78a",
+          "source_table_name": "01_AL10_r2_improvement_distribution__AL10_r2_improvement_distribution_source.csv",
+          "rows": 72,
+          "columns": [
+            "experiment_id",
+            "old_r2",
+            "new_r2",
+            "chosen_lag_seconds",
+            "delta_r2_vs_persistence",
+            "delta_r2_new_minus_old"
+          ],
+          "public_file": "tables/sd_0b51fd9ff7f1634034b2.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI04:plot_improvement": "d602764f0ff6ab81c1549026689c073d55a87531022c0ea4ee2bfaf5b8242165"
+      },
+      "source_resolver_AST_sha256": "e0ed568937967cfc096989509a1b9e5e33940ab8eaad2daad9102c1348f9072f",
+      "source_build_AST_sha256": "a09b67ed5df3f731806d5c2b9e43d4800c2f169ad897a95c7c95baa5cb69ec3e",
+      "displayed_estimate": "12-bin histogram of new minus old test R-squared; zero and median reference.",
+      "observational_unit": "72 experiments; negative median retained.",
+      "interval_or_spread": "No confidence interval.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "ED07",
+      "panel": "p",
+      "source_panel": "SI04f",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_cf927def2cfe76e7abc1",
+          "sha256": "cf927def2cfe76e7abc139e5771db2e942200d075e69fa0cadef4eddd12c18ec",
+          "source_table_name": "01_AL14_quality_vs_residual_stability__AL14_quality_vs_residual_stability_source.csv",
+          "rows": 22,
+          "columns": [
+            "container_id",
+            "median_test_r2",
+            "median_delta_persist",
+            "median_residual_rho"
+          ],
+          "public_file": "tables/sd_cf927def2cfe76e7abc1.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI04:plot_quality_stability": "6b60e62270fd7ba332725458fceed72898c437d5a6e94d34688fefec95c990be"
+      },
+      "source_resolver_AST_sha256": "e0ed568937967cfc096989509a1b9e5e33940ab8eaad2daad9102c1348f9072f",
+      "source_build_AST_sha256": "a09b67ed5df3f731806d5c2b9e43d4800c2f169ad897a95c7c95baa5cb69ec3e",
+      "displayed_estimate": "Median held-out R-squared versus median residual rho, with descriptive Spearman rho/P.",
+      "observational_unit": "22 qualifying containers; not all 24 containers.",
+      "interval_or_spread": "No confidence interval.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "SI02",
+      "panel": "a",
+      "source_panel": "SI03a",
+      "quantitative_microplots": 2,
+      "datasets": [
+        {
+          "dataset_id": "sd_15ddf2c8b4c6e183c1cb",
+          "sha256": "15ddf2c8b4c6e183c1cb8af5e2e455cda5c6133f3b78f0d84c88ab96c41ca17a",
+          "source_table_name": "01_S5BR_01_steinmetz_duplicate_audit__steinmetz_duplicate_audit.json",
+          "rows": null,
+          "columns": null,
+          "public_file": "tables/sd_15ddf2c8b4c6e183c1cb.json"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI03:plot_inventory": "b9c92ad6cc09385793bc38ce2e02719271e249959cac9dc8ab87ece77c90fb45",
+        "SI03:plot_rows": "fc607da1ecb0542fb8c6f65d85384458052661a8f353744cda43ff50189475a0"
+      },
+      "source_resolver_AST_sha256": "38c4931ee05c06946f96fddbce190a4b8c64de37febfaf29fe7b967ab6298bc2",
+      "source_build_AST_sha256": "d10b785d4d2d3ab07a4bb937c4747d2b0a6203800ac33a70baf1139cb44785bb",
+      "displayed_estimate": "52 NWB inventory entries, 39 unique sessions, 13 duplicate aliases; raw/deduplicated analysis counts in thousands.",
+      "observational_unit": "Inventory entries versus sessions versus nested analysis rows are distinct counts.",
+      "interval_or_spread": "No confidence interval.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "SI02",
+      "panel": "b",
+      "source_panel": "SI03b",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_2f249c50720046cab459",
+          "sha256": "2f249c50720046cab4597064d0971a5d24f90a844da2ea9d3be464dc12472432",
+          "source_table_name": "01_S5BR_14_predictive_vs_dynamic__steinmetz_predictive_vs_dynamic.csv",
+          "rows": 580,
+          "columns": [
+            "session_id",
+            "state",
+            "target",
+            "rho",
+            "p",
+            "n",
+            "full_logloss"
+          ],
+          "public_file": "tables/sd_2f249c50720046cab459.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI03:plot_predictive_dynamic": "b827ed4ac8e2940bdf494218eee6805473c25fa824be3ae2ef7f20ffce09c509"
+      },
+      "source_resolver_AST_sha256": "38c4931ee05c06946f96fddbce190a4b8c64de37febfaf29fe7b967ab6298bc2",
+      "source_build_AST_sha256": "d10b785d4d2d3ab07a4bb937c4747d2b0a6203800ac33a70baf1139cb44785bb",
+      "displayed_estimate": "rho by choice/engagement/outcome; NaNs dropped separately in each target group.",
+      "observational_unit": "Available session-state-target summaries within 39 sessions/10 mice.",
+      "interval_or_spread": "Median/IQR/1.5-IQR whiskers; jittered source observations, no confidence interval.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "SI02",
+      "panel": "c",
+      "source_panel": "SI04e",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_24bcc363b7a76df5145e",
+          "sha256": "24bcc363b7a76df5145e9d9ce427b93a2484adc1eb4c5c0dc08ec7ee6b23b81d",
+          "source_table_name": "01_AL13_lag_vs_test_r2__AL13_lag_vs_test_r2_source.csv",
+          "rows": 72,
+          "columns": [
+            "experiment_id",
+            "state",
+            "chosen_lag_seconds",
+            "test_r2"
+          ],
+          "public_file": "tables/sd_24bcc363b7a76df5145e.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI04:plot_lag_quality": "5118f433d4877ba9bf6c4986ea8af9f2b7928fcdd4b8b9c5bf10735a9cd759e1"
+      },
+      "source_resolver_AST_sha256": "e0ed568937967cfc096989509a1b9e5e33940ab8eaad2daad9102c1348f9072f",
+      "source_build_AST_sha256": "a09b67ed5df3f731806d5c2b9e43d4800c2f169ad897a95c7c95baa5cb69ec3e",
+      "displayed_estimate": "test_r2 by selected lag/state; multiplicative x jitter seed 413; pooled median at each lag.",
+      "observational_unit": "72 experiment fits; not 72 independent mice.",
+      "interval_or_spread": "No confidence interval.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "SI02",
+      "panel": "d",
+      "source_panel": "SI03c",
+      "quantitative_microplots": 3,
+      "datasets": [
+        {
+          "dataset_id": "sd_1ffaca2cff7bc5de089b",
+          "sha256": "1ffaca2cff7bc5de089bd6ba5be6f55b91dba3f86090f36cb482ceb3fb39d9f2",
+          "source_table_name": "01_S5BR_11_steinmetz_predictive_choice__steinmetz_predictive_state_pairs_summary.csv",
+          "rows": 30,
+          "columns": [
+            "target",
+            "state_a",
+            "state_b",
+            "n_groups",
+            "median_rho",
+            "mean_rho"
+          ],
+          "public_file": "tables/sd_1ffaca2cff7bc5de089b.csv"
+        },
+        {
+          "dataset_id": "sd_1ffaca2cff7bc5de089b",
+          "sha256": "1ffaca2cff7bc5de089bd6ba5be6f55b91dba3f86090f36cb482ceb3fb39d9f2",
+          "source_table_name": "01_S5BR_12_steinmetz_predictive_outcome__steinmetz_predictive_state_pairs_summary.csv",
+          "rows": 30,
+          "columns": [
+            "target",
+            "state_a",
+            "state_b",
+            "n_groups",
+            "median_rho",
+            "mean_rho"
+          ],
+          "public_file": "tables/sd_1ffaca2cff7bc5de089b.csv"
+        },
+        {
+          "dataset_id": "sd_1ffaca2cff7bc5de089b",
+          "sha256": "1ffaca2cff7bc5de089bd6ba5be6f55b91dba3f86090f36cb482ceb3fb39d9f2",
+          "source_table_name": "01_S5BR_13_steinmetz_predictive_engagement__steinmetz_predictive_state_pairs_summary.csv",
+          "rows": 30,
+          "columns": [
+            "target",
+            "state_a",
+            "state_b",
+            "n_groups",
+            "median_rho",
+            "mean_rho"
+          ],
+          "public_file": "tables/sd_1ffaca2cff7bc5de089b.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI03:plot_predictive_heatmap": "ad205f8918ea62471b9d6c417e709685a7e104d4dd1168a3a747e98f9d8d58d8",
+        "SI03:predictive_matrix": "2741711e01793fec72a0d0a696c1330a8e16db54f430312986d5d21a6812ff48"
+      },
+      "source_resolver_AST_sha256": "38c4931ee05c06946f96fddbce190a4b8c64de37febfaf29fe7b967ab6298bc2",
+      "source_build_AST_sha256": "d10b785d4d2d3ab07a4bb937c4747d2b0a6203800ac33a70baf1139cb44785bb",
+      "displayed_estimate": "Choice/outcome/engagement 5x5 symmetric matrices: off-diagonals saved median_rho; diagonal fixed to 1.",
+      "observational_unit": "Ten state-pair summaries per target; 39 source sessions for choice/outcome, 38 for engagement. Diagonal is identity, not an independently estimated observation.",
+      "interval_or_spread": "No CI; common -1..1 correlation scale.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "SI02",
+      "panel": "e",
+      "source_panel": "SI04c",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_9a2663c9ec2644f884bb",
+          "sha256": "9a2663c9ec2644f884bb4d8025f6bd0be3015e3a7d5c787398e19f889b9c366d",
+          "source_table_name": "01_AL06_raw_state_pair_heatmap__AL06_raw_state_pair_heatmap_source.csv",
+          "rows": 3,
+          "columns": [
+            "state_a",
+            "state_b",
+            "n_containers",
+            "median_rho",
+            "mean_rho"
+          ],
+          "public_file": "tables/sd_9a2663c9ec2644f884bb.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI04:plot_state_pair": "65da676ae72caf9e10d30622d913c6c6fc321f6dbd615fe099a967673aec466a"
+      },
+      "source_resolver_AST_sha256": "e0ed568937967cfc096989509a1b9e5e33940ab8eaad2daad9102c1348f9072f",
+      "source_build_AST_sha256": "a09b67ed5df3f731806d5c2b9e43d4800c2f169ad897a95c7c95baa5cb69ec3e",
+      "displayed_estimate": "3x3 symmetric Allen raw contribution matrix from three state-pair median_rho values, diagonal=1.",
+      "observational_unit": "Available container summaries per state pair; n_containers retained.",
+      "interval_or_spread": "No CI; separate -1..1 scale.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "SI03",
+      "panel": "a",
+      "source_panel": "SI05a",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_ba5f152f7c99fc1bc9e5",
+          "sha256": "ba5f152f7c99fc1bc9e5e5152ca0d64baaad11823cd79c4a0c93ec2fe35e51c2",
+          "source_table_name": "01_OS_S06_half_model_min_auc_by_mouse__OS_S06_half_model_min_auc_by_mouse.csv",
+          "rows": 12,
+          "columns": [
+            "subject",
+            "half_model_home_auc_min"
+          ],
+          "public_file": "tables/sd_ba5f152f7c99fc1bc9e5.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI05:plot_auc": "10c30248e53f8f4ed1b0ed678fbc9964e071290b9b31b0e6f67a5df86cb00a24",
+        "SI05:lollipop": "8d0987caefdd8e823cc5cef519c2e2755977bb7a4eb635684a6a6ddfa8a52c6a"
+      },
+      "source_resolver_AST_sha256": "14f27e72d2756e3684e3de04f410bdd9039adf37baa6976ff20333b7365b12b5",
+      "source_build_AST_sha256": "9eb34c33145a227c2444b087077fda79f4ecadc4320a3d18c449e9e378d45c2b",
+      "displayed_estimate": "Minimum split-half home-state AUC, median and 0.5 reference.",
+      "observational_unit": "Same 12 OpenScope mice; repeated splits/settings are nested, not independent animals.",
+      "interval_or_spread": "No confidence interval.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "SI03",
+      "panel": "b",
+      "source_panel": "SI05b",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_0cd8c342bf046d2a52b3",
+          "sha256": "0cd8c342bf046d2a52b3979016e5a980514c9b5e7f76c5026bd13601e0d5fb60",
+          "source_table_name": "01_OS_S21_pc1_explained_by_mouse__OS_S21_pc1_explained_by_mouse.csv",
+          "rows": 12,
+          "columns": [
+            "subject",
+            "pc1_explained"
+          ],
+          "public_file": "tables/sd_0cd8c342bf046d2a52b3.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI05:plot_pc1": "08de357014a4d201ba6ce693c78d8ba5c216f9c9b7907a8324c9aee9642cb4d7",
+        "SI05:lollipop": "8d0987caefdd8e823cc5cef519c2e2755977bb7a4eb635684a6a6ddfa8a52c6a"
+      },
+      "source_resolver_AST_sha256": "14f27e72d2756e3684e3de04f410bdd9039adf37baa6976ff20333b7365b12b5",
+      "source_build_AST_sha256": "9eb34c33145a227c2444b087077fda79f4ecadc4320a3d18c449e9e378d45c2b",
+      "displayed_estimate": "Prestimulus PC1 explained variance, median and zero reference.",
+      "observational_unit": "Same 12 OpenScope mice; repeated splits/settings are nested, not independent animals.",
+      "interval_or_spread": "No confidence interval.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "SI03",
+      "panel": "c",
+      "source_panel": "SI05c",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_7bd32be46752ae0296ac",
+          "sha256": "7bd32be46752ae0296acf8333c4c33b5c1477afd6aa9bb8abcbcd834c5e0dd0e",
+          "source_table_name": "01_OS_S22_state_fraction_balance_by_mouse__OS_S22_state_fraction_balance_by_mouse.csv",
+          "rows": 12,
+          "columns": [
+            "subject",
+            "state0_fraction"
+          ],
+          "public_file": "tables/sd_7bd32be46752ae0296ac.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI05:plot_balance": "ba2d75445041fe778fd430146318ac96f40747a1d1ec90d2263d73518bdb6c5e",
+        "SI05:lollipop": "8d0987caefdd8e823cc5cef519c2e2755977bb7a4eb635684a6a6ddfa8a52c6a"
+      },
+      "source_resolver_AST_sha256": "14f27e72d2756e3684e3de04f410bdd9039adf37baa6976ff20333b7365b12b5",
+      "source_build_AST_sha256": "9eb34c33145a227c2444b087077fda79f4ecadc4320a3d18c449e9e378d45c2b",
+      "displayed_estimate": "State-0 trial fraction, median and 0.5 reference.",
+      "observational_unit": "Same 12 OpenScope mice; repeated splits/settings are nested, not independent animals.",
+      "interval_or_spread": "No confidence interval.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "SI03",
+      "panel": "d",
+      "source_panel": "SI05d",
+      "quantitative_microplots": 3,
+      "datasets": [
+        {
+          "dataset_id": "sd_a1a0cd9ea6d64aa5ed7e",
+          "sha256": "a1a0cd9ea6d64aa5ed7e7a8ee343ec6e84a9cca91a8d7384055409b51a9b9afc",
+          "source_table_name": "01_OS_S23_n_units_by_mouse__OS_S23_n_units_by_mouse.csv",
+          "rows": 12,
+          "columns": [
+            "subject",
+            "n_units"
+          ],
+          "public_file": "tables/sd_a1a0cd9ea6d64aa5ed7e.csv"
+        },
+        {
+          "dataset_id": "sd_96a573879f01f15caf64",
+          "sha256": "96a573879f01f15caf64603e9ead528537c822915e6bbcee19c15a2c17d615eb",
+          "source_table_name": "01_OS_S24_n_analysis_trials_by_mouse__OS_S24_n_analysis_trials_by_mouse.csv",
+          "rows": 12,
+          "columns": [
+            "subject",
+            "n_analysis_trials"
+          ],
+          "public_file": "tables/sd_96a573879f01f15caf64.csv"
+        },
+        {
+          "dataset_id": "sd_6f7167b3ee6369f4745c",
+          "sha256": "6f7167b3ee6369f4745c9e076d66465e0d9995dd75b1c2d19fd87b147f05f992",
+          "source_table_name": "01_OS_S25_discovery_final_trial_counts__OS_S25_discovery_final_trial_counts.csv",
+          "rows": 12,
+          "columns": [
+            "subject",
+            "session",
+            "n_discovery",
+            "n_final"
+          ],
+          "public_file": "tables/sd_6f7167b3ee6369f4745c.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI05:plot_units": "d1a8db9cd4e329fa92004391a396089d67abaafa5dd4853e4de169c6cf7cb20c",
+        "SI05:plot_analysis_trials": "ca74b65a6e7f0a247c9771476832a83dc7036e3b2965c5a6a6e67885749a1be7",
+        "SI05:plot_discovery_final": "f006af13c2251b6a323fb0a051598441e67428bc6948b328e0229b73b5b2b79b",
+        "SI05:lollipop": "8d0987caefdd8e823cc5cef519c2e2755977bb7a4eb635684a6a6ddfa8a52c6a"
+      },
+      "source_resolver_AST_sha256": "14f27e72d2756e3684e3de04f410bdd9039adf37baa6976ff20333b7365b12b5",
+      "source_build_AST_sha256": "9eb34c33145a227c2444b087077fda79f4ecadc4320a3d18c449e9e378d45c2b",
+      "displayed_estimate": "Units, 1,600 analysis trials, and 960/640 discovery/final trials by mouse.",
+      "observational_unit": "Same 12 OpenScope mice; repeated splits/settings are nested, not independent animals.",
+      "interval_or_spread": "No confidence interval.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "SI04",
+      "panel": "a",
+      "source_panel": "SI06a",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_17d121b5df5225a52caa",
+          "sha256": "17d121b5df5225a52caad19b11583f4a7c3b8b87ffe64e925f47751aa6bd0265",
+          "source_table_name": "01_OS_M07_coefficient_rho_within_vs_cross_paired__OS_M07_coefficient_rho_within_vs_cross_paired.csv",
+          "rows": 12,
+          "columns": [
+            "subject",
+            "rho_within",
+            "rho_cross"
+          ],
+          "public_file": "tables/sd_17d121b5df5225a52caa.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI06:plot_within_cross": "a7ffe92e6df489b1c602788dcc26c585158f01e08fddb877180ca7b45b07dc5f"
+      },
+      "source_resolver_AST_sha256": "653d2ad6139ce7d76eb883cdad9708e3d2fc49ad52c14c598d219346da677825",
+      "source_build_AST_sha256": "458d944bdc17bd8dc9a3e1755b3ee95adfa24a51c83e30c4be4b3c9c7a803d9f",
+      "displayed_estimate": "Paired rho_within/rho_cross by mouse; median summary.",
+      "observational_unit": "Same 12 OpenScope mice; repeated splits/settings are nested, not independent animals.",
+      "interval_or_spread": "No confidence interval.",
+      "inference_limits": "Repeat-averaged descriptive coefficient landscape; matched fixed-split null remains null. Not decoder AUC."
+    },
+    {
+      "figure": "SI04",
+      "panel": "b",
+      "source_panel": "SI06b",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_4b637ad21ba505910883",
+          "sha256": "4b637ad21ba505910883517e1ca0419fd31664c8f64178535c36ecf7bf301a8b",
+          "source_table_name": "01_OS_M08_Rrho_by_mouse__OS_M08_Rrho_by_mouse.csv",
+          "rows": 12,
+          "columns": [
+            "subject",
+            "delta_rho"
+          ],
+          "public_file": "tables/sd_4b637ad21ba505910883.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI06:plot_mouse_effect": "4cda2645b9f66d744925449b557887606d8cf7e500a775aebd1bd69b3e8a8c90"
+      },
+      "source_resolver_AST_sha256": "653d2ad6139ce7d76eb883cdad9708e3d2fc49ad52c14c598d219346da677825",
+      "source_build_AST_sha256": "458d944bdc17bd8dc9a3e1755b3ee95adfa24a51c83e30c4be4b3c9c7a803d9f",
+      "displayed_estimate": "Mouse delta_rho with median and zero.",
+      "observational_unit": "Same 12 OpenScope mice; repeated splits/settings are nested, not independent animals.",
+      "interval_or_spread": "No confidence interval.",
+      "inference_limits": "Repeat-averaged descriptive coefficient landscape; matched fixed-split null remains null. Not decoder AUC."
+    },
+    {
+      "figure": "SI04",
+      "panel": "c",
+      "source_panel": "SI06c",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_76aa354807c9d735f998",
+          "sha256": "76aa354807c9d735f9985792d6fb85e4f888e35b4070febdbf72ed2a933ff9ae",
+          "source_table_name": "01_OS_M09_landscape_residualization_by_mouse__OS_M09_landscape_residualization_by_mouse.csv",
+          "rows": 12,
+          "columns": [
+            "subject",
+            "delta_rho",
+            "activity_residual_delta_rho",
+            "activity_selectivity_residual_delta_rho"
+          ],
+          "public_file": "tables/sd_76aa354807c9d735f998.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI06:plot_definitions": "879b8420c5193dcabbe1da3f51e8b1d77f5460767b9aa170a54adec72e8f4f4b"
+      },
+      "source_resolver_AST_sha256": "653d2ad6139ce7d76eb883cdad9708e3d2fc49ad52c14c598d219346da677825",
+      "source_build_AST_sha256": "458d944bdc17bd8dc9a3e1755b3ee95adfa24a51c83e30c4be4b3c9c7a803d9f",
+      "displayed_estimate": "Paired raw/activity/activity-plus-selectivity delta_rho; medians.",
+      "observational_unit": "Same 12 OpenScope mice; repeated splits/settings are nested, not independent animals.",
+      "interval_or_spread": "No confidence interval.",
+      "inference_limits": "Repeat-averaged descriptive coefficient landscape; matched fixed-split null remains null. Not decoder AUC."
+    },
+    {
+      "figure": "SI04",
+      "panel": "d",
+      "source_panel": "SI06d",
+      "quantitative_microplots": 2,
+      "datasets": [
+        {
+          "dataset_id": "sd_5b0b9d7bfc24529c2b97",
+          "sha256": "5b0b9d7bfc24529c2b97ae508d72d4ad2b8effa124cf63840696cb0791c3302e",
+          "source_table_name": "01_OS_S13_activity_residual_Rrho_by_mouse__OS_S13_activity_residual_Rrho_by_mouse.csv",
+          "rows": 12,
+          "columns": [
+            "subject",
+            "activity_residual_delta_rho"
+          ],
+          "public_file": "tables/sd_5b0b9d7bfc24529c2b97.csv"
+        },
+        {
+          "dataset_id": "sd_4baff255c4ae88d93db6",
+          "sha256": "4baff255c4ae88d93db62cc5275e9bc29bd35d16779fe59591fb919664db2a42",
+          "source_table_name": "02_OS_S14_activity_selectivity_residual_Rrho_by_mouse__OS_S14_activity_selectivity_residual_Rrho_by_mouse.csv",
+          "rows": 12,
+          "columns": [
+            "subject",
+            "activity_selectivity_residual_delta_rho"
+          ],
+          "public_file": "tables/sd_4baff255c4ae88d93db6.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI06:plot_mouse_effect": "4cda2645b9f66d744925449b557887606d8cf7e500a775aebd1bd69b3e8a8c90"
+      },
+      "source_resolver_AST_sha256": "653d2ad6139ce7d76eb883cdad9708e3d2fc49ad52c14c598d219346da677825",
+      "source_build_AST_sha256": "458d944bdc17bd8dc9a3e1755b3ee95adfa24a51c83e30c4be4b3c9c7a803d9f",
+      "displayed_estimate": "Mouse activity-residual and activity-plus-selectivity-residual delta_rho; medians.",
+      "observational_unit": "Same 12 OpenScope mice; repeated splits/settings are nested, not independent animals.",
+      "interval_or_spread": "No confidence interval.",
+      "inference_limits": "Repeat-averaged descriptive coefficient landscape; matched fixed-split null remains null. Not decoder AUC."
+    },
+    {
+      "figure": "SI04",
+      "panel": "e",
+      "source_panel": "SI06e",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_7d97130a07111c5dabc8",
+          "sha256": "7d97130a07111c5dabc87e405d8579a78615b10978e62f8f5b4bfb33f9e71734",
+          "source_table_name": "01_OS_S31_real_edge_Rrho_by_mouse__OS_S31_real_edge_Rrho_by_mouse.csv",
+          "rows": 12,
+          "columns": [
+            "subject",
+            "delta_rho"
+          ],
+          "public_file": "tables/sd_7d97130a07111c5dabc8.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI06:plot_mouse_effect": "4cda2645b9f66d744925449b557887606d8cf7e500a775aebd1bd69b3e8a8c90"
+      },
+      "source_resolver_AST_sha256": "653d2ad6139ce7d76eb883cdad9708e3d2fc49ad52c14c598d219346da677825",
+      "source_build_AST_sha256": "458d944bdc17bd8dc9a3e1755b3ee95adfa24a51c83e30c4be4b3c9c7a803d9f",
+      "displayed_estimate": "Real-edge delta_rho by mouse; median.",
+      "observational_unit": "Same 12 OpenScope mice; repeated splits/settings are nested, not independent animals.",
+      "interval_or_spread": "No confidence interval.",
+      "inference_limits": "Repeat-averaged descriptive coefficient landscape; matched fixed-split null remains null. Not decoder AUC."
+    },
+    {
+      "figure": "SI05",
+      "panel": "a",
+      "source_panel": "SI07a",
+      "quantitative_microplots": 3,
+      "datasets": [
+        {
+          "dataset_id": "sd_e895d473518631edb7a4",
+          "sha256": "e895d473518631edb7a44c026e391e2a5c7bb20afa26acf0f8e8b2015f18cf21",
+          "source_table_name": "01_OS_S15_regularization_sensitivity_Rrho__OS_S15_regularization_sensitivity_Rrho.csv",
+          "rows": 432,
+          "columns": [
+            "subject",
+            "C",
+            "delta_rho"
+          ],
+          "public_file": "tables/sd_e895d473518631edb7a4.csv"
+        },
+        {
+          "dataset_id": "sd_efac6529403f200bcbe3",
+          "sha256": "efac6529403f200bcbe3ab0e3243037b676efedd6a51e0d01fcc975eaa04e79e",
+          "source_table_name": "02_OS_S16_regularization_sensitivity_rho_within__OS_S16_regularization_sensitivity_rho_within.csv",
+          "rows": 432,
+          "columns": [
+            "subject",
+            "C",
+            "rho_within"
+          ],
+          "public_file": "tables/sd_efac6529403f200bcbe3.csv"
+        },
+        {
+          "dataset_id": "sd_432a7168cdc4938b0a6c",
+          "sha256": "432a7168cdc4938b0a6c1c45ec45f0cc1c8af975db3438384dae11491f48a838",
+          "source_table_name": "03_OS_S17_regularization_sensitivity_rho_cross__OS_S17_regularization_sensitivity_rho_cross.csv",
+          "rows": 432,
+          "columns": [
+            "subject",
+            "C",
+            "rho_cross"
+          ],
+          "public_file": "tables/sd_432a7168cdc4938b0a6c.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI07:regularization": "e3591013d1ebdf911df8b6438b26159329bae517a50fb90c7bd4b9c7cf390987",
+        "SI07:aggregate_regularization": "09442cfc304b9f22798ab9bc4957782deb576a5f876c1488cd846160cf8dc466"
+      },
+      "source_resolver_AST_sha256": "653d2ad6139ce7d76eb883cdad9708e3d2fc49ad52c14c598d219346da677825",
+      "source_build_AST_sha256": "07763aedad792bfaf965825c54302558d3b1345300375cffdfb63adb6cf4b94f",
+      "displayed_estimate": "Raw delta_rho, rho_within and rho_cross. Average 12 repeats within subject/C, then median over mice; C=0.25,1,4.",
+      "observational_unit": "Same 12 OpenScope mice; repeated splits/settings are nested, not independent animals.",
+      "interval_or_spread": "Individual mouse trajectories and group medians, no CI.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "SI05",
+      "panel": "c",
+      "source_panel": "SI07c",
+      "quantitative_microplots": 2,
+      "datasets": [
+        {
+          "dataset_id": "sd_e97ab58553a62532979e",
+          "sha256": "e97ab58553a62532979e5927dd921f2a15e62f91ad6dfc1e240fcbbf6d7f6ecc",
+          "source_table_name": "01_OS_S18_regularization_sensitivity_activity_residual_Rrho__OS_S18_regularization_sensitivity_activity_residual_Rrho.csv",
+          "rows": 432,
+          "columns": [
+            "subject",
+            "C",
+            "activity_residual_delta_rho"
+          ],
+          "public_file": "tables/sd_e97ab58553a62532979e.csv"
+        },
+        {
+          "dataset_id": "sd_ae8b6a9c698ef0151403",
+          "sha256": "ae8b6a9c698ef01514035062fdf7ab4da977d38b112bb292f93019c5afa49a18",
+          "source_table_name": "02_OS_S19_regularization_sensitivity_activity_selectivity_Rrho__OS_S19_regularization_sensitivity_activity_selectivity_Rrho.csv",
+          "rows": 432,
+          "columns": [
+            "subject",
+            "C",
+            "activity_selectivity_residual_delta_rho"
+          ],
+          "public_file": "tables/sd_ae8b6a9c698ef0151403.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI07:regularization": "e3591013d1ebdf911df8b6438b26159329bae517a50fb90c7bd4b9c7cf390987",
+        "SI07:aggregate_regularization": "09442cfc304b9f22798ab9bc4957782deb576a5f876c1488cd846160cf8dc466"
+      },
+      "source_resolver_AST_sha256": "653d2ad6139ce7d76eb883cdad9708e3d2fc49ad52c14c598d219346da677825",
+      "source_build_AST_sha256": "07763aedad792bfaf965825c54302558d3b1345300375cffdfb63adb6cf4b94f",
+      "displayed_estimate": "Activity-residual and activity-plus-selectivity-residual delta_rho. Average 12 repeats within subject/C, then median over mice; C=0.25,1,4.",
+      "observational_unit": "Same 12 OpenScope mice; repeated splits/settings are nested, not independent animals.",
+      "interval_or_spread": "Individual mouse trajectories and group medians, no CI.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "SI05",
+      "panel": "b",
+      "source_panel": "SI07b",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_ac4f913658cf71fdf6da",
+          "sha256": "ac4f913658cf71fdf6da311fce86ce81f0d877d1863628c2651a99fdfcd01a2a",
+          "source_table_name": "01_OS_S34_Rrho_high_precision_permutation_boundary__OS_S34_Rrho_high_precision_permutation_boundary.csv",
+          "rows": 2000,
+          "columns": [
+            "null",
+            "observed"
+          ],
+          "public_file": "tables/sd_ac4f913658cf71fdf6da.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI07:permutation": "b48ad975498e44d728f657b3af834ecc6920913a01ab2c3887f7fe3cb0708b3c"
+      },
+      "source_resolver_AST_sha256": "653d2ad6139ce7d76eb883cdad9708e3d2fc49ad52c14c598d219346da677825",
+      "source_build_AST_sha256": "07763aedad792bfaf965825c54302558d3b1345300375cffdfb63adb6cf4b94f",
+      "displayed_estimate": "32-bin histogram of 2,000 matched null values; observed first-row reference; empirical 2.5/97.5-percentile null boundaries.",
+      "observational_unit": "Fixed-split 12-mouse null, not 2,000 mice.",
+      "interval_or_spread": "95% null interval, NOT a confidence interval for the observed effect.",
+      "inference_limits": "Negative observed landscape difference and non-confirmatory matched test retained."
+    },
+    {
+      "figure": "SI05",
+      "panel": "d",
+      "source_panel": "SI07d",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_60fe301d1c8ff1891b66",
+          "sha256": "60fe301d1c8ff1891b66ba2afbbf858a18e16f4ef38cbba7c57b769c7dd09b49",
+          "source_table_name": "01_OS_S36_leave_one_mouse_out_Rrho__OS_S36_leave_one_mouse_out_Rrho.csv",
+          "rows": 12,
+          "columns": [
+            "left_out",
+            "effect"
+          ],
+          "public_file": "tables/sd_60fe301d1c8ff1891b66.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI07:ranked_lollipop": "3247486a19359fb0a590b4e5063d46f78ad7a0e316805316e7eea866a1367134"
+      },
+      "source_resolver_AST_sha256": "653d2ad6139ce7d76eb883cdad9708e3d2fc49ad52c14c598d219346da677825",
+      "source_build_AST_sha256": "07763aedad792bfaf965825c54302558d3b1345300375cffdfb63adb6cf4b94f",
+      "displayed_estimate": "Leave-one-mouse-out mean delta_rho; horizontal median across the 12 exclusions.",
+      "observational_unit": "Same 12 OpenScope mice; repeated splits/settings are nested, not independent animals.",
+      "interval_or_spread": "No CI; exclusions strongly overlap.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "SI05",
+      "panel": "e",
+      "source_panel": "SI07e",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_4e97a9bc607b9df965d6",
+          "sha256": "4e97a9bc607b9df965d633b80907345f73f27affdbdbc779b7004027c1227a68",
+          "source_table_name": "01_OS_S41_Rrho_repeat_sd_by_mouse__OS_S41_Rrho_repeat_sd_by_mouse.csv",
+          "rows": 12,
+          "columns": [
+            "subject",
+            "delta_rho"
+          ],
+          "public_file": "tables/sd_4e97a9bc607b9df965d6.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI07:ranked_lollipop": "3247486a19359fb0a590b4e5063d46f78ad7a0e316805316e7eea866a1367134"
+      },
+      "source_resolver_AST_sha256": "653d2ad6139ce7d76eb883cdad9708e3d2fc49ad52c14c598d219346da677825",
+      "source_build_AST_sha256": "07763aedad792bfaf965825c54302558d3b1345300375cffdfb63adb6cf4b94f",
+      "displayed_estimate": "Within-mouse SD of delta_rho across repeats at C=1; horizontal median of SDs.",
+      "observational_unit": "Same 12 OpenScope mice; repeated splits/settings are nested, not independent animals.",
+      "interval_or_spread": "Sample SD (ddof=1), NOT a standard error or CI.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "SI06",
+      "panel": "a",
+      "source_panel": "SI08a",
+      "quantitative_microplots": 2,
+      "datasets": [
+        {
+          "dataset_id": "sd_b6029ee4b910986d842e",
+          "sha256": "b6029ee4b910986d842ee354fbef4a88492f18da74b840d9f4312f0604656269",
+          "source_table_name": "01_OS_S07_topset_home_vs_cross_auc_paired__OS_S07_topset_home_vs_cross_auc_paired.csv",
+          "rows": 12,
+          "columns": [
+            "subject",
+            "topset_auc_home",
+            "topset_auc_cross"
+          ],
+          "public_file": "tables/sd_b6029ee4b910986d842e.csv"
+        },
+        {
+          "dataset_id": "sd_7ad94da34b056c7d258d",
+          "sha256": "7ad94da34b056c7d258d7ce9e2b8b4ced05dcf6851f0aba09e33e6e315fae623",
+          "source_table_name": "01_OS_S08_topset_R_by_mouse__OS_S08_topset_R_by_mouse.csv",
+          "rows": 12,
+          "columns": [
+            "subject",
+            "topset_auc_crossover"
+          ],
+          "public_file": "tables/sd_7ad94da34b056c7d258d.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI08:paired": "279095ae65ef95f6c7059ea27e4aaaffa60488b9b2ac4081c3712c04cc46d66f",
+        "SI08:lollipop": "811d17ba8204889eae8c7aa331793ffd931771e8c1ec7dff69d64c0b2947ef38"
+      },
+      "source_resolver_AST_sha256": "653d2ad6139ce7d76eb883cdad9708e3d2fc49ad52c14c598d219346da677825",
+      "source_build_AST_sha256": "b307480302b4e9e1b715bcd03239d5c72e368daacf018e0e58c641f9253024bd",
+      "displayed_estimate": "Paired top-unit home/cross AUC, their mouse differences and median summaries.",
+      "observational_unit": "Same 12 OpenScope mice; repeated splits/settings are nested, not independent animals.",
+      "interval_or_spread": "No confidence interval.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "SI06",
+      "panel": "b",
+      "source_panel": "SI08f",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_1d3af5b97a978e8c96df",
+          "sha256": "1d3af5b97a978e8c96dff1f1d757d566ae2a57bfa6b9dc801da93eeed696c904",
+          "source_table_name": "01_OS_S38_leave_one_mouse_out_topset__OS_S38_leave_one_mouse_out_topset.csv",
+          "rows": 12,
+          "columns": [
+            "left_out",
+            "effect"
+          ],
+          "public_file": "tables/sd_1d3af5b97a978e8c96df.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI08:lollipop": "811d17ba8204889eae8c7aa331793ffd931771e8c1ec7dff69d64c0b2947ef38"
+      },
+      "source_resolver_AST_sha256": "653d2ad6139ce7d76eb883cdad9708e3d2fc49ad52c14c598d219346da677825",
+      "source_build_AST_sha256": "b307480302b4e9e1b715bcd03239d5c72e368daacf018e0e58c641f9253024bd",
+      "displayed_estimate": "Actual source effect is leave-one-mouse-out MEAN TOP-UNIT AUC CROSSOVER; inherited axis incorrectly says delta-Jaccard.",
+      "observational_unit": "Same 12 OpenScope mice; repeated splits/settings are nested, not independent animals.",
+      "interval_or_spread": "No CI; median across 12 exclusion means.",
+      "inference_limits": "Confirmed label defect: all 12 values reproduce AUC leave-one-out means, not Jaccard. Correct axis/caption only; preserve numbers and source identity."
+    },
+    {
+      "figure": "SI06",
+      "panel": "c",
+      "source_panel": "SI08b",
+      "quantitative_microplots": 2,
+      "datasets": [
+        {
+          "dataset_id": "sd_7bcf1eee3423eb393347",
+          "sha256": "7bcf1eee3423eb3933476f656586265ff75ee2b2f49c307ed03c37e1fd453abd",
+          "source_table_name": "01_OS_S09_topset_budget_sensitivity_auc__OS_S09_topset_budget_sensitivity_auc.csv",
+          "rows": 576,
+          "columns": [
+            "subject",
+            "top_fraction",
+            "topset_auc_crossover"
+          ],
+          "public_file": "tables/sd_7bcf1eee3423eb393347.csv"
+        },
+        {
+          "dataset_id": "sd_77e0500fa84a7cd54a31",
+          "sha256": "77e0500fa84a7cd54a31690ddcec766f29bfe1b11c8a82ec08cd3cedd191524e",
+          "source_table_name": "02_OS_S10_topset_budget_sensitivity_balanced_accuracy__OS_S10_topset_budget_sensitivity_balanced_accuracy.csv",
+          "rows": 576,
+          "columns": [
+            "subject",
+            "top_fraction",
+            "topset_balacc_crossover"
+          ],
+          "public_file": "tables/sd_77e0500fa84a7cd54a31.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI08:sensitivity": "38331faf4ff6f46eab53746f41d4908cf5af11275d062979db1cb97d7ec7ae1f",
+        "SI08:aggregate": "996aafd0d97bf19cd8fe7f075d9920b7318d0ac73e65ddbba4ca89eeea0d4d7f"
+      },
+      "source_resolver_AST_sha256": "653d2ad6139ce7d76eb883cdad9708e3d2fc49ad52c14c598d219346da677825",
+      "source_build_AST_sha256": "b307480302b4e9e1b715bcd03239d5c72e368daacf018e0e58c641f9253024bd",
+      "displayed_estimate": "Average 12 repeats within subject/top_fraction, then median across mice; AUC and balanced-accuracy crossover, fractions 0.05,0.1,0.2,0.4.",
+      "observational_unit": "Same 12 OpenScope mice; repeated splits/settings are nested, not independent animals.",
+      "interval_or_spread": "Mouse trajectories and group medians; no CI.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "SI06",
+      "panel": "d",
+      "source_panel": "SI08d",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_fb30b4480e6beb3fe1f3",
+          "sha256": "fb30b4480e6beb3fe1f3dc2515fad6d426e56dd955bc9a77d33a484a3ad53360",
+          "source_table_name": "01_OS_S20_regularization_sensitivity_delta_jaccard__OS_S20_regularization_sensitivity_delta_jaccard.csv",
+          "rows": 432,
+          "columns": [
+            "subject",
+            "C",
+            "delta_jaccard"
+          ],
+          "public_file": "tables/sd_fb30b4480e6beb3fe1f3.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI08:sensitivity": "38331faf4ff6f46eab53746f41d4908cf5af11275d062979db1cb97d7ec7ae1f",
+        "SI08:aggregate": "996aafd0d97bf19cd8fe7f075d9920b7318d0ac73e65ddbba4ca89eeea0d4d7f"
+      },
+      "source_resolver_AST_sha256": "653d2ad6139ce7d76eb883cdad9708e3d2fc49ad52c14c598d219346da677825",
+      "source_build_AST_sha256": "b307480302b4e9e1b715bcd03239d5c72e368daacf018e0e58c641f9253024bd",
+      "displayed_estimate": "Mean over 12 repeats within subject/C, then group median of delta_jaccard; C=0.25,1,4.",
+      "observational_unit": "Same 12 OpenScope mice; repeated splits/settings are nested, not independent animals.",
+      "interval_or_spread": "Mouse trajectories and group medians, no CI.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "SI06",
+      "panel": "e",
+      "source_panel": "SI08c",
+      "quantitative_microplots": 2,
+      "datasets": [
+        {
+          "dataset_id": "sd_239fc387cbb7a176a17c",
+          "sha256": "239fc387cbb7a176a17cfdfeb496984fe136b0e257afce99c5f9277e4e47d8e0",
+          "source_table_name": "01_OS_S11_jaccard_within_vs_cross_paired__OS_S11_jaccard_within_vs_cross_paired.csv",
+          "rows": 12,
+          "columns": [
+            "subject",
+            "jaccard_within",
+            "jaccard_cross"
+          ],
+          "public_file": "tables/sd_239fc387cbb7a176a17c.csv"
+        },
+        {
+          "dataset_id": "sd_46072a84dac4bb5959ff",
+          "sha256": "46072a84dac4bb5959ffd491004ff56ac811dff987b9ef632ed173f492154fb1",
+          "source_table_name": "02_OS_S12_delta_jaccard_by_mouse__OS_S12_delta_jaccard_by_mouse.csv",
+          "rows": 12,
+          "columns": [
+            "subject",
+            "delta_jaccard"
+          ],
+          "public_file": "tables/sd_46072a84dac4bb5959ff.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI08:paired": "279095ae65ef95f6c7059ea27e4aaaffa60488b9b2ac4081c3712c04cc46d66f",
+        "SI08:lollipop": "811d17ba8204889eae8c7aa331793ffd931771e8c1ec7dff69d64c0b2947ef38"
+      },
+      "source_resolver_AST_sha256": "653d2ad6139ce7d76eb883cdad9708e3d2fc49ad52c14c598d219346da677825",
+      "source_build_AST_sha256": "b307480302b4e9e1b715bcd03239d5c72e368daacf018e0e58c641f9253024bd",
+      "displayed_estimate": "Paired within/cross Jaccard, mouse delta_jaccard and median summaries.",
+      "observational_unit": "Same 12 OpenScope mice; repeated splits/settings are nested, not independent animals.",
+      "interval_or_spread": "No confidence interval.",
+      "inference_limits": "Descriptive source analysis; no model refit or new causal interpretation."
+    },
+    {
+      "figure": "SI06",
+      "panel": "f",
+      "source_panel": "SI08e",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_0b6095f94b16d070ced8",
+          "sha256": "0b6095f94b16d070ced806fcc09c081d2dd9d9f789b2a1a2f3b780a9a022b798",
+          "source_table_name": "01_OS_S35_delta_jaccard_high_precision_permutation_boundary__OS_S35_delta_jaccard_high_precision_permutation_boundary.csv",
+          "rows": 2000,
+          "columns": [
+            "null",
+            "observed"
+          ],
+          "public_file": "tables/sd_0b6095f94b16d070ced8.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI08:permutation": "6d18ee414e22c33695c3c18c269fc2ccbe1005bd8f47c5d29871ac0092cabd77"
+      },
+      "source_resolver_AST_sha256": "653d2ad6139ce7d76eb883cdad9708e3d2fc49ad52c14c598d219346da677825",
+      "source_build_AST_sha256": "b307480302b4e9e1b715bcd03239d5c72e368daacf018e0e58c641f9253024bd",
+      "displayed_estimate": "32-bin histogram of 2,000 fixed-split Jaccard nulls, observed line and 2.5/97.5-percentile boundaries.",
+      "observational_unit": "Same 12 mice; null draws are not biological replicates.",
+      "interval_or_spread": "95% null boundaries, not an effect CI.",
+      "inference_limits": "Matched null is not replaced by positive repeated-split estimates."
+    }
+  ],
+  "checks": {
+    "steinmetz_quality": {
+      "fits": 195,
+      "fits_per_state": 39,
+      "positive_fraction": {
+        "baseline": 0.8974358974358975,
+        "visual": 0.8717948717948718,
+        "decision": 1.0,
+        "movement": 0.8974358974358975,
+        "outcome": 0.9743589743589743
+      }
+    },
+    "allen_quality": {
+      "fits": 72,
+      "fits_per_state": 24,
+      "positive_fraction": {
+        "familiar_active": 0.4166666666666667,
+        "novel_active": 0.625,
+        "passive": 0.7083333333333334
+      }
+    },
+    "flexibility": {
+      "steinmetz": {
+        "mean_activity": {
+          "rho": -0.07462877509884423,
+          "x99p5": 1.895787819623943
+        },
+        "activity_flexibility": {
+          "rho": 0.6228848702987101,
+          "x99p5": 0.06448565527027655
+        }
+      },
+      "allen": {
+        "mean_activity": {
+          "rho": 0.004682181004572555,
+          "x99p5": 0.10359075166285045
+        },
+        "activity_flexibility": {
+          "rho": 0.35860934724849186,
+          "x99p5": 0.15402930607047313
+        }
+      }
+    },
+    "arousal_finite_counts": {
+      "raw": {
+        "pupil": {
+          "records": 72,
+          "finite": 69,
+          "box_percentiles_all_NaN": true
+        },
+        "running": {
+          "records": 72,
+          "finite": 71,
+          "box_percentiles_all_NaN": true
+        }
+      },
+      "residual": {
+        "pupil": {
+          "records": 72,
+          "finite": 65,
+          "box_percentiles_all_NaN": true
+        },
+        "running": {
+          "records": 72,
+          "finite": 67,
+          "box_percentiles_all_NaN": true
+        }
+      }
+    },
+    "lag_counts": {
+      "0.25": 40,
+      "0.5": 11,
+      "1.0": 9,
+      "2.0": 12
+    },
+    "lag_gain_median": -0.0026159659028052503,
+    "quality_stability": {
+      "containers": 22,
+      "rho": 0.012990681116725173
+    },
+    "inventory": {
+      "dyn_rows_raw": 319990,
+      "dyn_duplicate_rows": 78295,
+      "dyn_rows_strict": 241695,
+      "pred_rows_raw": 952265,
+      "pred_duplicate_rows": 229525,
+      "pred_rows_strict": 722740,
+      "unique_sessions": 39,
+      "inventory_rows": 52,
+      "inventory_unique_file_stems": 39,
+      "inventory_unique_identifiers": 39
+    },
+    "predictive_dynamic_target_counts": {
+      "size": {
+        "choice": 195,
+        "engagement": 190,
+        "outcome": 195
+      },
+      "count": {
+        "choice": 195,
+        "engagement": 190,
+        "outcome": 195
+      }
+    },
+    "predictive_matrix_session_counts": {
+      "choice": 39,
+      "engagement": 38,
+      "outcome": 39
+    },
+    "setting_distributions": {
+      "sd_e895d473518631edb7a4": {
+        "source_rows": 432,
+        "mouse_setting_means": 36,
+        "repeats_per_mean": 12,
+        "settings": [
+          0.25,
+          1.0,
+          4.0
+        ]
+      },
+      "sd_efac6529403f200bcbe3": {
+        "source_rows": 432,
+        "mouse_setting_means": 36,
+        "repeats_per_mean": 12,
+        "settings": [
+          0.25,
+          1.0,
+          4.0
+        ]
+      },
+      "sd_432a7168cdc4938b0a6c": {
+        "source_rows": 432,
+        "mouse_setting_means": 36,
+        "repeats_per_mean": 12,
+        "settings": [
+          0.25,
+          1.0,
+          4.0
+        ]
+      },
+      "sd_e97ab58553a62532979e": {
+        "source_rows": 432,
+        "mouse_setting_means": 36,
+        "repeats_per_mean": 12,
+        "settings": [
+          0.25,
+          1.0,
+          4.0
+        ]
+      },
+      "sd_ae8b6a9c698ef0151403": {
+        "source_rows": 432,
+        "mouse_setting_means": 36,
+        "repeats_per_mean": 12,
+        "settings": [
+          0.25,
+          1.0,
+          4.0
+        ]
+      },
+      "sd_fb30b4480e6beb3fe1f3": {
+        "source_rows": 432,
+        "mouse_setting_means": 36,
+        "repeats_per_mean": 12,
+        "settings": [
+          0.25,
+          1.0,
+          4.0
+        ]
+      },
+      "sd_7bcf1eee3423eb393347": {
+        "source_rows": 576,
+        "mouse_setting_means": 48,
+        "repeats_per_mean": 12,
+        "settings": [
+          0.05,
+          0.1,
+          0.2,
+          0.4
+        ]
+      },
+      "sd_77e0500fa84a7cd54a31": {
+        "source_rows": 576,
+        "mouse_setting_means": 48,
+        "repeats_per_mean": 12,
+        "settings": [
+          0.05,
+          0.1,
+          0.2,
+          0.4
+        ]
+      }
+    },
+    "leave_one_out": {
+      "sd_60fe301d1c8ff1891b66": {
+        "actual_metric": "delta_rho",
+        "maximum_absolute_difference": 9.020562075079397e-17
+      },
+      "sd_1d3af5b97a978e8c96df": {
+        "actual_metric": "topset_auc_crossover",
+        "maximum_absolute_difference": 9.8879238130678e-17
+      }
+    },
+    "SI06b_label_error": {
+      "actual_metric": "topset_auc_crossover",
+      "inherited_axis": "Leave-one-out delta-Jaccard",
+      "Jaccard_mean_maximum_mismatch": 0.0011913450487288715,
+      "correction_required": true
+    },
+    "permutations": {
+      "sd_ac4f913658cf71fdf6da": {
+        "draws": 2000,
+        "observed": -0.0020899328293421,
+        "null95": [
+          -0.017068158262458485,
+          0.017705653658411705
+        ],
+        "observed_inside_null95": true
+      },
+      "sd_0b6095f94b16d070ced8": {
+        "draws": 2000,
+        "observed": 0.0012918715002296,
+        "null95": [
+          -0.009970929132673707,
+          0.010562708071019831
+        ],
+        "observed_inside_null95": true
+      }
+    }
+  },
+  "source_plotting_script_sha256": {
+    "ED06": "c838bc745ff5b4bdb646500abff03cfae02d9f5d8af3858a5cc3624255537ce9",
+    "SI03": "cb7a4d7752c46f8a93579b69d28e3e9160b107e8e17f7caf8dc0e2e727f34750",
+    "SI04": "a1a6f62907c4bccd68d31a6f5cacde7f1b9f04c2d31432d02084cfa5e0b8e86e",
+    "SI05": "e104c44e1d90f063d2f8e14870452b6c71d7140654b5f645fa2be81274b4ce90",
+    "SI06": "fb6afbf9448597389d4ec5dabbfb83cb6473b172b01f91a2c69ce14909f8456d",
+    "SI07": "e3ff4888744daf049aa690882d86eea1cac749505460cbca373244630baec705",
+    "SI08": "91f1a30cdd947bed33eeec1b6a04b1b8be555d35b6b547539d19b664ede364ab"
+  },
+  "frozen_figure_sha256": {
+    "ED07": "b7de5d38bdc1e783f30370368c405a21ec47b84b3966d4e768b67c114306a26e",
+    "SI02": "72e1d914d0653e6d5c538f3fe0e299fa478fdfa0efecf8568618492629d85990",
+    "SI03": "2e788fe64ef1f2fe7606b9edb75a2e213db12246798cc4f01f4ceb2b10ff7bab",
+    "SI04": "c6d4b9585f3aa3bd4d18ce0e846baa1c32356cfacfc9dea45bdeef136bf9caaa",
+    "SI05": "39b735344082ca22c4d747628646a182bc9aaba43b9b0d483ff8e666d4f072c5",
+    "SI06": "d1ec9224b13bb9ffe3f5471f8f7828333975c9ca64505b0d0ef65dc66257b55d"
+  },
+  "limits": [
+    "No new fits, permutation draws, biological recordings or figure export.",
+    "ED7k/l finite point counts differ by representation; original NaN-containing arrays produce no visible boxes.",
+    "Original figure source manifests contain stale derived-file relative paths; direct input paths above are evaluated from reviewed source assignments.",
+    "ED1-5 exact source/estimator audits remain unfinished.",
+    "The inherited SI6b ylabel defect is documented and corrected in the separately hash-bound PDF; source values are unchanged."
+  ],
+  "verified_date": "2026-09-14",
+  "review_method": "Read actual plotting helpers and source assignments, verify frozen geometry/source hashes and the listed finite display calculations. No biological refitting.",
+  "label_correction": {
+    "figure": "SI06",
+    "panel": "b",
+    "actual_metric": "leave-one-mouse-out mean top-unit AUC crossover",
+    "previous_label": "Leave-one-out delta-Jaccard",
+    "corrected_label": "Leave-one-out mean delta-AUC",
+    "corrected_PDF_sha256": "875bcbebe826a0071b16b2dd62244ce6115ccd6da15efe73eaed2a5285485462",
+    "all_data_and_geometry_unchanged": true,
+    "all_pixels_outside_ylabel_exact": true,
+    "only_label_pixels_changed_180dpi": 1416,
+    "source_audit_describes_pre_correction_label_for_transparency": true
+  }
+}

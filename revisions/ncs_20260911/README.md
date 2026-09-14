@@ -46,8 +46,7 @@ The 66 method/task summaries in ED8i-n use equal-weight raw scores across two
 states, whereas the primary and secondary contrasts use worst-state normalized
 scores, taking per-mask minima before control-mask averaging. All 22 SI Table 2
 rows match frozen statistics, including the primary aggregate null. Shared
-input-history controls are not twelve independent graph controls. Other ED/SI
-figures still require this level of granular estimator mapping.
+input-history controls are not twelve independent graph controls. ED1-5 still require this level of granular estimator mapping; the biological support mappings below now cover ED6-7 and SI1-6.
 
 Each dataset has a stable content identifier, SHA256, source-table aliases and a relative filename. Dataset aliases are scientific table names, not private workstation paths. Three records had local path metadata removed; these changes are explicitly recorded and do not alter numerical values. All other dataset bytes are unchanged. Different source filenames with identical content are stored once. `SHA256SUMS.json` binds every file in this revision except itself.
 
@@ -87,3 +86,30 @@ added; no raw database or electrophysiological recordings are redistributed.
 The release retains the complete six-task comparison families, not only delayed recall and interval discrimination. Shared-policy results use the reference-corrected frozen evaluation. Task primary-null results, unresolved shared sufficiency and biological landscape-null controls remain explicit. Biological tables are processed summaries from public resources; no raw third-party recordings are redistributed.
 
 The underlying resources include Allen Cell Types/GLIF, SynPhys, Steinmetz, Allen Visual Behavior and OpenScope. Access raw data through the original providers under their terms. The data repository currently has no assigned reuse license; public availability alone does not grant a reuse license. No new license or archival DOI is asserted by this revision.
+
+
+## Biological support crosswalks and reporting correction
+
+`panel_maps/cellular_support_crosswalk.json` and its CSV bind ED6 and SI1:
+20 lettered panels, 22 microplots, 17 datasets. Five display matrices and nine
+stored-OOF subgroup correlations match; all 30-split distributions and 16 STP
+interval rows retain their definitions. ED6d/e use stored original OOF values,
+not the nested-rerun vector in b/c. PFC descriptors describe 6,357 canonical
+neurons across 64 projection subtypes; they are not SynPhys target cells.
+
+`panel_maps/population_support_crosswalk.json` and its CSV bind ED7 and SI2-6:
+41 panels, 53 microplots, 46 datasets. One existing inventory JSON omitted by
+the earlier table-read capture is added (SI2a). All prior 290 datasets are
+unchanged; the revision now has 291. Engagement matrices use 38 valid sessions,
+choice/outcome 39. ED7k/l have 72 records per representation, but finite raw /
+residual counts are 71 / 67 for running and 69 / 65 for pupil. Original NaNs
+leave point-only displays, not visible box summaries.
+
+SI6b's inherited ylabel incorrectly named Jaccard. Its 12 values exactly match
+leave-one-mouse-out mean top-unit AUC crossover, not Jaccard. The correction
+changes only the ylabel and caption; no data, test, geometry or other figure
+pixels change. Old and corrected PDF hashes are recorded. This metadata preserves
+the original defect explicitly. Coefficient-landscape and Jaccard matched-null
+boundaries remain non-confirmatory; they are not replaced by repeat averages.
+All six main figures, ED6-8 and SI1-6 now have source-reviewed display/estimator
+mappings. This is not raw-estimator or complete production-launcher portability.

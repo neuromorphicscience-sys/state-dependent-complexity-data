@@ -1,0 +1,987 @@
+{
+  "scope": "ED6 and SI1: 20 quantitative letter panels / 22 microplots; source/display checks, not raw reconstruction or model refitting.",
+  "rows": [
+    {
+      "figure": "ED06",
+      "panel": "a",
+      "source_panel": "ED05a",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_f5b653f338a4cc67c90c",
+          "sha256": "f5b653f338a4cc67c90c5ad87ef51832ab2cc601d6c3eb12199efe006bbc086e",
+          "source_table_name": "01_S5A_01_cohort_attrition__cohort_attrition.csv",
+          "rows": 6,
+          "columns": [
+            "stage",
+            "n"
+          ],
+          "public_file": "tables/sd_f5b653f338a4cc67c90c.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED05:plot_attrition": "54e4bc4b83432807039fb27dedff0ae3ec55bb1be41e64a9077ae7a5a72fbd55"
+      },
+      "displayed_estimate": "Six archived inventory counts in source order; displayed labels are aliases for the original stages.",
+      "observational_unit": "1,218 inventoried specimens; 1,213 complete bidirectional context analyses; 400 complete-model primary mouse cells.",
+      "interval_or_spread": "Counts only.",
+      "inference_limits": "Inventory/temporal cohorts include mouse and human; the 400-cell primary cohort is mouse-only. These stages are not additive cohorts."
+    },
+    {
+      "figure": "ED06",
+      "panel": "b",
+      "source_panel": "ED05b",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_676665dd72e834e30e7c",
+          "sha256": "676665dd72e834e30e7cf3d96e93039cb265ae076cd2c4013fade9e764a94153",
+          "source_table_name": "01_S5A_04_prediction_by_observed_Creq__nested_rerun_multiaxial_predictions.csv",
+          "rows": 400,
+          "columns": [
+            "specimen_id",
+            "C_req",
+            "pred_nested_rerun"
+          ],
+          "public_file": "tables/sd_676665dd72e834e30e7c.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED05:plot_prediction": "7aec814c3c42fa8dd852d41c2867c4f9458ceb91825af294f2d9cb8320b3f98f"
+      },
+      "displayed_estimate": "Observed cost versus pred_nested_rerun, horizontal jitter seed 531; red within-cost medians and descriptive Spearman rho.",
+      "observational_unit": "400 unique source mouse specimens.",
+      "interval_or_spread": "No confidence interval.",
+      "inference_limits": "Nested rerun predictions; not source-to-target validation or high-accuracy classification."
+    },
+    {
+      "figure": "ED06",
+      "panel": "c",
+      "source_panel": "ED05c",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_676665dd72e834e30e7c",
+          "sha256": "676665dd72e834e30e7cf3d96e93039cb265ae076cd2c4013fade9e764a94153",
+          "source_table_name": "01_S5A_05_ordinal_confusion__nested_rerun_multiaxial_predictions.csv",
+          "rows": 400,
+          "columns": [
+            "specimen_id",
+            "C_req",
+            "pred_nested_rerun"
+          ],
+          "public_file": "tables/sd_676665dd72e834e30e7c.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED05:plot_ordinal": "78d033781865190af5adef9093126d10ee4579decda54f24a8c0a18b20247a61",
+        "ED05:confusion": "45c0153290c488a0cf3ec9a185992565a2412d8619586c9f4daf1b53a80f5b11",
+        "ED05:draw_count_heatmap": "78a4b543cc42ec9b7caba9c38dbbdfa75cceca4aad876212d409fef3c525fd57"
+      },
+      "displayed_estimate": "Round pred_nested_rerun with NumPy rint, clip to 0..3, count all observed/predicted cost combinations.",
+      "observational_unit": "400 unique source mouse specimens.",
+      "interval_or_spread": "No confidence interval.",
+      "inference_limits": "Nested rerun predictions; not source-to-target validation or high-accuracy classification."
+    },
+    {
+      "figure": "ED06",
+      "panel": "d",
+      "source_panel": "ED05d",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_b04554cb7941f7a206e2",
+          "sha256": "b04554cb7941f7a206e2f27adc3fc8c5017095993245fcac37e62d46000de071",
+          "source_table_name": "01_S5A_08_within_layer_oof_effects__within_group_oof_associations.csv",
+          "rows": 9,
+          "columns": [
+            "grouping",
+            "group",
+            "n",
+            "rho",
+            "bootstrap95_low",
+            "bootstrap95_high",
+            "p"
+          ],
+          "public_file": "tables/sd_b04554cb7941f7a206e2.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED05:plot_forest": "52d3d9170ee3ec32ba8c46d4c2933425c58d30192f04e933d05246e863f0b1ea"
+      },
+      "displayed_estimate": "Archived within-layer Spearman rho using stored pred_Creq_multiaxial_ephys, NOT the nested-rerun vector of b/c.",
+      "observational_unit": "Source cells within six layer groups or three dendrite classes; group counts retained.",
+      "interval_or_spread": "Archived bootstrap95_low/high: paired cell resampling within group; model predictions held fixed, not refitted per bootstrap.",
+      "inference_limits": "Descriptive stratified OOF association, distinct from leave-group-out generalization. Bootstrap draw count not inferred from a source-config default."
+    },
+    {
+      "figure": "ED06",
+      "panel": "e",
+      "source_panel": "ED05e",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_b04554cb7941f7a206e2",
+          "sha256": "b04554cb7941f7a206e2f27adc3fc8c5017095993245fcac37e62d46000de071",
+          "source_table_name": "01_S5A_09_within_dendrite_oof_effects__within_group_oof_associations.csv",
+          "rows": 9,
+          "columns": [
+            "grouping",
+            "group",
+            "n",
+            "rho",
+            "bootstrap95_low",
+            "bootstrap95_high",
+            "p"
+          ],
+          "public_file": "tables/sd_b04554cb7941f7a206e2.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED05:plot_forest": "52d3d9170ee3ec32ba8c46d4c2933425c58d30192f04e933d05246e863f0b1ea"
+      },
+      "displayed_estimate": "Archived within-dendrite_type Spearman rho using stored pred_Creq_multiaxial_ephys, NOT the nested-rerun vector of b/c.",
+      "observational_unit": "Source cells within six layer groups or three dendrite classes; group counts retained.",
+      "interval_or_spread": "Archived bootstrap95_low/high: paired cell resampling within group; model predictions held fixed, not refitted per bootstrap.",
+      "inference_limits": "Descriptive stratified OOF association, distinct from leave-group-out generalization. Bootstrap draw count not inferred from a source-config default."
+    },
+    {
+      "figure": "ED06",
+      "panel": "f",
+      "source_panel": "ED05f",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_50b4c889b7e875774023",
+          "sha256": "50b4c889b7e875774023d68712345bd7c1806c4727d3fd4545a3d40eeac712b1",
+          "source_table_name": "01_S5A_12_temporal_AB_BA_consistency__temporal_boundary_1213_cells.csv",
+          "rows": 1213,
+          "columns": [
+            "specimen_id",
+            "C_temporal_AB",
+            "C_temporal_BA",
+            "long_short_gain_AB",
+            "long_short_gain_BA",
+            "long_short_gain_mean"
+          ],
+          "public_file": "tables/sd_50b4c889b7e875774023.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED05:plot_temporal": "ea606662948d17ae19f8d8481119d10772160ff205ca2d5d686abb9ed8c39140",
+        "ED05:temporal_matrix": "1b289ce4d85ce8ad346db50b3803490c569c987f46da11863f9f78d0eb7664ed"
+      },
+      "displayed_estimate": "6x6 AB-by-BA contingency counts over 10,25,50,100,200,500 ms.",
+      "observational_unit": "1,213 specimens, same AB/BA identities; 1,044 mouse and 169 human, not the 400-cell primary subset.",
+      "interval_or_spread": "Counts only.",
+      "inference_limits": "Contexts and directions are nested within specimen."
+    },
+    {
+      "figure": "ED06",
+      "panel": "g",
+      "source_panel": "ED05g",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_50b4c889b7e875774023",
+          "sha256": "50b4c889b7e875774023d68712345bd7c1806c4727d3fd4545a3d40eeac712b1",
+          "source_table_name": "02_S5A_13_long_vs_short_context_gain__temporal_boundary_1213_cells.csv",
+          "rows": 1213,
+          "columns": [
+            "specimen_id",
+            "C_temporal_AB",
+            "C_temporal_BA",
+            "long_short_gain_AB",
+            "long_short_gain_BA",
+            "long_short_gain_mean"
+          ],
+          "public_file": "tables/sd_50b4c889b7e875774023.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED05:plot_context_gain": "6fd87e242f5f4ae9f02f60f1836d22aaff1404a8e461dd7e3d23a45dac7fed97"
+      },
+      "displayed_estimate": "36-bin histogram of long_short_gain_mean; mean of AB and BA 500-minus-10-ms held-out R-squared gains, with median reference.",
+      "observational_unit": "Same 1,213 temporal specimens.",
+      "interval_or_spread": "No CI.",
+      "inference_limits": "Non-positive median retained; this is not evidence of universally improved long-context prediction."
+    },
+    {
+      "figure": "ED06",
+      "panel": "h",
+      "source_panel": "ED05h",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_84f3f5fe447877a6dc67",
+          "sha256": "84f3f5fe447877a6dc673fc33a6315a8d5bf40c8b9a88fc360ba9e5a00cf9cd4",
+          "source_table_name": "01_stage5a_epsilon_creq_distribution_heatmap__epsilon_creq_distribution_long.csv",
+          "rows": 36,
+          "columns": [
+            "epsilon",
+            "cost",
+            "count",
+            "fraction"
+          ],
+          "public_file": "tables/sd_84f3f5fe447877a6dc67.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED05:plot_epsilon_distribution": "182ed8b83cca98c2bf1300c2e1078563dd8ef3de38d3346e3d12058068abb6e0"
+      },
+      "displayed_estimate": "4 costs x 9 tolerances fraction matrix, fixed color range 0..0.5. Assembly removes cell-text annotations only.",
+      "observational_unit": "Same 400 mouse cells at each tolerance.",
+      "interval_or_spread": "Fractions only.",
+      "inference_limits": "Tolerances are not independent cohorts; color saturation above 0.5 is retained."
+    },
+    {
+      "figure": "ED06",
+      "panel": "i",
+      "source_panel": "ED05i",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_d30ea123d812d0c4a47c",
+          "sha256": "d30ea123d812d0c4a47c24e6c6c496dda9b18369f136a307e1443027d3bc712f",
+          "source_table_name": "01_stage5a_epsilon_mean_creq__epsilon_sensitivity_summary.csv",
+          "rows": 9,
+          "columns": [
+            "epsilon",
+            "n",
+            "spearman_vs_eps_0p02",
+            "exact_agreement_vs_eps_0p02",
+            "weighted_kappa_vs_eps_0p02",
+            "mean_creq",
+            "count_cost0",
+            "count_cost1",
+            "count_cost2",
+            "count_cost3"
+          ],
+          "public_file": "tables/sd_d30ea123d812d0c4a47c.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED05:plot_epsilon_mean": "e87564861ef36908fe82e4892e26aa4598470e0a0227643bb81b428e74bbe98d"
+      },
+      "displayed_estimate": "Mean minimum cost versus tolerance.",
+      "observational_unit": "Same 400 mouse cells at each of nine tolerances.",
+      "interval_or_spread": "Point summaries, no intervals.",
+      "inference_limits": "Local tolerance sensitivity is not arbitrary-tolerance invariance."
+    },
+    {
+      "figure": "ED06",
+      "panel": "j",
+      "source_panel": "ED05j",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_d30ea123d812d0c4a47c",
+          "sha256": "d30ea123d812d0c4a47c24e6c6c496dda9b18369f136a307e1443027d3bc712f",
+          "source_table_name": "01_stage5a_epsilon_mean_creq__epsilon_sensitivity_summary.csv",
+          "rows": 9,
+          "columns": [
+            "epsilon",
+            "n",
+            "spearman_vs_eps_0p02",
+            "exact_agreement_vs_eps_0p02",
+            "weighted_kappa_vs_eps_0p02",
+            "mean_creq",
+            "count_cost0",
+            "count_cost1",
+            "count_cost2",
+            "count_cost3"
+          ],
+          "public_file": "tables/sd_d30ea123d812d0c4a47c.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED05:plot_epsilon_agreement": "89fa5db252c5e961ecb84962e699915ac3090a1a6c72cc36de5131d6e0d4b7ac"
+      },
+      "displayed_estimate": "Spearman rho, exact agreement and quadratic weighted kappa versus epsilon=0.020.",
+      "observational_unit": "Same 400 mouse cells at each of nine tolerances.",
+      "interval_or_spread": "Point summaries, no intervals.",
+      "inference_limits": "Local tolerance sensitivity is not arbitrary-tolerance invariance."
+    },
+    {
+      "figure": "ED06",
+      "panel": "k",
+      "source_panel": "ED05k",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_43b567a5360385353e1e",
+          "sha256": "43b567a5360385353e1e640103f00c242f52aa1b06b8a54e54db45b2a0463118",
+          "source_table_name": "01_stage5a_epsilon_transition_baseline_to_0p015__epsilon_creq_per_cell.csv",
+          "rows": 400,
+          "columns": [
+            "specimen_id",
+            "specimen_name",
+            "ev_glif1",
+            "ev_glif2",
+            "ev_glif3",
+            "ev_glif4",
+            "ev_glif5",
+            "model_id_glif1",
+            "model_id_glif2",
+            "model_id_glif3",
+            "model_id_glif4",
+            "model_id_glif5",
+            "ev_cost0",
+            "ev_cost1",
+            "ev_cost2",
+            "ev_cost3",
+            "ev_best",
+            "creq_eps_0p000",
+            "creq_eps_0p005",
+            "creq_eps_0p010",
+            "creq_eps_0p015",
+            "creq_eps_0p020",
+            "creq_eps_0p025",
+            "creq_eps_0p030",
+            "creq_eps_0p040",
+            "creq_eps_0p050"
+          ],
+          "public_file": "tables/sd_43b567a5360385353e1e.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED05:plot_transitions": "50ad6e16550a9baf43f8b5120002ee813e58434b0148db9f4d9d4287d546a78b",
+        "ED05:transition_matrix": "900dd1b93d3921c8b1bd2e6ddf623afaeac88dd40339c796fe0d305aa2f755ea",
+        "ED05:confusion": "45c0153290c488a0cf3ec9a185992565a2412d8619586c9f4daf1b53a80f5b11"
+      },
+      "displayed_estimate": "4x4 cell transition counts from epsilon=0.020 to 0.015.",
+      "observational_unit": "400 paired mouse cells.",
+      "interval_or_spread": "Counts only.",
+      "inference_limits": "Both displayed matrices derive from the identical all-tolerance per-cell table."
+    },
+    {
+      "figure": "ED06",
+      "panel": "l",
+      "source_panel": "ED05l",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_43b567a5360385353e1e",
+          "sha256": "43b567a5360385353e1e640103f00c242f52aa1b06b8a54e54db45b2a0463118",
+          "source_table_name": "02_stage5a_epsilon_transition_baseline_to_0p025__epsilon_creq_per_cell.csv",
+          "rows": 400,
+          "columns": [
+            "specimen_id",
+            "specimen_name",
+            "ev_glif1",
+            "ev_glif2",
+            "ev_glif3",
+            "ev_glif4",
+            "ev_glif5",
+            "model_id_glif1",
+            "model_id_glif2",
+            "model_id_glif3",
+            "model_id_glif4",
+            "model_id_glif5",
+            "ev_cost0",
+            "ev_cost1",
+            "ev_cost2",
+            "ev_cost3",
+            "ev_best",
+            "creq_eps_0p000",
+            "creq_eps_0p005",
+            "creq_eps_0p010",
+            "creq_eps_0p015",
+            "creq_eps_0p020",
+            "creq_eps_0p025",
+            "creq_eps_0p030",
+            "creq_eps_0p040",
+            "creq_eps_0p050"
+          ],
+          "public_file": "tables/sd_43b567a5360385353e1e.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED05:plot_transitions": "50ad6e16550a9baf43f8b5120002ee813e58434b0148db9f4d9d4287d546a78b",
+        "ED05:transition_matrix": "900dd1b93d3921c8b1bd2e6ddf623afaeac88dd40339c796fe0d305aa2f755ea",
+        "ED05:confusion": "45c0153290c488a0cf3ec9a185992565a2412d8619586c9f4daf1b53a80f5b11"
+      },
+      "displayed_estimate": "4x4 cell transition counts from epsilon=0.020 to 0.025.",
+      "observational_unit": "400 paired mouse cells.",
+      "interval_or_spread": "Counts only.",
+      "inference_limits": "Both displayed matrices derive from the identical all-tolerance per-cell table."
+    },
+    {
+      "figure": "ED06",
+      "panel": "m",
+      "source_panel": "SI01a",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_ee961faee5cabf60f81e",
+          "sha256": "ee961faee5cabf60f81e243247fe1babd1ef05c41590eab7e862f927060f608c",
+          "source_table_name": "01_S5A_16_PFC_subtype_structural_effects_descriptive__pfc2022_feature_subtype_effects.csv",
+          "rows": 12,
+          "columns": [
+            "eta2_subtype",
+            "feature",
+            "perm_p"
+          ],
+          "public_file": "tables/sd_ee961faee5cabf60f81e.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI01:plot_structural_effects": "b2d8abb1d439229ee8bd8d95696b4e52a22ec1045cbf95a7bbd3b36cb3cf154d"
+      },
+      "displayed_estimate": "All 12 eta-squared descriptor associations, sorted by effect; teal iff unadjusted permutation P<0.05.",
+      "observational_unit": "6,357 canonical PFC neurons in 64 projection subtypes, not SynPhys cells.",
+      "interval_or_spread": "No confidence interval; per-feature source permutation P=(b+1)/1001.",
+      "inference_limits": "Descriptive structural context, not mechanism-cost validation. Twelve color thresholds are not multiple-testing-adjusted. Zero-variance dendrite length retained as eta-squared=0/P=1; raw morphology reconstruction not repeated."
+    },
+    {
+      "figure": "ED06",
+      "panel": "n",
+      "source_panel": "SI01b",
+      "quantitative_microplots": 2,
+      "datasets": [
+        {
+          "dataset_id": "sd_c3766dfe8fb62ced6da4",
+          "sha256": "c3766dfe8fb62ced6da463b05d3189a87c7ef861ad46723dab25c29d9d73d4bf",
+          "source_table_name": "01_SYN07_complexity_by_cre_type__SYN07_complexity_by_cre_type.csv",
+          "rows": 2546,
+          "columns": [
+            "cre_type",
+            "C_primary_shared"
+          ],
+          "public_file": "tables/sd_c3766dfe8fb62ced6da4.csv"
+        },
+        {
+          "dataset_id": "sd_da1968085caf5e734e34",
+          "sha256": "da1968085caf5e734e34e3503981b18b75b186fb635191caafd2c23ea2226b10",
+          "source_table_name": "02_SYN08_complexity_by_layer__SYN08_complexity_by_layer.csv",
+          "rows": 2553,
+          "columns": [
+            "cortical_layer",
+            "C_primary_shared"
+          ],
+          "public_file": "tables/sd_da1968085caf5e734e34.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI01:plot_cre": "2c762342de6c9fce52c24460cdbd015f9013080edd6f681a634d2b0a87327d9b",
+        "SI01:plot_layer": "e81b8829ef1d806f90b61e9181cd9faf8f72b62a47f0f90f9e361655c0ce8d97",
+        "SI01:styled_box": "045384f02418173fcf7369e63bf5b3b2b5c3d3e78329773177478b4c5b7dce61"
+      },
+      "displayed_estimate": "Transferred C_primary_shared distributions in eight Cre categories and five layer categories (including MISSING).",
+      "observational_unit": "2,546 Cre-labeled records and 2,553 layer-labeled records after original mouse/domain/group-size selection; overlapping subsets, not additive sample sizes.",
+      "interval_or_spread": "Median, interquartile range and 1.5-IQR whiskers; no outlier symbols. Not a confidence interval.",
+      "inference_limits": "Proxy scores, not measured target complexity. No cell identifiers in these display projections, so exact cross-projection overlap cannot be reconstructed from these two tables alone. Original y limits 0.38..1.84 retained."
+    },
+    {
+      "figure": "ED06",
+      "panel": "o",
+      "source_panel": "SI01c",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_a2c9f2e1cfe6797501ad",
+          "sha256": "a2c9f2e1cfe6797501ad7d2087d25da459a3360c63e6a6741e3b5bb4af7820d1",
+          "source_table_name": "01_S5A_17_PFC_subtype_sample_sizes__pfc2022_subtype_centroids.csv",
+          "rows": 64,
+          "columns": [
+            "axon_length_zmean",
+            "bbox_volume_zmean",
+            "branch_points_zmean",
+            "dendrite_length_zmean",
+            "endpoints_zmean",
+            "max_euclidean_radius_zmean",
+            "max_path_length_zmean",
+            "n",
+            "node_type_entropy_zmean",
+            "path_tortuosity_proxy_zmean",
+            "projection_subtype",
+            "radius_gyration_zmean",
+            "spatial_entropy_4_zmean",
+            "spatial_entropy_6_zmean"
+          ],
+          "public_file": "tables/sd_a2c9f2e1cfe6797501ad.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI01:plot_sample_sizes": "8aba6cfdf1bc0fc749c7347c37d873189fd24e4398c9b36b17bbb0f386b1d2ec"
+      },
+      "displayed_estimate": "64 subtype counts sorted descending, median horizontal line and median/range annotation.",
+      "observational_unit": "6,357 canonical neurons partitioned into 64 projection subtypes.",
+      "interval_or_spread": "Counts only.",
+      "inference_limits": "Rank index is not biological identity; original subtype IDs remain in table."
+    },
+    {
+      "figure": "SI01",
+      "panel": "a",
+      "source_panel": "SI02a",
+      "quantitative_microplots": 2,
+      "datasets": [
+        {
+          "dataset_id": "sd_344441aba4e446ece45c",
+          "sha256": "344441aba4e446ece45c807676864131c45a401f1a04516689befae9229b3e52",
+          "source_table_name": "01_SYN13_identity_absorption_dumbbell_primary__SYN13_identity_absorption_dumbbell_primary.csv",
+          "rows": 10,
+          "columns": [
+            "definition",
+            "score_col",
+            "family",
+            "endpoint",
+            "n",
+            "n_experiments",
+            "beta_after_identity",
+            "se_after_identity",
+            "p_after_identity",
+            "effect_scale",
+            "odds_ratio",
+            "delta_before",
+            "delta_after",
+            "fold_local_increment_after",
+            "fold_local_metric",
+            "q_within_definition_descriptive",
+            "absorption_fraction"
+          ],
+          "public_file": "tables/sd_344441aba4e446ece45c.csv"
+        },
+        {
+          "dataset_id": "sd_362968ee3e80a79cfb56",
+          "sha256": "362968ee3e80a79cfb56cab3d2f043b894420725f8c5cc2d9c288e3e3eba7841",
+          "source_table_name": "02_SYN14_identity_absorption_dumbbell_conservative__SYN14_identity_absorption_dumbbell_conservative.csv",
+          "rows": 10,
+          "columns": [
+            "definition",
+            "score_col",
+            "family",
+            "endpoint",
+            "n",
+            "n_experiments",
+            "beta_after_identity",
+            "se_after_identity",
+            "p_after_identity",
+            "effect_scale",
+            "odds_ratio",
+            "delta_before",
+            "delta_after",
+            "fold_local_increment_after",
+            "fold_local_metric",
+            "q_within_definition_descriptive",
+            "absorption_fraction"
+          ],
+          "public_file": "tables/sd_362968ee3e80a79cfb56.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI02:plot_absorption": "d61a0fc3dd1b1c83d5b9ff941937108898d160afcec8b991b237f953b02a5a2f"
+      },
+      "displayed_estimate": "Ten continuous-endpoint in-sample delta_before/delta_after pairs per mapper, sorted by delta_before.",
+      "observational_unit": "Endpoint/definition fits, each with n pairs and n_experiments in the table.",
+      "interval_or_spread": "Points and paired segments, no intervals.",
+      "inference_limits": "Not held-out effect or sample replicates; endpoint-specific overlap prevents pooling."
+    },
+    {
+      "figure": "SI01",
+      "panel": "b",
+      "source_panel": "SI02b",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_77409b1e6d00fb378768",
+          "sha256": "77409b1e6d00fb3787684f42933ad220df976133312fb0fc6c51472548311341",
+          "source_table_name": "01_SYN12_connection_repeated_holdout__SYN12_connection_repeated_holdout.csv",
+          "rows": 60,
+          "columns": [
+            "repeat",
+            "delta_before",
+            "delta_after",
+            "n_test",
+            "n_test_experiments",
+            "definition",
+            "endpoint"
+          ],
+          "public_file": "tables/sd_77409b1e6d00fb378768.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI02:plot_connection": "bd868805cf6a977126c4ac2205a91e9f2a2f77330b8feeb16ba7296ec6b990bc"
+      },
+      "displayed_estimate": "delta_after=M2 log loss minus M3 log loss.",
+      "observational_unit": "30 repeated 20%-experiment-group holdouts per endpoint/definition; 2 groups in b, 6 in c. Reused experiment groups, not 30 independent cohorts.",
+      "interval_or_spread": "Median, interquartile range and 1.5-IQR whiskers; no outlier symbols. Not a confidence interval. All 30 jittered split scores additionally shown.",
+      "inference_limits": "Split seeds/identities reused; no retesting or refitting in this audit."
+    },
+    {
+      "figure": "SI01",
+      "panel": "c",
+      "source_panel": "SI02c",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_758c3b74a98bb5a2403a",
+          "sha256": "758c3b74a98bb5a2403af070abdd68462d350df1702c192e8083b33a568473bc",
+          "source_table_name": "01_SYN21_repeated_experiment_holdout_continuous__SYN21_repeated_experiment_holdout_continuous.csv",
+          "rows": 180,
+          "columns": [
+            "repeat",
+            "delta_before",
+            "delta_after",
+            "n_test",
+            "n_test_experiments",
+            "definition",
+            "endpoint"
+          ],
+          "public_file": "tables/sd_758c3b74a98bb5a2403a.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI02:plot_continuous": "0278e667e9bc15ac31ea662ae510ebd1df563946cbf683aee0d33b665b6053f2"
+      },
+      "displayed_estimate": "delta_after=M3 held-out R-squared minus M2 held-out R-squared for PSP, PSC and 50-Hz gain, both definitions.",
+      "observational_unit": "30 repeated 20%-experiment-group holdouts per endpoint/definition; 2 groups in b, 6 in c. Reused experiment groups, not 30 independent cohorts.",
+      "interval_or_spread": "Median, interquartile range and 1.5-IQR whiskers; no outlier symbols. Not a confidence interval. All 30 jittered split scores additionally shown.",
+      "inference_limits": "Split seeds/identities reused; no retesting or refitting in this audit."
+    },
+    {
+      "figure": "SI01",
+      "panel": "d",
+      "source_panel": "Fig05j_STP",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_fc2dda6e440b1ad7a507",
+          "sha256": "fc2dda6e440b1ad7a507b61fd1a7c7345395a254cacbda4a9155ff8b7d24651c",
+          "source_table_name": "02_SYN16_measured_STP_conditioned_forest__SYN16_measured_STP_conditioned_forest.csv",
+          "rows": 16,
+          "columns": [
+            "definition",
+            "score_col",
+            "family",
+            "endpoint",
+            "n",
+            "n_experiments",
+            "beta_after_identity",
+            "se_after_identity",
+            "p_after_identity",
+            "effect_scale",
+            "odds_ratio",
+            "delta_before",
+            "delta_after",
+            "fold_local_increment_after",
+            "fold_local_metric",
+            "q_within_definition_descriptive",
+            "lo",
+            "hi"
+          ],
+          "public_file": "tables/sd_fc2dda6e440b1ad7a507.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "Fig05:plot_i_stp": "4369b56af873d31d255b359d12baa05e879cc9214c2e3d22830b4ba78d07de23"
+      },
+      "displayed_estimate": "Identity-conditioned beta for eight measured STP endpoints, both definitions.",
+      "observational_unit": "Endpoint-specific pairs and experiment clusters; n and n_experiments retained.",
+      "interval_or_spread": "beta \u00b1 1.96 experiment-clustered SE; d reads saved lo/hi, e calculates error bars from saved SE.",
+      "inference_limits": "Normal-reference intervals for observational fitted coefficients; not held-out prediction intervals or causal effects."
+    },
+    {
+      "figure": "SI01",
+      "panel": "e",
+      "source_panel": "Fig05j_frequency",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_a5b02a101f54211c0072",
+          "sha256": "a5b02a101f54211c0072b29a7a6a5d542e9e976de4f402b0d09884b34ebf12b3",
+          "source_table_name": "03_SYN17_local_temporal_gain_frequency_boundary__SYN17_local_temporal_gain_frequency_boundary.csv",
+          "rows": 8,
+          "columns": [
+            "definition",
+            "score_col",
+            "family",
+            "endpoint",
+            "n",
+            "n_experiments",
+            "beta_after_identity",
+            "se_after_identity",
+            "p_after_identity",
+            "effect_scale",
+            "odds_ratio",
+            "delta_before",
+            "delta_after",
+            "fold_local_increment_after",
+            "fold_local_metric",
+            "q_within_definition_descriptive",
+            "freq"
+          ],
+          "public_file": "tables/sd_a5b02a101f54211c0072.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "Fig05:plot_i_frequency": "6330d1ef555481711f4680c74c5c2994749656d49930d81b05f5eed1192d2f65"
+      },
+      "displayed_estimate": "Identity-conditioned beta for normalized gain at 5,10,20,50 Hz, both definitions.",
+      "observational_unit": "Endpoint-specific pairs and experiment clusters; n and n_experiments retained.",
+      "interval_or_spread": "beta \u00b1 1.96 experiment-clustered SE; d reads saved lo/hi, e calculates error bars from saved SE.",
+      "inference_limits": "Normal-reference intervals for observational fitted coefficients; not held-out prediction intervals or causal effects."
+    }
+  ],
+  "checks": {
+    "derived_display_matrices": {
+      "ED05c_ordinal_confusion.csv": {
+        "shape": [
+          4,
+          4
+        ],
+        "sum": 400.0,
+        "original_derived_sha256": "936353342cd513b0e59a57ed409fa26381702c0319d05f3bb04ad64e93c07ba3",
+        "maximum_absolute_difference": 0.0
+      },
+      "ED05k_transition_eps020_to_eps015.csv": {
+        "shape": [
+          4,
+          4
+        ],
+        "sum": 400.0,
+        "original_derived_sha256": "840e30d8fd1ceb876b28edb2bdcb9b9eeda49479eda6803168f6f7b74d850722",
+        "maximum_absolute_difference": 0.0
+      },
+      "ED05l_transition_eps020_to_eps025.csv": {
+        "shape": [
+          4,
+          4
+        ],
+        "sum": 400.0,
+        "original_derived_sha256": "ffc6f34b6e7171a49de0142914e39a57bfeb2170526a24e212093d99167d3ab4",
+        "maximum_absolute_difference": 0.0
+      },
+      "ED05f_temporal_context_matrix.csv": {
+        "shape": [
+          6,
+          6
+        ],
+        "sum": 1213.0,
+        "original_derived_sha256": "03598c5eff91f274565421bb26377f17b2caf1558a05fa278976fdb8e164905d",
+        "maximum_absolute_difference": 0.0
+      },
+      "ED05h_epsilon_fraction_matrix.csv": {
+        "shape": [
+          4,
+          9
+        ],
+        "sum": 9.0,
+        "original_derived_sha256": "712694400207980ffb463c0ac90fa3b4f6ad5968938e9c856ef80a89ee307157",
+        "maximum_absolute_difference": 0.0
+      }
+    },
+    "tolerance_summaries": 9,
+    "stored_OOF_subgroups": [
+      {
+        "grouping": "layer",
+        "group": "1",
+        "n": 9,
+        "rho": 0.2635231383473649
+      },
+      {
+        "grouping": "layer",
+        "group": "2/3",
+        "n": 76,
+        "rho": 0.2700813982168574
+      },
+      {
+        "grouping": "layer",
+        "group": "4",
+        "n": 115,
+        "rho": 0.1953555715941055
+      },
+      {
+        "grouping": "layer",
+        "group": "5",
+        "n": 137,
+        "rho": 0.1660418414286707
+      },
+      {
+        "grouping": "layer",
+        "group": "6a",
+        "n": 54,
+        "rho": 0.5699735103463058
+      },
+      {
+        "grouping": "layer",
+        "group": "6b",
+        "n": 9,
+        "rho": -0.0866458741516727
+      },
+      {
+        "grouping": "dendrite_type",
+        "group": "aspiny",
+        "n": 172,
+        "rho": 0.2950840741015711
+      },
+      {
+        "grouping": "dendrite_type",
+        "group": "sparsely spiny",
+        "n": 21,
+        "rho": -0.0006810447066039
+      },
+      {
+        "grouping": "dendrite_type",
+        "group": "spiny",
+        "n": 207,
+        "rho": 0.1389278990331436
+      }
+    ],
+    "temporal_gain_median": -0.0016402304172514,
+    "PFC_neurons": 6357,
+    "PFC_subtypes": 64,
+    "split_distributions": [
+      {
+        "definition": "primary_shared",
+        "endpoint": "connection",
+        "repeated_splits": 30,
+        "median": 0.0003529184018427,
+        "mean": 0.0002209369518228164,
+        "negative_splits": 10,
+        "test_pairs_range": [
+          2296,
+          2803
+        ],
+        "test_experiments": [
+          197
+        ]
+      },
+      {
+        "definition": "protocol_conservative",
+        "endpoint": "connection",
+        "repeated_splits": 30,
+        "median": 0.00038383348266155003,
+        "mean": 0.00033443106354235963,
+        "negative_splits": 9,
+        "test_pairs_range": [
+          2498,
+          3130
+        ],
+        "test_experiments": [
+          204
+        ]
+      },
+      {
+        "definition": "primary_shared",
+        "endpoint": "G_norm_50hz",
+        "repeated_splits": 30,
+        "median": -0.00019554557023845,
+        "mean": -0.0073271715522375885,
+        "negative_splits": 22,
+        "test_pairs_range": [
+          98,
+          154
+        ],
+        "test_experiments": [
+          64
+        ]
+      },
+      {
+        "definition": "primary_shared",
+        "endpoint": "psc_amplitude",
+        "repeated_splits": 30,
+        "median": 0.0027854520379843,
+        "mean": 0.0004560534170630929,
+        "negative_splits": 11,
+        "test_pairs_range": [
+          95,
+          135
+        ],
+        "test_experiments": [
+          58
+        ]
+      },
+      {
+        "definition": "primary_shared",
+        "endpoint": "psp_amplitude",
+        "repeated_splits": 30,
+        "median": -0.00102613688418305,
+        "mean": -0.00292128636445081,
+        "negative_splits": 26,
+        "test_pairs_range": [
+          92,
+          154
+        ],
+        "test_experiments": [
+          63
+        ]
+      },
+      {
+        "definition": "protocol_conservative",
+        "endpoint": "G_norm_50hz",
+        "repeated_splits": 30,
+        "median": -0.00103300264191475,
+        "mean": -0.0040878413153117524,
+        "negative_splits": 20,
+        "test_pairs_range": [
+          99,
+          144
+        ],
+        "test_experiments": [
+          66
+        ]
+      },
+      {
+        "definition": "protocol_conservative",
+        "endpoint": "psc_amplitude",
+        "repeated_splits": 30,
+        "median": -0.0039640885371684,
+        "mean": -0.005611439542316221,
+        "negative_splits": 29,
+        "test_pairs_range": [
+          91,
+          142
+        ],
+        "test_experiments": [
+          63
+        ]
+      },
+      {
+        "definition": "protocol_conservative",
+        "endpoint": "psp_amplitude",
+        "repeated_splits": 30,
+        "median": 0.00060274384910315,
+        "mean": -0.0005408946033492428,
+        "negative_splits": 11,
+        "test_pairs_range": [
+          107,
+          157
+        ],
+        "test_experiments": [
+          68
+        ]
+      }
+    ],
+    "STP_interval_rows": 16,
+    "frequency_coefficient_rows": 8,
+    "shared_endpoint_rows": 16
+  },
+  "source_plotting_script_sha256": {
+    "ED05": "ad9209d746b6b9a5b9c2916b78d6257ac3da1de9e7cddb2371d8a38ede3bfbf5",
+    "SI01": "2ac8332b6755e74d289ec9272e4b086e9f91623431d263c3be5783f05ef35a93",
+    "SI02": "593ed90ae68719c9bcb22dbdcd3d5bc3ba436a8c7168f8bad41220e2245fc8fc",
+    "Fig05": "fba32cba9511b87436176d2f179580d8f77c052b7ae5d895e362651bb022e8eb"
+  },
+  "assembly_AST_sha256": {
+    "extra_sources": "b8f4f85a15631e30b546d362a3d517133eb1e9613b2b20d5edc73463108a5fcf",
+    "place": "83d882eba5e096d2c0ce5b8279342affb8937b2d70e0b9e2928f432b168cb29f",
+    "main": "10614ccfa9f6c03a0414d4e5193d5b04105522d3b65c1ed826fde1709549e9d4"
+  },
+  "frozen_figure_sha256": {
+    "ED06": "feac56ce48c128d9aed7ca7b4606b33011c58336f271cd19f64a3210fc8e5ce0",
+    "SI01": "3f38e7abf4856423b15fd8de3fafbd37e6c7b52d0644c83671a5938992f07204"
+  },
+  "subgroup_original_member": {
+    "member": "stage5_biological_discovery_v12/20_allen_multiaxial_v12/allen_multiaxial_primary_mouse_complete.csv",
+    "sha256": "56caf71d39980cc0b30b242a72d9b26fe69febf4ebe681da450547de1b7b8825"
+  },
+  "limits": [
+    "No model fitting, new permutation test, raw morphology reconstruction or figure rendering occurred.",
+    "Subgroup rho and P match stored original predictions; saved bootstrap intervals are source-bound, but their draw count/endpoints were not independently replayed here.",
+    "This maps existing public display tables; it does not establish that every raw fitting input or cross-table cell identifier is publicly portable.",
+    "ED1-5, ED7 and SI2-6 require separate exact estimator/source audits."
+  ],
+  "verified_date": "2026-09-14",
+  "review_method": "Read actual plotting helpers and source assignments, verify frozen geometry/source hashes and the listed finite display calculations. No biological refitting."
+}

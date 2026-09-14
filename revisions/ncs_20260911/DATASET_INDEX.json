@@ -4100,9 +4100,23 @@
       "metadata_transformations": [],
       "scientific_values_unchanged": true,
       "scope": "Existing processed task-method table for reconstructing Fig.1f; not new scientific results."
+    },
+    {
+      "id": "sd_15ddf2c8b4c6e183c1cb",
+      "file": "tables/sd_15ddf2c8b4c6e183c1cb.json",
+      "sha256": "15ddf2c8b4c6e183c1cb8af5e2e455cda5c6133f3b78f0d84c88ab96c41ca17a",
+      "bytes": 313,
+      "format": "json",
+      "source_table_names": [
+        "01_S5BR_01_steinmetz_duplicate_audit__steinmetz_duplicate_audit.json"
+      ],
+      "original_sha256": "15ddf2c8b4c6e183c1cb8af5e2e455cda5c6133f3b78f0d84c88ab96c41ca17a",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "Existing Steinmetz inventory/deduplication summary directly used by SI2a, not new research data."
     }
   ],
-  "unique_datasets": 290,
+  "unique_datasets": 291,
   "raw_recordings_redistributed": false,
   "archival_doi": null,
   "reuse_license": "Not assigned; the public availability does not itself grant a reuse license."
