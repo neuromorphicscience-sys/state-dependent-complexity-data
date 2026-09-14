@@ -2,7 +2,7 @@
 
 This additive revision supports six main figures, eight Extended Data figures and six Supplementary figures in **Collective state conditions the computational value of neuronal complexity**. Earlier data releases are preserved unchanged.
 
-`DATASET_INDEX.json` lists 290 content-deduplicated CSV/JSON source datasets. `tables/` contains the processed values, `panel_maps/` preserves the revised display-item grouping, and `supplementary_tables/` contains the two tabular supplements. The companion [code revision](https://github.com/neuromorphicscience-sys/state-dependent-complexity/tree/main/revisions/ncs_20260911) provides numerical replay commands.
+`DATASET_INDEX.json` lists 296 content-deduplicated CSV/JSON source datasets. `tables/` contains the processed values, `panel_maps/` preserves the revised display-item grouping, and `supplementary_tables/` contains the two tabular supplements. The companion [code revision](https://github.com/neuromorphicscience-sys/state-dependent-complexity/tree/main/revisions/ncs_20260911) provides numerical replay commands.
 
 ## Traceability
 
@@ -100,7 +100,7 @@ neurons across 64 projection subtypes; they are not SynPhys target cells.
 `panel_maps/population_support_crosswalk.json` and its CSV bind ED7 and SI2-6:
 41 panels, 53 microplots, 46 datasets. One existing inventory JSON omitted by
 the earlier table-read capture is added (SI2a). All prior 290 datasets are
-unchanged; the revision now has 291. Engagement matrices use 38 valid sessions,
+unchanged; that checkpoint contained 291 datasets (the current total is 296). Engagement matrices use 38 valid sessions,
 choice/outcome 39. ED7k/l have 72 records per representation, but finite raw /
 residual counts are 71 / 67 for running and 69 / 65 for pupil. Original NaNs
 leave point-only displays, not visible box summaries.
@@ -139,3 +139,8 @@ pairs and 1,140 nested mask-overlap pairs (78,147 bytes total). All prior 291
 dataset records and contents are unchanged; total indexed datasets is 296.
 No new scientific runs, raw third-party records, licences or manuscripts are
 part of this addition. Complete mapping does not certify raw-model rerunning.
+
+
+## Independent reader verification
+
+The companion code revision now includes `verify_panel_sources.py` and `REVIEWER_QUICKSTART.md`. The checker validates all current revision files, every indexed dataset and every quantitative panel binding without a GPU or raw recordings. A successful integrity check is not a refit, rerender, biological replication or artwork-clearance decision. The numerical tables and their index records are unchanged by this documentation update.
