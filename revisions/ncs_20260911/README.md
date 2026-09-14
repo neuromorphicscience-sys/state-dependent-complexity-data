@@ -2,7 +2,7 @@
 
 This additive revision supports six main figures, eight Extended Data figures and six Supplementary figures in **Collective state conditions the computational value of neuronal complexity**. Earlier data releases are preserved unchanged.
 
-`DATASET_INDEX.json` lists 289 content-deduplicated CSV/JSON source datasets. `tables/` contains the processed values, `panel_maps/` preserves the revised display-item grouping, and `supplementary_tables/` contains the two tabular supplements. The companion [code revision](https://github.com/neuromorphicscience-sys/state-dependent-complexity/tree/main/revisions/ncs_20260911) provides numerical replay commands.
+`DATASET_INDEX.json` lists 290 content-deduplicated CSV/JSON source datasets. `tables/` contains the processed values, `panel_maps/` preserves the revised display-item grouping, and `supplementary_tables/` contains the two tabular supplements. The companion [code revision](https://github.com/neuromorphicscience-sys/state-dependent-complexity/tree/main/revisions/ncs_20260911) provides numerical replay commands.
 
 ## Traceability
 
@@ -27,8 +27,27 @@ per-mask minimum-before-control-mean order, graph-mean historical heatmap,
 four-candidate/six-pair nesting, and equal-weight stress summaries. Historical
 boxplots contain nine graph-state observations per budget, not nine independent
 networks or bootstrap intervals. Existing source tables remain unchanged.
-Fig. 1-2 and the ED/SI figures still require the same detailed mapping; listed
-processed-table checks are not a certification of all raw estimators.
+Listed processed-table checks are not a certification of all raw estimators.
+
+`panel_maps/primary_panel_crosswalk.json` and its CSV companion complete
+Fig. 1-2: 18 quantitative lettered panels, 32 microplots and 27 directly used
+datasets. The map distinguishes two discovery graphs in Fig. 1f from three
+closure graphs and twelve inference graphs. Fig. 1j uses validation repeat 0,
+with 24 graph-state observations per box from twelve graphs. Thirteen Fig. 2
+interval tables satisfy ci95 = 1.96 SEM = 1.96 SD/sqrt(n); these are run-level
+normal summaries, not graph bootstraps. All 1,895 saving observations reproduce
+the topology summary statistics. One existing 252-row discovery task-method
+table is added to make the reconstruction of all eighteen Fig. 1f means and
+interval endpoints inspectable. The earlier 289 datasets are unchanged.
+
+`panel_maps/task_support_crosswalk.json` and its CSV companion map all sixteen
+ED8 panels. The complete primary and secondary six-task families are retained.
+The 66 method/task summaries in ED8i-n use equal-weight raw scores across two
+states, whereas the primary and secondary contrasts use worst-state normalized
+scores, taking per-mask minima before control-mask averaging. All 22 SI Table 2
+rows match frozen statistics, including the primary aggregate null. Shared
+input-history controls are not twelve independent graph controls. Other ED/SI
+figures still require this level of granular estimator mapping.
 
 Each dataset has a stable content identifier, SHA256, source-table aliases and a relative filename. Dataset aliases are scientific table names, not private workstation paths. Three records had local path metadata removed; these changes are explicitly recorded and do not alter numerical values. All other dataset bytes are unchanged. Different source filenames with identical content are stored once. `SHA256SUMS.json` binds every file in this revision except itself.
 

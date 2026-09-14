@@ -1,0 +1,1061 @@
+{
+  "scope": "ED8 source/display/estimand coverage and immutable SI Table2 numeric correspondence, no scientific rerun.",
+  "rows": [
+    {
+      "figure": "ED08",
+      "panel": "a",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_2fe45a875165fe9d1f47",
+          "public_file": "tables/sd_2fe45a875165fe9d1f47.json",
+          "sha256": "2fe45a875165fe9d1f473ab38d840a98f5b0d9f4a07c2b786725d778d2364b3d"
+        },
+        {
+          "dataset_id": "sd_eab3d59c11bcbc7fbc32",
+          "public_file": "tables/sd_eab3d59c11bcbc7fbc32.json",
+          "sha256": "eab3d59c11bcbc7fbc32ebdb01e95d9cd63a77511c7dede325f7b9bb3c2101d9"
+        }
+      ],
+      "displayed_estimate": "Equal-weight six-task graph mean of selected-minus-equal-budget-random worst-state normalized score.",
+      "observational_unit": "Same 12 formal task graphs; six tasks share this graph cohort.",
+      "interval_or_spread": "Frozen 20,000-resample graph-bootstrap CI; exact two-sided P=0.22021484375, no task-family Holm for aggregate.",
+      "inference_limits": "Primary aggregate is null; six tasks are not six independent graph cohorts.",
+      "plotting_function_AST_sha256": {
+        "main": "e58046348165c91ca6dc6c04fe293936fae5033399a855551c65669f91baaa09",
+        "effect": "667df17d28aea790816f14487e1c9f9ec64fe08c1c8a271b90a2ad1dd40a4a2c",
+        "ci": "3b3b8d42a69d3734cab49c7f3880adc1c1b27b688ab5f12140003735a2937938"
+      }
+    },
+    {
+      "figure": "ED08",
+      "panel": "b",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_2fe45a875165fe9d1f47",
+          "public_file": "tables/sd_2fe45a875165fe9d1f47.json",
+          "sha256": "2fe45a875165fe9d1f473ab38d840a98f5b0d9f4a07c2b786725d778d2364b3d"
+        },
+        {
+          "dataset_id": "sd_eab3d59c11bcbc7fbc32",
+          "public_file": "tables/sd_eab3d59c11bcbc7fbc32.json",
+          "sha256": "eab3d59c11bcbc7fbc32ebdb01e95d9cd63a77511c7dede325f7b9bb3c2101d9"
+        }
+      ],
+      "displayed_estimate": "delayed_recall: primary selected-minus-equal-budget-random worst-state normalized gain.",
+      "observational_unit": "Same 12 formal task graphs; six tasks share this graph cohort.",
+      "interval_or_spread": "Frozen graph-bootstrap CI and six-task Holm-adjusted exact two-sided sign-flip P.",
+      "inference_limits": "All six primary tasks retained; none passes the corrected primary task test.",
+      "plotting_function_AST_sha256": {
+        "main": "e58046348165c91ca6dc6c04fe293936fae5033399a855551c65669f91baaa09",
+        "effect": "667df17d28aea790816f14487e1c9f9ec64fe08c1c8a271b90a2ad1dd40a4a2c",
+        "ci": "3b3b8d42a69d3734cab49c7f3880adc1c1b27b688ab5f12140003735a2937938"
+      }
+    },
+    {
+      "figure": "ED08",
+      "panel": "c",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_2fe45a875165fe9d1f47",
+          "public_file": "tables/sd_2fe45a875165fe9d1f47.json",
+          "sha256": "2fe45a875165fe9d1f473ab38d840a98f5b0d9f4a07c2b786725d778d2364b3d"
+        },
+        {
+          "dataset_id": "sd_eab3d59c11bcbc7fbc32",
+          "public_file": "tables/sd_eab3d59c11bcbc7fbc32.json",
+          "sha256": "eab3d59c11bcbc7fbc32ebdb01e95d9cd63a77511c7dede325f7b9bb3c2101d9"
+        }
+      ],
+      "displayed_estimate": "nonlinear_integration: primary selected-minus-equal-budget-random worst-state normalized gain.",
+      "observational_unit": "Same 12 formal task graphs; six tasks share this graph cohort.",
+      "interval_or_spread": "Frozen graph-bootstrap CI and six-task Holm-adjusted exact two-sided sign-flip P.",
+      "inference_limits": "All six primary tasks retained; none passes the corrected primary task test.",
+      "plotting_function_AST_sha256": {
+        "main": "e58046348165c91ca6dc6c04fe293936fae5033399a855551c65669f91baaa09",
+        "effect": "667df17d28aea790816f14487e1c9f9ec64fe08c1c8a271b90a2ad1dd40a4a2c",
+        "ci": "3b3b8d42a69d3734cab49c7f3880adc1c1b27b688ab5f12140003735a2937938"
+      }
+    },
+    {
+      "figure": "ED08",
+      "panel": "d",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_2fe45a875165fe9d1f47",
+          "public_file": "tables/sd_2fe45a875165fe9d1f47.json",
+          "sha256": "2fe45a875165fe9d1f473ab38d840a98f5b0d9f4a07c2b786725d778d2364b3d"
+        },
+        {
+          "dataset_id": "sd_eab3d59c11bcbc7fbc32",
+          "public_file": "tables/sd_eab3d59c11bcbc7fbc32.json",
+          "sha256": "eab3d59c11bcbc7fbc32ebdb01e95d9cd63a77511c7dede325f7b9bb3c2101d9"
+        }
+      ],
+      "displayed_estimate": "pulse_order: primary selected-minus-equal-budget-random worst-state normalized gain.",
+      "observational_unit": "Same 12 formal task graphs; six tasks share this graph cohort.",
+      "interval_or_spread": "Frozen graph-bootstrap CI and six-task Holm-adjusted exact two-sided sign-flip P.",
+      "inference_limits": "All six primary tasks retained; none passes the corrected primary task test.",
+      "plotting_function_AST_sha256": {
+        "main": "e58046348165c91ca6dc6c04fe293936fae5033399a855551c65669f91baaa09",
+        "effect": "667df17d28aea790816f14487e1c9f9ec64fe08c1c8a271b90a2ad1dd40a4a2c",
+        "ci": "3b3b8d42a69d3734cab49c7f3880adc1c1b27b688ab5f12140003735a2937938"
+      }
+    },
+    {
+      "figure": "ED08",
+      "panel": "e",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_2fe45a875165fe9d1f47",
+          "public_file": "tables/sd_2fe45a875165fe9d1f47.json",
+          "sha256": "2fe45a875165fe9d1f473ab38d840a98f5b0d9f4a07c2b786725d778d2364b3d"
+        },
+        {
+          "dataset_id": "sd_eab3d59c11bcbc7fbc32",
+          "public_file": "tables/sd_eab3d59c11bcbc7fbc32.json",
+          "sha256": "eab3d59c11bcbc7fbc32ebdb01e95d9cd63a77511c7dede325f7b9bb3c2101d9"
+        }
+      ],
+      "displayed_estimate": "interval: primary selected-minus-equal-budget-random worst-state normalized gain.",
+      "observational_unit": "Same 12 formal task graphs; six tasks share this graph cohort.",
+      "interval_or_spread": "Frozen graph-bootstrap CI and six-task Holm-adjusted exact two-sided sign-flip P.",
+      "inference_limits": "All six primary tasks retained; none passes the corrected primary task test.",
+      "plotting_function_AST_sha256": {
+        "main": "e58046348165c91ca6dc6c04fe293936fae5033399a855551c65669f91baaa09",
+        "effect": "667df17d28aea790816f14487e1c9f9ec64fe08c1c8a271b90a2ad1dd40a4a2c",
+        "ci": "3b3b8d42a69d3734cab49c7f3880adc1c1b27b688ab5f12140003735a2937938"
+      }
+    },
+    {
+      "figure": "ED08",
+      "panel": "f",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_2fe45a875165fe9d1f47",
+          "public_file": "tables/sd_2fe45a875165fe9d1f47.json",
+          "sha256": "2fe45a875165fe9d1f473ab38d840a98f5b0d9f4a07c2b786725d778d2364b3d"
+        },
+        {
+          "dataset_id": "sd_eab3d59c11bcbc7fbc32",
+          "public_file": "tables/sd_eab3d59c11bcbc7fbc32.json",
+          "sha256": "eab3d59c11bcbc7fbc32ebdb01e95d9cd63a77511c7dede325f7b9bb3c2101d9"
+        }
+      ],
+      "displayed_estimate": "evidence_accumulation: primary selected-minus-equal-budget-random worst-state normalized gain.",
+      "observational_unit": "Same 12 formal task graphs; six tasks share this graph cohort.",
+      "interval_or_spread": "Frozen graph-bootstrap CI and six-task Holm-adjusted exact two-sided sign-flip P.",
+      "inference_limits": "All six primary tasks retained; none passes the corrected primary task test.",
+      "plotting_function_AST_sha256": {
+        "main": "e58046348165c91ca6dc6c04fe293936fae5033399a855551c65669f91baaa09",
+        "effect": "667df17d28aea790816f14487e1c9f9ec64fe08c1c8a271b90a2ad1dd40a4a2c",
+        "ci": "3b3b8d42a69d3734cab49c7f3880adc1c1b27b688ab5f12140003735a2937938"
+      }
+    },
+    {
+      "figure": "ED08",
+      "panel": "g",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_2fe45a875165fe9d1f47",
+          "public_file": "tables/sd_2fe45a875165fe9d1f47.json",
+          "sha256": "2fe45a875165fe9d1f473ab38d840a98f5b0d9f4a07c2b786725d778d2364b3d"
+        },
+        {
+          "dataset_id": "sd_eab3d59c11bcbc7fbc32",
+          "public_file": "tables/sd_eab3d59c11bcbc7fbc32.json",
+          "sha256": "eab3d59c11bcbc7fbc32ebdb01e95d9cd63a77511c7dede325f7b9bb3c2101d9"
+        }
+      ],
+      "displayed_estimate": "context_recall: primary selected-minus-equal-budget-random worst-state normalized gain.",
+      "observational_unit": "Same 12 formal task graphs; six tasks share this graph cohort.",
+      "interval_or_spread": "Frozen graph-bootstrap CI and six-task Holm-adjusted exact two-sided sign-flip P.",
+      "inference_limits": "All six primary tasks retained; none passes the corrected primary task test.",
+      "plotting_function_AST_sha256": {
+        "main": "e58046348165c91ca6dc6c04fe293936fae5033399a855551c65669f91baaa09",
+        "effect": "667df17d28aea790816f14487e1c9f9ec64fe08c1c8a271b90a2ad1dd40a4a2c",
+        "ci": "3b3b8d42a69d3734cab49c7f3880adc1c1b27b688ab5f12140003735a2937938"
+      }
+    },
+    {
+      "figure": "ED08",
+      "panel": "h",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_ed698b866d7d9593bcd9",
+          "public_file": "tables/sd_ed698b866d7d9593bcd9.csv",
+          "sha256": "ed698b866d7d9593bcd939a20656cb14eab9ff4bec29e2c69e6b1355fa81e0e4"
+        },
+        {
+          "dataset_id": "sd_eab3d59c11bcbc7fbc32",
+          "public_file": "tables/sd_eab3d59c11bcbc7fbc32.json",
+          "sha256": "eab3d59c11bcbc7fbc32ebdb01e95d9cd63a77511c7dede325f7b9bb3c2101d9"
+        }
+      ],
+      "displayed_estimate": "6\u00d74 matrix: normalized state-matched means across graphs; columns selected-low, selected-high, random-low, random-high.",
+      "observational_unit": "Same 12 formal task graphs; six tasks share this graph cohort.",
+      "interval_or_spread": "No CI. All values lie in the displayed 0\u20131 color range; annotations use two decimals.",
+      "inference_limits": "Means at individual states, not worst-state contrasts or predictions pooled across graphs.",
+      "plotting_function_AST_sha256": {
+        "main": "e58046348165c91ca6dc6c04fe293936fae5033399a855551c65669f91baaa09",
+        "effect": "667df17d28aea790816f14487e1c9f9ec64fe08c1c8a271b90a2ad1dd40a4a2c",
+        "ci": "3b3b8d42a69d3734cab49c7f3880adc1c1b27b688ab5f12140003735a2937938"
+      }
+    },
+    {
+      "figure": "ED08",
+      "panel": "i",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_ed698b866d7d9593bcd9",
+          "public_file": "tables/sd_ed698b866d7d9593bcd9.csv",
+          "sha256": "ed698b866d7d9593bcd939a20656cb14eab9ff4bec29e2c69e6b1355fa81e0e4"
+        },
+        {
+          "dataset_id": "sd_3ca292a7930a12263efa",
+          "public_file": "tables/sd_3ca292a7930a12263efa.csv",
+          "sha256": "3ca292a7930a12263efaf5296c11de168d384547f010519635819f63643b8e7c"
+        },
+        {
+          "dataset_id": "sd_eab3d59c11bcbc7fbc32",
+          "public_file": "tables/sd_eab3d59c11bcbc7fbc32.json",
+          "sha256": "eab3d59c11bcbc7fbc32ebdb01e95d9cd63a77511c7dede325f7b9bb3c2101d9"
+        }
+      ],
+      "displayed_estimate": "delayed_recall: all 11 methods, arithmetic mean raw score over two states within graph, then equal-graph mean.",
+      "observational_unit": "Same 12 formal task graphs; six tasks share this graph cohort.",
+      "interval_or_spread": "Display 20,000-resample graph-bootstrap percentile CI, reset seed 90260908 for each method; not the frozen worst-state CI.",
+      "inference_limits": "Recall score or binary accuracy axes. Input-history/constant references each use one shared input realization, not 12 controls. Pool specialists are not external oracles.",
+      "plotting_function_AST_sha256": {
+        "main": "e58046348165c91ca6dc6c04fe293936fae5033399a855551c65669f91baaa09",
+        "effect": "667df17d28aea790816f14487e1c9f9ec64fe08c1c8a271b90a2ad1dd40a4a2c",
+        "ci": "3b3b8d42a69d3734cab49c7f3880adc1c1b27b688ab5f12140003735a2937938"
+      }
+    },
+    {
+      "figure": "ED08",
+      "panel": "j",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_ed698b866d7d9593bcd9",
+          "public_file": "tables/sd_ed698b866d7d9593bcd9.csv",
+          "sha256": "ed698b866d7d9593bcd939a20656cb14eab9ff4bec29e2c69e6b1355fa81e0e4"
+        },
+        {
+          "dataset_id": "sd_3ca292a7930a12263efa",
+          "public_file": "tables/sd_3ca292a7930a12263efa.csv",
+          "sha256": "3ca292a7930a12263efaf5296c11de168d384547f010519635819f63643b8e7c"
+        },
+        {
+          "dataset_id": "sd_eab3d59c11bcbc7fbc32",
+          "public_file": "tables/sd_eab3d59c11bcbc7fbc32.json",
+          "sha256": "eab3d59c11bcbc7fbc32ebdb01e95d9cd63a77511c7dede325f7b9bb3c2101d9"
+        }
+      ],
+      "displayed_estimate": "nonlinear_integration: all 11 methods, arithmetic mean raw score over two states within graph, then equal-graph mean.",
+      "observational_unit": "Same 12 formal task graphs; six tasks share this graph cohort.",
+      "interval_or_spread": "Display 20,000-resample graph-bootstrap percentile CI, reset seed 90260908 for each method; not the frozen worst-state CI.",
+      "inference_limits": "Recall score or binary accuracy axes. Input-history/constant references each use one shared input realization, not 12 controls. Pool specialists are not external oracles.",
+      "plotting_function_AST_sha256": {
+        "main": "e58046348165c91ca6dc6c04fe293936fae5033399a855551c65669f91baaa09",
+        "effect": "667df17d28aea790816f14487e1c9f9ec64fe08c1c8a271b90a2ad1dd40a4a2c",
+        "ci": "3b3b8d42a69d3734cab49c7f3880adc1c1b27b688ab5f12140003735a2937938"
+      }
+    },
+    {
+      "figure": "ED08",
+      "panel": "k",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_ed698b866d7d9593bcd9",
+          "public_file": "tables/sd_ed698b866d7d9593bcd9.csv",
+          "sha256": "ed698b866d7d9593bcd939a20656cb14eab9ff4bec29e2c69e6b1355fa81e0e4"
+        },
+        {
+          "dataset_id": "sd_3ca292a7930a12263efa",
+          "public_file": "tables/sd_3ca292a7930a12263efa.csv",
+          "sha256": "3ca292a7930a12263efaf5296c11de168d384547f010519635819f63643b8e7c"
+        },
+        {
+          "dataset_id": "sd_eab3d59c11bcbc7fbc32",
+          "public_file": "tables/sd_eab3d59c11bcbc7fbc32.json",
+          "sha256": "eab3d59c11bcbc7fbc32ebdb01e95d9cd63a77511c7dede325f7b9bb3c2101d9"
+        }
+      ],
+      "displayed_estimate": "pulse_order: all 11 methods, arithmetic mean raw score over two states within graph, then equal-graph mean.",
+      "observational_unit": "Same 12 formal task graphs; six tasks share this graph cohort.",
+      "interval_or_spread": "Display 20,000-resample graph-bootstrap percentile CI, reset seed 90260908 for each method; not the frozen worst-state CI.",
+      "inference_limits": "Recall score or binary accuracy axes. Input-history/constant references each use one shared input realization, not 12 controls. Pool specialists are not external oracles.",
+      "plotting_function_AST_sha256": {
+        "main": "e58046348165c91ca6dc6c04fe293936fae5033399a855551c65669f91baaa09",
+        "effect": "667df17d28aea790816f14487e1c9f9ec64fe08c1c8a271b90a2ad1dd40a4a2c",
+        "ci": "3b3b8d42a69d3734cab49c7f3880adc1c1b27b688ab5f12140003735a2937938"
+      }
+    },
+    {
+      "figure": "ED08",
+      "panel": "l",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_ed698b866d7d9593bcd9",
+          "public_file": "tables/sd_ed698b866d7d9593bcd9.csv",
+          "sha256": "ed698b866d7d9593bcd939a20656cb14eab9ff4bec29e2c69e6b1355fa81e0e4"
+        },
+        {
+          "dataset_id": "sd_3ca292a7930a12263efa",
+          "public_file": "tables/sd_3ca292a7930a12263efa.csv",
+          "sha256": "3ca292a7930a12263efaf5296c11de168d384547f010519635819f63643b8e7c"
+        },
+        {
+          "dataset_id": "sd_eab3d59c11bcbc7fbc32",
+          "public_file": "tables/sd_eab3d59c11bcbc7fbc32.json",
+          "sha256": "eab3d59c11bcbc7fbc32ebdb01e95d9cd63a77511c7dede325f7b9bb3c2101d9"
+        }
+      ],
+      "displayed_estimate": "interval: all 11 methods, arithmetic mean raw score over two states within graph, then equal-graph mean.",
+      "observational_unit": "Same 12 formal task graphs; six tasks share this graph cohort.",
+      "interval_or_spread": "Display 20,000-resample graph-bootstrap percentile CI, reset seed 90260908 for each method; not the frozen worst-state CI.",
+      "inference_limits": "Recall score or binary accuracy axes. Input-history/constant references each use one shared input realization, not 12 controls. Pool specialists are not external oracles.",
+      "plotting_function_AST_sha256": {
+        "main": "e58046348165c91ca6dc6c04fe293936fae5033399a855551c65669f91baaa09",
+        "effect": "667df17d28aea790816f14487e1c9f9ec64fe08c1c8a271b90a2ad1dd40a4a2c",
+        "ci": "3b3b8d42a69d3734cab49c7f3880adc1c1b27b688ab5f12140003735a2937938"
+      }
+    },
+    {
+      "figure": "ED08",
+      "panel": "m",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_ed698b866d7d9593bcd9",
+          "public_file": "tables/sd_ed698b866d7d9593bcd9.csv",
+          "sha256": "ed698b866d7d9593bcd939a20656cb14eab9ff4bec29e2c69e6b1355fa81e0e4"
+        },
+        {
+          "dataset_id": "sd_3ca292a7930a12263efa",
+          "public_file": "tables/sd_3ca292a7930a12263efa.csv",
+          "sha256": "3ca292a7930a12263efaf5296c11de168d384547f010519635819f63643b8e7c"
+        },
+        {
+          "dataset_id": "sd_eab3d59c11bcbc7fbc32",
+          "public_file": "tables/sd_eab3d59c11bcbc7fbc32.json",
+          "sha256": "eab3d59c11bcbc7fbc32ebdb01e95d9cd63a77511c7dede325f7b9bb3c2101d9"
+        }
+      ],
+      "displayed_estimate": "evidence_accumulation: all 11 methods, arithmetic mean raw score over two states within graph, then equal-graph mean.",
+      "observational_unit": "Same 12 formal task graphs; six tasks share this graph cohort.",
+      "interval_or_spread": "Display 20,000-resample graph-bootstrap percentile CI, reset seed 90260908 for each method; not the frozen worst-state CI.",
+      "inference_limits": "Recall score or binary accuracy axes. Input-history/constant references each use one shared input realization, not 12 controls. Pool specialists are not external oracles.",
+      "plotting_function_AST_sha256": {
+        "main": "e58046348165c91ca6dc6c04fe293936fae5033399a855551c65669f91baaa09",
+        "effect": "667df17d28aea790816f14487e1c9f9ec64fe08c1c8a271b90a2ad1dd40a4a2c",
+        "ci": "3b3b8d42a69d3734cab49c7f3880adc1c1b27b688ab5f12140003735a2937938"
+      }
+    },
+    {
+      "figure": "ED08",
+      "panel": "n",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_ed698b866d7d9593bcd9",
+          "public_file": "tables/sd_ed698b866d7d9593bcd9.csv",
+          "sha256": "ed698b866d7d9593bcd939a20656cb14eab9ff4bec29e2c69e6b1355fa81e0e4"
+        },
+        {
+          "dataset_id": "sd_3ca292a7930a12263efa",
+          "public_file": "tables/sd_3ca292a7930a12263efa.csv",
+          "sha256": "3ca292a7930a12263efaf5296c11de168d384547f010519635819f63643b8e7c"
+        },
+        {
+          "dataset_id": "sd_eab3d59c11bcbc7fbc32",
+          "public_file": "tables/sd_eab3d59c11bcbc7fbc32.json",
+          "sha256": "eab3d59c11bcbc7fbc32ebdb01e95d9cd63a77511c7dede325f7b9bb3c2101d9"
+        }
+      ],
+      "displayed_estimate": "context_recall: all 11 methods, arithmetic mean raw score over two states within graph, then equal-graph mean.",
+      "observational_unit": "Same 12 formal task graphs; six tasks share this graph cohort.",
+      "interval_or_spread": "Display 20,000-resample graph-bootstrap percentile CI, reset seed 90260908 for each method; not the frozen worst-state CI.",
+      "inference_limits": "Recall score or binary accuracy axes. Input-history/constant references each use one shared input realization, not 12 controls. Pool specialists are not external oracles.",
+      "plotting_function_AST_sha256": {
+        "main": "e58046348165c91ca6dc6c04fe293936fae5033399a855551c65669f91baaa09",
+        "effect": "667df17d28aea790816f14487e1c9f9ec64fe08c1c8a271b90a2ad1dd40a4a2c",
+        "ci": "3b3b8d42a69d3734cab49c7f3880adc1c1b27b688ab5f12140003735a2937938"
+      }
+    },
+    {
+      "figure": "ED08",
+      "panel": "o",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_2fe45a875165fe9d1f47",
+          "public_file": "tables/sd_2fe45a875165fe9d1f47.json",
+          "sha256": "2fe45a875165fe9d1f473ab38d840a98f5b0d9f4a07c2b786725d778d2364b3d"
+        },
+        {
+          "dataset_id": "sd_eab3d59c11bcbc7fbc32",
+          "public_file": "tables/sd_eab3d59c11bcbc7fbc32.json",
+          "sha256": "eab3d59c11bcbc7fbc32ebdb01e95d9cd63a77511c7dede325f7b9bb3c2101d9"
+        }
+      ],
+      "displayed_estimate": "All six population_vs_unselected_random worst-state normalized gains: per-mask minimum precedes within-graph control averaging.",
+      "observational_unit": "Same 12 formal task graphs; six tasks share this graph cohort.",
+      "interval_or_spread": "Frozen graph-bootstrap CI; corrected P values in SI Table 2, not printed in these panels.",
+      "inference_limits": "Secondary family does not replace the primary null; no worst-of-control-mean substitution.",
+      "plotting_function_AST_sha256": {
+        "main": "e58046348165c91ca6dc6c04fe293936fae5033399a855551c65669f91baaa09",
+        "effect": "667df17d28aea790816f14487e1c9f9ec64fe08c1c8a271b90a2ad1dd40a4a2c",
+        "ci": "3b3b8d42a69d3734cab49c7f3880adc1c1b27b688ab5f12140003735a2937938"
+      }
+    },
+    {
+      "figure": "ED08",
+      "panel": "p",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_2fe45a875165fe9d1f47",
+          "public_file": "tables/sd_2fe45a875165fe9d1f47.json",
+          "sha256": "2fe45a875165fe9d1f473ab38d840a98f5b0d9f4a07c2b786725d778d2364b3d"
+        },
+        {
+          "dataset_id": "sd_eab3d59c11bcbc7fbc32",
+          "public_file": "tables/sd_eab3d59c11bcbc7fbc32.json",
+          "sha256": "eab3d59c11bcbc7fbc32ebdb01e95d9cd63a77511c7dede325f7b9bb3c2101d9"
+        }
+      ],
+      "displayed_estimate": "All six population_vs_group_matched worst-state normalized gains: per-mask minimum precedes within-graph control averaging.",
+      "observational_unit": "Same 12 formal task graphs; six tasks share this graph cohort.",
+      "interval_or_spread": "Frozen graph-bootstrap CI; corrected P values in SI Table 2, not printed in these panels.",
+      "inference_limits": "Secondary family does not replace the primary null; no worst-of-control-mean substitution.",
+      "plotting_function_AST_sha256": {
+        "main": "e58046348165c91ca6dc6c04fe293936fae5033399a855551c65669f91baaa09",
+        "effect": "667df17d28aea790816f14487e1c9f9ec64fe08c1c8a271b90a2ad1dd40a4a2c",
+        "ci": "3b3b8d42a69d3734cab49c7f3880adc1c1b27b688ab5f12140003735a2937938"
+      }
+    }
+  ],
+  "quantitative_lettered_panels": 16,
+  "microplots": 16,
+  "unique_datasets": 4,
+  "display_checks": {
+    "absolute_state_matrix": [
+      [
+        0.904761658864759,
+        0.9133100620939009,
+        0.905469780753422,
+        0.9105030141936911
+      ],
+      [
+        0.9697265625,
+        0.9807942708333334,
+        0.9820963541666666,
+        0.9915364583333334
+      ],
+      [
+        0.2568359375,
+        0.2731119791666667,
+        0.24739583333333334,
+        0.2682291666666667
+      ],
+      [
+        0.5908203125,
+        0.6337890625,
+        0.580078125,
+        0.6630859375
+      ],
+      [
+        0.5458984375,
+        0.5999348958333334,
+        0.5569661458333334,
+        0.6083984375
+      ],
+      [
+        0.6943359375,
+        0.81640625,
+        0.7158203125,
+        0.8050130208333334
+      ]
+    ],
+    "all66_raw_score_mean_intervals": {
+      "i": [
+        {
+          "method": "population_search",
+          "mean": 0.9090358604793299,
+          "ci95": [
+            0.9027627458300564,
+            0.9155078868967872
+          ]
+        },
+        {
+          "method": "random_search",
+          "mean": 0.9079863974735565,
+          "ci95": [
+            0.8986646416546936,
+            0.9158216173067151
+          ]
+        },
+        {
+          "method": "local_search",
+          "mean": 0.9061449061705943,
+          "ci95": [
+            0.8981374782818169,
+            0.9142645513008661
+          ]
+        },
+        {
+          "method": "high_degree",
+          "mean": 0.8785800418469215,
+          "ci95": [
+            0.860361389078452,
+            0.893113468723212
+          ]
+        },
+        {
+          "method": "spectral",
+          "mean": 0.8700775890304945,
+          "ci95": [
+            0.8575919188891346,
+            0.8821023346894937
+          ]
+        },
+        {
+          "method": "input_energy_degree",
+          "mean": 0.8946977456163903,
+          "ci95": [
+            0.8763664467641975,
+            0.9083130630841241
+          ]
+        },
+        {
+          "method": "input_quota_random",
+          "mean": 0.9000321457234933,
+          "ci95": [
+            0.8925207360489494,
+            0.9064686648254618
+          ]
+        },
+        {
+          "method": "unselected_random",
+          "mean": 0.8875109403063011,
+          "ci95": [
+            0.8823982818650802,
+            0.8920026461370819
+          ]
+        },
+        {
+          "method": "group_matched_random",
+          "mean": 0.8929601540334883,
+          "ci95": [
+            0.8855590751114167,
+            0.9002019054498005
+          ]
+        },
+        {
+          "method": "specialist_pool_0.035",
+          "mean": 0.9108084185650446,
+          "ci95": [
+            0.9037615523735698,
+            0.9173570256537866
+          ]
+        },
+        {
+          "method": "specialist_pool_0.05",
+          "mean": 0.9032536114399775,
+          "ci95": [
+            0.8961817076648978,
+            0.9109857698315084
+          ]
+        }
+      ],
+      "j": [
+        {
+          "method": "population_search",
+          "mean": 0.9876302083333334,
+          "ci95": [
+            0.9829915364583334,
+            0.991943359375
+          ]
+        },
+        {
+          "method": "random_search",
+          "mean": 0.993408203125,
+          "ci95": [
+            0.9911295572916666,
+            0.9954427083333334
+          ]
+        },
+        {
+          "method": "local_search",
+          "mean": 0.9892578125,
+          "ci95": [
+            0.9859212239583334,
+            0.9925130208333334
+          ]
+        },
+        {
+          "method": "high_degree",
+          "mean": 0.9266764322916666,
+          "ci95": [
+            0.916259765625,
+            0.9370930989583334
+          ]
+        },
+        {
+          "method": "spectral",
+          "mean": 0.9270833333333334,
+          "ci95": [
+            0.9170735677083334,
+            0.9363606770833334
+          ]
+        },
+        {
+          "method": "input_energy_degree",
+          "mean": 0.9745279947916666,
+          "ci95": [
+            0.966552734375,
+            0.9814453125
+          ]
+        },
+        {
+          "method": "input_quota_random",
+          "mean": 0.9805501302083334,
+          "ci95": [
+            0.9762369791666666,
+            0.9850260416666666
+          ]
+        },
+        {
+          "method": "unselected_random",
+          "mean": 0.9821370442708334,
+          "ci95": [
+            0.9794413248697916,
+            0.984649658203125
+          ]
+        },
+        {
+          "method": "group_matched_random",
+          "mean": 0.98052978515625,
+          "ci95": [
+            0.9767862955729166,
+            0.9844767252604166
+          ]
+        },
+        {
+          "method": "specialist_pool_0.035",
+          "mean": 0.989501953125,
+          "ci95": [
+            0.9864908854166666,
+            0.99267578125
+          ]
+        },
+        {
+          "method": "specialist_pool_0.05",
+          "mean": 0.9854329427083334,
+          "ci95": [
+            0.9803873697916666,
+            0.989990234375
+          ]
+        }
+      ],
+      "k": [
+        {
+          "method": "population_search",
+          "mean": 0.6324869791666666,
+          "ci95": [
+            0.62109375,
+            0.642578125
+          ]
+        },
+        {
+          "method": "random_search",
+          "mean": 0.62890625,
+          "ci95": [
+            0.6197082519531251,
+            0.6376139322916666
+          ]
+        },
+        {
+          "method": "local_search",
+          "mean": 0.6288248697916666,
+          "ci95": [
+            0.61962890625,
+            0.6382649739583334
+          ]
+        },
+        {
+          "method": "high_degree",
+          "mean": 0.6368815104166666,
+          "ci95": [
+            0.629150390625,
+            0.6448567708333334
+          ]
+        },
+        {
+          "method": "spectral",
+          "mean": 0.6366373697916666,
+          "ci95": [
+            0.6280110677083334,
+            0.6441243489583334
+          ]
+        },
+        {
+          "method": "input_energy_degree",
+          "mean": 0.6184895833333334,
+          "ci95": [
+            0.6073404947916666,
+            0.628662109375
+          ]
+        },
+        {
+          "method": "input_quota_random",
+          "mean": 0.6300455729166666,
+          "ci95": [
+            0.6226399739583334,
+            0.6387532552083334
+          ]
+        },
+        {
+          "method": "unselected_random",
+          "mean": 0.6269022623697916,
+          "ci95": [
+            0.62249755859375,
+            0.631134033203125
+          ]
+        },
+        {
+          "method": "group_matched_random",
+          "mean": 0.6207071940104166,
+          "ci95": [
+            0.6153355916341146,
+            0.6261800130208334
+          ]
+        },
+        {
+          "method": "specialist_pool_0.035",
+          "mean": 0.6280110677083334,
+          "ci95": [
+            0.6146647135416666,
+            0.6393229166666666
+          ]
+        },
+        {
+          "method": "specialist_pool_0.05",
+          "mean": 0.623779296875,
+          "ci95": [
+            0.6122233072916666,
+            0.63623046875
+          ]
+        }
+      ],
+      "l": [
+        {
+          "method": "population_search",
+          "mean": 0.80615234375,
+          "ci95": [
+            0.7935384114583334,
+            0.8181966145833334
+          ]
+        },
+        {
+          "method": "random_search",
+          "mean": 0.810791015625,
+          "ci95": [
+            0.8002115885416666,
+            0.820556640625
+          ]
+        },
+        {
+          "method": "local_search",
+          "mean": 0.8067220052083334,
+          "ci95": [
+            0.799072265625,
+            0.8147786458333334
+          ]
+        },
+        {
+          "method": "high_degree",
+          "mean": 0.76171875,
+          "ci95": [
+            0.75,
+            0.7749837239583334
+          ]
+        },
+        {
+          "method": "spectral",
+          "mean": 0.756591796875,
+          "ci95": [
+            0.746826171875,
+            0.7665201822916666
+          ]
+        },
+        {
+          "method": "input_energy_degree",
+          "mean": 0.6859537760416666,
+          "ci95": [
+            0.675537109375,
+            0.6956380208333334
+          ]
+        },
+        {
+          "method": "input_quota_random",
+          "mean": 0.7826334635416666,
+          "ci95": [
+            0.772705078125,
+            0.7916666666666666
+          ]
+        },
+        {
+          "method": "unselected_random",
+          "mean": 0.7999267578125,
+          "ci95": [
+            0.7920021057128905,
+            0.8081868489583334
+          ]
+        },
+        {
+          "method": "group_matched_random",
+          "mean": 0.797119140625,
+          "ci95": [
+            0.7898152669270834,
+            0.8047281901041666
+          ]
+        },
+        {
+          "method": "specialist_pool_0.035",
+          "mean": 0.8086751302083334,
+          "ci95": [
+            0.797607421875,
+            0.818115234375
+          ]
+        },
+        {
+          "method": "specialist_pool_0.05",
+          "mean": 0.8164876302083334,
+          "ci95": [
+            0.8037923177083334,
+            0.8294270833333334
+          ]
+        }
+      ],
+      "m": [
+        {
+          "method": "population_search",
+          "mean": 0.7864583333333334,
+          "ci95": [
+            0.7801920572916666,
+            0.7926432291666666
+          ]
+        },
+        {
+          "method": "random_search",
+          "mean": 0.7913411458333334,
+          "ci95": [
+            0.7856424967447917,
+            0.796875
+          ]
+        },
+        {
+          "method": "local_search",
+          "mean": 0.7865397135416666,
+          "ci95": [
+            0.778076171875,
+            0.794189453125
+          ]
+        },
+        {
+          "method": "high_degree",
+          "mean": 0.77099609375,
+          "ci95": [
+            0.762451171875,
+            0.779296875
+          ]
+        },
+        {
+          "method": "spectral",
+          "mean": 0.7659505208333334,
+          "ci95": [
+            0.7568359375,
+            0.77587890625
+          ]
+        },
+        {
+          "method": "input_energy_degree",
+          "mean": 0.7276204427083334,
+          "ci95": [
+            0.7202962239583334,
+            0.7349446614583334
+          ]
+        },
+        {
+          "method": "input_quota_random",
+          "mean": 0.7782389322916666,
+          "ci95": [
+            0.7700174967447917,
+            0.786865234375
+          ]
+        },
+        {
+          "method": "unselected_random",
+          "mean": 0.7747294108072916,
+          "ci95": [
+            0.77020263671875,
+            0.7796427408854166
+          ]
+        },
+        {
+          "method": "group_matched_random",
+          "mean": 0.77935791015625,
+          "ci95": [
+            0.7734781901041666,
+            0.7852584838867187
+          ]
+        },
+        {
+          "method": "specialist_pool_0.035",
+          "mean": 0.7871907552083334,
+          "ci95": [
+            0.78125,
+            0.7930501302083334
+          ]
+        },
+        {
+          "method": "specialist_pool_0.05",
+          "mean": 0.7714029947916666,
+          "ci95": [
+            0.7632649739583334,
+            0.7796223958333334
+          ]
+        }
+      ],
+      "n": [
+        {
+          "method": "population_search",
+          "mean": 0.877685546875,
+          "ci95": [
+            0.8678385416666666,
+            0.8859049479166666
+          ]
+        },
+        {
+          "method": "random_search",
+          "mean": 0.8802083333333334,
+          "ci95": [
+            0.870849609375,
+            0.8893229166666666
+          ]
+        },
+        {
+          "method": "local_search",
+          "mean": 0.886474609375,
+          "ci95": [
+            0.8731282552083334,
+            0.8988444010416666
+          ]
+        },
+        {
+          "method": "high_degree",
+          "mean": 0.8548990885416666,
+          "ci95": [
+            0.8484700520833334,
+            0.8614095052083334
+          ]
+        },
+        {
+          "method": "spectral",
+          "mean": 0.8575846354166666,
+          "ci95": [
+            0.846435546875,
+            0.8661295572916666
+          ]
+        },
+        {
+          "method": "input_energy_degree",
+          "mean": 0.82177734375,
+          "ci95": [
+            0.81396484375,
+            0.8295084635416666
+          ]
+        },
+        {
+          "method": "input_quota_random",
+          "mean": 0.87060546875,
+          "ci95": [
+            0.8631998697916666,
+            0.8788248697916666
+          ]
+        },
+        {
+          "method": "unselected_random",
+          "mean": 0.8688151041666666,
+          "ci95": [
+            0.862762451171875,
+            0.8746236165364584
+          ]
+        },
+        {
+          "method": "group_matched_random",
+          "mean": 0.8649698893229166,
+          "ci95": [
+            0.857666015625,
+            0.8714808146158854
+          ]
+        },
+        {
+          "method": "specialist_pool_0.035",
+          "mean": 0.8702799479166666,
+          "ci95": [
+            0.8610026041666666,
+            0.8790690104166666
+          ]
+        },
+        {
+          "method": "specialist_pool_0.05",
+          "mean": 0.8751627604166666,
+          "ci95": [
+            0.8619771321614583,
+            0.8876139322916666
+          ]
+        }
+      ]
+    },
+    "all22_table_rows_match_frozen_statistics": true,
+    "full_six_task_primary_null_retained": true,
+    "all18_task_contrasts_match_per_mask_minimum_table": true
+  },
+  "additional_check_datasets": [
+    {
+      "dataset_id": "sd_c16cc414a8f01ec8f726",
+      "public_file": "tables/sd_c16cc414a8f01ec8f726.csv",
+      "sha256": "c16cc414a8f01ec8f7266f37dbf439005c25867965de8274fbb89f10a23902a4"
+    }
+  ],
+  "immutable_SI_Table2_sha256": "858b4134b405b02efa7874a403b35f4229aef75857af7d6f00856874302aa771",
+  "frozen_figure_sha256": {
+    "ED08": "47bc9a865f8a357265ea966b54ec93df5d839036c2b8e206e8ae9d81db0c99a3"
+  },
+  "assembler_AST_sha256": {
+    "extra_sources": "b8f4f85a15631e30b546d362a3d517133eb1e9613b2b20d5edc73463108a5fcf",
+    "main": "10614ccfa9f6c03a0414d4e5193d5b04105522d3b65c1ed826fde1709549e9d4"
+  },
+  "limits": [
+    "Finite processed-data and display checks do not rerun input-history readout fitting or formal scientific search.",
+    "Table2 document cell contents/layout remain subject to the separate Word/render QA.",
+    "Remaining ED1\u20137 and SI figure mappings are not established by this audit."
+  ],
+  "verified_date": "2026-09-14",
+  "review_method": "Read actual final assembler and plotting helpers; bind exact source hashes and geometry; verify listed finite processed-data and display invariants. No new figure, simulation or model fit."
+}

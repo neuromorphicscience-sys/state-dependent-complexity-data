@@ -4086,9 +4086,23 @@
       "metadata_transformations": [],
       "scientific_values_unchanged": true,
       "scope": "Existing processed summary directly used for Fig. 5c annotations; not new research data"
+    },
+    {
+      "id": "sd_a718b48acbfdc98d3e0b",
+      "file": "tables/sd_a718b48acbfdc98d3e0b.csv",
+      "sha256": "a718b48acbfdc98d3e0bf7663389c540fb999045bdbd316d21fba6ec7c73492d",
+      "bytes": 54799,
+      "format": "csv",
+      "source_table_names": [
+        "01_stage4_main_discovery_replication_forest__stage4a_discovery_task_methods.csv"
+      ],
+      "original_sha256": "a718b48acbfdc98d3e0bf7663389c540fb999045bdbd316d21fba6ec7c73492d",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "Existing processed task-method table for reconstructing Fig.1f; not new scientific results."
     }
   ],
-  "unique_datasets": 289,
+  "unique_datasets": 290,
   "raw_recordings_redistributed": false,
   "archival_doi": null,
   "reuse_license": "Not assigned; the public availability does not itself grant a reuse license."
