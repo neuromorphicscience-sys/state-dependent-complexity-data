@@ -1,0 +1,616 @@
+{
+  "quantitative_panels": 14,
+  "quantitative_microplots": 16,
+  "records": [
+    {
+      "figure": "ED01",
+      "panel": "a",
+      "source_panel": "ED01a",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_a0e679744f600df3e385",
+          "sha256": "a0e679744f600df3e3859b23647016a1e1590a6be6fe6969b444d7ee99357c1f",
+          "source_table_name": "01_CT05_offdiagonal_transfer_penalties__CT05_offdiagonal_transfer_penalties_source.csv",
+          "rows": 54,
+          "columns": [
+            "graph_seed",
+            "k",
+            "source_state",
+            "target_state",
+            "rhythm_score_mean",
+            "home_mean",
+            "delta_vs_target_home",
+            "pair"
+          ],
+          "public_file": "tables/sd_a0e679744f600df3e385.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "plot_a": "9496336f8f33ca1e1141cb7ee743e4ee1e4de35cebac26950efb51499e7191da"
+      },
+      "displayed_estimate": "Six directed-pair transfer penalties; nine graph-budget values per pair.",
+      "observational_unit": "Three closure graphs 42001\u201342003; three budgets nested within graph.",
+      "interval_or_spread": "Median, IQR and 1.5-IQR whiskers; all nested observations shown as points; no effect confidence interval.",
+      "inference_limits": "Budgets/states/noise/search repeats are nested; closure, calibration and inference graph cohorts are distinct. Historical dense state is auxiliary. No new result or universal optimizer superiority inferred."
+    },
+    {
+      "figure": "ED01",
+      "panel": "b",
+      "source_panel": "ED01b",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_a0e679744f600df3e385",
+          "sha256": "a0e679744f600df3e3859b23647016a1e1590a6be6fe6969b444d7ee99357c1f",
+          "source_table_name": "01_CT05_offdiagonal_transfer_penalties__CT05_offdiagonal_transfer_penalties_source.csv",
+          "rows": 54,
+          "columns": [
+            "graph_seed",
+            "k",
+            "source_state",
+            "target_state",
+            "rhythm_score_mean",
+            "home_mean",
+            "delta_vs_target_home",
+            "pair"
+          ],
+          "public_file": "tables/sd_a0e679744f600df3e385.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "plot_b": "bee45d4b1e0918f1c6079a2c3ce2be7fe6087e49ff97d6065ffb0dea9a1db1e3",
+        "target_state_graph_table": "0328fe2ea0552bb095055087eaa4e17ba7727cf8908e4885c27f50213514914e",
+        "mean_sem": "f4738d44568051d0b59ce715b6fc801ba3a2e1db914c58bea8541069bfed1fa2"
+      },
+      "displayed_estimate": "Average two foreign-source penalties within graph/budget/target state, then mean across graphs.",
+      "observational_unit": "Three closure graphs 42001\u201342003; three budgets nested within graph.",
+      "interval_or_spread": "Mean \u00b1 1.96 sample SEM across three graph values per budget; descriptive normal approximation, NOT bootstrap/resampling or a calibrated small-sample t interval.",
+      "inference_limits": "Budgets/states/noise/search repeats are nested; closure, calibration and inference graph cohorts are distinct. Historical dense state is auxiliary. No new result or universal optimizer superiority inferred."
+    },
+    {
+      "figure": "ED01",
+      "panel": "c",
+      "source_panel": "ED01c",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_a0e679744f600df3e385",
+          "sha256": "a0e679744f600df3e3859b23647016a1e1590a6be6fe6969b444d7ee99357c1f",
+          "source_table_name": "01_CT05_offdiagonal_transfer_penalties__CT05_offdiagonal_transfer_penalties_source.csv",
+          "rows": 54,
+          "columns": [
+            "graph_seed",
+            "k",
+            "source_state",
+            "target_state",
+            "rhythm_score_mean",
+            "home_mean",
+            "delta_vs_target_home",
+            "pair"
+          ],
+          "public_file": "tables/sd_a0e679744f600df3e385.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "plot_c": "6cbe5bcaef4fd5428566749922eb123479eb3e1b3b493f55008746bffc389002",
+        "directional_asymmetry": "986202c1d508ac2dca814c9b685fdad1b7aa25b9efefb5c8240d4fc8ef361209"
+      },
+      "displayed_estimate": "Forward minus reverse penalty matched on graph and budget, nine values per unordered state pair.",
+      "observational_unit": "Three closure graphs 42001\u201342003; three budgets nested within graph.",
+      "interval_or_spread": "Median, IQR and 1.5-IQR whiskers; all nested observations shown as points; no effect confidence interval.",
+      "inference_limits": "Budgets/states/noise/search repeats are nested; closure, calibration and inference graph cohorts are distinct. Historical dense state is auxiliary. No new result or universal optimizer superiority inferred."
+    },
+    {
+      "figure": "ED01",
+      "panel": "d",
+      "source_panel": "ED01d",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_93cace5ae14b9907cd1c",
+          "sha256": "93cace5ae14b9907cd1c69b05893ef66b27096bab211218abd58f68d64134967",
+          "source_table_name": "01_CT06_graph_seed_consistency__CT06_graph_seed_consistency_source.csv",
+          "rows": 9,
+          "columns": [
+            "graph_seed",
+            "k",
+            "mid_home_advantage",
+            "sparse_home_advantage",
+            "crossover_interaction"
+          ],
+          "public_file": "tables/sd_93cace5ae14b9907cd1c.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "plot_d": "3bfc8207845b3c06a26a1c2e07f4b0ec68f4315fa2d45299b66f68946c80b501",
+        "descriptive_line": "f5219af137f8eff857036ecfd71dd204376aa47f0c9ea742ca3e5ed0fbeccb87"
+      },
+      "displayed_estimate": "crossover_interaction by graph/budget with mean over graphs.",
+      "observational_unit": "Three closure graphs 42001\u201342003; three budgets nested within graph.",
+      "interval_or_spread": "Mean \u00b1 1.96 sample SEM across three graph values per budget; descriptive normal approximation, NOT bootstrap/resampling or a calibrated small-sample t interval.",
+      "inference_limits": "Budgets/states/noise/search repeats are nested; closure, calibration and inference graph cohorts are distinct. Historical dense state is auxiliary. No new result or universal optimizer superiority inferred."
+    },
+    {
+      "figure": "ED01",
+      "panel": "e",
+      "source_panel": "ED01e",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_93cace5ae14b9907cd1c",
+          "sha256": "93cace5ae14b9907cd1c69b05893ef66b27096bab211218abd58f68d64134967",
+          "source_table_name": "01_CT06_graph_seed_consistency__CT06_graph_seed_consistency_source.csv",
+          "rows": 9,
+          "columns": [
+            "graph_seed",
+            "k",
+            "mid_home_advantage",
+            "sparse_home_advantage",
+            "crossover_interaction"
+          ],
+          "public_file": "tables/sd_93cace5ae14b9907cd1c.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "plot_e": "3bb5e9471a12e30a142ffb24a056ee7bb35a9a2f6e10b0d280b399a16380cb54",
+        "descriptive_line": "f5219af137f8eff857036ecfd71dd204376aa47f0c9ea742ca3e5ed0fbeccb87"
+      },
+      "displayed_estimate": "mid_home_advantage by graph/budget with mean over graphs.",
+      "observational_unit": "Three closure graphs 42001\u201342003; three budgets nested within graph.",
+      "interval_or_spread": "Mean \u00b1 1.96 sample SEM across three graph values per budget; descriptive normal approximation, NOT bootstrap/resampling or a calibrated small-sample t interval.",
+      "inference_limits": "Budgets/states/noise/search repeats are nested; closure, calibration and inference graph cohorts are distinct. Historical dense state is auxiliary. No new result or universal optimizer superiority inferred."
+    },
+    {
+      "figure": "ED01",
+      "panel": "f",
+      "source_panel": "ED01f",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_93cace5ae14b9907cd1c",
+          "sha256": "93cace5ae14b9907cd1c69b05893ef66b27096bab211218abd58f68d64134967",
+          "source_table_name": "01_CT06_graph_seed_consistency__CT06_graph_seed_consistency_source.csv",
+          "rows": 9,
+          "columns": [
+            "graph_seed",
+            "k",
+            "mid_home_advantage",
+            "sparse_home_advantage",
+            "crossover_interaction"
+          ],
+          "public_file": "tables/sd_93cace5ae14b9907cd1c.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "plot_f": "ac8e298f652e3135d46177f4cccf71b0f5fe5fead1337f09e74e6cbd9c15f506",
+        "descriptive_line": "f5219af137f8eff857036ecfd71dd204376aa47f0c9ea742ca3e5ed0fbeccb87"
+      },
+      "displayed_estimate": "sparse_home_advantage by graph/budget with mean over graphs.",
+      "observational_unit": "Three closure graphs 42001\u201342003; three budgets nested within graph.",
+      "interval_or_spread": "Mean \u00b1 1.96 sample SEM across three graph values per budget; descriptive normal approximation, NOT bootstrap/resampling or a calibrated small-sample t interval.",
+      "inference_limits": "Budgets/states/noise/search repeats are nested; closure, calibration and inference graph cohorts are distinct. Historical dense state is auxiliary. No new result or universal optimizer superiority inferred."
+    },
+    {
+      "figure": "ED01",
+      "panel": "g",
+      "source_panel": "ED01g",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_93cace5ae14b9907cd1c",
+          "sha256": "93cace5ae14b9907cd1c69b05893ef66b27096bab211218abd58f68d64134967",
+          "source_table_name": "01_CT06_graph_seed_consistency__CT06_graph_seed_consistency_source.csv",
+          "rows": 9,
+          "columns": [
+            "graph_seed",
+            "k",
+            "mid_home_advantage",
+            "sparse_home_advantage",
+            "crossover_interaction"
+          ],
+          "public_file": "tables/sd_93cace5ae14b9907cd1c.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "plot_g": "74c38a1cf3bacef322b13e4595984c5ee8fad6c68502bb0ad27cd6e892af0d8d"
+      },
+      "displayed_estimate": "All nine graph-by-budget crossover values; symmetric signed color scale.",
+      "observational_unit": "Three closure graphs 42001\u201342003; three budgets nested within graph.",
+      "interval_or_spread": "No interval.",
+      "inference_limits": "Budgets/states/noise/search repeats are nested; closure, calibration and inference graph cohorts are distinct. Historical dense state is auxiliary. No new result or universal optimizer superiority inferred."
+    },
+    {
+      "figure": "ED01",
+      "panel": "h",
+      "source_panel": "ED01h",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_93cace5ae14b9907cd1c",
+          "sha256": "93cace5ae14b9907cd1c69b05893ef66b27096bab211218abd58f68d64134967",
+          "source_table_name": "01_CT06_graph_seed_consistency__CT06_graph_seed_consistency_source.csv",
+          "rows": 9,
+          "columns": [
+            "graph_seed",
+            "k",
+            "mid_home_advantage",
+            "sparse_home_advantage",
+            "crossover_interaction"
+          ],
+          "public_file": "tables/sd_93cace5ae14b9907cd1c.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "plot_h": "87c9a99a5c42ef89957e0e06c113b7eaa3922123eff505a457d922c69d69f0bd",
+        "build": "f33ee9edaf3ed724406ea0394c8dde7c417fece862869ce2ecb798098b0b2533"
+      },
+      "displayed_estimate": "Three within-graph budget-averaged crossovers plus their group mean.",
+      "observational_unit": "Three closure graphs 42001\u201342003; three budgets nested within graph.",
+      "interval_or_spread": "No interval.",
+      "inference_limits": "Budgets/states/noise/search repeats are nested; closure, calibration and inference graph cohorts are distinct. Historical dense state is auxiliary. No new result or universal optimizer superiority inferred."
+    },
+    {
+      "figure": "ED01",
+      "panel": "i",
+      "source_panel": "ED07b",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_42182c12681e02cbda85",
+          "sha256": "42182c12681e02cbda858b6e30e3740be992941cbc0dbc02ab1a61a84c235ebb",
+          "source_table_name": "ED07b_operating_point_calibration.csv",
+          "rows": 12,
+          "columns": [
+            "graph_seed",
+            "regime",
+            "noise_seed",
+            "original_lif_rate_hz",
+            "hh_rate_hz",
+            "matched_lif_rate_hz",
+            "matched_residual_hz",
+            "matched_absolute_difference_hz"
+          ],
+          "public_file": "tables/sd_42182c12681e02cbda85.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "draw_calibration": "24911d722a8f7cc51a55b7663bfd9f7efbad7410d035ac16bdd2f009b2f3a8bf"
+      },
+      "displayed_estimate": "Paired original-simple, complex and matched-simple rates and mean absolute matched residual.",
+      "observational_unit": "12 conditions = three separate calibration graphs \u00d7 two states \u00d7 two noise seeds.",
+      "interval_or_spread": "No interval.",
+      "inference_limits": "Budgets/states/noise/search repeats are nested; closure, calibration and inference graph cohorts are distinct. Historical dense state is auxiliary. No new result or universal optimizer superiority inferred."
+    },
+    {
+      "figure": "ED01",
+      "panel": "j",
+      "source_panel": "ED07e",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_42a8268ad01d7f982db1",
+          "sha256": "42a8268ad01d7f982db1f6882e8276cb30f57eef8cc7646bb8e2a6f7e052ba7a",
+          "source_table_name": "ED07d_primary_vs_random_home_score.csv",
+          "rows": 12,
+          "columns": [
+            "graph_seed",
+            "primary",
+            "random_null"
+          ],
+          "public_file": "tables/sd_42a8268ad01d7f982db1.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "draw_home_pair_left": "3526656d19ae9e39f2c2d016ed834508e0dabf59e00c8db4fb6aa35fa150b815",
+        "draw_home_pair": "3be438dd31baa52656a286c50855faf5bbb75e1156c7e91aa5237bc793889cf1",
+        "graph_home_summary": "42dd0c3fe3a842303c1e832a5677ccbde16ba250eeb0fc91986a73c3b7f4f008"
+      },
+      "displayed_estimate": "Paired primary/equal-budget-random held-out home scores, each graph mean over two states at repeat0.",
+      "observational_unit": "12 inference graphs 93001\u201393012.",
+      "interval_or_spread": "Individual paired points, no CI; original exact one-sided sign-flip P=1/4096.",
+      "inference_limits": "Budgets/states/noise/search repeats are nested; closure, calibration and inference graph cohorts are distinct. Historical dense state is auxiliary. No new result or universal optimizer superiority inferred."
+    },
+    {
+      "figure": "ED01",
+      "panel": "k",
+      "source_panel": "ED07f",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_9a00c5a543586f7b5b62",
+          "sha256": "9a00c5a543586f7b5b6268853e074695a68fac3336413675a64f4eadc9d71d6c",
+          "source_table_name": "forest_rhythm_score_crossover_interaction.csv",
+          "rows": 4,
+          "columns": [
+            "variant",
+            "mean",
+            "ci95_low",
+            "ci95_high",
+            "positive_graphs",
+            "n_graphs",
+            "p_signflip_greater"
+          ],
+          "public_file": "tables/sd_9a00c5a543586f7b5b62.csv"
+        },
+        {
+          "dataset_id": "sd_7ada3091abd728801a55",
+          "sha256": "7ada3091abd728801a553b9f033ebf8b96ec7e60f7c5de8d58afebc111fb5742",
+          "source_table_name": "state_transfer_interactions.csv",
+          "rows": 105,
+          "columns": [
+            "variant",
+            "graph_seed",
+            "repeat",
+            "rhythm_score_mid_home_advantage",
+            "rhythm_score_sparse_home_advantage",
+            "rhythm_score_crossover_interaction",
+            "alternative_spectral_score_mid_home_advantage",
+            "alternative_spectral_score_sparse_home_advantage",
+            "alternative_spectral_score_crossover_interaction"
+          ],
+          "public_file": "tables/sd_7ada3091abd728801a55.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "draw_forest_compact": "3237c292548a96814a8695fdc12e8c00444aef5b5dd0655f13b45f7bbec3da84",
+        "draw_forest": "fbfa7ef6a67d576ae46f1d5656f240a633335ba88159792d015c121c6afcf08b"
+      },
+      "displayed_estimate": "Mean rhythm-score crossover for four variants using repeat0.",
+      "observational_unit": "Same12 inference graphs per variant.",
+      "interval_or_spread": "20,000 percentile graph-bootstrap draws; seeds20260829+i in fixed variant order; separate original one-sided tests, no new adjustment.",
+      "inference_limits": "Budgets/states/noise/search repeats are nested; closure, calibration and inference graph cohorts are distinct. Historical dense state is auxiliary. No new result or universal optimizer superiority inferred."
+    },
+    {
+      "figure": "ED01",
+      "panel": "l",
+      "source_panel": "ED07g",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_3edb43a22a047ecbf523",
+          "sha256": "3edb43a22a047ecbf5231c83ca13cbc42256d46bf0ef20c1b498894f55cc4857",
+          "source_table_name": "ED07f_search_depth.csv",
+          "rows": 120,
+          "columns": [
+            "graph_seed",
+            "state",
+            "search_count",
+            "cumulative_best_search_score",
+            "heldout_score_of_search_winner",
+            "winning_repeat"
+          ],
+          "public_file": "tables/sd_3edb43a22a047ecbf523.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "draw_search_compact": "b02b7f3fd8c986adf2b9627bafe0d808a6e1170449c72dfbd23efdf4694ac0e9",
+        "add_search_deltas": "bf6a16c1b82e377cc0803762cd69a2cbb47b1073e70110265fc5886a97766466"
+      },
+      "displayed_estimate": "Cumulative best search score minus first-search score; six trajectories and pooled mean.",
+      "observational_unit": "Three inference graphs \u00d7 two states \u00d720nested search depths.",
+      "interval_or_spread": "No interval; descriptive trajectories.",
+      "inference_limits": "Budgets/states/noise/search repeats are nested; closure, calibration and inference graph cohorts are distinct. Historical dense state is auxiliary. No new result or universal optimizer superiority inferred."
+    },
+    {
+      "figure": "ED01",
+      "panel": "m",
+      "source_panel": "SPLITdepth",
+      "quantitative_microplots": 2,
+      "datasets": [
+        {
+          "dataset_id": "sd_3edb43a22a047ecbf523",
+          "sha256": "3edb43a22a047ecbf5231c83ca13cbc42256d46bf0ef20c1b498894f55cc4857",
+          "source_table_name": "ED07f_search_depth.csv",
+          "rows": 120,
+          "columns": [
+            "graph_seed",
+            "state",
+            "search_count",
+            "cumulative_best_search_score",
+            "heldout_score_of_search_winner",
+            "winning_repeat"
+          ],
+          "public_file": "tables/sd_3edb43a22a047ecbf523.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "extra_sources": "b8f4f85a15631e30b546d362a3d517133eb1e9613b2b20d5edc73463108a5fcf"
+      },
+      "displayed_estimate": "Held-out score of search-selected winner minus its value after one search, separately by state; three graph trajectories and their mean.",
+      "observational_unit": "Same three graphs \u00d7two states \u00d720depths; held-out winner may decrease.",
+      "interval_or_spread": "No interval.",
+      "inference_limits": "Budgets/states/noise/search repeats are nested; closure, calibration and inference graph cohorts are distinct. Historical dense state is auxiliary. No new result or universal optimizer superiority inferred."
+    },
+    {
+      "figure": "ED01",
+      "panel": "n",
+      "source_panel": "SPLITresidual",
+      "quantitative_microplots": 2,
+      "datasets": [
+        {
+          "dataset_id": "sd_42182c12681e02cbda85",
+          "sha256": "42182c12681e02cbda858b6e30e3740be992941cbc0dbc02ab1a61a84c235ebb",
+          "source_table_name": "SI09b_d_selected_calibration.csv",
+          "rows": 12,
+          "columns": [
+            "graph_seed",
+            "regime",
+            "noise_seed",
+            "original_lif_rate_hz",
+            "hh_rate_hz",
+            "matched_lif_rate_hz",
+            "matched_residual_hz",
+            "matched_absolute_difference_hz"
+          ],
+          "public_file": "tables/sd_42182c12681e02cbda85.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "extra_sources": "b8f4f85a15631e30b546d362a3d517133eb1e9613b2b20d5edc73463108a5fcf"
+      },
+      "displayed_estimate": "Matched-simple minus complex rate, six observations/state, sorted by graph and noise seed.",
+      "observational_unit": "Same12 calibration conditions as i, not a new cohort.",
+      "interval_or_spread": "No interval.",
+      "inference_limits": "Budgets/states/noise/search repeats are nested; closure, calibration and inference graph cohorts are distinct. Historical dense state is auxiliary. No new result or universal optimizer superiority inferred."
+    }
+  ],
+  "direct_dataset_count": 7,
+  "checks": {
+    "transfer_rows": 54,
+    "closure_rows": 9,
+    "target_rows": 27,
+    "asymmetry_rows": 27,
+    "derived_tables_exact": 3,
+    "normal_bands": [
+      {
+        "panel": "b",
+        "state": "sparse_drive",
+        "means": [
+          -0.08656516177304885,
+          -0.06291028549377285,
+          -0.127298591671408
+        ],
+        "halfwidth_1_96_SEM": [
+          0.034355512487091136,
+          0.02033856290757369,
+          0.06747509361465369
+        ]
+      },
+      {
+        "panel": "b",
+        "state": "transition_dense",
+        "means": [
+          -0.03934350848430765,
+          -0.053284650228710616,
+          -0.08500968871845138
+        ],
+        "halfwidth_1_96_SEM": [
+          0.027180754958242157,
+          0.05588186602432901,
+          0.034519291180608314
+        ]
+      },
+      {
+        "panel": "b",
+        "state": "transition_mid",
+        "means": [
+          -0.08672643740202246,
+          -0.06246293682811984,
+          -0.09834333798951565
+        ],
+        "halfwidth_1_96_SEM": [
+          0.040515233083617104,
+          0.024315981851101332,
+          0.019067622194623397
+        ]
+      },
+      {
+        "panel": "d",
+        "means": [
+          0.04931370294394174,
+          0.06460479749107936,
+          0.05658253231861934
+        ],
+        "halfwidth_1_96_SEM": [
+          0.04041576168221717,
+          0.022940652650039715,
+          0.02779501375738133
+        ]
+      },
+      {
+        "panel": "e",
+        "means": [
+          0.04549951412223483,
+          0.05752452638828087,
+          0.025095987107811666
+        ],
+        "halfwidth_1_96_SEM": [
+          0.05347666686238136,
+          0.03372684540242904,
+          0.0064430344107014
+        ]
+      },
+      {
+        "panel": "f",
+        "means": [
+          0.05312789176564863,
+          0.07168506859387784,
+          0.08806907752942705
+        ],
+        "halfwidth_1_96_SEM": [
+          0.0283064738993932,
+          0.03885192105230644,
+          0.05518894212670576
+        ]
+      }
+    ],
+    "calibration_rows": 12,
+    "calibration_residuals_exact": true,
+    "home_pairs": 12,
+    "home_exact_P": 0.000244140625,
+    "forest_checks": [
+      {
+        "variant": "primary",
+        "n": 12,
+        "mean": 0.029816229982922448,
+        "ci95": [
+          0.0147232270450331,
+          0.04439459866650088
+        ]
+      },
+      {
+        "variant": "matched",
+        "n": 12,
+        "mean": 0.04213487778906707,
+        "ci95": [
+          0.029412644997015954,
+          0.054788965288510814
+        ]
+      },
+      {
+        "variant": "alternative",
+        "n": 12,
+        "mean": 0.02170978533104061,
+        "ci95": [
+          -0.004819684969455311,
+          0.045755113692333274
+        ]
+      },
+      {
+        "variant": "random_null",
+        "n": 12,
+        "mean": 0.03386982022493609,
+        "ci95": [
+          0.015722747928763648,
+          0.05241605238394787
+        ]
+      }
+    ],
+    "search_curve_rows": 120,
+    "search_depth_deltas_exact": true
+  },
+  "findings": [
+    {
+      "panel": "ED01b,d,e,f",
+      "type": "caption_interval_definition",
+      "current": "archived descriptive resampling definition",
+      "correct": "mean \u00b11.96 SEM across three graphs at each budget",
+      "status": "SOURCE_CONFIRMED_PENDING_NEXT_DOCUMENT_REVISION"
+    }
+  ],
+  "source_sha256": {
+    "core": "bf3df3e3517a8a46c0dd65e477fc76acea143c1f470de3d14a760229902e12e8",
+    "old": "5aa078aff60355b95b2b247468235eb9d8cd1762fb733646f8227a938b79be5d",
+    "compact": "22a56fb4fd336fdc384924513abadc270032e339b783b0fc3198597ced3535a9",
+    "robust": "1e84fdf1e89f25abee9d94ff65e60f0530f236bba822888fcfc973850c6cf326",
+    "assembly": "1b46bb016996ce6a47533b5eaf6547b0dadee0c524aca15318b0ca75f8d93553"
+  },
+  "figure_sha256": "9af56f283607ec570312db2d8262480b41a9be1908db9f4becef4040a0d80075",
+  "limits": [
+    "Frozen table/statistic transformations checked; original simulations and selection were not rerun.",
+    "Normal approximation bands at n=3 remain descriptive; no numerical recomputation replaces them."
+  ],
+  "verified_date": "2026-09-14",
+  "review_method": "Source-reviewed plotting transformations, exact dataset/geometry binding and listed finite numerical checks; no new simulation, search or model fit."
+}

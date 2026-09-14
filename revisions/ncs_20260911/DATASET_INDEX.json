@@ -4114,9 +4114,79 @@
       "metadata_transformations": [],
       "scientific_values_unchanged": true,
       "scope": "Existing Steinmetz inventory/deduplication summary directly used by SI2a, not new research data."
+    },
+    {
+      "id": "sd_ee8d0f72d8dc956e7df4",
+      "file": "tables/sd_ee8d0f72d8dc956e7df4.csv",
+      "sha256": "ee8d0f72d8dc956e7df41cd52c29adb31299eac59adda1cb9402686656f0721e",
+      "bytes": 12149,
+      "format": "csv",
+      "source_table_names": [
+        "SI10a_b_search_depth_trajectories.csv"
+      ],
+      "original_sha256": "ee8d0f72d8dc956e7df41cd52c29adb31299eac59adda1cb9402686656f0721e",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "Existing generated simulation display summary used by final ED4 j-o; not new research."
+    },
+    {
+      "id": "sd_e142ad22d4405ea15bd0",
+      "file": "tables/sd_e142ad22d4405ea15bd0.csv",
+      "sha256": "e142ad22d4405ea15bd084695744516e3c96613bff9197edbb257887d30e16e3",
+      "bytes": 430,
+      "format": "csv",
+      "source_table_names": [
+        "SI10c_gain_10_to_20.csv"
+      ],
+      "original_sha256": "e142ad22d4405ea15bd084695744516e3c96613bff9197edbb257887d30e16e3",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "Existing generated simulation display summary used by final ED4 j-o; not new research."
+    },
+    {
+      "id": "sd_fd0f1188554b88270c8c",
+      "file": "tables/sd_fd0f1188554b88270c8c.csv",
+      "sha256": "fd0f1188554b88270c8c107d4aeca32907278fc49cceeb1c889fb2c56889b6c2",
+      "bytes": 8157,
+      "format": "csv",
+      "source_table_names": [
+        "SI10d_repeat_level_crossover.csv"
+      ],
+      "original_sha256": "fd0f1188554b88270c8c107d4aeca32907278fc49cceeb1c889fb2c56889b6c2",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "Existing generated simulation display summary used by final ED4 j-o; not new research."
+    },
+    {
+      "id": "sd_0d510cfbd55ffbde7aef",
+      "file": "tables/sd_0d510cfbd55ffbde7aef.csv",
+      "sha256": "0d510cfbd55ffbde7aef033d3f3e0cf8503b2472e917a30373c83cf35ffbc002",
+      "bytes": 9290,
+      "format": "csv",
+      "source_table_names": [
+        "SI10e_search_to_heldout.csv"
+      ],
+      "original_sha256": "0d510cfbd55ffbde7aef033d3f3e0cf8503b2472e917a30373c83cf35ffbc002",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "Existing generated simulation display summary used by final ED4 j-o; not new research."
+    },
+    {
+      "id": "sd_b78f82db1ffc4da38960",
+      "file": "tables/sd_b78f82db1ffc4da38960.csv",
+      "sha256": "b78f82db1ffc4da3896078abb25f32538a9439ce1185e782a22891174d8d009f",
+      "bytes": 48121,
+      "format": "csv",
+      "source_table_names": [
+        "SI10f_mask_jaccard.csv"
+      ],
+      "original_sha256": "b78f82db1ffc4da3896078abb25f32538a9439ce1185e782a22891174d8d009f",
+      "metadata_transformations": [],
+      "scientific_values_unchanged": true,
+      "scope": "Existing generated simulation display summary used by final ED4 j-o; not new research."
     }
   ],
-  "unique_datasets": 291,
+  "unique_datasets": 296,
   "raw_recordings_redistributed": false,
   "archival_doi": null,
   "reuse_license": "Not assigned; the public availability does not itself grant a reuse license."

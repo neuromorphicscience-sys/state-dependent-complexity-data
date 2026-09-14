@@ -1,0 +1,3062 @@
+{
+  "scope": "Final ED5 panel/source/estimator audit. No plot or raw simulation replay.",
+  "quantitative_panels": 10,
+  "quantitative_microplots": 10,
+  "records": [
+    {
+      "figure": "ED05",
+      "panel": "a",
+      "source_panel": "ED09a",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_6af9838271aac05334ef",
+          "sha256": "6af9838271aac05334efcc8ecaea1a24eee04a7d04ccf15b0cb8392f9e651ce8",
+          "source_table_name": "METRIC_PROFILES.csv",
+          "rows": 630,
+          "columns": [
+            "coupling",
+            "noise_sigma",
+            "method_label",
+            "metric",
+            "n_graphs",
+            "mean",
+            "median",
+            "ci95_low",
+            "ci95_high",
+            "positive_graphs",
+            "negative_graphs",
+            "zero_graphs",
+            "interval_scope"
+          ],
+          "public_file": "tables/sd_6af9838271aac05334ef.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ed9": "6d9c534db67da6bf33b02f9de8bb410f5c131ab3ccd88c7940fc8da2571774a8",
+        "score_curve": "2a4642713eba039bf181c43628c88b0307c13efeae9643e2603d3404eb2dcc21"
+      },
+      "displayed_estimate": "Rhythm-score means across five couplings for all six policies at noise=0.8.",
+      "observational_unit": "12 reused independent graph identities; 24 noise repeats nested in graph-condition-method; 15 conditions and 6 policies are repeated evaluations, not independent graph replicates.",
+      "interval_or_spread": "Pointwise 95% percentile graph-bootstrap bands; 10,000 resamples. Every policy retains its band.",
+      "inference_limits": "Finite local grid and frozen configurations; no condition-wise reoptimization, simultaneous significance, unseen-graph generalization or sufficiency claim."
+    },
+    {
+      "figure": "ED05",
+      "panel": "b",
+      "source_panel": "ED09b",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_6af9838271aac05334ef",
+          "sha256": "6af9838271aac05334efcc8ecaea1a24eee04a7d04ccf15b0cb8392f9e651ce8",
+          "source_table_name": "METRIC_PROFILES.csv",
+          "rows": 630,
+          "columns": [
+            "coupling",
+            "noise_sigma",
+            "method_label",
+            "metric",
+            "n_graphs",
+            "mean",
+            "median",
+            "ci95_low",
+            "ci95_high",
+            "positive_graphs",
+            "negative_graphs",
+            "zero_graphs",
+            "interval_scope"
+          ],
+          "public_file": "tables/sd_6af9838271aac05334ef.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ed9": "6d9c534db67da6bf33b02f9de8bb410f5c131ab3ccd88c7940fc8da2571774a8",
+        "score_curve": "2a4642713eba039bf181c43628c88b0307c13efeae9643e2603d3404eb2dcc21"
+      },
+      "displayed_estimate": "Rhythm-score means across five couplings for all six policies at noise=1.0.",
+      "observational_unit": "12 reused independent graph identities; 24 noise repeats nested in graph-condition-method; 15 conditions and 6 policies are repeated evaluations, not independent graph replicates.",
+      "interval_or_spread": "Pointwise 95% percentile graph-bootstrap bands; 10,000 resamples. Every policy retains its band.",
+      "inference_limits": "Finite local grid and frozen configurations; no condition-wise reoptimization, simultaneous significance, unseen-graph generalization or sufficiency claim."
+    },
+    {
+      "figure": "ED05",
+      "panel": "c",
+      "source_panel": "ED09c",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_6af9838271aac05334ef",
+          "sha256": "6af9838271aac05334efcc8ecaea1a24eee04a7d04ccf15b0cb8392f9e651ce8",
+          "source_table_name": "METRIC_PROFILES.csv",
+          "rows": 630,
+          "columns": [
+            "coupling",
+            "noise_sigma",
+            "method_label",
+            "metric",
+            "n_graphs",
+            "mean",
+            "median",
+            "ci95_low",
+            "ci95_high",
+            "positive_graphs",
+            "negative_graphs",
+            "zero_graphs",
+            "interval_scope"
+          ],
+          "public_file": "tables/sd_6af9838271aac05334ef.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ed9": "6d9c534db67da6bf33b02f9de8bb410f5c131ab3ccd88c7940fc8da2571774a8",
+        "score_curve": "2a4642713eba039bf181c43628c88b0307c13efeae9643e2603d3404eb2dcc21"
+      },
+      "displayed_estimate": "Rhythm-score means across five couplings for all six policies at noise=1.2.",
+      "observational_unit": "12 reused independent graph identities; 24 noise repeats nested in graph-condition-method; 15 conditions and 6 policies are repeated evaluations, not independent graph replicates.",
+      "interval_or_spread": "Pointwise 95% percentile graph-bootstrap bands; 10,000 resamples. Every policy retains its band.",
+      "inference_limits": "Finite local grid and frozen configurations; no condition-wise reoptimization, simultaneous significance, unseen-graph generalization or sufficiency claim."
+    },
+    {
+      "figure": "ED05",
+      "panel": "d",
+      "source_panel": "ED09d",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_0f2d2f7e53593c8c9573",
+          "sha256": "0f2d2f7e53593c8c9573c614a35229600572ef67f3f62d1212bef22fbcaa7a7f",
+          "source_table_name": "GRAPH_ROBUSTNESS_ENDPOINTS.csv",
+          "rows": 12,
+          "columns": [
+            "graph_seed",
+            "graph_id",
+            "grid_mean_gain",
+            "difference_in_grid_minima",
+            "minimum_conditionwise_gain",
+            "positive_conditions",
+            "n_conditions",
+            "A_shared_grid_mean",
+            "A_shared_grid_min",
+            "A_mid_grid_mean",
+            "A_mid_grid_min",
+            "A_sparse_grid_mean",
+            "A_sparse_grid_min",
+            "shared_random_grid_mean",
+            "shared_random_grid_min",
+            "A_pool_grid_mean",
+            "A_pool_grid_min",
+            "spectral_grid_mean",
+            "spectral_grid_min"
+          ],
+          "public_file": "tables/sd_0f2d2f7e53593c8c9573.csv"
+        },
+        {
+          "dataset_id": "sd_62025e1a4762177f5bc6",
+          "sha256": "62025e1a4762177f5bc640369451b80ee734b6d26dc0cf0c79088642196f847a",
+          "source_table_name": "STATISTICS.json",
+          "metadata_limit": "Only local input_path redacted; exact remaining JSON identity verified.",
+          "public_file": "tables/sd_62025e1a4762177f5bc6.json"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ed9": "6d9c534db67da6bf33b02f9de8bb410f5c131ab3ccd88c7940fc8da2571774a8",
+        "graph_effect": "825ab09187a847605a8cde021a606fcccd523af33b07b3ee144dc086025a7d2c"
+      },
+      "displayed_estimate": "12 graph-wise differences min_condition(shared score) minus min_condition(random score), plus group mean. NOT min_condition(paired shared-minus-random gain).",
+      "observational_unit": "12 reused independent graph identities; 24 noise repeats nested in graph-condition-method; 15 conditions and 6 policies are repeated evaluations, not independent graph replicates.",
+      "interval_or_spread": "10,000-resample graph-bootstrap interval of mean; descriptive finite-noise minima, no added hypothesis test.",
+      "inference_limits": "Finite local grid and frozen configurations; no condition-wise reoptimization, simultaneous significance, unseen-graph generalization or sufficiency claim."
+    },
+    {
+      "figure": "ED05",
+      "panel": "e",
+      "source_panel": "ED09e",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_5763e99ce9128e60b0fe",
+          "sha256": "5763e99ce9128e60b0fe7c5713f2ea9d46c88f18c0722564d9fe6dc920205d86",
+          "source_table_name": "CONDITION_GAIN_SUMMARY.csv",
+          "rows": 15,
+          "columns": [
+            "coupling",
+            "noise_sigma",
+            "n_graphs",
+            "mean",
+            "median",
+            "ci95_low",
+            "ci95_high",
+            "positive_graphs",
+            "negative_graphs",
+            "zero_graphs",
+            "interval_scope"
+          ],
+          "public_file": "tables/sd_5763e99ce9128e60b0fe.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ed9": "6d9c534db67da6bf33b02f9de8bb410f5c131ab3ccd88c7940fc8da2571774a8"
+      },
+      "displayed_estimate": "All 15 mean shared-minus-random gains ordered first by noise then coupling.",
+      "observational_unit": "12 reused independent graph identities; 24 noise repeats nested in graph-condition-method; 15 conditions and 6 policies are repeated evaluations, not independent graph replicates.",
+      "interval_or_spread": "Pointwise 95% percentile graph-bootstrap intervals; not simultaneous intervals.",
+      "inference_limits": "Finite local grid and frozen configurations; no condition-wise reoptimization, simultaneous significance, unseen-graph generalization or sufficiency claim."
+    },
+    {
+      "figure": "ED05",
+      "panel": "f",
+      "source_panel": "ED10a",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_feccd8635346ae03cba6",
+          "sha256": "feccd8635346ae03cba660875177bca3984dcbc2d3e600ed04ae79b875e0328d",
+          "source_table_name": "GRAPH_CONDITION_METRICS.csv",
+          "rows": 1080,
+          "columns": [
+            "graph_seed",
+            "graph_id",
+            "coupling",
+            "noise_sigma",
+            "method_label",
+            "rhythm_score",
+            "mean_rate_hz",
+            "dominant_frequency_hz",
+            "silent_fraction",
+            "synchrony_proxy",
+            "spectral_concentration",
+            "spectral_entropy",
+            "n_noise"
+          ],
+          "public_file": "tables/sd_feccd8635346ae03cba6.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ed10": "bfe0168ccef3f4cd74a6d297f67a0c70a03bfa0db5aefde41963429a7c7ce6cb"
+      },
+      "displayed_estimate": "18x5 matrix of mean_rate_hz: rows policy-major/noise-minor; columns coupling. Mean across graph-level values after their noise averaging.",
+      "observational_unit": "12 reused independent graph identities; 24 noise repeats nested in graph-condition-method; 15 conditions and 6 policies are repeated evaluations, not independent graph replicates.",
+      "interval_or_spread": "No interval in matrix; metric-specific color normalization, darker does not mean better.",
+      "inference_limits": "Finite local grid and frozen configurations; no condition-wise reoptimization, simultaneous significance, unseen-graph generalization or sufficiency claim."
+    },
+    {
+      "figure": "ED05",
+      "panel": "g",
+      "source_panel": "ED10b",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_feccd8635346ae03cba6",
+          "sha256": "feccd8635346ae03cba660875177bca3984dcbc2d3e600ed04ae79b875e0328d",
+          "source_table_name": "GRAPH_CONDITION_METRICS.csv",
+          "rows": 1080,
+          "columns": [
+            "graph_seed",
+            "graph_id",
+            "coupling",
+            "noise_sigma",
+            "method_label",
+            "rhythm_score",
+            "mean_rate_hz",
+            "dominant_frequency_hz",
+            "silent_fraction",
+            "synchrony_proxy",
+            "spectral_concentration",
+            "spectral_entropy",
+            "n_noise"
+          ],
+          "public_file": "tables/sd_feccd8635346ae03cba6.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ed10": "bfe0168ccef3f4cd74a6d297f67a0c70a03bfa0db5aefde41963429a7c7ce6cb"
+      },
+      "displayed_estimate": "18x5 matrix of dominant_frequency_hz: rows policy-major/noise-minor; columns coupling. Mean across graph-level values after their noise averaging.",
+      "observational_unit": "12 reused independent graph identities; 24 noise repeats nested in graph-condition-method; 15 conditions and 6 policies are repeated evaluations, not independent graph replicates.",
+      "interval_or_spread": "No interval in matrix; metric-specific color normalization, darker does not mean better.",
+      "inference_limits": "Finite local grid and frozen configurations; no condition-wise reoptimization, simultaneous significance, unseen-graph generalization or sufficiency claim."
+    },
+    {
+      "figure": "ED05",
+      "panel": "h",
+      "source_panel": "ED10d",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_feccd8635346ae03cba6",
+          "sha256": "feccd8635346ae03cba660875177bca3984dcbc2d3e600ed04ae79b875e0328d",
+          "source_table_name": "GRAPH_CONDITION_METRICS.csv",
+          "rows": 1080,
+          "columns": [
+            "graph_seed",
+            "graph_id",
+            "coupling",
+            "noise_sigma",
+            "method_label",
+            "rhythm_score",
+            "mean_rate_hz",
+            "dominant_frequency_hz",
+            "silent_fraction",
+            "synchrony_proxy",
+            "spectral_concentration",
+            "spectral_entropy",
+            "n_noise"
+          ],
+          "public_file": "tables/sd_feccd8635346ae03cba6.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ed10": "bfe0168ccef3f4cd74a6d297f67a0c70a03bfa0db5aefde41963429a7c7ce6cb"
+      },
+      "displayed_estimate": "18x5 matrix of synchrony_proxy: rows policy-major/noise-minor; columns coupling. Mean across graph-level values after their noise averaging.",
+      "observational_unit": "12 reused independent graph identities; 24 noise repeats nested in graph-condition-method; 15 conditions and 6 policies are repeated evaluations, not independent graph replicates.",
+      "interval_or_spread": "No interval in matrix; metric-specific color normalization, darker does not mean better.",
+      "inference_limits": "Finite local grid and frozen configurations; no condition-wise reoptimization, simultaneous significance, unseen-graph generalization or sufficiency claim."
+    },
+    {
+      "figure": "ED05",
+      "panel": "i",
+      "source_panel": "ED10e",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_feccd8635346ae03cba6",
+          "sha256": "feccd8635346ae03cba660875177bca3984dcbc2d3e600ed04ae79b875e0328d",
+          "source_table_name": "GRAPH_CONDITION_METRICS.csv",
+          "rows": 1080,
+          "columns": [
+            "graph_seed",
+            "graph_id",
+            "coupling",
+            "noise_sigma",
+            "method_label",
+            "rhythm_score",
+            "mean_rate_hz",
+            "dominant_frequency_hz",
+            "silent_fraction",
+            "synchrony_proxy",
+            "spectral_concentration",
+            "spectral_entropy",
+            "n_noise"
+          ],
+          "public_file": "tables/sd_feccd8635346ae03cba6.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ed10": "bfe0168ccef3f4cd74a6d297f67a0c70a03bfa0db5aefde41963429a7c7ce6cb"
+      },
+      "displayed_estimate": "18x5 matrix of spectral_concentration: rows policy-major/noise-minor; columns coupling. Mean across graph-level values after their noise averaging.",
+      "observational_unit": "12 reused independent graph identities; 24 noise repeats nested in graph-condition-method; 15 conditions and 6 policies are repeated evaluations, not independent graph replicates.",
+      "interval_or_spread": "No interval in matrix; metric-specific color normalization, darker does not mean better.",
+      "inference_limits": "Finite local grid and frozen configurations; no condition-wise reoptimization, simultaneous significance, unseen-graph generalization or sufficiency claim."
+    },
+    {
+      "figure": "ED05",
+      "panel": "j",
+      "source_panel": "ED10f",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_feccd8635346ae03cba6",
+          "sha256": "feccd8635346ae03cba660875177bca3984dcbc2d3e600ed04ae79b875e0328d",
+          "source_table_name": "GRAPH_CONDITION_METRICS.csv",
+          "rows": 1080,
+          "columns": [
+            "graph_seed",
+            "graph_id",
+            "coupling",
+            "noise_sigma",
+            "method_label",
+            "rhythm_score",
+            "mean_rate_hz",
+            "dominant_frequency_hz",
+            "silent_fraction",
+            "synchrony_proxy",
+            "spectral_concentration",
+            "spectral_entropy",
+            "n_noise"
+          ],
+          "public_file": "tables/sd_feccd8635346ae03cba6.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ed10": "bfe0168ccef3f4cd74a6d297f67a0c70a03bfa0db5aefde41963429a7c7ce6cb"
+      },
+      "displayed_estimate": "18x5 matrix of spectral_entropy: rows policy-major/noise-minor; columns coupling. Mean across graph-level values after their noise averaging.",
+      "observational_unit": "12 reused independent graph identities; 24 noise repeats nested in graph-condition-method; 15 conditions and 6 policies are repeated evaluations, not independent graph replicates.",
+      "interval_or_spread": "No interval in matrix; metric-specific color normalization, darker does not mean better.",
+      "inference_limits": "Finite local grid and frozen configurations; no condition-wise reoptimization, simultaneous significance, unseen-graph generalization or sufficiency claim."
+    }
+  ],
+  "direct_dataset_count": 5,
+  "checks": {
+    "profile_summaries": 630,
+    "displayed_rhythm_bands": 90,
+    "condition_intervals": 15,
+    "descriptive_minimum_interval": 1,
+    "summary_checks": [
+      {
+        "summary": "A_mid/0.8/0.035/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_mid/0.8/0.035/mean_rate_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/0.8/0.035/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/0.8/0.035/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/0.8/0.035/synchrony_proxy",
+        "max_abs_error": 2.220446049250313e-16
+      },
+      {
+        "summary": "A_mid/0.8/0.035/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/0.8/0.035/spectral_entropy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/0.8/0.035/rhythm_score",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_pool/0.8/0.035/mean_rate_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/0.8/0.035/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/0.8/0.035/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/0.8/0.035/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_pool/0.8/0.035/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/0.8/0.035/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_shared/0.8/0.035/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_shared/0.8/0.035/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_shared/0.8/0.035/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/0.8/0.035/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/0.8/0.035/synchrony_proxy",
+        "max_abs_error": 2.220446049250313e-16
+      },
+      {
+        "summary": "A_shared/0.8/0.035/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/0.8/0.035/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_sparse/0.8/0.035/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_sparse/0.8/0.035/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_sparse/0.8/0.035/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/0.8/0.035/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/0.8/0.035/synchrony_proxy",
+        "max_abs_error": 2.220446049250313e-16
+      },
+      {
+        "summary": "A_sparse/0.8/0.035/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/0.8/0.035/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "shared_random/0.8/0.035/rhythm_score",
+        "max_abs_error": 8.326672684688674e-17
+      },
+      {
+        "summary": "shared_random/0.8/0.035/mean_rate_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/0.8/0.035/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/0.8/0.035/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/0.8/0.035/synchrony_proxy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/0.8/0.035/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/0.8/0.035/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "spectral/0.8/0.035/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "spectral/0.8/0.035/mean_rate_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/0.8/0.035/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/0.8/0.035/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/0.8/0.035/synchrony_proxy",
+        "max_abs_error": 2.220446049250313e-16
+      },
+      {
+        "summary": "spectral/0.8/0.035/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/0.8/0.035/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_mid/1.0/0.035/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_mid/1.0/0.035/mean_rate_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.0/0.035/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.0/0.035/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.0/0.035/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_mid/1.0/0.035/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.0/0.035/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_pool/1.0/0.035/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_pool/1.0/0.035/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_pool/1.0/0.035/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.0/0.035/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.0/0.035/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_pool/1.0/0.035/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.0/0.035/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_shared/1.0/0.035/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_shared/1.0/0.035/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_shared/1.0/0.035/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.0/0.035/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.0/0.035/synchrony_proxy",
+        "max_abs_error": 2.220446049250313e-16
+      },
+      {
+        "summary": "A_shared/1.0/0.035/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.0/0.035/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_sparse/1.0/0.035/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_sparse/1.0/0.035/mean_rate_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.0/0.035/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.0/0.035/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.0/0.035/synchrony_proxy",
+        "max_abs_error": 3.3306690738754696e-16
+      },
+      {
+        "summary": "A_sparse/1.0/0.035/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.0/0.035/spectral_entropy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "shared_random/1.0/0.035/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "shared_random/1.0/0.035/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "shared_random/1.0/0.035/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.0/0.035/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.0/0.035/synchrony_proxy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.0/0.035/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.0/0.035/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "spectral/1.0/0.035/rhythm_score",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.0/0.035/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "spectral/1.0/0.035/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.0/0.035/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.0/0.035/synchrony_proxy",
+        "max_abs_error": 2.220446049250313e-16
+      },
+      {
+        "summary": "spectral/1.0/0.035/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.0/0.035/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_mid/1.2/0.035/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_mid/1.2/0.035/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_mid/1.2/0.035/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.2/0.035/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.2/0.035/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_mid/1.2/0.035/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.2/0.035/spectral_entropy",
+        "max_abs_error": 8.326672684688674e-17
+      },
+      {
+        "summary": "A_pool/1.2/0.035/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_pool/1.2/0.035/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_pool/1.2/0.035/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.2/0.035/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.2/0.035/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_pool/1.2/0.035/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.2/0.035/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_shared/1.2/0.035/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_shared/1.2/0.035/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_shared/1.2/0.035/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.2/0.035/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.2/0.035/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_shared/1.2/0.035/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.2/0.035/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_sparse/1.2/0.035/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_sparse/1.2/0.035/mean_rate_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.2/0.035/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.2/0.035/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.2/0.035/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_sparse/1.2/0.035/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.2/0.035/spectral_entropy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.2/0.035/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "shared_random/1.2/0.035/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "shared_random/1.2/0.035/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.2/0.035/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.2/0.035/synchrony_proxy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.2/0.035/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.2/0.035/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "spectral/1.2/0.035/rhythm_score",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.2/0.035/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "spectral/1.2/0.035/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.2/0.035/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.2/0.035/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "spectral/1.2/0.035/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.2/0.035/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_mid/0.8/0.03875/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_mid/0.8/0.03875/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_mid/0.8/0.03875/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/0.8/0.03875/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/0.8/0.03875/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_mid/0.8/0.03875/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/0.8/0.03875/spectral_entropy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_pool/0.8/0.03875/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_pool/0.8/0.03875/mean_rate_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/0.8/0.03875/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/0.8/0.03875/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/0.8/0.03875/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_pool/0.8/0.03875/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/0.8/0.03875/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_shared/0.8/0.03875/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_shared/0.8/0.03875/mean_rate_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/0.8/0.03875/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/0.8/0.03875/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/0.8/0.03875/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_shared/0.8/0.03875/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/0.8/0.03875/spectral_entropy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/0.8/0.03875/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_sparse/0.8/0.03875/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_sparse/0.8/0.03875/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/0.8/0.03875/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/0.8/0.03875/synchrony_proxy",
+        "max_abs_error": 2.220446049250313e-16
+      },
+      {
+        "summary": "A_sparse/0.8/0.03875/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/0.8/0.03875/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "shared_random/0.8/0.03875/rhythm_score",
+        "max_abs_error": 2.7755575615628914e-17
+      },
+      {
+        "summary": "shared_random/0.8/0.03875/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "shared_random/0.8/0.03875/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/0.8/0.03875/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/0.8/0.03875/synchrony_proxy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/0.8/0.03875/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/0.8/0.03875/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "spectral/0.8/0.03875/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "spectral/0.8/0.03875/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "spectral/0.8/0.03875/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/0.8/0.03875/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/0.8/0.03875/synchrony_proxy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/0.8/0.03875/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/0.8/0.03875/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_mid/1.0/0.03875/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_mid/1.0/0.03875/mean_rate_hz",
+        "max_abs_error": 7.105427357601002e-15
+      },
+      {
+        "summary": "A_mid/1.0/0.03875/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.0/0.03875/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.0/0.03875/synchrony_proxy",
+        "max_abs_error": 2.220446049250313e-16
+      },
+      {
+        "summary": "A_mid/1.0/0.03875/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.0/0.03875/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_pool/1.0/0.03875/rhythm_score",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_pool/1.0/0.03875/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_pool/1.0/0.03875/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.0/0.03875/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.0/0.03875/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_pool/1.0/0.03875/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.0/0.03875/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_shared/1.0/0.03875/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_shared/1.0/0.03875/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_shared/1.0/0.03875/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.0/0.03875/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.0/0.03875/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_shared/1.0/0.03875/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.0/0.03875/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_sparse/1.0/0.03875/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_sparse/1.0/0.03875/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_sparse/1.0/0.03875/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.0/0.03875/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.0/0.03875/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_sparse/1.0/0.03875/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.0/0.03875/spectral_entropy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "shared_random/1.0/0.03875/rhythm_score",
+        "max_abs_error": 8.326672684688674e-17
+      },
+      {
+        "summary": "shared_random/1.0/0.03875/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "shared_random/1.0/0.03875/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.0/0.03875/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.0/0.03875/synchrony_proxy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.0/0.03875/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.0/0.03875/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "spectral/1.0/0.03875/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "spectral/1.0/0.03875/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "spectral/1.0/0.03875/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.0/0.03875/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.0/0.03875/synchrony_proxy",
+        "max_abs_error": 4.440892098500626e-16
+      },
+      {
+        "summary": "spectral/1.0/0.03875/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.0/0.03875/spectral_entropy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_mid/1.2/0.03875/rhythm_score",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_mid/1.2/0.03875/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_mid/1.2/0.03875/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.2/0.03875/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.2/0.03875/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_mid/1.2/0.03875/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.2/0.03875/spectral_entropy",
+        "max_abs_error": 1.6653345369377348e-16
+      },
+      {
+        "summary": "A_pool/1.2/0.03875/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_pool/1.2/0.03875/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_pool/1.2/0.03875/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.2/0.03875/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.2/0.03875/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_pool/1.2/0.03875/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.2/0.03875/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_shared/1.2/0.03875/rhythm_score",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_shared/1.2/0.03875/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_shared/1.2/0.03875/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.2/0.03875/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.2/0.03875/synchrony_proxy",
+        "max_abs_error": 2.220446049250313e-16
+      },
+      {
+        "summary": "A_shared/1.2/0.03875/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.2/0.03875/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_sparse/1.2/0.03875/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_sparse/1.2/0.03875/mean_rate_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.2/0.03875/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.2/0.03875/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.2/0.03875/synchrony_proxy",
+        "max_abs_error": 2.220446049250313e-16
+      },
+      {
+        "summary": "A_sparse/1.2/0.03875/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.2/0.03875/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "shared_random/1.2/0.03875/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "shared_random/1.2/0.03875/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "shared_random/1.2/0.03875/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.2/0.03875/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.2/0.03875/synchrony_proxy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.2/0.03875/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.2/0.03875/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "spectral/1.2/0.03875/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "spectral/1.2/0.03875/mean_rate_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.2/0.03875/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.2/0.03875/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.2/0.03875/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "spectral/1.2/0.03875/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.2/0.03875/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_mid/0.8/0.0425/rhythm_score",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_mid/0.8/0.0425/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_mid/0.8/0.0425/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/0.8/0.0425/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/0.8/0.0425/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_mid/0.8/0.0425/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/0.8/0.0425/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_pool/0.8/0.0425/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_pool/0.8/0.0425/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_pool/0.8/0.0425/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/0.8/0.0425/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/0.8/0.0425/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_pool/0.8/0.0425/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/0.8/0.0425/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_shared/0.8/0.0425/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_shared/0.8/0.0425/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_shared/0.8/0.0425/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/0.8/0.0425/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/0.8/0.0425/synchrony_proxy",
+        "max_abs_error": 2.220446049250313e-16
+      },
+      {
+        "summary": "A_shared/0.8/0.0425/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/0.8/0.0425/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_sparse/0.8/0.0425/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_sparse/0.8/0.0425/mean_rate_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/0.8/0.0425/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/0.8/0.0425/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/0.8/0.0425/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_sparse/0.8/0.0425/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/0.8/0.0425/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "shared_random/0.8/0.0425/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "shared_random/0.8/0.0425/mean_rate_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/0.8/0.0425/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/0.8/0.0425/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/0.8/0.0425/synchrony_proxy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/0.8/0.0425/spectral_concentration",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "shared_random/0.8/0.0425/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "spectral/0.8/0.0425/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "spectral/0.8/0.0425/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "spectral/0.8/0.0425/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/0.8/0.0425/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/0.8/0.0425/synchrony_proxy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/0.8/0.0425/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/0.8/0.0425/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_mid/1.0/0.0425/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_mid/1.0/0.0425/mean_rate_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.0/0.0425/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.0/0.0425/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.0/0.0425/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_mid/1.0/0.0425/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.0/0.0425/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_pool/1.0/0.0425/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_pool/1.0/0.0425/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_pool/1.0/0.0425/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.0/0.0425/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.0/0.0425/synchrony_proxy",
+        "max_abs_error": 2.220446049250313e-16
+      },
+      {
+        "summary": "A_pool/1.0/0.0425/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.0/0.0425/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_shared/1.0/0.0425/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_shared/1.0/0.0425/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_shared/1.0/0.0425/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.0/0.0425/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.0/0.0425/synchrony_proxy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.0/0.0425/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.0/0.0425/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_sparse/1.0/0.0425/rhythm_score",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_sparse/1.0/0.0425/mean_rate_hz",
+        "max_abs_error": 7.105427357601002e-15
+      },
+      {
+        "summary": "A_sparse/1.0/0.0425/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.0/0.0425/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.0/0.0425/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_sparse/1.0/0.0425/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.0/0.0425/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "shared_random/1.0/0.0425/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "shared_random/1.0/0.0425/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "shared_random/1.0/0.0425/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.0/0.0425/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.0/0.0425/synchrony_proxy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.0/0.0425/spectral_concentration",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "shared_random/1.0/0.0425/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "spectral/1.0/0.0425/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "spectral/1.0/0.0425/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "spectral/1.0/0.0425/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.0/0.0425/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.0/0.0425/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "spectral/1.0/0.0425/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.0/0.0425/spectral_entropy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_mid/1.2/0.0425/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_mid/1.2/0.0425/mean_rate_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.2/0.0425/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.2/0.0425/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.2/0.0425/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_mid/1.2/0.0425/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.2/0.0425/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_pool/1.2/0.0425/rhythm_score",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.2/0.0425/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_pool/1.2/0.0425/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.2/0.0425/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.2/0.0425/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_pool/1.2/0.0425/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.2/0.0425/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_shared/1.2/0.0425/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_shared/1.2/0.0425/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_shared/1.2/0.0425/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.2/0.0425/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.2/0.0425/synchrony_proxy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.2/0.0425/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.2/0.0425/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_sparse/1.2/0.0425/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_sparse/1.2/0.0425/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_sparse/1.2/0.0425/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.2/0.0425/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.2/0.0425/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_sparse/1.2/0.0425/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.2/0.0425/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "shared_random/1.2/0.0425/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "shared_random/1.2/0.0425/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "shared_random/1.2/0.0425/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.2/0.0425/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.2/0.0425/synchrony_proxy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.2/0.0425/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.2/0.0425/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "spectral/1.2/0.0425/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "spectral/1.2/0.0425/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "spectral/1.2/0.0425/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.2/0.0425/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.2/0.0425/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "spectral/1.2/0.0425/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.2/0.0425/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_mid/0.8/0.04625/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_mid/0.8/0.04625/mean_rate_hz",
+        "max_abs_error": 7.105427357601002e-15
+      },
+      {
+        "summary": "A_mid/0.8/0.04625/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/0.8/0.04625/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/0.8/0.04625/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_mid/0.8/0.04625/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/0.8/0.04625/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_pool/0.8/0.04625/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_pool/0.8/0.04625/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_pool/0.8/0.04625/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/0.8/0.04625/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/0.8/0.04625/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_pool/0.8/0.04625/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/0.8/0.04625/spectral_entropy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_shared/0.8/0.04625/rhythm_score",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_shared/0.8/0.04625/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_shared/0.8/0.04625/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/0.8/0.04625/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/0.8/0.04625/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_shared/0.8/0.04625/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/0.8/0.04625/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_sparse/0.8/0.04625/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_sparse/0.8/0.04625/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_sparse/0.8/0.04625/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/0.8/0.04625/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/0.8/0.04625/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_sparse/0.8/0.04625/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/0.8/0.04625/spectral_entropy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/0.8/0.04625/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "shared_random/0.8/0.04625/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "shared_random/0.8/0.04625/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/0.8/0.04625/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/0.8/0.04625/synchrony_proxy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/0.8/0.04625/spectral_concentration",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "shared_random/0.8/0.04625/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "spectral/0.8/0.04625/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "spectral/0.8/0.04625/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "spectral/0.8/0.04625/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/0.8/0.04625/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/0.8/0.04625/synchrony_proxy",
+        "max_abs_error": 2.220446049250313e-16
+      },
+      {
+        "summary": "spectral/0.8/0.04625/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/0.8/0.04625/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_mid/1.0/0.04625/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_mid/1.0/0.04625/mean_rate_hz",
+        "max_abs_error": 1.0658141036401503e-14
+      },
+      {
+        "summary": "A_mid/1.0/0.04625/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.0/0.04625/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.0/0.04625/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_mid/1.0/0.04625/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.0/0.04625/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_pool/1.0/0.04625/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_pool/1.0/0.04625/mean_rate_hz",
+        "max_abs_error": 7.105427357601002e-15
+      },
+      {
+        "summary": "A_pool/1.0/0.04625/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.0/0.04625/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.0/0.04625/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_pool/1.0/0.04625/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.0/0.04625/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_shared/1.0/0.04625/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_shared/1.0/0.04625/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_shared/1.0/0.04625/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.0/0.04625/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.0/0.04625/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_shared/1.0/0.04625/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.0/0.04625/spectral_entropy",
+        "max_abs_error": 1.6653345369377348e-16
+      },
+      {
+        "summary": "A_sparse/1.0/0.04625/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_sparse/1.0/0.04625/mean_rate_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.0/0.04625/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.0/0.04625/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.0/0.04625/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_sparse/1.0/0.04625/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.0/0.04625/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "shared_random/1.0/0.04625/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "shared_random/1.0/0.04625/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "shared_random/1.0/0.04625/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.0/0.04625/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.0/0.04625/synchrony_proxy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.0/0.04625/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.0/0.04625/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "spectral/1.0/0.04625/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "spectral/1.0/0.04625/mean_rate_hz",
+        "max_abs_error": 7.105427357601002e-15
+      },
+      {
+        "summary": "spectral/1.0/0.04625/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.0/0.04625/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.0/0.04625/synchrony_proxy",
+        "max_abs_error": 2.220446049250313e-16
+      },
+      {
+        "summary": "spectral/1.0/0.04625/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.0/0.04625/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_mid/1.2/0.04625/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_mid/1.2/0.04625/mean_rate_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.2/0.04625/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.2/0.04625/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.2/0.04625/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_mid/1.2/0.04625/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.2/0.04625/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_pool/1.2/0.04625/rhythm_score",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_pool/1.2/0.04625/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_pool/1.2/0.04625/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.2/0.04625/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.2/0.04625/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_pool/1.2/0.04625/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.2/0.04625/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_shared/1.2/0.04625/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_shared/1.2/0.04625/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_shared/1.2/0.04625/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.2/0.04625/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.2/0.04625/synchrony_proxy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.2/0.04625/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.2/0.04625/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_sparse/1.2/0.04625/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_sparse/1.2/0.04625/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_sparse/1.2/0.04625/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.2/0.04625/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.2/0.04625/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_sparse/1.2/0.04625/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.2/0.04625/spectral_entropy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "shared_random/1.2/0.04625/rhythm_score",
+        "max_abs_error": 2.7755575615628914e-17
+      },
+      {
+        "summary": "shared_random/1.2/0.04625/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "shared_random/1.2/0.04625/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.2/0.04625/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.2/0.04625/synchrony_proxy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.2/0.04625/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.2/0.04625/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "spectral/1.2/0.04625/rhythm_score",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "spectral/1.2/0.04625/mean_rate_hz",
+        "max_abs_error": 7.105427357601002e-15
+      },
+      {
+        "summary": "spectral/1.2/0.04625/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.2/0.04625/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.2/0.04625/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "spectral/1.2/0.04625/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.2/0.04625/spectral_entropy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_mid/0.8/0.05/rhythm_score",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_mid/0.8/0.05/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_mid/0.8/0.05/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/0.8/0.05/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/0.8/0.05/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_mid/0.8/0.05/spectral_concentration",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_mid/0.8/0.05/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_pool/0.8/0.05/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_pool/0.8/0.05/mean_rate_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/0.8/0.05/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/0.8/0.05/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/0.8/0.05/synchrony_proxy",
+        "max_abs_error": 2.220446049250313e-16
+      },
+      {
+        "summary": "A_pool/0.8/0.05/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/0.8/0.05/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_shared/0.8/0.05/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_shared/0.8/0.05/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_shared/0.8/0.05/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/0.8/0.05/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/0.8/0.05/synchrony_proxy",
+        "max_abs_error": 2.220446049250313e-16
+      },
+      {
+        "summary": "A_shared/0.8/0.05/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/0.8/0.05/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_sparse/0.8/0.05/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_sparse/0.8/0.05/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_sparse/0.8/0.05/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/0.8/0.05/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/0.8/0.05/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_sparse/0.8/0.05/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/0.8/0.05/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "shared_random/0.8/0.05/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "shared_random/0.8/0.05/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "shared_random/0.8/0.05/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/0.8/0.05/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/0.8/0.05/synchrony_proxy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/0.8/0.05/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/0.8/0.05/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "spectral/0.8/0.05/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "spectral/0.8/0.05/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "spectral/0.8/0.05/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/0.8/0.05/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/0.8/0.05/synchrony_proxy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/0.8/0.05/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/0.8/0.05/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_mid/1.0/0.05/rhythm_score",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_mid/1.0/0.05/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_mid/1.0/0.05/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.0/0.05/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.0/0.05/synchrony_proxy",
+        "max_abs_error": 2.220446049250313e-16
+      },
+      {
+        "summary": "A_mid/1.0/0.05/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.0/0.05/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_pool/1.0/0.05/rhythm_score",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_pool/1.0/0.05/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_pool/1.0/0.05/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.0/0.05/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.0/0.05/synchrony_proxy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.0/0.05/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.0/0.05/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_shared/1.0/0.05/rhythm_score",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_shared/1.0/0.05/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_shared/1.0/0.05/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.0/0.05/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.0/0.05/synchrony_proxy",
+        "max_abs_error": 2.220446049250313e-16
+      },
+      {
+        "summary": "A_shared/1.0/0.05/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.0/0.05/spectral_entropy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.0/0.05/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_sparse/1.0/0.05/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_sparse/1.0/0.05/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.0/0.05/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.0/0.05/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_sparse/1.0/0.05/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.0/0.05/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "shared_random/1.0/0.05/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "shared_random/1.0/0.05/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "shared_random/1.0/0.05/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.0/0.05/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.0/0.05/synchrony_proxy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.0/0.05/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.0/0.05/spectral_entropy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "spectral/1.0/0.05/rhythm_score",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "spectral/1.0/0.05/mean_rate_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.0/0.05/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.0/0.05/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.0/0.05/synchrony_proxy",
+        "max_abs_error": 2.220446049250313e-16
+      },
+      {
+        "summary": "spectral/1.0/0.05/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.0/0.05/spectral_entropy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_mid/1.2/0.05/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_mid/1.2/0.05/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_mid/1.2/0.05/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.2/0.05/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.2/0.05/synchrony_proxy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.2/0.05/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_mid/1.2/0.05/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_pool/1.2/0.05/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_pool/1.2/0.05/mean_rate_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.2/0.05/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.2/0.05/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.2/0.05/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_pool/1.2/0.05/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_pool/1.2/0.05/spectral_entropy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_shared/1.2/0.05/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_shared/1.2/0.05/mean_rate_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.2/0.05/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.2/0.05/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.2/0.05/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_shared/1.2/0.05/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_shared/1.2/0.05/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_sparse/1.2/0.05/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "A_sparse/1.2/0.05/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "A_sparse/1.2/0.05/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.2/0.05/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.2/0.05/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "A_sparse/1.2/0.05/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "A_sparse/1.2/0.05/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "shared_random/1.2/0.05/rhythm_score",
+        "max_abs_error": 8.326672684688674e-17
+      },
+      {
+        "summary": "shared_random/1.2/0.05/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "shared_random/1.2/0.05/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.2/0.05/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.2/0.05/synchrony_proxy",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.2/0.05/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "shared_random/1.2/0.05/spectral_entropy",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "spectral/1.2/0.05/rhythm_score",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "spectral/1.2/0.05/mean_rate_hz",
+        "max_abs_error": 3.552713678800501e-15
+      },
+      {
+        "summary": "spectral/1.2/0.05/dominant_frequency_hz",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.2/0.05/silent_fraction",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.2/0.05/synchrony_proxy",
+        "max_abs_error": 1.1102230246251565e-16
+      },
+      {
+        "summary": "spectral/1.2/0.05/spectral_concentration",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "spectral/1.2/0.05/spectral_entropy",
+        "max_abs_error": 1.6653345369377348e-16
+      },
+      {
+        "summary": "paired/0.8/0.035",
+        "max_abs_error": 4.163336342344337e-17
+      },
+      {
+        "summary": "paired/1.0/0.035",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "paired/1.2/0.035",
+        "max_abs_error": 0.0
+      },
+      {
+        "summary": "paired/0.8/0.03875",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "paired/1.0/0.03875",
+        "max_abs_error": 2.7755575615628914e-17
+      },
+      {
+        "summary": "paired/1.2/0.03875",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "paired/0.8/0.0425",
+        "max_abs_error": 2.7755575615628914e-17
+      },
+      {
+        "summary": "paired/1.0/0.0425",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "paired/1.2/0.0425",
+        "max_abs_error": 8.326672684688674e-17
+      },
+      {
+        "summary": "paired/0.8/0.04625",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "paired/1.0/0.04625",
+        "max_abs_error": 4.163336342344337e-17
+      },
+      {
+        "summary": "paired/1.2/0.04625",
+        "max_abs_error": 5.551115123125783e-17
+      },
+      {
+        "summary": "paired/0.8/0.05",
+        "max_abs_error": 8.326672684688674e-17
+      },
+      {
+        "summary": "paired/1.0/0.05",
+        "max_abs_error": 4.163336342344337e-17
+      },
+      {
+        "summary": "paired/1.2/0.05",
+        "max_abs_error": 6.938893903907228e-17
+      },
+      {
+        "summary": "descriptive_difference_in_grid_minima",
+        "max_abs_error": 2.7755575615628914e-17
+      }
+    ],
+    "heatmap_values": 450,
+    "matrices": {
+      "mean_rate_hz": {
+        "shape": [
+          18,
+          5
+        ],
+        "values_sha256": "942dde6b4a40a91f772a39928b066f0b2b1ac3952f27020f9932a2d262d5f8c1",
+        "minimum": 19.86164495680067,
+        "maximum": 21.717601789368526
+      },
+      "dominant_frequency_hz": {
+        "shape": [
+          18,
+          5
+        ],
+        "values_sha256": "0215df29cac49c122510b060684e38c1a81492093df865d55f0e8261d904b98b",
+        "minimum": 69.34722222222221,
+        "maximum": 70.06944444444444
+      },
+      "synchrony_proxy": {
+        "shape": [
+          18,
+          5
+        ],
+        "values_sha256": "b4656fbe4d9b1fea06bcf3685490026ef654ca646e4ce77e64c9c3801fbdba6b",
+        "minimum": 0.5951081693379415,
+        "maximum": 1.021536230006152
+      },
+      "spectral_concentration": {
+        "shape": [
+          18,
+          5
+        ],
+        "values_sha256": "54a7408a99d47fb7b07a12ef5133d7c05494dadf877183417e33a8c98cb4f51e",
+        "minimum": 0.47272976700009567,
+        "maximum": 0.7345623227043284
+      },
+      "spectral_entropy": {
+        "shape": [
+          18,
+          5
+        ],
+        "values_sha256": "9491b10a4ebcf69b558b3e3857092b8d42cb9e5714227f52fb0a5b1413257b76",
+        "minimum": 0.2510595190752711,
+        "maximum": 0.4637664536842041
+      }
+    },
+    "graph_metric_rows": 1080,
+    "silent_fraction_graph_rows_all_zero": true,
+    "raw_zero_claim_not_recomputed_here": true,
+    "masks_not_reselected": true,
+    "graph_noise_repeat_counts_verified": true
+  },
+  "source_AST_sha256": {
+    "bootstrap_indices": "9699b67cc95da7d254b461e744ee0227398c810443ecb6a3ac58310a424312d3",
+    "effect_summary": "deed629662753543543316d84a691ffba7cc96d73cbe9971e156f72aa8760a4b",
+    "derive_tables": "c4599be8753c4c2d405b2289979eb332e8fcec833e529f7b60530d0304f6b253"
+  },
+  "current_caption_correct": true,
+  "remaining_same_depth_panels": [
+    "ED1",
+    "ED2",
+    "ED3",
+    "ED4"
+  ],
+  "limits": [
+    "Only frozen processed graph means reconstructed; not a new raw-dynamics evaluation.",
+    "Silent-fraction zero verified at graph/profile levels; prior raw provenance audit remains separate."
+  ],
+  "verified_date": "2026-09-14",
+  "review_method": "Source-reviewed plotting transformations, exact dataset/geometry binding and listed finite numerical checks; no new simulation, search or model fit.",
+  "source_basename_sha256": {
+    "plot_stress.py": "775012ee43962c64204dc32a8091dcc2da38e9d940614a3ccd00d1ece83bf73e",
+    "analyze_stress.py": "60e9ed5a9913def8b10cd622060c01cba076d474df29111a28202b2fb0a20884",
+    "build_ed_si.py": "1b46bb016996ce6a47533b5eaf6547b0dadee0c524aca15318b0ca75f8d93553",
+    "ED05.pdf": "491b900a36a9bb2b30aa8bad906bf2aeb99af27311973ee3c1fb950119fa30bd"
+  }
+}

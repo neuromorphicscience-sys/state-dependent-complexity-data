@@ -46,7 +46,7 @@ The 66 method/task summaries in ED8i-n use equal-weight raw scores across two
 states, whereas the primary and secondary contrasts use worst-state normalized
 scores, taking per-mask minima before control-mask averaging. All 22 SI Table 2
 rows match frozen statistics, including the primary aggregate null. Shared
-input-history controls are not twelve independent graph controls. ED1-5 still require this level of granular estimator mapping; the biological support mappings below now cover ED6-7 and SI1-6.
+input-history controls are not twelve independent graph controls. The subsequent historical support crosswalks below complete the remaining ED1-5 mappings.
 
 Each dataset has a stable content identifier, SHA256, source-table aliases and a relative filename. Dataset aliases are scientific table names, not private workstation paths. Three records had local path metadata removed; these changes are explicitly recorded and do not alter numerical values. All other dataset bytes are unchanged. Different source filenames with identical content are stored once. `SHA256SUMS.json` binds every file in this revision except itself.
 
@@ -113,3 +113,29 @@ the original defect explicitly. Coefficient-landscape and Jaccard matched-null
 boundaries remain non-confirmatory; they are not replaced by repeat averages.
 All six main figures, ED6-8 and SI1-6 now have source-reviewed display/estimator
 mappings. This is not raw-estimator or complete production-launcher portability.
+
+
+## Complete quantitative-panel coverage
+
+`panel_maps/full_quantitative_coverage.json` verifies disjoint coverage of all
+202 quantitative lettered panels / 246 microplots across six main, eight ED and
+six SI figures against frozen geometry. These are reporting counts, not new
+independent experiments. Existing figure values and layouts are unchanged.
+
+The transfer, stress and historical support crosswalk JSON/CSV pairs complete
+ED1-5: 65 panels / 67 microplots. They distinguish graph, condition, state,
+calibration and search-repeat units and each actual interval construction.
+ED1b/d/e/f and ED4a use descriptive three-graph mean +/- 1.96 SEM bands, not
+bootstrap intervals. ED2a/c transform clipped means and bounds separately.
+ED3c-g use condition-level mean +/- 1.96 SEM, h saved condition-bootstrap limits,
+and k/l twelve-graph percentile-bootstrap limits. Exact checks and remaining
+raw-estimator limits are recorded in the corresponding JSON, including that
+ED3h bootstrap endpoints and underlying ED4o masks were not regenerated.
+
+Five already-existing generated SI10 source tables, used by final ED4j-o, were
+omitted by the earlier upstream-read capture. They are now indexed byte-exact:
+120 depth rows, six 10-to-20 gain pairs, 60 repeat crossovers, 120 search/held-out
+pairs and 1,140 nested mask-overlap pairs (78,147 bytes total). All prior 291
+dataset records and contents are unchanged; total indexed datasets is 296.
+No new scientific runs, raw third-party records, licences or manuscripts are
+part of this addition. Complete mapping does not certify raw-model rerunning.

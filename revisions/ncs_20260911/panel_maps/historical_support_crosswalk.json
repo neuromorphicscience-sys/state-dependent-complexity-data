@@ -1,0 +1,2360 @@
+{
+  "quantitative_panels": 41,
+  "quantitative_microplots": 41,
+  "records": [
+    {
+      "figure": "ED02",
+      "panel": "a",
+      "source_panel": "ED02a",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_08e35c3d5f3b520489f4",
+          "sha256": "08e35c3d5f3b520489f426925ac1dc374b1ee48c03ccda4559abcc08f74b6d26",
+          "source_table_name": "01_stage1b_window_frequency_transition__stage1b_window_frequency_transition.csv",
+          "rows": 35,
+          "columns": [
+            "window",
+            "complexity_fraction",
+            "frequency_transition_strength_mean",
+            "frequency_transition_strength_std",
+            "frequency_transition_strength_n",
+            "frequency_transition_strength_sem",
+            "frequency_transition_strength_ci95",
+            "source_fraction_column",
+            "semantic_fraction_name"
+          ],
+          "public_file": "tables/sd_08e35c3d5f3b520489f4.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED02:plot_window_lines": "b6c0a94316006398e971d22d6afcd49d117645a4ce33c606439cbc4156a172bb"
+      },
+      "displayed_estimate": "Frequency-transition strength by fraction and three operating windows; log10(1+max(x,0)) applied separately to mean and each bound.",
+      "observational_unit": "Archived per-window/fraction run counts in source n column.",
+      "interval_or_spread": "Saved mean \u00b1 ci95; ci95=1.96 sample SEM=1.96 sample SD/sqrt(n), not bootstrap or calibrated small-sample t coverage.",
+      "inference_limits": "Runs/conditions reuse graphs and settings; not independent realized-graph interventions across every rule; no measured hardware efficiency or universal search superiority."
+    },
+    {
+      "figure": "ED02",
+      "panel": "c",
+      "source_panel": "ED02c",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_05fc249bfd4e02154f39",
+          "sha256": "05fc249bfd4e02154f397c78120f8da22aa1dbba507e64e118ee1e550071a47e",
+          "source_table_name": "02_stage1b_window_rhythm_transition__stage1b_window_rhythm_transition.csv",
+          "rows": 35,
+          "columns": [
+            "window",
+            "complexity_fraction",
+            "rhythm_transition_strength_mean",
+            "rhythm_transition_strength_std",
+            "rhythm_transition_strength_n",
+            "rhythm_transition_strength_sem",
+            "rhythm_transition_strength_ci95",
+            "source_fraction_column",
+            "semantic_fraction_name"
+          ],
+          "public_file": "tables/sd_05fc249bfd4e02154f39.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED02:plot_window_lines": "b6c0a94316006398e971d22d6afcd49d117645a4ce33c606439cbc4156a172bb"
+      },
+      "displayed_estimate": "Rhythm-transition strength by fraction and three operating windows; log10(1+max(x,0)) applied separately to mean and each bound.",
+      "observational_unit": "Archived per-window/fraction run counts in source n column.",
+      "interval_or_spread": "Saved mean \u00b1 ci95; ci95=1.96 sample SEM=1.96 sample SD/sqrt(n), not bootstrap or calibrated small-sample t coverage.",
+      "inference_limits": "Runs/conditions reuse graphs and settings; not independent realized-graph interventions across every rule; no measured hardware efficiency or universal search superiority."
+    },
+    {
+      "figure": "ED02",
+      "panel": "d",
+      "source_panel": "ED02d",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_4141036814c8fa4e0555",
+          "sha256": "4141036814c8fa4e05559b7f48d38bb3fd9a5cbb6de0a91db5a16fc1216741be",
+          "source_table_name": "01_stage1b_window_rhythm_score__stage1b_window_rhythm_score.csv",
+          "rows": 35,
+          "columns": [
+            "window",
+            "complexity_fraction",
+            "rhythm_score_stage1b_mean",
+            "rhythm_score_stage1b_std",
+            "rhythm_score_stage1b_n",
+            "rhythm_score_stage1b_sem",
+            "rhythm_score_stage1b_ci95",
+            "source_fraction_column",
+            "semantic_fraction_name"
+          ],
+          "public_file": "tables/sd_4141036814c8fa4e0555.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED02:plot_window_lines": "b6c0a94316006398e971d22d6afcd49d117645a4ce33c606439cbc4156a172bb"
+      },
+      "displayed_estimate": "Rhythm organization by fraction and three operating windows; linear mean display.",
+      "observational_unit": "Archived per-window/fraction run counts in source n column.",
+      "interval_or_spread": "Saved mean \u00b1 ci95; ci95=1.96 sample SEM=1.96 sample SD/sqrt(n), not bootstrap or calibrated small-sample t coverage.",
+      "inference_limits": "Runs/conditions reuse graphs and settings; not independent realized-graph interventions across every rule; no measured hardware efficiency or universal search superiority."
+    },
+    {
+      "figure": "ED02",
+      "panel": "b",
+      "source_panel": "ED02b",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_4bc37f5715a0880704b7",
+          "sha256": "4bc37f5715a0880704b705ccd1ddb8c8ba2dfba4f5e76179531d16c814c362ff",
+          "source_table_name": "01_stage1b_frequency_transition_frequency_state_composition__stage1b_frequency_transition_frequency_state_composition.csv",
+          "rows": 60,
+          "columns": [
+            "complexity_fraction",
+            "frequency_state",
+            "fraction",
+            "window",
+            "source_fraction_column",
+            "semantic_fraction_name"
+          ],
+          "public_file": "tables/sd_4bc37f5715a0880704b7.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED02:plot_b": "b5403c76fd9ea7feb4f4f578cad9a9dbe06079f20892d6616f347b4293354004"
+      },
+      "displayed_estimate": "Five-category frequency-state composition; pivot by fraction, missing categories filled with zero.",
+      "observational_unit": "Archived composition per fraction in the frequency-transition window.",
+      "interval_or_spread": "Fractions sum to one; no CI.",
+      "inference_limits": "Runs/conditions reuse graphs and settings; not independent realized-graph interventions across every rule; no measured hardware efficiency or universal search superiority."
+    },
+    {
+      "figure": "ED02",
+      "panel": "e",
+      "source_panel": "ED02e",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_66330205b9ba136a62d6",
+          "sha256": "66330205b9ba136a62d6b0e301b4d23a5a31c762393b3117517f9d3ec50cb6ed",
+          "source_table_name": "01_stage3_emergence_vs_budget_by_topology__stage3_emergence_vs_budget_by_topology.csv",
+          "rows": 52,
+          "columns": [
+            "topology",
+            "complexity_fraction",
+            "mean",
+            "std",
+            "n",
+            "median",
+            "sem",
+            "ci95"
+          ],
+          "public_file": "tables/sd_66330205b9ba136a62d6.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED02:plot_e": "e5ecac4207d7dc9e8c0c6ef54bb807c0764d7b3deaa4449560f32e9898f36a36"
+      },
+      "displayed_estimate": "Mean emergence by fraction and four topology families.",
+      "observational_unit": "52 topology/fraction summary rows with archived run counts.",
+      "interval_or_spread": "Saved mean \u00b1 ci95; ci95=1.96 sample SEM=1.96 sample SD/sqrt(n), not bootstrap or calibrated small-sample t coverage.",
+      "inference_limits": "Runs/conditions reuse graphs and settings; not independent realized-graph interventions across every rule; no measured hardware efficiency or universal search superiority."
+    },
+    {
+      "figure": "ED02",
+      "panel": "f",
+      "source_panel": "ED02f",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_8d9a7d8b521388d3912f",
+          "sha256": "8d9a7d8b521388d3912f3c9c46f3c708b2d39924095387d8d56d8406e823a637",
+          "source_table_name": "01_stage2_regime_by_allocation_gain__stage2_regime_by_allocation_gain.csv",
+          "rows": 14,
+          "columns": [
+            "regime",
+            "placement",
+            "placement_gain_vs_random_mean"
+          ],
+          "public_file": "tables/sd_8d9a7d8b521388d3912f.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED02:heat_data": "7911fb1da2681f104d696850a51f5138e2fec017a9d116e6a11000f4f39ec11c",
+        "ED02:plot_heatmap": "279ca8db9bdd701ea133dd1f21de2a78f0d998906e5d1931f4111c91a35ecf86",
+        "assembly:place": "83d882eba5e096d2c0ce5b8279342affb8937b2d70e0b9e2928f432b168cb29f"
+      },
+      "displayed_estimate": "state \u00d7 six-rule gain matrix, dropping only the non-allocation none row; shared zero-centered scale; assembly removes annotations, not cells.",
+      "observational_unit": "Archived aggregate gains, not independent matrix-cell experiments.",
+      "interval_or_spread": "No intervals.",
+      "inference_limits": "Runs/conditions reuse graphs and settings; not independent realized-graph interventions across every rule; no measured hardware efficiency or universal search superiority."
+    },
+    {
+      "figure": "ED02",
+      "panel": "g",
+      "source_panel": "ED02g",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_17e1f99ed70196bfc365",
+          "sha256": "17e1f99ed70196bfc365f76bf3496b09919d109fb46853f1cff1c6f2df28e2e4",
+          "source_table_name": "01_stage2_topology_by_allocation_gain__stage2_topology_by_allocation_gain.csv",
+          "rows": 28,
+          "columns": [
+            "topology",
+            "placement",
+            "placement_gain_vs_random_mean"
+          ],
+          "public_file": "tables/sd_17e1f99ed70196bfc365.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED02:heat_data": "7911fb1da2681f104d696850a51f5138e2fec017a9d116e6a11000f4f39ec11c",
+        "ED02:plot_heatmap": "279ca8db9bdd701ea133dd1f21de2a78f0d998906e5d1931f4111c91a35ecf86",
+        "assembly:place": "83d882eba5e096d2c0ce5b8279342affb8937b2d70e0b9e2928f432b168cb29f"
+      },
+      "displayed_estimate": "topology \u00d7 six-rule gain matrix, dropping only the non-allocation none row; shared zero-centered scale; assembly removes annotations, not cells.",
+      "observational_unit": "Archived aggregate gains, not independent matrix-cell experiments.",
+      "interval_or_spread": "No intervals.",
+      "inference_limits": "Runs/conditions reuse graphs and settings; not independent realized-graph interventions across every rule; no measured hardware efficiency or universal search superiority."
+    },
+    {
+      "figure": "ED02",
+      "panel": "h",
+      "source_panel": "ED02h",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_48e53c4f654f0c71f346",
+          "sha256": "48e53c4f654f0c71f3465bb160b11aefecde1fa47ce834ab77bdfbe0ccf2e436",
+          "source_table_name": "01_stage3_targeted_vs_random_complexity_requirement__stage3_targeted_vs_random_complexity_requirement.csv",
+          "rows": 1895,
+          "columns": [
+            "random_complex_units_required",
+            "targeted_complex_units_required",
+            "topology"
+          ],
+          "public_file": "tables/sd_48e53c4f654f0c71f346.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED02:plot_h": "1fad150813b173958737403bfe48dc0400c580f1c502da058874e08ee8c39109"
+      },
+      "displayed_estimate": "All 1,895 targeted-versus-random requirement pairs and identity line.",
+      "observational_unit": "Archived requirement rows colored by topology; nested settings.",
+      "interval_or_spread": "No intervals.",
+      "inference_limits": "Runs/conditions reuse graphs and settings; not independent realized-graph interventions across every rule; no measured hardware efficiency or universal search superiority."
+    },
+    {
+      "figure": "ED02",
+      "panel": "i",
+      "source_panel": "Fig02e",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_4a3e3a389b2639bb604b",
+          "sha256": "4a3e3a389b2639bb604b126e602c7def0f13030a721b3570876508a0df68af72",
+          "source_table_name": "01_stage2_placement_gain_vs_random__stage2_placement_gain_vs_random.csv",
+          "rows": 60,
+          "columns": [
+            "placement",
+            "complexity_fraction",
+            "mean",
+            "std",
+            "n",
+            "median",
+            "sem",
+            "ci95",
+            "source_fraction_column",
+            "semantic_fraction_name"
+          ],
+          "public_file": "tables/sd_4a3e3a389b2639bb604b.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "Fig02:plot_method_curve": "05e8299c3399ed529c94abd027fe87e87d6b1e6c04670bd3e262066f3523bcde",
+        "assembly:extra_sources": "b8f4f85a15631e30b546d362a3d517133eb1e9613b2b20d5edc73463108a5fcf"
+      },
+      "displayed_estimate": "Rule-wise placement gain versus random; spectral alias label retained.",
+      "observational_unit": "Archived rule/fraction run counts.",
+      "interval_or_spread": "Saved mean \u00b1 ci95; ci95=1.96 sample SEM=1.96 sample SD/sqrt(n), not bootstrap or calibrated small-sample t coverage.",
+      "inference_limits": "Runs/conditions reuse graphs and settings; not independent realized-graph interventions across every rule; no measured hardware efficiency or universal search superiority."
+    },
+    {
+      "figure": "ED02",
+      "panel": "j",
+      "source_panel": "SI12a",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_1f299a44cdcd020877a6",
+          "sha256": "1f299a44cdcd020877a626f600a949e7b34bb4e497b447384ff83158b221ef1c",
+          "source_table_name": "stage3_complexity_activity_gain.csv",
+          "rows": 4,
+          "columns": [
+            "complexity_fraction",
+            "mean",
+            "std",
+            "n",
+            "sem",
+            "ci95"
+          ],
+          "public_file": "tables/sd_1f299a44cdcd020877a6.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI12:plot_ci": "caa98019ee206d2a6d3a1cf904ed661f234da3376ca7a4f7b852912b388f909a"
+      },
+      "displayed_estimate": "Activity gain means by four fractions.",
+      "observational_unit": "Four runs at each homogeneous endpoint, 12 at each intermediate fraction.",
+      "interval_or_spread": "Saved mean \u00b1 ci95; ci95=1.96 sample SEM=1.96 sample SD/sqrt(n), not bootstrap or calibrated small-sample t coverage.",
+      "inference_limits": "Runs/conditions reuse graphs and settings; not independent realized-graph interventions across every rule; no measured hardware efficiency or universal search superiority."
+    },
+    {
+      "figure": "ED02",
+      "panel": "k",
+      "source_panel": "SI12b",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_32793edd4a120e6f5502",
+          "sha256": "32793edd4a120e6f5502cc9ae918e4f400cb8a28076a922e5696d2d851f74863",
+          "source_table_name": "stage3_complexity_synchrony.csv",
+          "rows": 4,
+          "columns": [
+            "complexity_fraction",
+            "mean",
+            "std",
+            "n",
+            "sem",
+            "ci95"
+          ],
+          "public_file": "tables/sd_32793edd4a120e6f5502.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI12:plot_ci": "caa98019ee206d2a6d3a1cf904ed661f234da3376ca7a4f7b852912b388f909a"
+      },
+      "displayed_estimate": "Synchrony means by four fractions.",
+      "observational_unit": "Four runs at each homogeneous endpoint, 12 at each intermediate fraction.",
+      "interval_or_spread": "Saved mean \u00b1 ci95; ci95=1.96 sample SEM=1.96 sample SD/sqrt(n), not bootstrap or calibrated small-sample t coverage.",
+      "inference_limits": "Runs/conditions reuse graphs and settings; not independent realized-graph interventions across every rule; no measured hardware efficiency or universal search superiority."
+    },
+    {
+      "figure": "ED02",
+      "panel": "l",
+      "source_panel": "SI12c",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_9c4e9f0788b913ed54fe",
+          "sha256": "9c4e9f0788b913ed54fe5071fbcc5e4fc43a2ab8d1a1b4b065388ba7afa91612",
+          "source_table_name": "stage3_positive_emergence_fraction.csv",
+          "rows": 4,
+          "columns": [
+            "topology",
+            "mean",
+            "median",
+            "n",
+            "positive_fraction"
+          ],
+          "public_file": "tables/sd_9c4e9f0788b913ed54fe.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "SI12:plot_positive_fraction": "4bd9acd2d61d0384c4e3e1d6d31a14782caf35c9ba6ee12c53023073039fad78"
+      },
+      "displayed_estimate": "Positive-emergence fraction for each topology family.",
+      "observational_unit": "2,184 archived simulations per topology family.",
+      "interval_or_spread": "Fraction only; no CI.",
+      "inference_limits": "Runs/conditions reuse graphs and settings; not independent realized-graph interventions across every rule; no measured hardware efficiency or universal search superiority."
+    },
+    {
+      "figure": "ED03",
+      "panel": "a",
+      "source_panel": "ED03a",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_db6513feb18f8244a58c",
+          "sha256": "db6513feb18f8244a58c721c58936c60bab04e46728a58eba0f59a0688ee79bb",
+          "source_table_name": "01_stage4_main_phase_baseline_heatmap__stage4_paired_contrasts.csv",
+          "rows": 66,
+          "columns": [
+            "grouping",
+            "group",
+            "baseline",
+            "n_tasks",
+            "mean_delta",
+            "bootstrap95_low",
+            "bootstrap95_high",
+            "median_delta",
+            "positive_fraction",
+            "wilcoxon_greater_p",
+            "wilcoxon_two_sided_p",
+            "wilcoxon_greater_fdr_bh"
+          ],
+          "public_file": "tables/sd_db6513feb18f8244a58c.csv"
+        },
+        {
+          "dataset_id": "sd_f22bc19a40798d86b475",
+          "sha256": "f22bc19a40798d86b47528d65dc30b49374c7ef4ce918466011b9e27d769de90",
+          "source_table_name": "01_si_phase_curve_er_patch__stage4_core_225_task_methods.csv",
+          "rows": 1575,
+          "columns": [
+            "phase",
+            "priority",
+            "N",
+            "topology",
+            "graph_seed",
+            "regime",
+            "coupling",
+            "connection_prob",
+            "noise_sigma",
+            "k",
+            "budget_fraction",
+            "evaluation_repeats",
+            "task_id",
+            "evidence_source",
+            "method",
+            "score",
+            "raw_rows",
+            "mask_key",
+            "sel_total_degree",
+            "sel_feedback",
+            "sel_cycle3",
+            "sel_bridge",
+            "sel_spectral",
+            "coverage1",
+            "coverage2",
+            "out_neighbor_redundancy",
+            "selected_dispersion",
+            "optimizer_search_best",
+            "task_type",
+            "search_replicate",
+            "validation_repeats"
+          ],
+          "public_file": "tables/sd_f22bc19a40798d86b475.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED03:plot_heatmap": "40a59c8ea77376302dee21b55812e7aa3dd7425885066027cecbec96adce6011"
+      },
+      "displayed_estimate": "Five phases \u00d7 six comparator mean gains.",
+      "observational_unit": "225 archived conditions across reused graphs; phases contain 27/72/36/36/54 conditions, not new independent graph draws.",
+      "interval_or_spread": "No interval in matrix.",
+      "inference_limits": "Runs/conditions reuse graphs and settings; not independent realized-graph interventions across every rule; no measured hardware efficiency or universal search superiority."
+    },
+    {
+      "figure": "ED03",
+      "panel": "b",
+      "source_panel": "ED03b",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_7748ba57319756627557",
+          "sha256": "7748ba5731975662755790a4436d4d704827fe0d073855e6d6b73eb328bb02f8",
+          "source_table_name": "01_stage4_main_model_biology_bridge__model_side_biology_bridge.csv",
+          "rows": 225,
+          "columns": [
+            "task_id",
+            "phase",
+            "topology",
+            "N",
+            "graph_seed",
+            "regime",
+            "connection_prob",
+            "coupling",
+            "k",
+            "budget_fraction",
+            "cycle_proxy",
+            "dynamics_aware",
+            "feedback_hub",
+            "high_degree",
+            "module_bridge",
+            "random",
+            "spectral",
+            "leverage_gain_vs_spectral",
+            "leverage_gain_vs_feedback_hub",
+            "leverage_gain_vs_high_degree",
+            "leverage_gain_vs_module_bridge",
+            "leverage_gain_vs_cycle_proxy",
+            "leverage_gain_vs_random",
+            "sel_total_degree",
+            "sel_feedback",
+            "sel_cycle3",
+            "sel_bridge",
+            "sel_spectral",
+            "coverage1",
+            "coverage2",
+            "out_neighbor_redundancy",
+            "selected_dispersion"
+          ],
+          "public_file": "tables/sd_7748ba57319756627557.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED03:plot_bridge": "449fa92e56448cfe16ea809167f629ab218d3619b6bdb9a26a5f2881c80b91e7"
+      },
+      "displayed_estimate": "Two-hop coverage versus spectral-relative gain; color selected dispersion; pooled Spearman association.",
+      "observational_unit": "225 archived conditions across reused graphs; phases contain 27/72/36/36/54 conditions, not new independent graph draws.",
+      "interval_or_spread": "No CI; correlation descriptive.",
+      "inference_limits": "Runs/conditions reuse graphs and settings; not independent realized-graph interventions across every rule; no measured hardware efficiency or universal search superiority."
+    },
+    {
+      "figure": "ED03",
+      "panel": "c",
+      "source_panel": "ED03c",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_f22bc19a40798d86b475",
+          "sha256": "f22bc19a40798d86b47528d65dc30b49374c7ef4ce918466011b9e27d769de90",
+          "source_table_name": "01_si_phase_curve_er_patch__stage4_core_225_task_methods.csv",
+          "rows": 1575,
+          "columns": [
+            "phase",
+            "priority",
+            "N",
+            "topology",
+            "graph_seed",
+            "regime",
+            "coupling",
+            "connection_prob",
+            "noise_sigma",
+            "k",
+            "budget_fraction",
+            "evaluation_repeats",
+            "task_id",
+            "evidence_source",
+            "method",
+            "score",
+            "raw_rows",
+            "mask_key",
+            "sel_total_degree",
+            "sel_feedback",
+            "sel_cycle3",
+            "sel_bridge",
+            "sel_spectral",
+            "coverage1",
+            "coverage2",
+            "out_neighbor_redundancy",
+            "selected_dispersion",
+            "optimizer_search_best",
+            "task_type",
+            "search_replicate",
+            "validation_repeats"
+          ],
+          "public_file": "tables/sd_f22bc19a40798d86b475.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED03:phase_frame": "a1cee5e57a17bb18008ae03f9ee87d06de78001f04eba1003a2f9a0cb25c3ea4",
+        "ED03:plot_phase": "0ac141ba6e858d064b9a1f0508b134da60011a39ad1e30cb8f7196109c6aa1dd"
+      },
+      "displayed_estimate": "er_patch dynamics-aware minus spectral score by state/budget fraction.",
+      "observational_unit": "225 archived conditions across reused graphs; phases contain 27/72/36/36/54 conditions, not new independent graph draws.",
+      "interval_or_spread": "Mean \u00b11.96 SEM across condition-level gains at each point; undefined SEM replaced with zero by original helper. Not graph-bootstrap.",
+      "inference_limits": "Runs/conditions reuse graphs and settings; not independent realized-graph interventions across every rule; no measured hardware efficiency or universal search superiority."
+    },
+    {
+      "figure": "ED03",
+      "panel": "d",
+      "source_panel": "ED03d",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_f22bc19a40798d86b475",
+          "sha256": "f22bc19a40798d86b47528d65dc30b49374c7ef4ce918466011b9e27d769de90",
+          "source_table_name": "01_si_phase_curve_er_patch__stage4_core_225_task_methods.csv",
+          "rows": 1575,
+          "columns": [
+            "phase",
+            "priority",
+            "N",
+            "topology",
+            "graph_seed",
+            "regime",
+            "coupling",
+            "connection_prob",
+            "noise_sigma",
+            "k",
+            "budget_fraction",
+            "evaluation_repeats",
+            "task_id",
+            "evidence_source",
+            "method",
+            "score",
+            "raw_rows",
+            "mask_key",
+            "sel_total_degree",
+            "sel_feedback",
+            "sel_cycle3",
+            "sel_bridge",
+            "sel_spectral",
+            "coverage1",
+            "coverage2",
+            "out_neighbor_redundancy",
+            "selected_dispersion",
+            "optimizer_search_best",
+            "task_type",
+            "search_replicate",
+            "validation_repeats"
+          ],
+          "public_file": "tables/sd_f22bc19a40798d86b475.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED03:phase_frame": "a1cee5e57a17bb18008ae03f9ee87d06de78001f04eba1003a2f9a0cb25c3ea4",
+        "ED03:plot_phase": "0ac141ba6e858d064b9a1f0508b134da60011a39ad1e30cb8f7196109c6aa1dd"
+      },
+      "displayed_estimate": "stage4b_replication dynamics-aware minus spectral score by state/budget fraction.",
+      "observational_unit": "225 archived conditions across reused graphs; phases contain 27/72/36/36/54 conditions, not new independent graph draws.",
+      "interval_or_spread": "Mean \u00b11.96 SEM across condition-level gains at each point; undefined SEM replaced with zero by original helper. Not graph-bootstrap.",
+      "inference_limits": "Runs/conditions reuse graphs and settings; not independent realized-graph interventions across every rule; no measured hardware efficiency or universal search superiority."
+    },
+    {
+      "figure": "ED03",
+      "panel": "e",
+      "source_panel": "ED03e",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_f22bc19a40798d86b475",
+          "sha256": "f22bc19a40798d86b47528d65dc30b49374c7ef4ce918466011b9e27d769de90",
+          "source_table_name": "01_si_phase_curve_er_patch__stage4_core_225_task_methods.csv",
+          "rows": 1575,
+          "columns": [
+            "phase",
+            "priority",
+            "N",
+            "topology",
+            "graph_seed",
+            "regime",
+            "coupling",
+            "connection_prob",
+            "noise_sigma",
+            "k",
+            "budget_fraction",
+            "evaluation_repeats",
+            "task_id",
+            "evidence_source",
+            "method",
+            "score",
+            "raw_rows",
+            "mask_key",
+            "sel_total_degree",
+            "sel_feedback",
+            "sel_cycle3",
+            "sel_bridge",
+            "sel_spectral",
+            "coverage1",
+            "coverage2",
+            "out_neighbor_redundancy",
+            "selected_dispersion",
+            "optimizer_search_best",
+            "task_type",
+            "search_replicate",
+            "validation_repeats"
+          ],
+          "public_file": "tables/sd_f22bc19a40798d86b475.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED03:phase_frame": "a1cee5e57a17bb18008ae03f9ee87d06de78001f04eba1003a2f9a0cb25c3ea4",
+        "ED03:plot_phase": "0ac141ba6e858d064b9a1f0508b134da60011a39ad1e30cb8f7196109c6aa1dd"
+      },
+      "displayed_estimate": "stage4c_atlas_extension dynamics-aware minus spectral score by state/budget fraction.",
+      "observational_unit": "225 archived conditions across reused graphs; phases contain 27/72/36/36/54 conditions, not new independent graph draws.",
+      "interval_or_spread": "Mean \u00b11.96 SEM across condition-level gains at each point; undefined SEM replaced with zero by original helper. Not graph-bootstrap.",
+      "inference_limits": "Runs/conditions reuse graphs and settings; not independent realized-graph interventions across every rule; no measured hardware efficiency or universal search superiority."
+    },
+    {
+      "figure": "ED03",
+      "panel": "f",
+      "source_panel": "ED03f",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_f22bc19a40798d86b475",
+          "sha256": "f22bc19a40798d86b47528d65dc30b49374c7ef4ce918466011b9e27d769de90",
+          "source_table_name": "01_si_phase_curve_er_patch__stage4_core_225_task_methods.csv",
+          "rows": 1575,
+          "columns": [
+            "phase",
+            "priority",
+            "N",
+            "topology",
+            "graph_seed",
+            "regime",
+            "coupling",
+            "connection_prob",
+            "noise_sigma",
+            "k",
+            "budget_fraction",
+            "evaluation_repeats",
+            "task_id",
+            "evidence_source",
+            "method",
+            "score",
+            "raw_rows",
+            "mask_key",
+            "sel_total_degree",
+            "sel_feedback",
+            "sel_cycle3",
+            "sel_bridge",
+            "sel_spectral",
+            "coverage1",
+            "coverage2",
+            "out_neighbor_redundancy",
+            "selected_dispersion",
+            "optimizer_search_best",
+            "task_type",
+            "search_replicate",
+            "validation_repeats"
+          ],
+          "public_file": "tables/sd_f22bc19a40798d86b475.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED03:phase_frame": "a1cee5e57a17bb18008ae03f9ee87d06de78001f04eba1003a2f9a0cb25c3ea4",
+        "ED03:plot_phase": "0ac141ba6e858d064b9a1f0508b134da60011a39ad1e30cb8f7196109c6aa1dd"
+      },
+      "displayed_estimate": "stage4d_scaling dynamics-aware minus spectral score by state/budget fraction.",
+      "observational_unit": "225 archived conditions across reused graphs; phases contain 27/72/36/36/54 conditions, not new independent graph draws.",
+      "interval_or_spread": "Mean \u00b11.96 SEM across condition-level gains at each point; undefined SEM replaced with zero by original helper. Not graph-bootstrap.",
+      "inference_limits": "Runs/conditions reuse graphs and settings; not independent realized-graph interventions across every rule; no measured hardware efficiency or universal search superiority."
+    },
+    {
+      "figure": "ED03",
+      "panel": "g",
+      "source_panel": "ED03g",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_f22bc19a40798d86b475",
+          "sha256": "f22bc19a40798d86b47528d65dc30b49374c7ef4ce918466011b9e27d769de90",
+          "source_table_name": "01_si_phase_curve_er_patch__stage4_core_225_task_methods.csv",
+          "rows": 1575,
+          "columns": [
+            "phase",
+            "priority",
+            "N",
+            "topology",
+            "graph_seed",
+            "regime",
+            "coupling",
+            "connection_prob",
+            "noise_sigma",
+            "k",
+            "budget_fraction",
+            "evaluation_repeats",
+            "task_id",
+            "evidence_source",
+            "method",
+            "score",
+            "raw_rows",
+            "mask_key",
+            "sel_total_degree",
+            "sel_feedback",
+            "sel_cycle3",
+            "sel_bridge",
+            "sel_spectral",
+            "coverage1",
+            "coverage2",
+            "out_neighbor_redundancy",
+            "selected_dispersion",
+            "optimizer_search_best",
+            "task_type",
+            "search_replicate",
+            "validation_repeats"
+          ],
+          "public_file": "tables/sd_f22bc19a40798d86b475.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED03:phase_frame": "a1cee5e57a17bb18008ae03f9ee87d06de78001f04eba1003a2f9a0cb25c3ea4",
+        "ED03:plot_phase": "0ac141ba6e858d064b9a1f0508b134da60011a39ad1e30cb8f7196109c6aa1dd"
+      },
+      "displayed_estimate": "stage4e_topology dynamics-aware minus spectral score by state/budget fraction.",
+      "observational_unit": "225 archived conditions across reused graphs; phases contain 27/72/36/36/54 conditions, not new independent graph draws.",
+      "interval_or_spread": "Mean \u00b11.96 SEM across condition-level gains at each point; undefined SEM replaced with zero by original helper. Not graph-bootstrap.",
+      "inference_limits": "Runs/conditions reuse graphs and settings; not independent realized-graph interventions across every rule; no measured hardware efficiency or universal search superiority."
+    },
+    {
+      "figure": "ED03",
+      "panel": "h",
+      "source_panel": "ED03h",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_db6513feb18f8244a58c",
+          "sha256": "db6513feb18f8244a58c721c58936c60bab04e46728a58eba0f59a0688ee79bb",
+          "source_table_name": "01_stage4_main_phase_baseline_heatmap__stage4_paired_contrasts.csv",
+          "rows": 66,
+          "columns": [
+            "grouping",
+            "group",
+            "baseline",
+            "n_tasks",
+            "mean_delta",
+            "bootstrap95_low",
+            "bootstrap95_high",
+            "median_delta",
+            "positive_fraction",
+            "wilcoxon_greater_p",
+            "wilcoxon_two_sided_p",
+            "wilcoxon_greater_fdr_bh"
+          ],
+          "public_file": "tables/sd_db6513feb18f8244a58c.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED03:phase_summary": "ce8a10c93a1e9833135cb4259cb8b78bf271f7661c012941b44d087bcea0c447",
+        "ED03:plot_phase_summary": "b2a3e90b54d658727381c6cdcbd65e99aefd5f15bb28ac28f84a38424dac8910"
+      },
+      "displayed_estimate": "Five phase-level mean gains over spectral and archived counts.",
+      "observational_unit": "225 archived conditions across reused graphs; phases contain 27/72/36/36/54 conditions, not new independent graph draws.",
+      "interval_or_spread": "Saved condition-bootstrap95_low/high; mean/count verified here, original bootstrap endpoints source-bound but not regenerated in this audit.",
+      "inference_limits": "Runs/conditions reuse graphs and settings; not independent realized-graph interventions across every rule; no measured hardware efficiency or universal search superiority."
+    },
+    {
+      "figure": "ED03",
+      "panel": "i",
+      "source_panel": "SI11a",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_42a8268ad01d7f982db1",
+          "sha256": "42a8268ad01d7f982db1f6882e8276cb30f57eef8cc7646bb8e2a6f7e052ba7a",
+          "source_table_name": "SI11a_home_primary_random.csv",
+          "rows": 12,
+          "columns": [
+            "graph_seed",
+            "primary",
+            "random_null"
+          ],
+          "public_file": "tables/sd_42a8268ad01d7f982db1.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "robust:build_si11": "7f235d6f4bac0d85117a7f0c741aee3798fdb841905c7bc9f2c541946184941a"
+      },
+      "displayed_estimate": "Paired primary versus equal-budget random held-out home score averaged over states.",
+      "observational_unit": "12 inference graphs 93001\u201393012; repeat0 only, two states nested within graph.",
+      "interval_or_spread": "Paired points, no CI; i original exact one-sided sign-flip test.",
+      "inference_limits": "Equal-budget control and imprecise variants retained; these are reused graph cohorts, not independent confirmations or universal procedure superiority."
+    },
+    {
+      "figure": "ED03",
+      "panel": "j",
+      "source_panel": "SI11b",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_2577bf5e4ec7bbcf3372",
+          "sha256": "2577bf5e4ec7bbcf33728f4188b9d6c13f4d85db648734d91b6a4d4aff7ade1e",
+          "source_table_name": "SI11b_crossover_primary_random.csv",
+          "rows": 12,
+          "columns": [
+            "graph_seed",
+            "primary",
+            "random_null"
+          ],
+          "public_file": "tables/sd_2577bf5e4ec7bbcf3372.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "robust:build_si11": "7f235d6f4bac0d85117a7f0c741aee3798fdb841905c7bc9f2c541946184941a"
+      },
+      "displayed_estimate": "Paired primary versus equal-budget random crossover.",
+      "observational_unit": "12 inference graphs 93001\u201393012; repeat0 only, two states nested within graph.",
+      "interval_or_spread": "Paired points, no CI; i original exact one-sided sign-flip test.",
+      "inference_limits": "Equal-budget control and imprecise variants retained; these are reused graph cohorts, not independent confirmations or universal procedure superiority."
+    },
+    {
+      "figure": "ED03",
+      "panel": "k",
+      "source_panel": "SI11c",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_9a00c5a543586f7b5b62",
+          "sha256": "9a00c5a543586f7b5b6268853e074695a68fac3336413675a64f4eadc9d71d6c",
+          "source_table_name": "forest_rhythm_score_crossover_interaction.csv",
+          "rows": 4,
+          "columns": [
+            "variant",
+            "mean",
+            "ci95_low",
+            "ci95_high",
+            "positive_graphs",
+            "n_graphs",
+            "p_signflip_greater"
+          ],
+          "public_file": "tables/sd_9a00c5a543586f7b5b62.csv"
+        },
+        {
+          "dataset_id": "sd_7ada3091abd728801a55",
+          "sha256": "7ada3091abd728801a553b9f033ebf8b96ec7e60f7c5de8d58afebc111fb5742",
+          "source_table_name": "state_transfer_interactions.csv",
+          "rows": 105,
+          "columns": [
+            "variant",
+            "graph_seed",
+            "repeat",
+            "rhythm_score_mid_home_advantage",
+            "rhythm_score_sparse_home_advantage",
+            "rhythm_score_crossover_interaction",
+            "alternative_spectral_score_mid_home_advantage",
+            "alternative_spectral_score_sparse_home_advantage",
+            "alternative_spectral_score_crossover_interaction"
+          ],
+          "public_file": "tables/sd_7ada3091abd728801a55.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "robust:build_si11": "7f235d6f4bac0d85117a7f0c741aee3798fdb841905c7bc9f2c541946184941a",
+        "robust:draw_forest": "fbfa7ef6a67d576ae46f1d5656f240a633335ba88159792d015c121c6afcf08b"
+      },
+      "displayed_estimate": "Four variant crossover means evaluated using rhythm score.",
+      "observational_unit": "12 inference graphs 93001\u201393012; repeat0 only, two states nested within graph.",
+      "interval_or_spread": "20,000 graph-percentile bootstrap draws, seeds20260829+i; original exact one-sided sign-flip tests; all eight means/CI/P replayed.",
+      "inference_limits": "Equal-budget control and imprecise variants retained; these are reused graph cohorts, not independent confirmations or universal procedure superiority."
+    },
+    {
+      "figure": "ED03",
+      "panel": "l",
+      "source_panel": "SI11d",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_5296af3c5f204aef2cf5",
+          "sha256": "5296af3c5f204aef2cf5646f74134c5359e4ab10b524a078c50dbf913879365f",
+          "source_table_name": "forest_alternative_spectral_score_crossover_interaction.csv",
+          "rows": 4,
+          "columns": [
+            "variant",
+            "mean",
+            "ci95_low",
+            "ci95_high",
+            "positive_graphs",
+            "n_graphs",
+            "p_signflip_greater"
+          ],
+          "public_file": "tables/sd_5296af3c5f204aef2cf5.csv"
+        },
+        {
+          "dataset_id": "sd_7ada3091abd728801a55",
+          "sha256": "7ada3091abd728801a553b9f033ebf8b96ec7e60f7c5de8d58afebc111fb5742",
+          "source_table_name": "state_transfer_interactions.csv",
+          "rows": 105,
+          "columns": [
+            "variant",
+            "graph_seed",
+            "repeat",
+            "rhythm_score_mid_home_advantage",
+            "rhythm_score_sparse_home_advantage",
+            "rhythm_score_crossover_interaction",
+            "alternative_spectral_score_mid_home_advantage",
+            "alternative_spectral_score_sparse_home_advantage",
+            "alternative_spectral_score_crossover_interaction"
+          ],
+          "public_file": "tables/sd_7ada3091abd728801a55.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "robust:build_si11": "7f235d6f4bac0d85117a7f0c741aee3798fdb841905c7bc9f2c541946184941a",
+        "robust:draw_forest": "fbfa7ef6a67d576ae46f1d5656f240a633335ba88159792d015c121c6afcf08b"
+      },
+      "displayed_estimate": "Four variant crossover means evaluated using alternative score.",
+      "observational_unit": "12 inference graphs 93001\u201393012; repeat0 only, two states nested within graph.",
+      "interval_or_spread": "20,000 graph-percentile bootstrap draws, seeds20260829+i; original exact one-sided sign-flip tests; all eight means/CI/P replayed.",
+      "inference_limits": "Equal-budget control and imprecise variants retained; these are reused graph cohorts, not independent confirmations or universal procedure superiority."
+    },
+    {
+      "figure": "ED03",
+      "panel": "m",
+      "source_panel": "SI11e",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_dedcad7317b8dec208d7",
+          "sha256": "dedcad7317b8dec208d76e3074f98d79261bc67f5d7e7635af7f4f2c1f357ee7",
+          "source_table_name": "SI11e_home_foreign_geometry.csv",
+          "rows": 48,
+          "columns": [
+            "variant",
+            "graph_seed",
+            "home_rhythm_score",
+            "foreign_rhythm_score"
+          ],
+          "public_file": "tables/sd_dedcad7317b8dec208d7.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "robust:build_si11": "7f235d6f4bac0d85117a7f0c741aee3798fdb841905c7bc9f2c541946184941a"
+      },
+      "displayed_estimate": "Home versus foreign rhythm scores averaged within variant/graph.",
+      "observational_unit": "12 inference graphs 93001\u201393012; repeat0 only, two states nested within graph.",
+      "interval_or_spread": "No interval.",
+      "inference_limits": "Equal-budget control and imprecise variants retained; these are reused graph cohorts, not independent confirmations or universal procedure superiority."
+    },
+    {
+      "figure": "ED03",
+      "panel": "n",
+      "source_panel": "SI11f",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_ae552d746be7901a1dac",
+          "sha256": "ae552d746be7901a1dac126d39adb055babf33081a0420823b2d0dc724634b61",
+          "source_table_name": "SI11f_search_heldout_variants.csv",
+          "rows": 96,
+          "columns": [
+            "variant",
+            "graph_seed",
+            "repeat",
+            "state",
+            "best_search_score",
+            "objective",
+            "heldout_home_score"
+          ],
+          "public_file": "tables/sd_ae552d746be7901a1dac.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "robust:build_si11": "7f235d6f4bac0d85117a7f0c741aee3798fdb841905c7bc9f2c541946184941a"
+      },
+      "displayed_estimate": "Search score versus held-out state-specific home score for all96winners.",
+      "observational_unit": "12 inference graphs 93001\u201393012; repeat0 only, two states nested within graph.",
+      "interval_or_spread": "No interval.",
+      "inference_limits": "Equal-budget control and imprecise variants retained; these are reused graph cohorts, not independent confirmations or universal procedure superiority."
+    },
+    {
+      "figure": "ED04",
+      "panel": "a",
+      "source_panel": "ED04a",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_f5bdb2066253211e4ed7",
+          "sha256": "f5bdb2066253211e4ed72e9bd4e202c5baad84bd43b21816662ff7610bfefae0",
+          "source_table_name": "01_DG03_near_optimal_count_by_budget__DG03_near_optimal_count_by_budget_source.csv",
+          "rows": 27,
+          "columns": [
+            "graph_seed",
+            "regime",
+            "k",
+            "near_optimal_count"
+          ],
+          "public_file": "tables/sd_f5bdb2066253211e4ed7.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED04:plot_count": "bb83faaf729a4f429324c3877433cdd38e47c031030ae422775d56725eee1ce1"
+      },
+      "displayed_estimate": "Graph trajectories and state/budget count means.",
+      "observational_unit": "Three closure graphs42001\u201342003 \u00d7three states \u00d7three budgets;27nested conditions.",
+      "interval_or_spread": "Mean \u00b11.96 sample SEM over three graphs, descriptive normal bands, not bootstrap.",
+      "inference_limits": "Four search winners per graph-state-budget condition; sampled geometry is not exhaustive solution volume; metrics are mathematically related, not independent endpoints."
+    },
+    {
+      "figure": "ED04",
+      "panel": "b",
+      "source_panel": "ED04b",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_f5bdb2066253211e4ed7",
+          "sha256": "f5bdb2066253211e4ed72e9bd4e202c5baad84bd43b21816662ff7610bfefae0",
+          "source_table_name": "01_DG03_near_optimal_count_by_budget__DG03_near_optimal_count_by_budget_source.csv",
+          "rows": 27,
+          "columns": [
+            "graph_seed",
+            "regime",
+            "k",
+            "near_optimal_count"
+          ],
+          "public_file": "tables/sd_f5bdb2066253211e4ed7.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED04:plot_mean_heatmap": "04c7c997376977deb0a41960e0df62fd857c52f1ee572d865bcefc41b34567a5"
+      },
+      "displayed_estimate": "Mean count in3\u00d73state/budget matrix; fixed1\u20134scale.",
+      "observational_unit": "Three closure graphs42001\u201342003 \u00d7three states \u00d7three budgets;27nested conditions.",
+      "interval_or_spread": "No interval.",
+      "inference_limits": "Four search winners per graph-state-budget condition; sampled geometry is not exhaustive solution volume; metrics are mathematically related, not independent endpoints."
+    },
+    {
+      "figure": "ED04",
+      "panel": "c",
+      "source_panel": "ED04c",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_f5bdb2066253211e4ed7",
+          "sha256": "f5bdb2066253211e4ed72e9bd4e202c5baad84bd43b21816662ff7610bfefae0",
+          "source_table_name": "01_DG03_near_optimal_count_by_budget__DG03_near_optimal_count_by_budget_source.csv",
+          "rows": 27,
+          "columns": [
+            "graph_seed",
+            "regime",
+            "k",
+            "near_optimal_count"
+          ],
+          "public_file": "tables/sd_f5bdb2066253211e4ed7.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED04:plot_seed_heatmap": "c1408706fd2796222bb0274c650858187a06258482e29e561acac8604fc7edfa"
+      },
+      "displayed_estimate": "Each count minus its state/budget three-graph mean,9\u00d73matrix.",
+      "observational_unit": "Three closure graphs42001\u201342003 \u00d7three states \u00d7three budgets;27nested conditions.",
+      "interval_or_spread": "No interval.",
+      "inference_limits": "Four search winners per graph-state-budget condition; sampled geometry is not exhaustive solution volume; metrics are mathematically related, not independent endpoints."
+    },
+    {
+      "figure": "ED04",
+      "panel": "d",
+      "source_panel": "ED04d",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_f5bdb2066253211e4ed7",
+          "sha256": "f5bdb2066253211e4ed72e9bd4e202c5baad84bd43b21816662ff7610bfefae0",
+          "source_table_name": "01_DG03_near_optimal_count_by_budget__DG03_near_optimal_count_by_budget_source.csv",
+          "rows": 27,
+          "columns": [
+            "graph_seed",
+            "regime",
+            "k",
+            "near_optimal_count"
+          ],
+          "public_file": "tables/sd_f5bdb2066253211e4ed7.csv"
+        },
+        {
+          "dataset_id": "sd_ad2bb833fdee3a392638",
+          "sha256": "ad2bb833fdee3a392638a52d8ca354c3019f37742fa771857702c877ff39c501",
+          "source_table_name": "01_DG02_D_epsilon_by_budget__DG02_D_epsilon_by_budget_source.csv",
+          "rows": 27,
+          "columns": [
+            "graph_seed",
+            "regime",
+            "k",
+            "D_epsilon_mean_jaccard_distance"
+          ],
+          "public_file": "tables/sd_ad2bb833fdee3a392638.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED04:plot_relation": "1337cacb92385db9e210264fd9210066aa8985310d75aa7e4c1bd2302bcab5d7"
+      },
+      "displayed_estimate": "Jaccard diversity versus count, graph-jittered x; conditional mean line; pooled Spearman rho.",
+      "observational_unit": "Three closure graphs42001\u201342003 \u00d7three states \u00d7three budgets;27nested conditions.",
+      "interval_or_spread": "No CI or inferential P; computed SEM not plotted.",
+      "inference_limits": "Four search winners per graph-state-budget condition; sampled geometry is not exhaustive solution volume; metrics are mathematically related, not independent endpoints."
+    },
+    {
+      "figure": "ED04",
+      "panel": "e",
+      "source_panel": "ED04e",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_f5bdb2066253211e4ed7",
+          "sha256": "f5bdb2066253211e4ed72e9bd4e202c5baad84bd43b21816662ff7610bfefae0",
+          "source_table_name": "01_DG03_near_optimal_count_by_budget__DG03_near_optimal_count_by_budget_source.csv",
+          "rows": 27,
+          "columns": [
+            "graph_seed",
+            "regime",
+            "k",
+            "near_optimal_count"
+          ],
+          "public_file": "tables/sd_f5bdb2066253211e4ed7.csv"
+        },
+        {
+          "dataset_id": "sd_0e29506451e5ca61f58d",
+          "sha256": "0e29506451e5ca61f58db575c89a9b62716da2e58701b120b8c31a50ccfdbe99",
+          "source_table_name": "01_DG04_union_expansion_by_budget__DG04_union_expansion_by_budget_source.csv",
+          "rows": 27,
+          "columns": [
+            "graph_seed",
+            "regime",
+            "k",
+            "union_expansion"
+          ],
+          "public_file": "tables/sd_0e29506451e5ca61f58d.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED04:plot_relation": "1337cacb92385db9e210264fd9210066aa8985310d75aa7e4c1bd2302bcab5d7"
+      },
+      "displayed_estimate": "Union expansion versus count, graph-jittered x; conditional mean line; pooled Spearman rho.",
+      "observational_unit": "Three closure graphs42001\u201342003 \u00d7three states \u00d7three budgets;27nested conditions.",
+      "interval_or_spread": "No CI or inferential P; computed SEM not plotted.",
+      "inference_limits": "Four search winners per graph-state-budget condition; sampled geometry is not exhaustive solution volume; metrics are mathematically related, not independent endpoints."
+    },
+    {
+      "figure": "ED04",
+      "panel": "f",
+      "source_panel": "ED04f",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_f5bdb2066253211e4ed7",
+          "sha256": "f5bdb2066253211e4ed72e9bd4e202c5baad84bd43b21816662ff7610bfefae0",
+          "source_table_name": "01_DG03_near_optimal_count_by_budget__DG03_near_optimal_count_by_budget_source.csv",
+          "rows": 27,
+          "columns": [
+            "graph_seed",
+            "regime",
+            "k",
+            "near_optimal_count"
+          ],
+          "public_file": "tables/sd_f5bdb2066253211e4ed7.csv"
+        },
+        {
+          "dataset_id": "sd_04042b6c2ceba43c6a58",
+          "sha256": "04042b6c2ceba43c6a5892ca08c20c4fd6f8a09fa877425624d57601096da5ea",
+          "source_table_name": "01_DG05_core_fraction_by_budget__DG05_core_fraction_by_budget_source.csv",
+          "rows": 27,
+          "columns": [
+            "graph_seed",
+            "regime",
+            "k",
+            "core_fraction"
+          ],
+          "public_file": "tables/sd_04042b6c2ceba43c6a58.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED04:plot_relation": "1337cacb92385db9e210264fd9210066aa8985310d75aa7e4c1bd2302bcab5d7"
+      },
+      "displayed_estimate": "Shared-core fraction versus count, graph-jittered x; conditional mean line; pooled Spearman rho.",
+      "observational_unit": "Three closure graphs42001\u201342003 \u00d7three states \u00d7three budgets;27nested conditions.",
+      "interval_or_spread": "No CI or inferential P; computed SEM not plotted.",
+      "inference_limits": "Four search winners per graph-state-budget condition; sampled geometry is not exhaustive solution volume; metrics are mathematically related, not independent endpoints."
+    },
+    {
+      "figure": "ED04",
+      "panel": "h",
+      "source_panel": "ED04g",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_f5bdb2066253211e4ed7",
+          "sha256": "f5bdb2066253211e4ed72e9bd4e202c5baad84bd43b21816662ff7610bfefae0",
+          "source_table_name": "01_DG03_near_optimal_count_by_budget__DG03_near_optimal_count_by_budget_source.csv",
+          "rows": 27,
+          "columns": [
+            "graph_seed",
+            "regime",
+            "k",
+            "near_optimal_count"
+          ],
+          "public_file": "tables/sd_f5bdb2066253211e4ed7.csv"
+        },
+        {
+          "dataset_id": "sd_458df1f448b2870137d9",
+          "sha256": "458df1f448b2870137d91c6e6ab3593a644d8f08525f518a5c0af6f7bbc3baeb",
+          "source_table_name": "01_DG06_selection_entropy_by_budget__DG06_selection_entropy_by_budget_source.csv",
+          "rows": 27,
+          "columns": [
+            "graph_seed",
+            "regime",
+            "k",
+            "selection_entropy_union"
+          ],
+          "public_file": "tables/sd_458df1f448b2870137d9.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED04:plot_relation": "1337cacb92385db9e210264fd9210066aa8985310d75aa7e4c1bd2302bcab5d7"
+      },
+      "displayed_estimate": "Selection entropy versus count, graph-jittered x; conditional mean line; pooled Spearman rho.",
+      "observational_unit": "Three closure graphs42001\u201342003 \u00d7three states \u00d7three budgets;27nested conditions.",
+      "interval_or_spread": "No CI or inferential P; computed SEM not plotted.",
+      "inference_limits": "Four search winners per graph-state-budget condition; sampled geometry is not exhaustive solution volume; metrics are mathematically related, not independent endpoints."
+    },
+    {
+      "figure": "ED04",
+      "panel": "g",
+      "source_panel": "ED04h",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_f5bdb2066253211e4ed7",
+          "sha256": "f5bdb2066253211e4ed72e9bd4e202c5baad84bd43b21816662ff7610bfefae0",
+          "source_table_name": "01_DG03_near_optimal_count_by_budget__DG03_near_optimal_count_by_budget_source.csv",
+          "rows": 27,
+          "columns": [
+            "graph_seed",
+            "regime",
+            "k",
+            "near_optimal_count"
+          ],
+          "public_file": "tables/sd_f5bdb2066253211e4ed7.csv"
+        },
+        {
+          "dataset_id": "sd_ad2bb833fdee3a392638",
+          "sha256": "ad2bb833fdee3a392638a52d8ca354c3019f37742fa771857702c877ff39c501",
+          "source_table_name": "01_DG02_D_epsilon_by_budget__DG02_D_epsilon_by_budget_source.csv",
+          "rows": 27,
+          "columns": [
+            "graph_seed",
+            "regime",
+            "k",
+            "D_epsilon_mean_jaccard_distance"
+          ],
+          "public_file": "tables/sd_ad2bb833fdee3a392638.csv"
+        },
+        {
+          "dataset_id": "sd_0e29506451e5ca61f58d",
+          "sha256": "0e29506451e5ca61f58db575c89a9b62716da2e58701b120b8c31a50ccfdbe99",
+          "source_table_name": "01_DG04_union_expansion_by_budget__DG04_union_expansion_by_budget_source.csv",
+          "rows": 27,
+          "columns": [
+            "graph_seed",
+            "regime",
+            "k",
+            "union_expansion"
+          ],
+          "public_file": "tables/sd_0e29506451e5ca61f58d.csv"
+        },
+        {
+          "dataset_id": "sd_04042b6c2ceba43c6a58",
+          "sha256": "04042b6c2ceba43c6a5892ca08c20c4fd6f8a09fa877425624d57601096da5ea",
+          "source_table_name": "01_DG05_core_fraction_by_budget__DG05_core_fraction_by_budget_source.csv",
+          "rows": 27,
+          "columns": [
+            "graph_seed",
+            "regime",
+            "k",
+            "core_fraction"
+          ],
+          "public_file": "tables/sd_04042b6c2ceba43c6a58.csv"
+        },
+        {
+          "dataset_id": "sd_458df1f448b2870137d9",
+          "sha256": "458df1f448b2870137d91c6e6ab3593a644d8f08525f518a5c0af6f7bbc3baeb",
+          "source_table_name": "01_DG06_selection_entropy_by_budget__DG06_selection_entropy_by_budget_source.csv",
+          "rows": 27,
+          "columns": [
+            "graph_seed",
+            "regime",
+            "k",
+            "selection_entropy_union"
+          ],
+          "public_file": "tables/sd_458df1f448b2870137d9.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "ED04:correlation_table": "53c5d56dc20f07aa79b93a952053b1f91d644e380440fbf8ac5f1f3169e47a57",
+        "ED04:plot_correlation_heatmap": "11b3774648c89117880a3170a378f473cca5ab06562b366f6f7551f1f6d841dc"
+      },
+      "displayed_estimate": "5\u00d75Spearman matrix using exact-key one-to-one merged27rows.",
+      "observational_unit": "Three closure graphs42001\u201342003 \u00d7three states \u00d7three budgets;27nested conditions.",
+      "interval_or_spread": "Descriptive correlations only.",
+      "inference_limits": "Four search winners per graph-state-budget condition; sampled geometry is not exhaustive solution volume; metrics are mathematically related, not independent endpoints."
+    },
+    {
+      "figure": "ED04",
+      "panel": "i",
+      "source_panel": "ED08c",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_f0edc9327a7c8b222feb",
+          "sha256": "f0edc9327a7c8b222feb2f1a6d8295868ed7d5dc5c5eab69cac0096eeb4f8aec",
+          "source_table_name": "01_DG07_epsilon_sensitivity__DG07_epsilon_sensitivity_source.csv",
+          "rows": 9,
+          "columns": [
+            "epsilon",
+            "k",
+            "mean_D",
+            "mean_near"
+          ],
+          "public_file": "tables/sd_f0edc9327a7c8b222feb.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "Fig04:plot_epsilon": "9e0a3db6bc88a8c3e32feaf6e68370fbc68e648eafcc0c50045c07cb6c2a6f12",
+        "assembly:extra_sources": "b8f4f85a15631e30b546d362a3d517133eb1e9613b2b20d5edc73463108a5fcf"
+      },
+      "displayed_estimate": "Mean sampled diversity at three local epsilon values per budget, nine archived means.",
+      "observational_unit": "Three closure graphs42001\u201342003 \u00d7three states \u00d7three budgets;27nested conditions.",
+      "interval_or_spread": "Lines and points, no interval.",
+      "inference_limits": "Four search winners per graph-state-budget condition; sampled geometry is not exhaustive solution volume; metrics are mathematically related, not independent endpoints."
+    },
+    {
+      "figure": "ED04",
+      "panel": "j",
+      "source_panel": "SI10a",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_ee8d0f72d8dc956e7df4",
+          "sha256": "ee8d0f72d8dc956e7df41cd52c29adb31299eac59adda1cb9402686656f0721e",
+          "source_table_name": "SI10a_b_search_depth_trajectories.csv",
+          "rows": 120,
+          "columns": [
+            "graph_seed",
+            "state",
+            "search_count",
+            "cumulative_best_search_score",
+            "heldout_score_of_search_winner",
+            "winning_repeat",
+            "delta_search",
+            "delta_heldout"
+          ],
+          "public_file": "tables/sd_ee8d0f72d8dc956e7df4.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "robust:build_si10": "31fd11493d75b919ee36c15ef8b84bd34053f71f992bf64c7d6b7db099698d78"
+      },
+      "displayed_estimate": "Search-best score minus first-search score; six trajectories and mean.",
+      "observational_unit": "Three inference graphs93001\u201393003 \u00d7two states \u00d720search repeats/depths; states/repeats/pairs are not independent graphs.",
+      "interval_or_spread": "No interval.",
+      "inference_limits": "Finite-depth description, not asymptotic saturation or proof of a unique mechanism; held-out values need not improve with search depth."
+    },
+    {
+      "figure": "ED04",
+      "panel": "k",
+      "source_panel": "SI10b",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_ee8d0f72d8dc956e7df4",
+          "sha256": "ee8d0f72d8dc956e7df41cd52c29adb31299eac59adda1cb9402686656f0721e",
+          "source_table_name": "SI10a_b_search_depth_trajectories.csv",
+          "rows": 120,
+          "columns": [
+            "graph_seed",
+            "state",
+            "search_count",
+            "cumulative_best_search_score",
+            "heldout_score_of_search_winner",
+            "winning_repeat",
+            "delta_search",
+            "delta_heldout"
+          ],
+          "public_file": "tables/sd_ee8d0f72d8dc956e7df4.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "robust:build_si10": "31fd11493d75b919ee36c15ef8b84bd34053f71f992bf64c7d6b7db099698d78"
+      },
+      "displayed_estimate": "Held-out score of search winner minus first-search value; six trajectories and mean.",
+      "observational_unit": "Three inference graphs93001\u201393003 \u00d7two states \u00d720search repeats/depths; states/repeats/pairs are not independent graphs.",
+      "interval_or_spread": "No interval.",
+      "inference_limits": "Finite-depth description, not asymptotic saturation or proof of a unique mechanism; held-out values need not improve with search depth."
+    },
+    {
+      "figure": "ED04",
+      "panel": "l",
+      "source_panel": "SI10c",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_e142ad22d4405ea15bd0",
+          "sha256": "e142ad22d4405ea15bd084695744516e3c96613bff9197edbb257887d30e16e3",
+          "source_table_name": "SI10c_gain_10_to_20.csv",
+          "rows": 6,
+          "columns": [
+            "graph_seed",
+            "state",
+            "search_gain_10_to_20",
+            "heldout_gain_10_to_20"
+          ],
+          "public_file": "tables/sd_e142ad22d4405ea15bd0.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "robust:build_si10": "31fd11493d75b919ee36c15ef8b84bd34053f71f992bf64c7d6b7db099698d78"
+      },
+      "displayed_estimate": "Six graph-state gains from10to20searches, paired search/held-out endpoints, diamonds are means.",
+      "observational_unit": "Three inference graphs93001\u201393003 \u00d7two states \u00d720search repeats/depths; states/repeats/pairs are not independent graphs.",
+      "interval_or_spread": "No interval.",
+      "inference_limits": "Finite-depth description, not asymptotic saturation or proof of a unique mechanism; held-out values need not improve with search depth."
+    },
+    {
+      "figure": "ED04",
+      "panel": "m",
+      "source_panel": "SI10d",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_fd0f1188554b88270c8c",
+          "sha256": "fd0f1188554b88270c8c107d4aeca32907278fc49cceeb1c889fb2c56889b6c2",
+          "source_table_name": "SI10d_repeat_level_crossover.csv",
+          "rows": 60,
+          "columns": [
+            "variant",
+            "graph_seed",
+            "repeat",
+            "rhythm_score_mid_home_advantage",
+            "rhythm_score_sparse_home_advantage",
+            "rhythm_score_crossover_interaction",
+            "alternative_spectral_score_mid_home_advantage",
+            "alternative_spectral_score_sparse_home_advantage",
+            "alternative_spectral_score_crossover_interaction"
+          ],
+          "public_file": "tables/sd_fd0f1188554b88270c8c.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "robust:build_si10": "31fd11493d75b919ee36c15ef8b84bd34053f71f992bf64c7d6b7db099698d78"
+      },
+      "displayed_estimate": "20repeat-level crossovers per graph, diamonds are three graph means.",
+      "observational_unit": "Three inference graphs93001\u201393003 \u00d7two states \u00d720search repeats/depths; states/repeats/pairs are not independent graphs.",
+      "interval_or_spread": "No interval.",
+      "inference_limits": "Finite-depth description, not asymptotic saturation or proof of a unique mechanism; held-out values need not improve with search depth."
+    },
+    {
+      "figure": "ED04",
+      "panel": "n",
+      "source_panel": "SI10e",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_0d510cfbd55ffbde7aef",
+          "sha256": "0d510cfbd55ffbde7aef033d3f3e0cf8503b2472e917a30373c83cf35ffbc002",
+          "source_table_name": "SI10e_search_to_heldout.csv",
+          "rows": 120,
+          "columns": [
+            "variant",
+            "graph_seed",
+            "repeat",
+            "state",
+            "best_search_score",
+            "objective",
+            "heldout_home_score"
+          ],
+          "public_file": "tables/sd_0d510cfbd55ffbde7aef.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "robust:build_si10": "31fd11493d75b919ee36c15ef8b84bd34053f71f992bf64c7d6b7db099698d78"
+      },
+      "displayed_estimate": "120search versus held-out home-score pairs, colored by state.",
+      "observational_unit": "Three inference graphs93001\u201393003 \u00d7two states \u00d720search repeats/depths; states/repeats/pairs are not independent graphs.",
+      "interval_or_spread": "No interval.",
+      "inference_limits": "Finite-depth description, not asymptotic saturation or proof of a unique mechanism; held-out values need not improve with search depth."
+    },
+    {
+      "figure": "ED04",
+      "panel": "o",
+      "source_panel": "SI10f",
+      "quantitative_microplots": 1,
+      "datasets": [
+        {
+          "dataset_id": "sd_b78f82db1ffc4da38960",
+          "sha256": "b78f82db1ffc4da3896078abb25f32538a9439ce1185e782a22891174d8d009f",
+          "source_table_name": "SI10f_mask_jaccard.csv",
+          "rows": 1140,
+          "columns": [
+            "graph_seed",
+            "state",
+            "repeat_1",
+            "repeat_2",
+            "jaccard"
+          ],
+          "public_file": "tables/sd_b78f82db1ffc4da38960.csv"
+        }
+      ],
+      "plotting_function_AST_sha256": {
+        "robust:build_si10": "31fd11493d75b919ee36c15ef8b84bd34053f71f992bf64c7d6b7db099698d78",
+        "robust:mask_overlap_table": "965834f6ace72136e436f24319e5393954fcb6daa21c73f6059813b00ba0305e"
+      },
+      "displayed_estimate": "190pairwise Jaccards per graph-state,1,140nested pairs total; outlier symbols omitted.",
+      "observational_unit": "Three inference graphs93001\u201393003 \u00d7two states \u00d720search repeats/depths; states/repeats/pairs are not independent graphs.",
+      "interval_or_spread": "Median,IQR,1.5-IQR whiskers, not effect CI.",
+      "inference_limits": "Finite-depth description, not asymptotic saturation or proof of a unique mechanism; held-out values need not improve with search depth."
+    }
+  ],
+  "checks": {
+    "ED02": {
+      "normal_tables": [
+        {
+          "panel": "a",
+          "rows": 35,
+          "n_min": 24,
+          "n_max": 40
+        },
+        {
+          "panel": "c",
+          "rows": 35,
+          "n_min": 24,
+          "n_max": 40
+        },
+        {
+          "panel": "d",
+          "rows": 35,
+          "n_min": 24,
+          "n_max": 40
+        },
+        {
+          "panel": "e",
+          "rows": 52,
+          "n_min": 168,
+          "n_max": 168
+        },
+        {
+          "panel": "i",
+          "rows": 60,
+          "n_min": 48,
+          "n_max": 120
+        },
+        {
+          "panel": "j",
+          "rows": 4,
+          "n_min": 4,
+          "n_max": 12
+        },
+        {
+          "panel": "k",
+          "rows": 4,
+          "n_min": 4,
+          "n_max": 12
+        }
+      ],
+      "transformed_intervals": [
+        {
+          "panel": "a",
+          "rows": 35,
+          "lower_endpoint_clipped": 3,
+          "mean": [
+            0.0,
+            2.2214232946064683,
+            1.6998638110058253,
+            2.4903657810592925,
+            2.7826840861927518,
+            2.8513992110476725,
+            2.8040178941843545,
+            8.010430238186778,
+            1.6611978936836205,
+            7.052491087649677,
+            7.084675609078596,
+            0.3385671559779649,
+            8.708367779526395,
+            8.723164925451018,
+            7.13167423683746,
+            6.670942205299488,
+            0.6054397319793423,
+            0.5906003691609116,
+            0.5847551331194925,
+            0.5758370685909813,
+            0.5235568008152671,
+            0.506983935329692,
+            6.79588019884294,
+            8.911906321331163,
+            3.1481300871209625,
+            2.6957552133650857,
+            2.9482753929517593,
+            2.8250675740730027,
+            2.470220549748744,
+            2.5173608721141245,
+            2.490609491528538,
+            2.501971645918664,
+            2.048722938930658,
+            8.47162037094012,
+            7.2607675078430125
+          ],
+          "low": [
+            0.0,
+            2.0192228255953077,
+            1.409470401698631,
+            2.0435340001734987,
+            2.5185134584093873,
+            2.711186702562287,
+            2.6028647699158354,
+            0.0,
+            1.0977715420683212,
+            0.0,
+            6.605505202712914,
+            0.24944296481890946,
+            8.353970156524307,
+            8.07846904316382,
+            6.565155374034091,
+            0.0,
+            0.48043216287061197,
+            0.4822794609832436,
+            0.48090143636232885,
+            0.498405537456162,
+            0.45964319075885707,
+            0.4278105819503051,
+            6.058129543525009,
+            8.597690367414884,
+            3.003769583831133,
+            2.5687765382959213,
+            2.8014991474552478,
+            2.6858289262162827,
+            2.27598637277133,
+            2.354534275196964,
+            2.3158986097578245,
+            2.2804156027312885,
+            1.8451345717667151,
+            7.975023688888153,
+            6.870465396807369
+          ],
+          "high": [
+            0.0,
+            2.3588506740479676,
+            1.8723508522721857,
+            2.7058946249437272,
+            2.9457593191631974,
+            2.9572221228486413,
+            2.9409652909578887,
+            8.453363812683552,
+            1.8984252255313905,
+            7.418818236991867,
+            7.306933031340842,
+            0.4124792119983523,
+            8.900884123250899,
+            8.97196597994832,
+            7.369388949629141,
+            6.984208885861246,
+            0.7023910392517304,
+            0.6772256461446903,
+            0.6685045817396129,
+            0.6415297317895985,
+            0.579259879568313,
+            0.573925087252315,
+            7.055255439803581,
+            9.092305409319332,
+            3.256289476803532,
+            2.7938846059424707,
+            3.05777956132951,
+            2.9303368487566965,
+            2.603954216115215,
+            2.635512189114008,
+            2.614856390710014,
+            2.6479741755678337,
+            2.18678377840142,
+            8.69726155489152,
+            7.462956841362871
+          ]
+        },
+        {
+          "panel": "c",
+          "rows": 35,
+          "lower_endpoint_clipped": 0,
+          "mean": [
+            0.0,
+            0.34686999190653256,
+            0.21446699809067848,
+            0.2064495111607937,
+            0.2976517418009156,
+            0.39949591810435836,
+            0.47669473747119795,
+            6.714557464152692,
+            0.572804007162788,
+            7.066503925824201,
+            7.3187165869448965,
+            0.33753838382512585,
+            5.84874423033933,
+            6.680134326040317,
+            6.958471245505877,
+            6.622143860469902,
+            0.31085589701772764,
+            0.4128728668503181,
+            0.32136475745684134,
+            0.33325122622449743,
+            0.36432500518530225,
+            0.33578814238044513,
+            7.1411515215394745,
+            5.740486720465142,
+            0.9461398680487427,
+            0.3623743967612299,
+            0.8418862994423981,
+            0.8698573054458859,
+            0.577252917956698,
+            0.5757505878306997,
+            0.49846664555121206,
+            0.6082813949433816,
+            0.3825431486479095,
+            6.1546121270100285,
+            7.2329823071048445
+          ],
+          "low": [
+            0.0,
+            0.2534004825609331,
+            0.16950442601999005,
+            0.12832454859363357,
+            0.17164907895241752,
+            0.28787481055378444,
+            0.387989557418164,
+            6.227326010565664,
+            0.46723353001214973,
+            6.48094814572871,
+            6.955710542819748,
+            0.26636306973909657,
+            5.576000291369269,
+            6.289258551941731,
+            6.598659730478146,
+            5.255769828744388,
+            0.2522825554076921,
+            0.34057796691659065,
+            0.27702777671010037,
+            0.2743031299253707,
+            0.29124050855353345,
+            0.27255234446905696,
+            6.902820912136507,
+            5.487562763065849,
+            0.8430082569393605,
+            0.2977283544963501,
+            0.7598113745440972,
+            0.7676318954976296,
+            0.5105472998156676,
+            0.4620259957122782,
+            0.375201540308465,
+            0.5386483530000845,
+            0.3129403555828397,
+            5.625700329850243,
+            6.922374602887035
+          ],
+          "high": [
+            0.0,
+            0.4237423327955975,
+            0.2552082114235346,
+            0.272640236585054,
+            0.39519886173115,
+            0.48821481435995506,
+            0.5503186937615321,
+            6.938400313934642,
+            0.6576644144315924,
+            7.3071321838873,
+            7.51364564288068,
+            0.39867492289912587,
+            6.014982038618081,
+            6.882470148689005,
+            7.152512094793592,
+            6.913731224553415,
+            0.3624600778059595,
+            0.4748331151961318,
+            0.36159174144741135,
+            0.3851459677313209,
+            0.42686397027275114,
+            0.39097588659633126,
+            7.294156125210768,
+            5.899280883194104,
+            1.0294198752983916,
+            0.4186327489716435,
+            0.9108882615108701,
+            0.9525463478809516,
+            0.6350638983870169,
+            0.6657904370837215,
+            0.5943693751390872,
+            0.6682771832334903,
+            0.4425164926005525,
+            6.386117058914205,
+            7.412219765676646
+          ]
+        }
+      ],
+      "heatmaps": [
+        {
+          "panel": "f",
+          "shape": [
+            2,
+            6
+          ],
+          "values": [
+            [
+              0.0015915968584611,
+              -0.0005996877359152,
+              0.0013739564457727,
+              0.0020484759325523,
+              0.0021997707833388,
+              0.0
+            ],
+            [
+              0.072688743774988,
+              0.0662818879219866,
+              0.0749951094097189,
+              0.0701688855661845,
+              0.072087600609925,
+              0.0
+            ]
+          ]
+        },
+        {
+          "panel": "g",
+          "shape": [
+            4,
+            6
+          ],
+          "values": [
+            [
+              0.01597747239658,
+              0.0201325753563606,
+              0.0203212935963638,
+              0.0194303559142443,
+              0.0184690344734635,
+              0.0
+            ],
+            [
+              0.0125039104833858,
+              -0.0055247753159971,
+              0.0047959245869026,
+              0.0044825866969374,
+              0.0077719279460069,
+              0.0
+            ],
+            [
+              0.0865036915647755,
+              0.0977189371389457,
+              0.0924002183053362,
+              0.091575650272881,
+              0.0946260420979319,
+              0.0
+            ],
+            [
+              0.0051367480555461,
+              -0.0077149670703272,
+              0.0057722340368021,
+              0.0016979662599581,
+              -0.0002473936615091,
+              0.0
+            ]
+          ]
+        }
+      ],
+      "requirement_rows": 1895,
+      "composition_normalized": true
+    },
+    "ED03": {
+      "phase_curves": [
+        {
+          "phase": "er_patch",
+          "conditions": 27,
+          "graphs": 3,
+          "curve_points": 9,
+          "minimum_conditions_per_point": 3,
+          "maximum_conditions_per_point": 3,
+          "means": [
+            0.0485802087932825,
+            0.09816981541613741,
+            0.009159414718548439,
+            0.011564432643353932,
+            0.05035813214878243,
+            -0.06509947528441745,
+            0.024025778907040732,
+            0.04059593689938384,
+            0.01593909909327823
+          ],
+          "halfwidth_1_96_SEM": [
+            0.05302770152405261,
+            0.036372808638318606,
+            0.06126727177128665,
+            0.015494037440327053,
+            0.011356151452434848,
+            0.21030784201934674,
+            0.057821299715329726,
+            0.10055141224595661,
+            0.1316555520033925
+          ]
+        },
+        {
+          "phase": "stage4b_replication",
+          "conditions": 72,
+          "graphs": 4,
+          "curve_points": 18,
+          "minimum_conditions_per_point": 4,
+          "maximum_conditions_per_point": 4,
+          "means": [
+            0.14727102406322956,
+            0.055904921144247076,
+            0.022623207420110737,
+            0.007741007953882231,
+            0.07144102454185486,
+            -0.031962938606739086,
+            0.0420039054006338,
+            0.016075618565082574,
+            -0.024871334433555603,
+            0.12144662067294121,
+            0.038822054862976074,
+            0.2648603394627571,
+            0.1058055479079485,
+            -0.0057762451469898154,
+            -0.03505359962582588,
+            0.06697280704975128,
+            0.06432496756315233,
+            0.029414720833301544
+          ],
+          "halfwidth_1_96_SEM": [
+            0.0776555270439439,
+            0.014873464874497241,
+            0.056218595640136995,
+            0.16406113001324668,
+            0.15256852972934706,
+            0.0949310883025807,
+            0.04764876551467996,
+            0.02363081644470426,
+            0.0839214556116704,
+            0.11520479344275321,
+            0.14910300692571582,
+            0.03302561453947742,
+            0.05369212557452008,
+            0.01384080497827079,
+            0.058416756703240556,
+            0.04686696366732653,
+            0.18487111459504077,
+            0.09912904606916455
+          ]
+        },
+        {
+          "phase": "stage4c_atlas_extension",
+          "conditions": 36,
+          "graphs": 2,
+          "curve_points": 18,
+          "minimum_conditions_per_point": 2,
+          "maximum_conditions_per_point": 2,
+          "means": [
+            0.18953982181847095,
+            -0.029281374067068107,
+            -0.0003829076886177202,
+            -0.0988815575838089,
+            0.0009654462337494174,
+            0.2415227293968201,
+            0.01946372911334035,
+            -0.0032605901360511502,
+            -0.02488794922828677,
+            0.14535832405090335,
+            -0.05391910672187805,
+            0.35044725239276886,
+            0.1315939519554377,
+            0.0379244238138199,
+            0.08215044438838959,
+            0.044046610593795804,
+            -0.07477542757987976,
+            0.08634103834629059
+          ],
+          "halfwidth_1_96_SEM": [
+            0.06057422153651724,
+            0.030092036575079032,
+            0.016059348285198293,
+            0.20966271340847026,
+            0.07640677213668817,
+            0.035005590915679875,
+            0.09499912962317456,
+            0.024323585331439863,
+            0.021194235086441093,
+            0.0843443369865418,
+            0.11543529391288757,
+            0.04282419860363015,
+            0.005115884467959458,
+            0.074331870675087,
+            0.10559578716754914,
+            0.22695478558540338,
+            0.058300224542617796,
+            0.047060568928718564
+          ]
+        },
+        {
+          "phase": "stage4d_scaling",
+          "conditions": 36,
+          "graphs": 2,
+          "curve_points": 9,
+          "minimum_conditions_per_point": 4,
+          "maximum_conditions_per_point": 4,
+          "means": [
+            0.11937993671745065,
+            0.15725122019648555,
+            0.26150909811258316,
+            0.05993808712810279,
+            0.06752204149961474,
+            0.29846178740262985,
+            0.10488351061940196,
+            0.03107481449842453,
+            0.22491718083620074
+          ],
+          "halfwidth_1_96_SEM": [
+            0.056397731263506466,
+            0.10655070902080287,
+            0.02431216434581556,
+            0.026849059985846985,
+            0.05078926777477026,
+            0.11327420489442955,
+            0.06369494000963981,
+            0.09662538063871794,
+            0.15317387246610778
+          ]
+        },
+        {
+          "phase": "stage4e_topology",
+          "conditions": 54,
+          "graphs": 3,
+          "curve_points": 9,
+          "minimum_conditions_per_point": 6,
+          "maximum_conditions_per_point": 6,
+          "means": [
+            0.2528095257778963,
+            0.1802243143320084,
+            -0.009230457246303577,
+            0.1719109037270149,
+            0.11534348875284195,
+            0.25785766045252484,
+            0.20037797590096793,
+            0.06061836083730063,
+            0.06845765809218089
+          ],
+          "halfwidth_1_96_SEM": [
+            0.04959481822787229,
+            0.02982330652935808,
+            0.09887106883975239,
+            0.03196768705411897,
+            0.023308085434435872,
+            0.13859417182896566,
+            0.08845069241207235,
+            0.03911333482214689,
+            0.048158132443189415
+          ]
+        }
+      ],
+      "mean_contrasts_verified": 30,
+      "phase_summary_matches_archive": true,
+      "forest_checks": [
+        {
+          "metric": "rhythm",
+          "variant": "primary",
+          "n": 12,
+          "mean": 0.029816229982922448,
+          "ci95": [
+            0.0147232270450331,
+            0.04439459866650088
+          ],
+          "one_sided_P": 0.0029296875
+        },
+        {
+          "metric": "rhythm",
+          "variant": "matched",
+          "n": 12,
+          "mean": 0.04213487778906707,
+          "ci95": [
+            0.029412644997015954,
+            0.054788965288510814
+          ],
+          "one_sided_P": 0.000244140625
+        },
+        {
+          "metric": "rhythm",
+          "variant": "alternative",
+          "n": 12,
+          "mean": 0.02170978533104061,
+          "ci95": [
+            -0.004819684969455311,
+            0.045755113692333274
+          ],
+          "one_sided_P": 0.068115234375
+        },
+        {
+          "metric": "rhythm",
+          "variant": "random_null",
+          "n": 12,
+          "mean": 0.03386982022493609,
+          "ci95": [
+            0.015722747928763648,
+            0.05241605238394787
+          ],
+          "one_sided_P": 0.002685546875
+        },
+        {
+          "metric": "alternative",
+          "variant": "primary",
+          "n": 12,
+          "mean": 0.035920275220026554,
+          "ci95": [
+            0.015569632512051618,
+            0.055297953470532415
+          ],
+          "one_sided_P": 0.00537109375
+        },
+        {
+          "metric": "alternative",
+          "variant": "matched",
+          "n": 12,
+          "mean": 0.14464121975470332,
+          "ci95": [
+            0.10155818665807599,
+            0.18700501356215674
+          ],
+          "one_sided_P": 0.000244140625
+        },
+        {
+          "metric": "alternative",
+          "variant": "alternative",
+          "n": 12,
+          "mean": 0.02395512481840946,
+          "ci95": [
+            -0.012220504367724065,
+            0.05620964552314634
+          ],
+          "one_sided_P": 0.104736328125
+        },
+        {
+          "metric": "alternative",
+          "variant": "random_null",
+          "n": 12,
+          "mean": 0.05629095419620473,
+          "ci95": [
+            0.02633026273300252,
+            0.0860724166355793
+          ],
+          "one_sided_P": 0.003173828125
+        }
+      ],
+      "paired_home_rows": 12,
+      "paired_crossover_exact": true,
+      "variant_geometry_rows": 48,
+      "variant_state_winners": 96,
+      "state_to_graph_means_exact": true
+    },
+    "ED04": {
+      "exact_merged_rows": 27,
+      "spearman_matrix": [
+        [
+          1.0,
+          0.9497013827594092,
+          0.9870132479491236,
+          -0.97213685407643,
+          0.9543644010053637
+        ],
+        [
+          0.9497013827594092,
+          1.0,
+          0.9818673570229293,
+          -0.9922618245679046,
+          0.9899652643766885
+        ],
+        [
+          0.9870132479491236,
+          0.9818673570229293,
+          1.0,
+          -0.9938140775803305,
+          0.9799383445336897
+        ],
+        [
+          -0.97213685407643,
+          -0.9922618245679046,
+          -0.9938140775803305,
+          1.0,
+          -0.9945847160807441
+        ],
+        [
+          0.9543644010053637,
+          0.9899652643766885,
+          0.9799383445336897,
+          -0.9945847160807441,
+          1.0
+        ]
+      ],
+      "count_mean": [
+        2.0,
+        1.6666666666666667,
+        1.6666666666666667,
+        2.6666666666666665,
+        1.0,
+        1.3333333333333333,
+        2.3333333333333335,
+        1.3333333333333333,
+        1.0
+      ],
+      "count_halfwidth_1_96_SEM": [
+        1.96,
+        0.6533333333333334,
+        1.3066666666666669,
+        0.6533333333333333,
+        0.0,
+        0.6533333333333333,
+        1.3066666666666666,
+        0.6533333333333333,
+        0.0
+      ],
+      "centered_count_values": [
+        -1.0,
+        0.33333333333333326,
+        1.3333333333333333,
+        0.3333333333333335,
+        0.0,
+        0.6666666666666667,
+        -1.3333333333333335,
+        0.6666666666666667,
+        0.0,
+        -1.0,
+        0.33333333333333326,
+        -0.6666666666666667,
+        0.3333333333333335,
+        0.0,
+        -0.33333333333333326,
+        0.6666666666666665,
+        -0.33333333333333326,
+        0.0,
+        2.0,
+        -0.6666666666666667,
+        -0.6666666666666667,
+        -0.6666666666666665,
+        0.0,
+        -0.33333333333333326,
+        0.6666666666666665,
+        -0.33333333333333326,
+        0.0
+      ],
+      "depth_rows": 120,
+      "depth_deltas_exact": true,
+      "gains_10_to_20_exact": true,
+      "repeat_rows_exact": 60,
+      "overlap_rows": 1140,
+      "all_190_pairs_per_condition": true
+    }
+  },
+  "direct_dataset_count": 33,
+  "plotting_script_sha256": {
+    "ED02": "9705e77e32611d333e9549bce3287d24cd16b077e86fa27d89bcf7778c766205",
+    "ED03": "2f3f87b2d7afdea505b78b58d5ca674302e7ee3fb5c0f99396912c85c6a56299",
+    "ED04": "d62ff5db65237b7d8e99f5741f61541d70e8f4ad9a305e0a03d2d0bf5e6b507e",
+    "Fig02": "275e4c6f096d2646fe64b6c8daeb166da10ba61644f040d8d52589a23ff03c36",
+    "Fig04": "5c72b22ffb76f18a5de6cf4b7871c1e157e4f890db3316b5d64ea0231b15fba0",
+    "SI12": "5a33e46f10e9260811f30dc32a342e26b51f125314b59d4a889de60ecec4d40f",
+    "robust": "1e84fdf1e89f25abee9d94ff65e60f0530f236bba822888fcfc973850c6cf326",
+    "assembly": "1b46bb016996ce6a47533b5eaf6547b0dadee0c524aca15318b0ca75f8d93553"
+  },
+  "frozen_figure_sha256": {
+    "ED02": "cc5c3585e4d6b7c1d914425b279dfa247943ba21126fd0083ce617bb6493c343",
+    "ED03": "88509e36f7dbbe03957b626899ce121c02bac2343b76282e6f3971dafd03da09",
+    "ED04": "d0b5d75685e126aea4d1ac12a78952497e7091bebf3c26a30026b3bbd7a8e7bc"
+  },
+  "findings": [
+    "Next caption revision: ED2a/c separately transform clipped mean/bounds; historical normal bands are not bootstraps.",
+    "Next caption revision: ED3c\u2013g condition mean\u00b11.96SEM versus h saved condition-bootstrap, versus k/l graph-bootstrap.",
+    "Next caption revision: ED4a three-graph mean\u00b11.96SEM; remaining panels have distinct descriptive spreads."
+  ],
+  "limits": [
+    "No raw simulations, search, validation or fitting rerun.",
+    "Source-bound ED3h bootstrap endpoints were not independently regenerated here.",
+    "ED4o checks stored Jaccards and all pair identities; underlying masks were not recomputed here.",
+    "Cross-table home-score aggregates agree; raw validation records and original decoder/search estimators are outside this audit."
+  ],
+  "verified_date": "2026-09-14",
+  "review_method": "Source-reviewed plotting transformations, exact dataset/geometry binding and listed finite numerical checks; no new simulation, search or model fit.",
+  "current_localized_ED_PDF_sha256": {
+    "ED02": "00f8d7c5f651c927e3f6a04f091cc56cc2d8228d7be3dace1f9b3f98c89273a6",
+    "ED03": "8fe602107de1e11cfa31339e4bcc40f48493295a15cbf7f672166cd31676252a",
+    "ED04": "a9a84fb275f247cf7be6dfdd578175f2f86eaa4fa69cc04636c738dbf3c4def6"
+  },
+  "figure_hash_note": "frozen_figure_sha256 identifies pre-localized source masters; current localized PDFs retain all41numerical fingerprints and are separately hash-bound.",
+  "newly_indexed_existing_display_tables": [
+    "sd_ee8d0f72d8dc956e7df4",
+    "sd_e142ad22d4405ea15bd0",
+    "sd_fd0f1188554b88270c8c",
+    "sd_0d510cfbd55ffbde7aef",
+    "sd_b78f82db1ffc4da38960"
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "quantitative_panels": 202,
+  "quantitative_microplots": 246,
+  "figure_count": 20,
+  "breakdown": {
+    "ED01": {
+      "panels": 14,
+      "microplots": 16
+    },
+    "ED02": {
+      "panels": 12,
+      "microplots": 12
+    },
+    "ED03": {
+      "panels": 14,
+      "microplots": 14
+    },
+    "ED04": {
+      "panels": 15,
+      "microplots": 15
+    },
+    "ED05": {
+      "panels": 10,
+      "microplots": 10
+    },
+    "ED06": {
+      "panels": 15,
+      "microplots": 16
+    },
+    "ED07": {
+      "panels": 16,
+      "microplots": 16
+    },
+    "ED08": {
+      "panels": 16,
+      "microplots": 16
+    },
+    "Fig01": {
+      "panels": 9,
+      "microplots": 14
+    },
+    "Fig02": {
+      "panels": 9,
+      "microplots": 18
+    },
+    "Fig03": {
+      "panels": 9,
+      "microplots": 14
+    },
+    "Fig04": {
+      "panels": 14,
+      "microplots": 14
+    },
+    "Fig05": {
+      "panels": 10,
+      "microplots": 14
+    },
+    "Fig06": {
+      "panels": 9,
+      "microplots": 14
+    },
+    "SI01": {
+      "panels": 5,
+      "microplots": 6
+    },
+    "SI02": {
+      "panels": 5,
+      "microplots": 8
+    },
+    "SI03": {
+      "panels": 4,
+      "microplots": 6
+    },
+    "SI04": {
+      "panels": 5,
+      "microplots": 6
+    },
+    "SI05": {
+      "panels": 5,
+      "microplots": 8
+    },
+    "SI06": {
+      "panels": 6,
+      "microplots": 9
+    }
+  },
+  "all_frozen_quantitative_panels_covered_once": true,
+  "localized_ED2_4_numeric_fingerprints_equal": 41,
+  "current_localized_ED_PDF_sha256": {
+    "ED02": "00f8d7c5f651c927e3f6a04f091cc56cc2d8228d7be3dace1f9b3f98c89273a6",
+    "ED03": "8fe602107de1e11cfa31339e4bcc40f48493295a15cbf7f672166cd31676252a",
+    "ED04": "a9a84fb275f247cf7be6dfdd578175f2f86eaa4fa69cc04636c738dbf3c4def6"
+  },
+  "verified_date": "2026-09-14",
+  "newly_indexed_existing_tables": [
+    "sd_ee8d0f72d8dc956e7df4",
+    "sd_e142ad22d4405ea15bd0",
+    "sd_fd0f1188554b88270c8c",
+    "sd_0d510cfbd55ffbde7aef",
+    "sd_b78f82db1ffc4da38960"
+  ],
+  "crosswalks": [
+    "primary_panel_crosswalk.json",
+    "computational_panel_crosswalk.json",
+    "biological_panel_crosswalk.json",
+    "task_support_crosswalk.json",
+    "cellular_support_crosswalk.json",
+    "population_support_crosswalk.json",
+    "transfer_support_crosswalk.json",
+    "stress_support_crosswalk.json",
+    "historical_support_crosswalk.json"
+  ],
+  "limits": [
+    "202panels/246microplots describe reporting coverage, not independent experiments.",
+    "Actual per-panel estimator, interval and source definitions are recorded; this is not full raw-model fitting or portable production launching.",
+    "New metadata do not change plotted scientific values or retrospectively turn normal bands into bootstraps.",
+    "Current localized ED2\u20134 PDFs are separately hash-bound; no new figure rendering was performed for this metadata release."
+  ]
+}
