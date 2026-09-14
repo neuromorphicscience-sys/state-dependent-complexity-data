@@ -16,8 +16,19 @@ from this JSON, in addition to its null-draw CSV. The earlier 288 datasets are
 unchanged; this is a source-coverage correction, not an added experiment.
 Fig. 6g has 12 plotted mouse rows, each already averaging 24 unit splits.
 Fig. 5j shows point estimates without error bars; Fig. 5i(right) and 5k show
-coefficient intervals. The remaining figures still require this finer-grained
-mapping; this record does not certify every statistical model or raw fit.
+coefficient intervals. This record does not certify every statistical model or raw fit.
+
+`panel_maps/computational_panel_crosswalk.json` and its CSV companion add
+23 quantitative lettered panels (28 microplots) in Fig. 3-4, bound to 23 exact
+datasets. The mapping distinguishes the two-graph/36-condition discovery,
+the five historical strata whose pooled summary contains 225 task conditions,
+and the 12-graph task/shared-policy evidence. It verifies the task panels'
+per-mask minimum-before-control-mean order, graph-mean historical heatmap,
+four-candidate/six-pair nesting, and equal-weight stress summaries. Historical
+boxplots contain nine graph-state observations per budget, not nine independent
+networks or bootstrap intervals. Existing source tables remain unchanged.
+Fig. 1-2 and the ED/SI figures still require the same detailed mapping; listed
+processed-table checks are not a certification of all raw estimators.
 
 Each dataset has a stable content identifier, SHA256, source-table aliases and a relative filename. Dataset aliases are scientific table names, not private workstation paths. Three records had local path metadata removed; these changes are explicitly recorded and do not alter numerical values. All other dataset bytes are unchanged. Different source filenames with identical content are stored once. `SHA256SUMS.json` binds every file in this revision except itself.
 

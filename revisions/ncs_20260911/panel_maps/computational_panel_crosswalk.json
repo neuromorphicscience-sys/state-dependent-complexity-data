@@ -1,0 +1,922 @@
+{
+  "scope": "Source-reviewed Fig.3\u20134 panel/display mapping; no new figure or scientific fit.",
+  "rows": [
+    {
+      "figure": "Fig03",
+      "panel": "b",
+      "quantitative_microplots": 2,
+      "plotting_function_AST_sha256": {
+        "plot_method_performance": "ed07fd5779bef8640487b2dc09da2ab27cd0025282b6e90ce1354a69f95769f0",
+        "plot_paired_gain": "d2a9baeb0609ccdc7039b2d78d0989035608b74bbb30f8024d8db0cad61f3710"
+      },
+      "assembler_function_AST_sha256": "843b62993b3e20d316f6a99ff3f9023384729d291f1e297892ea822db25d68dd",
+      "datasets": [
+        {
+          "dataset_id": "sd_b07fc4cdf35bbed1061b",
+          "public_file": "tables/sd_b07fc4cdf35bbed1061b.csv",
+          "sha256": "b07fc4cdf35bbed1061b939034556b6d694260d6b3c541c37af96d6f4299b507",
+          "original_sha256": "b07fc4cdf35bbed1061b939034556b6d694260d6b3c541c37af96d6f4299b507",
+          "metadata_transformations": [],
+          "rows": 7,
+          "columns": [
+            "method",
+            "method_label",
+            "n_tasks",
+            "mean_validated_score",
+            "ci95_low",
+            "ci95_high",
+            "median_validated_score",
+            "std_across_tasks"
+          ]
+        },
+        {
+          "dataset_id": "sd_ce2da33f72d613da0bf6",
+          "public_file": "tables/sd_ce2da33f72d613da0bf6.csv",
+          "sha256": "ce2da33f72d613da0bf649fe69dbe05cb5099c5542896458d48843200d23c7aa",
+          "original_sha256": "ce2da33f72d613da0bf649fe69dbe05cb5099c5542896458d48843200d23c7aa",
+          "metadata_transformations": [],
+          "rows": 6,
+          "columns": [
+            "baseline",
+            "baseline_label",
+            "n_paired_tasks",
+            "mean_gain",
+            "ci95_low",
+            "ci95_high",
+            "median_gain",
+            "win_fraction",
+            "loss_fraction",
+            "signed_win_balance",
+            "wilcoxon_p",
+            "wilcoxon_fdr_bh"
+          ]
+        }
+      ],
+      "displayed_estimate": "Seven mean_validated_score estimates; six paired mean_gain estimates versus static/reference methods.",
+      "observational_unit": "36 matched historical task conditions: 18 per graph, two graph seeds; not 36 independent networks.",
+      "interval_or_spread": "Saved ci95_low/high: 10,000-resample condition-level mean bootstrap, not graph-level intervals.",
+      "inference_limits": "Historical discovery summaries; nominal table P values are not plotted or promoted to independent-graph confirmation."
+    },
+    {
+      "figure": "Fig03",
+      "panel": "c",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {
+        "plot_search_validation": "9a07fdc824ea51de132603d11319470190b488b74e4ecf730e0635067edd3acc"
+      },
+      "assembler_function_AST_sha256": "843b62993b3e20d316f6a99ff3f9023384729d291f1e297892ea822db25d68dd",
+      "datasets": [
+        {
+          "dataset_id": "sd_340b094087aa383ddf80",
+          "public_file": "tables/sd_340b094087aa383ddf80.csv",
+          "sha256": "340b094087aa383ddf80c0f0c124790bdd62b8803351f2c94440002be39b774c",
+          "original_sha256": "baf060132336cf9359dfe633bb947f213c7a55ba563ece8c1142079aa7b65eed",
+          "metadata_transformations": [
+            {
+              "field": "source_file",
+              "operation": "local metadata path omitted; numerical columns unchanged"
+            }
+          ],
+          "rows": 36,
+          "columns": [
+            "phase",
+            "topology",
+            "regime",
+            "coupling",
+            "connection_prob",
+            "noise_sigma",
+            "graph_seed",
+            "k",
+            "task_id",
+            "method_raw",
+            "mask_key",
+            "final_score_mean",
+            "final_score_std",
+            "sel_total_degree",
+            "sel_feedback",
+            "sel_cycle3",
+            "sel_bridge",
+            "sel_spectral",
+            "coverage1",
+            "coverage2",
+            "redundancy",
+            "dispersion",
+            "graph_density",
+            "degree_cv",
+            "max_degree_ratio",
+            "inout_corr",
+            "optimizer_search_best",
+            "optimizer_last_generation",
+            "optimizer_history_best",
+            "method",
+            "source_file",
+            "complexity_fraction",
+            "source_sha256",
+            "search_minus_validation"
+          ]
+        }
+      ],
+      "displayed_estimate": "optimizer_search_best versus final_score_mean; identity reference line.",
+      "observational_unit": "36 matched historical task conditions: 18 per graph, two graph seeds; not 36 independent networks.",
+      "interval_or_spread": "No intervals or P value.",
+      "inference_limits": "Search and validation differ; a scatter association is not algorithm-superiority evidence."
+    },
+    {
+      "figure": "Fig03",
+      "panel": "d",
+      "quantitative_microplots": 2,
+      "plotting_function_AST_sha256": {
+        "plot_structural_shift": "a26e429c9892ae787ea479da7fec1f2bc3a922d8ab58a3c502dfe0e0a1ff2258",
+        "plot_descriptor_gain": "accf1c76db963d8eb956ecc153cdb9da2aa8e324c299d7a4b9cc88796e54aa12"
+      },
+      "assembler_function_AST_sha256": "843b62993b3e20d316f6a99ff3f9023384729d291f1e297892ea822db25d68dd",
+      "datasets": [
+        {
+          "dataset_id": "sd_22e0303c79bf9f2bf307",
+          "public_file": "tables/sd_22e0303c79bf9f2bf307.csv",
+          "sha256": "22e0303c79bf9f2bf30703eaf08a2f10fdf9f44f271420122ee113b4787a9fe2",
+          "original_sha256": "22e0303c79bf9f2bf30703eaf08a2f10fdf9f44f271420122ee113b4787a9fe2",
+          "metadata_transformations": [],
+          "rows": 9,
+          "columns": [
+            "descriptor",
+            "baseline",
+            "grouping",
+            "n_tasks",
+            "mean_shift",
+            "ci95_low",
+            "ci95_high",
+            "median_shift",
+            "positive_fraction",
+            "wilcoxon_p",
+            "regime",
+            "k",
+            "wilcoxon_fdr_bh"
+          ]
+        },
+        {
+          "dataset_id": "sd_4142c087dc9bbf848240",
+          "public_file": "tables/sd_4142c087dc9bbf848240.csv",
+          "sha256": "4142c087dc9bbf848240d60937c53f00eb09e4aaa910007d4b69e425df92e853",
+          "original_sha256": "4142c087dc9bbf848240d60937c53f00eb09e4aaa910007d4b69e425df92e853",
+          "metadata_transformations": [],
+          "rows": 8,
+          "columns": [
+            "descriptor",
+            "baseline",
+            "n_tasks",
+            "spearman_rho_descriptor_shift_vs_score_gain",
+            "spearman_p",
+            "spearman_fdr_bh"
+          ]
+        }
+      ],
+      "displayed_estimate": "Nine mean descriptor shifts versus spectral; eight descriptor-gain Spearman correlations sorted by signed rho.",
+      "observational_unit": "36 matched historical task conditions: 18 per graph, two graph seeds; not 36 independent networks.",
+      "interval_or_spread": "Left saved 10,000-resample condition-bootstrap ci95_low/high; right no interval.",
+      "inference_limits": "Different descriptors have different units. Association is descriptive, not causal mediation."
+    },
+    {
+      "figure": "Fig03",
+      "panel": "e",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {
+        "plot_replication_forest": "dfe055ea5541a5ccfcf959911248f91575a4a7598002decab3d4bc439981d564"
+      },
+      "assembler_function_AST_sha256": "843b62993b3e20d316f6a99ff3f9023384729d291f1e297892ea822db25d68dd",
+      "datasets": [
+        {
+          "dataset_id": "sd_db6513feb18f8244a58c",
+          "public_file": "tables/sd_db6513feb18f8244a58c.csv",
+          "sha256": "db6513feb18f8244a58c721c58936c60bab04e46728a58eba0f59a0688ee79bb",
+          "original_sha256": "db6513feb18f8244a58c721c58936c60bab04e46728a58eba0f59a0688ee79bb",
+          "metadata_transformations": [],
+          "rows": 66,
+          "columns": [
+            "grouping",
+            "group",
+            "baseline",
+            "n_tasks",
+            "mean_delta",
+            "bootstrap95_low",
+            "bootstrap95_high",
+            "median_delta",
+            "positive_fraction",
+            "wilcoxon_greater_p",
+            "wilcoxon_two_sided_p",
+            "wilcoxon_greater_fdr_bh"
+          ]
+        },
+        {
+          "dataset_id": "sd_ce2da33f72d613da0bf6",
+          "public_file": "tables/sd_ce2da33f72d613da0bf6.csv",
+          "sha256": "ce2da33f72d613da0bf649fe69dbe05cb5099c5542896458d48843200d23c7aa",
+          "original_sha256": "ce2da33f72d613da0bf649fe69dbe05cb5099c5542896458d48843200d23c7aa",
+          "metadata_transformations": [],
+          "rows": 6,
+          "columns": [
+            "baseline",
+            "baseline_label",
+            "n_paired_tasks",
+            "mean_gain",
+            "ci95_low",
+            "ci95_high",
+            "median_gain",
+            "win_fraction",
+            "loss_fraction",
+            "signed_win_balance",
+            "wilcoxon_p",
+            "wilcoxon_fdr_bh"
+          ]
+        }
+      ],
+      "displayed_estimate": "Discovery36, five spectral-reference strata108/27/27/27/36, then pooled225; read stored mean and interval fields.",
+      "observational_unit": "Task conditions within historical graph/topology/size strata; pooled225 is exactly the five-stratum union.",
+      "interval_or_spread": "Stored 10,000-resample task-condition percentile bootstrap; not 225 independent graph replicates.",
+      "inference_limits": "Pooled core is descriptive and overlaps the five strata; it is not a sixth independent replication."
+    },
+    {
+      "figure": "Fig03",
+      "panel": "f",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {},
+      "assembler_function_AST_sha256": "843b62993b3e20d316f6a99ff3f9023384729d291f1e297892ea822db25d68dd",
+      "datasets": [
+        {
+          "dataset_id": "sd_c16cc414a8f01ec8f726",
+          "public_file": "tables/sd_c16cc414a8f01ec8f726.csv",
+          "sha256": "c16cc414a8f01ec8f7266f37dbf439005c25867965de8274fbb89f10a23902a4",
+          "original_sha256": "c16cc414a8f01ec8f7266f37dbf439005c25867965de8274fbb89f10a23902a4",
+          "metadata_transformations": [],
+          "rows": 3024,
+          "columns": [
+            "graph",
+            "task",
+            "coupling",
+            "method",
+            "score",
+            "normalized_score",
+            "mask_id"
+          ]
+        },
+        {
+          "dataset_id": "sd_2fe45a875165fe9d1f47",
+          "public_file": "tables/sd_2fe45a875165fe9d1f47.json",
+          "sha256": "2fe45a875165fe9d1f473ab38d840a98f5b0d9f4a07c2b786725d778d2364b3d",
+          "original_sha256": "2fe45a875165fe9d1f473ab38d840a98f5b0d9f4a07c2b786725d778d2364b3d",
+          "metadata_transformations": [],
+          "rows": null,
+          "columns": null
+        }
+      ],
+      "displayed_estimate": "delayed_recall: min normalized_score over states separately for each mask, then mean eight unselected/four group-matched masks within graph; selected/budget-random use their own minima.",
+      "observational_unit": "12 new graph realizations; same graph cohort in all six tasks and both plotted examples.",
+      "interval_or_spread": "Each point is a graph; horizontal marks are arithmetic means, no CI.",
+      "inference_limits": "All four plotted method families retained; minimum-before-control-mean is not mean-before-minimum."
+    },
+    {
+      "figure": "Fig03",
+      "panel": "g",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {},
+      "assembler_function_AST_sha256": "843b62993b3e20d316f6a99ff3f9023384729d291f1e297892ea822db25d68dd",
+      "datasets": [
+        {
+          "dataset_id": "sd_2fe45a875165fe9d1f47",
+          "public_file": "tables/sd_2fe45a875165fe9d1f47.json",
+          "sha256": "2fe45a875165fe9d1f473ab38d840a98f5b0d9f4a07c2b786725d778d2364b3d",
+          "original_sha256": "2fe45a875165fe9d1f473ab38d840a98f5b0d9f4a07c2b786725d778d2364b3d",
+          "metadata_transformations": [],
+          "rows": null,
+          "columns": null
+        }
+      ],
+      "displayed_estimate": "delayed_recall: selected-minus-unselected and selected-minus-group-matched graph values and means.",
+      "observational_unit": "Same 12 task graphs; task examples selected after inspecting the full six-task battery.",
+      "interval_or_spread": "Frozen 20,000-resample graph-bootstrap percentile CI; displayed exact two-sided sign-flip P adjusted by Holm over six tasks separately within each reference family.",
+      "inference_limits": "Secondary reference comparisons, not population-search versus equal-budget-random-search superiority."
+    },
+    {
+      "figure": "Fig03",
+      "panel": "h",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {},
+      "assembler_function_AST_sha256": "843b62993b3e20d316f6a99ff3f9023384729d291f1e297892ea822db25d68dd",
+      "datasets": [
+        {
+          "dataset_id": "sd_c16cc414a8f01ec8f726",
+          "public_file": "tables/sd_c16cc414a8f01ec8f726.csv",
+          "sha256": "c16cc414a8f01ec8f7266f37dbf439005c25867965de8274fbb89f10a23902a4",
+          "original_sha256": "c16cc414a8f01ec8f7266f37dbf439005c25867965de8274fbb89f10a23902a4",
+          "metadata_transformations": [],
+          "rows": 3024,
+          "columns": [
+            "graph",
+            "task",
+            "coupling",
+            "method",
+            "score",
+            "normalized_score",
+            "mask_id"
+          ]
+        },
+        {
+          "dataset_id": "sd_2fe45a875165fe9d1f47",
+          "public_file": "tables/sd_2fe45a875165fe9d1f47.json",
+          "sha256": "2fe45a875165fe9d1f473ab38d840a98f5b0d9f4a07c2b786725d778d2364b3d",
+          "original_sha256": "2fe45a875165fe9d1f473ab38d840a98f5b0d9f4a07c2b786725d778d2364b3d",
+          "metadata_transformations": [],
+          "rows": null,
+          "columns": null
+        }
+      ],
+      "displayed_estimate": "interval: min normalized_score over states separately for each mask, then mean eight unselected/four group-matched masks within graph; selected/budget-random use their own minima.",
+      "observational_unit": "12 new graph realizations; same graph cohort in all six tasks and both plotted examples.",
+      "interval_or_spread": "Each point is a graph; horizontal marks are arithmetic means, no CI.",
+      "inference_limits": "All four plotted method families retained; minimum-before-control-mean is not mean-before-minimum."
+    },
+    {
+      "figure": "Fig03",
+      "panel": "i",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {},
+      "assembler_function_AST_sha256": "843b62993b3e20d316f6a99ff3f9023384729d291f1e297892ea822db25d68dd",
+      "datasets": [
+        {
+          "dataset_id": "sd_2fe45a875165fe9d1f47",
+          "public_file": "tables/sd_2fe45a875165fe9d1f47.json",
+          "sha256": "2fe45a875165fe9d1f473ab38d840a98f5b0d9f4a07c2b786725d778d2364b3d",
+          "original_sha256": "2fe45a875165fe9d1f473ab38d840a98f5b0d9f4a07c2b786725d778d2364b3d",
+          "metadata_transformations": [],
+          "rows": null,
+          "columns": null
+        }
+      ],
+      "displayed_estimate": "interval: selected-minus-unselected and selected-minus-group-matched graph values and means.",
+      "observational_unit": "Same 12 task graphs; task examples selected after inspecting the full six-task battery.",
+      "interval_or_spread": "Frozen 20,000-resample graph-bootstrap percentile CI; displayed exact two-sided sign-flip P adjusted by Holm over six tasks separately within each reference family.",
+      "inference_limits": "Secondary reference comparisons, not population-search versus equal-budget-random-search superiority."
+    },
+    {
+      "figure": "Fig03",
+      "panel": "j",
+      "quantitative_microplots": 4,
+      "plotting_function_AST_sha256": {
+        "plot_gain_landscape": "7b279969a6a6e57b2744f429befb6398f57b77e1b779a4c09d27ad5c5a60a890"
+      },
+      "assembler_function_AST_sha256": "843b62993b3e20d316f6a99ff3f9023384729d291f1e297892ea822db25d68dd",
+      "datasets": [
+        {
+          "dataset_id": "sd_b01ede95291d1677a941",
+          "public_file": "tables/sd_b01ede95291d1677a941.csv",
+          "sha256": "b01ede95291d1677a94140ce70cae7ac0bc663e1d88fd658503a3020c61510ee",
+          "original_sha256": "b01ede95291d1677a94140ce70cae7ac0bc663e1d88fd658503a3020c61510ee",
+          "metadata_transformations": [],
+          "rows": 81,
+          "columns": [
+            "phase",
+            "topology",
+            "N",
+            "regime",
+            "k",
+            "baseline",
+            "n_tasks",
+            "mean_gain",
+            "bootstrap95_low",
+            "bootstrap95_high",
+            "median_gain",
+            "positive_fraction",
+            "wilcoxon_greater_p",
+            "wilcoxon_greater_fdr_bh"
+          ]
+        }
+      ],
+      "displayed_estimate": "mean_gain versus k/N for ER/modular/scale-free/small-world; separate curves by regime and phase.",
+      "observational_unit": "81 topology/size/phase/state/budget summary rows from225 historical task conditions, not81 independent graphs.",
+      "interval_or_spread": "Stored bootstrap95_low/high; original10,000 condition resamples within each curve point.",
+      "inference_limits": "Descriptive archival landscape; not new tasks or a complete state-space guarantee."
+    },
+    {
+      "figure": "Fig04",
+      "panel": "b",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {
+        "plot_pairwise": "f93a1ffb30911e48a2e00cf1ec12cd4ff61196ba3e0285adbcc5c76c650d864e"
+      },
+      "assembler_function_AST_sha256": "6ec68d001d5b2961d670d1ebca94caa02f015578b0c41db24082f0fc94032fc6",
+      "datasets": [
+        {
+          "dataset_id": "sd_bd0ed04d2f6d3ff21c46",
+          "public_file": "tables/sd_bd0ed04d2f6d3ff21c46.csv",
+          "sha256": "bd0ed04d2f6d3ff21c462d412709b5d33fdeebeae102fe5e5a73b70f6856e930",
+          "original_sha256": "bd0ed04d2f6d3ff21c462d412709b5d33fdeebeae102fe5e5a73b70f6856e930",
+          "metadata_transformations": [],
+          "rows": 162,
+          "columns": [
+            "graph_seed",
+            "regime",
+            "k",
+            "rep_a",
+            "rep_b",
+            "jaccard_distance",
+            "fresh_score_gap",
+            "score_a",
+            "score_b",
+            "evaluation_set"
+          ]
+        }
+      ],
+      "displayed_estimate": "Allocation Jaccard distance versus fresh_score_gap; k8/32/64, epsilon0.02 reference.",
+      "observational_unit": "162 pair rows: six pairwise comparisons among four sampled candidates in each of27 graph/state/budget conditions.",
+      "interval_or_spread": "No uncertainty interval.",
+      "inference_limits": "Pairs share masks and graphs; four searches do not enumerate the solution space."
+    },
+    {
+      "figure": "Fig04",
+      "panel": "c",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {},
+      "assembler_function_AST_sha256": "6ec68d001d5b2961d670d1ebca94caa02f015578b0c41db24082f0fc94032fc6",
+      "datasets": [
+        {
+          "dataset_id": "sd_ad2bb833fdee3a392638",
+          "public_file": "tables/sd_ad2bb833fdee3a392638.csv",
+          "sha256": "ad2bb833fdee3a392638a52d8ca354c3019f37742fa771857702c877ff39c501",
+          "original_sha256": "ad2bb833fdee3a392638a52d8ca354c3019f37742fa771857702c877ff39c501",
+          "metadata_transformations": [],
+          "rows": 27,
+          "columns": [
+            "graph_seed",
+            "regime",
+            "k",
+            "D_epsilon_mean_jaccard_distance"
+          ]
+        }
+      ],
+      "displayed_estimate": "Mean sampled D over three states within graph and budget; graph points/connecting lines and equal-graph means.",
+      "observational_unit": "Three closure graphs, three states, three budgets; nested observations, not new graphs.",
+      "interval_or_spread": "Three graph points per budget; mean diamonds only, no CI.",
+      "inference_limits": "State averaging precedes graph comparison; exact two-sided sign-flip comparison k8 versus k64 has P0.25."
+    },
+    {
+      "figure": "Fig04",
+      "panel": "d",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {
+        "plot_budget_distribution": "5ace60e9611104f5b48b3184a88a4fcc0fd16d17a5b7c0fc6f198c525d131dde"
+      },
+      "assembler_function_AST_sha256": "6ec68d001d5b2961d670d1ebca94caa02f015578b0c41db24082f0fc94032fc6",
+      "datasets": [
+        {
+          "dataset_id": "sd_0e29506451e5ca61f58d",
+          "public_file": "tables/sd_0e29506451e5ca61f58d.csv",
+          "sha256": "0e29506451e5ca61f58db575c89a9b62716da2e58701b120b8c31a50ccfdbe99",
+          "original_sha256": "0e29506451e5ca61f58db575c89a9b62716da2e58701b120b8c31a50ccfdbe99",
+          "metadata_transformations": [],
+          "rows": 27,
+          "columns": [
+            "graph_seed",
+            "regime",
+            "k",
+            "union_expansion"
+          ]
+        }
+      ],
+      "displayed_estimate": "union_expansion distributions by k8/32/64.",
+      "observational_unit": "Three closure graphs, three states, three budgets; nested observations, not new graphs.",
+      "interval_or_spread": "Nine graph-state observations per budget; median/IQR boxes,1.5-IQR whiskers; all observed points overlaid, separate boxplot outlier symbols omitted.",
+      "inference_limits": "Boxes describe nested condition distributions, not a graph-bootstrap CI."
+    },
+    {
+      "figure": "Fig04",
+      "panel": "e",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {
+        "plot_budget_distribution": "5ace60e9611104f5b48b3184a88a4fcc0fd16d17a5b7c0fc6f198c525d131dde"
+      },
+      "assembler_function_AST_sha256": "6ec68d001d5b2961d670d1ebca94caa02f015578b0c41db24082f0fc94032fc6",
+      "datasets": [
+        {
+          "dataset_id": "sd_04042b6c2ceba43c6a58",
+          "public_file": "tables/sd_04042b6c2ceba43c6a58.csv",
+          "sha256": "04042b6c2ceba43c6a5892ca08c20c4fd6f8a09fa877425624d57601096da5ea",
+          "original_sha256": "04042b6c2ceba43c6a5892ca08c20c4fd6f8a09fa877425624d57601096da5ea",
+          "metadata_transformations": [],
+          "rows": 27,
+          "columns": [
+            "graph_seed",
+            "regime",
+            "k",
+            "core_fraction"
+          ]
+        }
+      ],
+      "displayed_estimate": "core_fraction distributions by k8/32/64.",
+      "observational_unit": "Three closure graphs, three states, three budgets; nested observations, not new graphs.",
+      "interval_or_spread": "Nine graph-state observations per budget; median/IQR boxes,1.5-IQR whiskers; all observed points overlaid, separate boxplot outlier symbols omitted.",
+      "inference_limits": "Boxes describe nested condition distributions, not a graph-bootstrap CI."
+    },
+    {
+      "figure": "Fig04",
+      "panel": "f",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {
+        "plot_selection_entropy": "2dc2199ec437134c8d9eec5bc973d9198320a8136dcddf0c4639d20f85495576",
+        "plot_budget_distribution": "5ace60e9611104f5b48b3184a88a4fcc0fd16d17a5b7c0fc6f198c525d131dde"
+      },
+      "assembler_function_AST_sha256": "6ec68d001d5b2961d670d1ebca94caa02f015578b0c41db24082f0fc94032fc6",
+      "datasets": [
+        {
+          "dataset_id": "sd_458df1f448b2870137d9",
+          "public_file": "tables/sd_458df1f448b2870137d9.csv",
+          "sha256": "458df1f448b2870137d91c6e6ab3593a644d8f08525f518a5c0af6f7bbc3baeb",
+          "original_sha256": "458df1f448b2870137d91c6e6ab3593a644d8f08525f518a5c0af6f7bbc3baeb",
+          "metadata_transformations": [],
+          "rows": 27,
+          "columns": [
+            "graph_seed",
+            "regime",
+            "k",
+            "selection_entropy_union"
+          ]
+        }
+      ],
+      "displayed_estimate": "selection_entropy_union by k8/32/64.",
+      "observational_unit": "Three closure graphs, three states, three budgets; nested observations, not new graphs.",
+      "interval_or_spread": "Nine graph-state observations per budget; median/IQR and1.5-IQR whiskers, all points overlaid.",
+      "inference_limits": "Entropy is for the sampled union, not a complete-space entropy estimate."
+    },
+    {
+      "figure": "Fig04",
+      "panel": "g",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {
+        "plot_replication": "38f856e1bfd537aca89fdad5712bbbeaa105efcd432651323f99babcb4636459"
+      },
+      "assembler_function_AST_sha256": "6ec68d001d5b2961d670d1ebca94caa02f015578b0c41db24082f0fc94032fc6",
+      "datasets": [
+        {
+          "dataset_id": "sd_52fdc8500a07826d79e6",
+          "public_file": "tables/sd_52fdc8500a07826d79e6.csv",
+          "sha256": "52fdc8500a07826d79e6711b61b826390602a0412639375a552907c452b5733a",
+          "original_sha256": "52fdc8500a07826d79e6711b61b826390602a0412639375a552907c452b5733a",
+          "metadata_transformations": [],
+          "rows": 27,
+          "columns": [
+            "graph_seed",
+            "regime",
+            "k",
+            "D_epsilon_mean_jaccard_distance_fresh",
+            "D_epsilon_mean_jaccard_distance_independent"
+          ]
+        }
+      ],
+      "displayed_estimate": "Fresh versus independent-noise D; Spearman rho across27 nested condition rows.",
+      "observational_unit": "Three closure graphs, three states, three budgets; nested observations, not new graphs.",
+      "interval_or_spread": "No CI. Assembler explicitly removes the helper nominal pooled P annotation.",
+      "inference_limits": "Independent evaluation noise is not an independent graph cohort; displayed correlation is descriptive."
+    },
+    {
+      "figure": "Fig04",
+      "panel": "h",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {},
+      "assembler_function_AST_sha256": "6ec68d001d5b2961d670d1ebca94caa02f015578b0c41db24082f0fc94032fc6",
+      "datasets": [
+        {
+          "dataset_id": "sd_8807141fbfd50009bf91",
+          "public_file": "tables/sd_8807141fbfd50009bf91.csv",
+          "sha256": "8807141fbfd50009bf91f745187772ac4289443c8ac964b28c5bf980161b28e5",
+          "original_sha256": "8807141fbfd50009bf91f745187772ac4289443c8ac964b28c5bf980161b28e5",
+          "metadata_transformations": [],
+          "rows": 12,
+          "columns": [
+            "graph_seed",
+            "graph_id",
+            "V_shared_mid",
+            "V_shared_sparse",
+            "V_specialized_mid",
+            "V_specialized_sparse",
+            "J_shared",
+            "J_specialized_policy",
+            "D_g",
+            "d_mid",
+            "d_sparse",
+            "both_observed_losses_le_epsilon",
+            "descriptive_tradeoff_quadrant"
+          ]
+        },
+        {
+          "dataset_id": "sd_f4f3a571f4abde360ac3",
+          "public_file": "tables/sd_f4f3a571f4abde360ac3.json",
+          "sha256": "f4f3a571f4abde360ac3d991b62aa53cd649c8df99cfd49ad3f1413bde7b3cbc",
+          "original_sha256": "f4f3a571f4abde360ac3d991b62aa53cd649c8df99cfd49ad3f1413bde7b3cbc",
+          "metadata_transformations": [],
+          "rows": null,
+          "columns": null
+        }
+      ],
+      "displayed_estimate": "D_g=min(V_specialized_mid,V_specialized_sparse)-min(V_shared_mid,V_shared_sparse).",
+      "observational_unit": "12 reused robustness graphs, each256nodes and32mechanism-rich units; final noise averaged before minimum.",
+      "interval_or_spread": "Mean and frozen10,000-resample graph-bootstrap CI; exact two-sided P0.083984375.",
+      "inference_limits": "Bootstrap CI and exact sign-flip test differ; frozen primary test does not confirm specialist advantage."
+    },
+    {
+      "figure": "Fig04",
+      "panel": "i",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {},
+      "assembler_function_AST_sha256": "6ec68d001d5b2961d670d1ebca94caa02f015578b0c41db24082f0fc94032fc6",
+      "datasets": [
+        {
+          "dataset_id": "sd_b8f457b5267e3545f831",
+          "public_file": "tables/sd_b8f457b5267e3545f831.csv",
+          "sha256": "b8f457b5267e3545f8310762dd6530af04a38570209bf504731fe0a0fb54c34d",
+          "original_sha256": "b8f457b5267e3545f8310762dd6530af04a38570209bf504731fe0a0fb54c34d",
+          "metadata_transformations": [],
+          "rows": 12,
+          "columns": [
+            "graph_seed",
+            "shared_mid",
+            "random_mid",
+            "shared_sparse",
+            "random_sparse",
+            "shared_J",
+            "random_J",
+            "gain_mid",
+            "gain_sparse",
+            "gain_maximin"
+          ]
+        },
+        {
+          "dataset_id": "sd_f4f3a571f4abde360ac3",
+          "public_file": "tables/sd_f4f3a571f4abde360ac3.json",
+          "sha256": "f4f3a571f4abde360ac3d991b62aa53cd649c8df99cfd49ad3f1413bde7b3cbc",
+          "original_sha256": "f4f3a571f4abde360ac3d991b62aa53cd649c8df99cfd49ad3f1413bde7b3cbc",
+          "metadata_transformations": [],
+          "rows": null,
+          "columns": null
+        }
+      ],
+      "displayed_estimate": "Shared-minus-equal-budget-random gain_mid/gain_sparse/gain_maximin.",
+      "observational_unit": "Same12 reused graphs.",
+      "interval_or_spread": "Mean and frozen10,000-resample graph-bootstrap CIs.",
+      "inference_limits": "A separate control from specialist-versus-shared sufficiency; no P annotation here."
+    },
+    {
+      "figure": "Fig04",
+      "panel": "j",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {},
+      "assembler_function_AST_sha256": "6ec68d001d5b2961d670d1ebca94caa02f015578b0c41db24082f0fc94032fc6",
+      "datasets": [
+        {
+          "dataset_id": "sd_8807141fbfd50009bf91",
+          "public_file": "tables/sd_8807141fbfd50009bf91.csv",
+          "sha256": "8807141fbfd50009bf91f745187772ac4289443c8ac964b28c5bf980161b28e5",
+          "original_sha256": "8807141fbfd50009bf91f745187772ac4289443c8ac964b28c5bf980161b28e5",
+          "metadata_transformations": [],
+          "rows": 12,
+          "columns": [
+            "graph_seed",
+            "graph_id",
+            "V_shared_mid",
+            "V_shared_sparse",
+            "V_specialized_mid",
+            "V_specialized_sparse",
+            "J_shared",
+            "J_specialized_policy",
+            "D_g",
+            "d_mid",
+            "d_sparse",
+            "both_observed_losses_le_epsilon",
+            "descriptive_tradeoff_quadrant"
+          ]
+        }
+      ],
+      "displayed_estimate": "d_mid versus d_sparse, where each is specialist minus shared state score.",
+      "observational_unit": "Same12 graphs.",
+      "interval_or_spread": "No CI; one point per graph.",
+      "inference_limits": "Quadrants are descriptive, not separate significance tests."
+    },
+    {
+      "figure": "Fig04",
+      "panel": "k",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {},
+      "assembler_function_AST_sha256": "6ec68d001d5b2961d670d1ebca94caa02f015578b0c41db24082f0fc94032fc6",
+      "datasets": [
+        {
+          "dataset_id": "sd_f4f3a571f4abde360ac3",
+          "public_file": "tables/sd_f4f3a571f4abde360ac3.json",
+          "sha256": "f4f3a571f4abde360ac3d991b62aa53cd649c8df99cfd49ad3f1413bde7b3cbc",
+          "original_sha256": "f4f3a571f4abde360ac3d991b62aa53cd649c8df99cfd49ad3f1413bde7b3cbc",
+          "metadata_transformations": [],
+          "rows": null,
+          "columns": null
+        }
+      ],
+      "displayed_estimate": "State mean losses and frozen normal-approximation upper bounds versus epsilon0.02.",
+      "observational_unit": "Same12 graphs.",
+      "interval_or_spread": "Mean plus one upper-bound segment; z1.959963984540054, not a symmetric bootstrap CI.",
+      "inference_limits": "Both upper bounds exceed epsilon; sufficiency unestablished, not disproved; no exact small-n coverage claim."
+    },
+    {
+      "figure": "Fig04",
+      "panel": "l",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {},
+      "assembler_function_AST_sha256": "6ec68d001d5b2961d670d1ebca94caa02f015578b0c41db24082f0fc94032fc6",
+      "datasets": [
+        {
+          "dataset_id": "sd_0f2d2f7e53593c8c9573",
+          "public_file": "tables/sd_0f2d2f7e53593c8c9573.csv",
+          "sha256": "0f2d2f7e53593c8c9573c614a35229600572ef67f3f62d1212bef22fbcaa7a7f",
+          "original_sha256": "0f2d2f7e53593c8c9573c614a35229600572ef67f3f62d1212bef22fbcaa7a7f",
+          "metadata_transformations": [],
+          "rows": 12,
+          "columns": [
+            "graph_seed",
+            "graph_id",
+            "grid_mean_gain",
+            "difference_in_grid_minima",
+            "minimum_conditionwise_gain",
+            "positive_conditions",
+            "n_conditions",
+            "A_shared_grid_mean",
+            "A_shared_grid_min",
+            "A_mid_grid_mean",
+            "A_mid_grid_min",
+            "A_sparse_grid_mean",
+            "A_sparse_grid_min",
+            "shared_random_grid_mean",
+            "shared_random_grid_min",
+            "A_pool_grid_mean",
+            "A_pool_grid_min",
+            "spectral_grid_mean",
+            "spectral_grid_min"
+          ]
+        },
+        {
+          "dataset_id": "sd_62025e1a4762177f5bc6",
+          "public_file": "tables/sd_62025e1a4762177f5bc6.json",
+          "sha256": "62025e1a4762177f5bc640369451b80ee734b6d26dc0cf0c79088642196f847a",
+          "original_sha256": "e40a6cf0ecef0e4a70b8e99cadd543c59c56da2c12198dccaf00bb5f245636c3",
+          "metadata_transformations": [
+            {
+              "field": "/input_path",
+              "operation": "local metadata path omitted"
+            }
+          ],
+          "rows": null,
+          "columns": null
+        }
+      ],
+      "displayed_estimate": "Uniform mean shared-minus-random across15 coupling/noise conditions within each graph, then equal-graph mean.",
+      "observational_unit": "Same12 reused graphs;15 grid points are not15 additional replicates.",
+      "interval_or_spread": "Frozen10,000-resample graph-bootstrap CI; grid-aggregate exact two-sided test retained in manuscript.",
+      "inference_limits": "No reselection, no empirical environmental weights, no unseen-graph generalization."
+    },
+    {
+      "figure": "Fig04",
+      "panel": "m",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {},
+      "assembler_function_AST_sha256": "6ec68d001d5b2961d670d1ebca94caa02f015578b0c41db24082f0fc94032fc6",
+      "datasets": [
+        {
+          "dataset_id": "sd_5763e99ce9128e60b0fe",
+          "public_file": "tables/sd_5763e99ce9128e60b0fe.csv",
+          "sha256": "5763e99ce9128e60b0fe7c5713f2ea9d46c88f18c0722564d9fe6dc920205d86",
+          "original_sha256": "5763e99ce9128e60b0fe7c5713f2ea9d46c88f18c0722564d9fe6dc920205d86",
+          "metadata_transformations": [],
+          "rows": 15,
+          "columns": [
+            "coupling",
+            "noise_sigma",
+            "n_graphs",
+            "mean",
+            "median",
+            "ci95_low",
+            "ci95_high",
+            "positive_graphs",
+            "negative_graphs",
+            "zero_graphs",
+            "interval_scope"
+          ]
+        }
+      ],
+      "displayed_estimate": "Pivot mean on noise_sigma rows descending and coupling columns;3x5 grid, color range0..0.2.",
+      "observational_unit": "15 condition means over the same12 graphs.",
+      "interval_or_spread": "No uncertainty shown; source includes pointwise intervals, not simultaneous coverage.",
+      "inference_limits": "A descriptive local grid, not a phase diagram or cell-wise significance claim."
+    },
+    {
+      "figure": "Fig04",
+      "panel": "n",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {},
+      "assembler_function_AST_sha256": "6ec68d001d5b2961d670d1ebca94caa02f015578b0c41db24082f0fc94032fc6",
+      "datasets": [
+        {
+          "dataset_id": "sd_758b5dee0e5e590791cb",
+          "public_file": "tables/sd_758b5dee0e5e590791cb.csv",
+          "sha256": "758b5dee0e5e590791cb865d7a293b29ffa432ffc9159146762dd10f66c3b887",
+          "original_sha256": "758b5dee0e5e590791cb865d7a293b29ffa432ffc9159146762dd10f66c3b887",
+          "metadata_transformations": [],
+          "rows": 12,
+          "columns": [
+            "graph_seed",
+            "graph_id",
+            "Jaccard_shared_mid",
+            "Jaccard_shared_sparse",
+            "distance_shared_mid",
+            "distance_shared_sparse",
+            "overlap_mid_minus_sparse",
+            "overlap_shared_mid_nodes",
+            "overlap_shared_sparse_nodes",
+            "shared_mask_key",
+            "mid_mask_key",
+            "sparse_mask_key",
+            "source_freeze_sha256"
+          ]
+        },
+        {
+          "dataset_id": "sd_f4f3a571f4abde360ac3",
+          "public_file": "tables/sd_f4f3a571f4abde360ac3.json",
+          "sha256": "f4f3a571f4abde360ac3d991b62aa53cd649c8df99cfd49ad3f1413bde7b3cbc",
+          "original_sha256": "f4f3a571f4abde360ac3d991b62aa53cd649c8df99cfd49ad3f1413bde7b3cbc",
+          "metadata_transformations": [],
+          "rows": null,
+          "columns": null
+        }
+      ],
+      "displayed_estimate": "Shared-mid and shared-sparse Jaccard similarity with graph pairing.",
+      "observational_unit": "Same12 graphs, each mask cardinality32.",
+      "interval_or_spread": "Frozen10,000-resample graph-bootstrap CI and mean.",
+      "inference_limits": "Absolute-overlap zero-null tests intentionally absent; masks of different graph cohorts are not directly compared."
+    },
+    {
+      "figure": "Fig04",
+      "panel": "o",
+      "quantitative_microplots": 1,
+      "plotting_function_AST_sha256": {
+        "plot_heatmap": "363278a037275315370c42adad7ea359a726f3d29237e75e45efd604e5e002df"
+      },
+      "assembler_function_AST_sha256": "6ec68d001d5b2961d670d1ebca94caa02f015578b0c41db24082f0fc94032fc6",
+      "datasets": [
+        {
+          "dataset_id": "sd_0c3c24ff682f0e20de5c",
+          "public_file": "tables/sd_0c3c24ff682f0e20de5c.csv",
+          "sha256": "0c3c24ff682f0e20de5cf7326aa9ee8b54255f4c8c9a636d2b57788f453552ac",
+          "original_sha256": "0c3c24ff682f0e20de5cf7326aa9ee8b54255f4c8c9a636d2b57788f453552ac",
+          "metadata_transformations": [],
+          "rows": 3,
+          "columns": [
+            "regime",
+            "8",
+            "32",
+            "64"
+          ]
+        }
+      ],
+      "displayed_estimate": "3x3 archived mean-D heatmap by state and k8/32/64;0..1 scale.",
+      "observational_unit": "Three closure graphs, three states, three budgets; nested observations, not new graphs.",
+      "interval_or_spread": "No CI; values averaged over three graphs.",
+      "inference_limits": "Sampled near-optimal diversity, not complete solution-space volume."
+    }
+  ],
+  "quantitative_lettered_panels": 23,
+  "microplots": 28,
+  "unique_datasets": 23,
+  "processed_data_checks": {
+    "discovery_conditions_per_graph": {
+      "41001": 18,
+      "41002": 18
+    },
+    "pooled225_equal_weighted_stratum_union": true,
+    "historical_pairs_six_per_four_candidates": true,
+    "historical_heatmap_equal_graph_means": true,
+    "boxplots_nine_nested_observations_each_budget": true,
+    "two_task_panels_minimum_before_control_mean": true,
+    "full_six_task_primary_null_retained": true,
+    "corrected_shared_endpoint_definition_and_primary_boundary": true,
+    "stress_two_equal_weight_aggregation_orders_agree": true
+  },
+  "task_plotting_function_AST_sha256": "d80123a5994b721e9f9bc68ca6b57fe591cad52993b851781a415b11b06236cd",
+  "source_resolver_AST_sha256": {
+    "Fig03": "b203b5908aead112b3602709e563d18e25057669c2b8a21a2fd889cec92ebbe6",
+    "Fig04": "b203b5908aead112b3602709e563d18e25057669c2b8a21a2fd889cec92ebbe6"
+  },
+  "frozen_figure_sha256": {
+    "Fig03": "f016968ba3d752c943c2c18bf70806c5e133c8e92b28ce3c1c32ec7b1b407f42",
+    "Fig04": "97e23de4026cb3274744fb0bd384114035f7bbd2fbc7aa4e4456a0b2cb17ba75"
+  },
+  "limits": [
+    "Mapping and listed processed-table checks are verified, not every upstream statistical assumption or raw estimator.",
+    "Original historical condition-bootstrap intervals are descriptive; no retrospective reclassification as graph-bootstrap inference.",
+    "Fig.1\u20132 and remaining ED/SI detailed mappings are separate unfinished gates."
+  ],
+  "verified_date": "2026-09-11",
+  "review_method": "Read actual assembler and plotting source; exact file hashes, explicit metadata-only transformations, frozen geometry, helper call coverage and listed finite processed-data invariants. No plot export or research run."
+}
