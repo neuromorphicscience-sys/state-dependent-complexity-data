@@ -85,7 +85,7 @@ added; no raw database or electrophysiological recordings are redistributed.
 
 The release retains the complete six-task comparison families, not only delayed recall and interval discrimination. Shared-policy results use the reference-corrected frozen evaluation. Task primary-null results, unresolved shared sufficiency and biological landscape-null controls remain explicit. Biological tables are processed summaries from public resources; no raw third-party recordings are redistributed.
 
-The underlying resources include Allen Cell Types/GLIF, SynPhys, Steinmetz, Allen Visual Behavior and OpenScope. Access raw data through the original providers under their terms. The data repository currently has no assigned reuse license; public availability alone does not grant a reuse license. No new license or archival DOI is asserted by this revision.
+The underlying resources include Allen Cell Types/GLIF, SynPhys, Steinmetz, Allen Visual Behavior and OpenScope. Access raw data through the original providers under their terms. Since 15 September 2026, author-owned data and original documentation are licensed under CC BY 4.0, with third-party materials and upstream rights in derived material retaining their original terms. See [LICENSE.md](../../LICENSE.md), [third-party notices](../../THIRD_PARTY_NOTICES.md) and [LICENSING_SCOPE.json](LICENSING_SCOPE.json). This is not a blanket licence for third-party-dependent files. Code remains GPL-3.0-only; no archival DOI is claimed.
 
 
 ## Biological support crosswalks and reporting correction

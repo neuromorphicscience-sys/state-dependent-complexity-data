@@ -1,9 +1,9 @@
 cff-version: 1.2.0
-message: "If you use these source data, please cite the associated article."
-title: "Source data for Collective state determines the value of neuronal complexity"
+message: "Please cite this dataset and its exact version/commit, and the associated manuscript when publishing research using these data. See LICENSE.md for attribution and third-party scope."
+title: "Source data for Collective state conditions the computational value of neuronal complexity"
 type: dataset
-version: 0.1.0-rc1
-date-released: 2026-08-25
+version: ncs-20260915-licensing
+date-released: 2026-09-15
 authors:
   - family-names: Zhang
     given-names: Jinhao
@@ -12,3 +12,5 @@ authors:
   - family-names: Wang
     given-names: Tianyu
 
+
+url: "https://github.com/neuromorphicscience-sys/state-dependent-complexity-data"

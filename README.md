@@ -2,7 +2,7 @@
 
 ## September 2026 manuscript revision
 
-The additive [NCS revision](revisions/ncs_20260911/README.md) contains 288 deduplicated processed source datasets for **Collective state conditions the computational value of neuronal complexity**, with revised six-main/eight-Extended-Data/six-Supplementary mappings and two supplementary tables. Its checksum manifest and source index are authoritative for this revision. Earlier data and their original status records remain unchanged below. No raw third-party recordings, new reuse license or archival DOI are asserted.
+The additive [NCS revision](revisions/ncs_20260911/README.md) contains 296 deduplicated processed source datasets for **Collective state conditions the computational value of neuronal complexity**, with revised six-main/eight-Extended-Data/six-Supplementary mappings and two supplementary tables. Its checksum manifest and source index are authoritative for this revision. Earlier data and their original status records remain unchanged below. No raw third-party recordings or archival DOI are included. The author-owned data licence and upstream exceptions are specified in [LICENSE.md](LICENSE.md).
 
 ## Historical initial-release documentation
 
@@ -34,7 +34,7 @@ This repository is a public release candidate, not yet the final archival releas
 
 ## Reuse and licensing
 
-The package contains author-generated processed summaries derived from public resources. A reuse license has not yet been assigned; the public availability of the repository does not itself grant a reuse license. The final archival release should include the authors' selected license.
+Author-owned data and original documentation are licensed under **CC BY 4.0**. Third-party materials and upstream rights in derived material retain their original terms; this is not a blanket licence for all repository contents. See [LICENSE.md](LICENSE.md), [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and the revision [LICENSING_SCOPE.json](revisions/ncs_20260911/LICENSING_SCOPE.json). The separate code repository remains GPL-3.0-only. Please cite the dataset/version and associated article when publishing research that uses these data; see CITATION.cff. No article or dataset DOI is invented.
 
 ## Authors
 

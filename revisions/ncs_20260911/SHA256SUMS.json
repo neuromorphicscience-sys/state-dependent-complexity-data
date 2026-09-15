@@ -1,7 +1,8 @@
 {
   "CITATION.cff": "01df33111060a91b5718c23b25357af2a81ee0ebbeb8e0d9e5dc3c927eef424d",
   "DATASET_INDEX.json": "858971ce19bef0c12d12ded4454f8ff6895ebfe8e444e58af54f33ea73b65235",
-  "README.md": "28f0a55a2e84d3f6982f3daea51e64692bf8e2f4185b1426f413ccd6613f11b1",
+  "LICENSING_SCOPE.json": "11adac976dc6a45bf59b557aec972b10308182afbb9e0f76ab1698deb59402da",
+  "README.md": "45edd9ef6be4357072a631e69c06840110739b0d1c2fda21c06218dec1ecfd30",
   "panel_maps/biological_panel_crosswalk.csv": "2154043a842ba13296fb1b6b590ea393bfb8fbb7ca68d2d2388a9d94113476c8",
   "panel_maps/biological_panel_crosswalk.json": "8e4687371faf65704fac5a6e895b844d06eb749db657679a3143eb57357a6b90",
   "panel_maps/cellular_support_crosswalk.csv": "24a3d7c4355814726abb8babad10d141dd1572ece2895a386758f0674e68d017",
